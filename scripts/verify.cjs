@@ -43,7 +43,20 @@ app.whenReady().then(async()=>{
   assert.equal(mobile.width,390);assert(mobile.heading.left>=0&&mobile.heading.right<=391);
   fs.writeFileSync(path.join(out,'mobile.png'),(await win.webContents.capturePage()).toPNG());
   const faqProof=await win.webContents.executeJavaScript(`(()=>{const d=document.querySelectorAll('details')[1];d.querySelector('summary').click();return d.open&&d.querySelector('p').textContent.length>30})()`);assert(faqProof);
-  const report={passed:true,version:provenance.version,release,download,metrics,mobile,faqProof,externalRequests:external};fs.writeFileSync(path.join(out,'verification.json'),JSON.stringify(report,null,2));
+  const heroAlignment=[];
+  for(const width of [390,1024,1280,1440,1855,1920,2560]){
+    win.setContentSize(width,875);await win.webContents.executeJavaScript('scrollTo(0,0)');await new Promise(r=>setTimeout(r,100));
+    const geometry=await win.webContents.executeJavaScript(`(()=>{const panel=document.querySelector('[data-node-id="55:14"]').getBoundingClientRect(),preview=document.querySelector('[data-node-id="52:53"]').getBoundingClientRect();return {viewport:innerWidth,panel:panel.toJSON(),preview:preview.toJSON(),centerDifference:Math.abs((panel.left+panel.right-preview.left-preview.right)/2)}})()`);
+    assert(geometry.panel.width<=1200.1,`Hero panel exceeds the approved maximum at ${width}`);
+    assert(geometry.centerDifference<1,`Hero preview is not centered at ${width}`);
+    assert(geometry.preview.left>=geometry.panel.left&&geometry.preview.right<=geometry.panel.right,`Hero preview escapes the panel at ${width}`);
+    heroAlignment.push(geometry);
+    if(width===1855||width===1920){
+      await win.webContents.executeJavaScript(`document.querySelector('[data-node-id="55:14"]').scrollIntoView({block:'center'})`);await new Promise(r=>setTimeout(r,100));
+      fs.writeFileSync(path.join(out,`hero-${width}.png`),(await win.webContents.capturePage()).toPNG());
+    }
+  }
+  const report={passed:true,version:provenance.version,release,download,metrics,mobile,faqProof,heroAlignment,externalRequests:external};fs.writeFileSync(path.join(out,'verification.json'),JSON.stringify(report,null,2));
   console.log(JSON.stringify({passed:true,images:metrics.images.length,links:metrics.links.length,faq:metrics.faq,height:metrics.height,mobile:mobile.width,externalRequests:external.length}));
   win.destroy();app.quit();
 }).catch(e=>{console.error(e);if(win&&!win.isDestroyed())win.destroy();app.exit(1)});

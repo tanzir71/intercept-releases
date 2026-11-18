@@ -1,12 +1,13 @@
 [data-node-id="52:416"]{position:sticky;top:0;z-index:20}
 [data-node-id="52:9"]{height:72px}
+[data-node-id="55:14"]{max-width:1200px;margin-inline:auto}
+[data-node-id="52:53"]{left:calc(50% - 540px);transform:scale(var(--hero-scale,1));transform-origin:top center}
 @media(max-width:1279px){
   body{overflow-x:hidden}
   [data-node-id="52:4"],[data-node-id="52:9"],[data-node-id="52:28"]{padding-left:24px;padding-right:24px}
   main>section>div>div[data-name="Inner"],main>section>div>div[data-name="Group"]{max-width:calc(100vw - 48px)}
   [data-node-id="52:29"]{width:min(960px,100%)}
   [data-node-id="55:14"]{width:100%}
-  [data-node-id="52:53"]{transform:scale(var(--hero-scale,1));transform-origin:top left}
   [data-node-id="52:416"]{padding-left:24px;padding-right:24px;overflow-x:auto}
   .mode-grid{grid-template-columns:1fr}.mode-card{max-width:100%;margin:auto}
 }
@@ -24,7 +25,7 @@
   [data-node-id="52:30"]{font-size:9px;letter-spacing:.3px;white-space:normal}
   [data-node-id="52:33"],[data-node-id="52:42"]{flex-wrap:wrap;justify-content:center;gap:16px}
   [data-node-id="55:14"]{height:calc((100vw - 40px)*.46);min-height:170px;border-radius:12px}
-  [data-node-id="52:53"]{left:16px;top:24px}
+  [data-node-id="52:53"]{top:24px}
   [data-node-id="52:416"]{height:56px;gap:24px;white-space:nowrap}
   [data-node-id="52:436"]{padding:24px 20px;height:auto;flex-wrap:wrap}
   main>section>div{padding:64px 20px}
