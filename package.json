@@ -1,0 +1,10 @@
+{
+  "name": "intercept-releases",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Public Intercept landing page and Windows installer releases",
+  "license": "MIT",
+  "scripts": { "build": "node scripts/build.mjs" },
+  "devDependencies": { "esbuild": "0.25.12", "jsdom": "31.0.1", "react": "19.1.1", "react-dom": "19.1.1" }
+}

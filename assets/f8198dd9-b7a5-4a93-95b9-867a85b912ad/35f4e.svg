@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon/shield" clip-path="url(#clip0_0_21)">
+<path id="Vector" d="M7.5 4.87497C7.5 6.74997 6.1875 7.68747 4.6275 8.23122C4.54581 8.25891 4.45708 8.25758 4.37625 8.22747C2.8125 7.68747 1.5 6.74997 1.5 4.87497V2.24997C1.5 2.15052 1.53951 2.05513 1.60984 1.98481C1.68016 1.91448 1.77554 1.87497 1.875 1.87497C2.625 1.87497 3.5625 1.42497 4.215 0.854973C4.29445 0.787098 4.39551 0.749805 4.5 0.749805C4.60449 0.749805 4.70555 0.787098 4.785 0.854973C5.44125 1.42872 6.375 1.87497 7.125 1.87497C7.22446 1.87497 7.31984 1.91448 7.39017 1.98481C7.46049 2.05513 7.5 2.15052 7.5 2.24997V4.87497Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="#5D6778"/>
+</g>
+<defs>
+<clipPath id="clip0_0_21">
+<rect width="9" height="9" fill="white"/>
+</clipPath>
+</defs>
+</svg>

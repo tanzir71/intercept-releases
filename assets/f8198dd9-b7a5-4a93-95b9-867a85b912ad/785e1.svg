@@ -1,0 +1,18 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Status emblem" clip-path="url(#clip0_0_128)">
+<circle id="Ellipse" cx="22.5" cy="22.5" r="22.5" fill="#13432F"/>
+<g id="Frame" clip-path="url(#clip1_0_128)">
+<path id="Vector" d="M22.5 8.75457L32.9364 12.5387V20.1068C32.9364 27.9273 28.4636 33.4773 22.5 35.4955C16.5364 33.4773 12.0636 27.9273 12.0636 20.1068V12.5387L22.5 8.75457Z" fill="#22C55E"/>
+<path id="Vector_2" d="M22.5 8.75457L32.9364 12.5387V20.1068C32.9364 27.9273 28.4636 33.4773 22.5 35.4955V8.75457Z" fill="#16A34A"/>
+<path id="Vector_3" d="M18.0273 22.125L21.2576 25.4045L27.2212 18.8454" stroke-width="2.79545" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_128">
+<rect width="45" height="45" fill="white"/>
+</clipPath>
+<clipPath id="clip1_0_128">
+<rect width="24" height="27.75" fill="white" transform="translate(10.5 8.25)"/>
+</clipPath>
+</defs>
+</svg>
