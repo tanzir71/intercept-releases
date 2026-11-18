@@ -57,19 +57,28 @@ fs.mkdirSync(path.join(root,'.build'),{recursive:true});
 await build({entryPoints:[path.join(root,'src/page.jsx')],outfile:path.join(root,'.build/page.cjs'),bundle:true,
   platform:'node',format:'cjs',jsx:'automatic',logLevel:'warning'});
 const markup=require(path.join(root,'.build/page.cjs')).default;
+await build({entryPoints:[path.join(root,'src/subpages.jsx')],outfile:path.join(root,'.build/subpages.cjs'),bundle:true,
+  platform:'node',format:'cjs',jsx:'automatic',logLevel:'warning'});
+const {pages,chrome,latest}=require(path.join(root,'.build/subpages.cjs')).default;
 const dom=new JSDOM('<!doctype html><html lang="en"><head></head><body>'+markup+'</body></html>');
 const document=dom.window.document;
 for(const element of document.querySelectorAll('[class]'))element.className=element.className.split(/\s+/).map(c=>classes.get(c)||c).join(' ');
-const release='https://github.com/tanzir71/intercept-releases/releases/tag/v0.3.0-preview.11';
-const download='https://github.com/tanzir71/intercept-releases/releases/download/v0.3.0-preview.11/Intercept-0.3.0-preview.11-x64-setup.exe';
+const release=latest.tagURL;
+const download=latest.downloadURL;
 const repo='https://github.com/tanzir71/intercept-releases';
-const links=new Map([
-  ['Download for Windows',download],['Download for Windows 11',download],['Read the security brief','./security.html'],
-  ['Read the release notes →',release],['GitHub',repo],['Product','#overview'],['Overview','#overview'],
-  ['AI agents','#agents'],['Security','#security'],['Documentation','./docs.html'],['Pricing','#pricing'],
-  ['Capabilities','#capabilities'],['Input protection','#features'],['Two modes','#modes'],['Requirements','#requirements'],
-  ['FAQ','#faq'],['Download',download],['Advanced mode','#modes'],['Alerts','#features'],['Read the documentation','./docs.html'],['Build from source','./docs.html#source'],['Licence (MIT)',repo+'/blob/main/LICENSE'],['Third-party notices','./notices.html'],['Report a security issue','./security.html#report'],['Security brief','./security.html'],['Release notes',release],['Source code',repo],['MIT license',repo+'/blob/main/LICENSE'],
-]);
+const regionRoutes=[
+ ['52:416',{'Overview':'#overview','Capabilities':'#capabilities','Input protection':'#features','Two modes':'#modes','AI agents':'#agents','Security':'#security','Requirements':'#requirements','FAQ':'#faq','Download':'./download.html'}],
+ ['52:497',{'How attribution works':'./attribution.html'}],
+ ['55:940',{'Read the input protection brief':'./input-protection.html'}],
+ ['55:1292',{'How agent attribution works':'./attribution.html#agents'}],
+ ['55:1708',{'See an example alert':'./alerts.html#example'}],
+ ['55:1992',{'Tour Advanced mode':'./advanced-mode.html'}],
+ ['57:286',{'Full coverage notes':'./coverage.html'}],
+ ['57:381',{'Build from source':'./build.html'}],
+ ['57:419',{'Read the documentation':'./docs.html'}],
+ ['52:28',{'Download for Windows':'./download.html','Read the security brief':'./security.html'}],
+ ['57:367',{'Download for Windows':'./download.html','Build from source':'./build.html'}],
+];
 function replaceWithLink(element,href){
   const next=document.createElement('a');
   for(const attr of element.attributes)next.setAttribute(attr.name,attr.value);
@@ -83,13 +92,23 @@ const previewIds=['52:53','55:913','55:1264','55:1681','55:1964','56:166'];
 for(const element of document.querySelectorAll('p')){
   if(element.closest('.showcase')||previewIds.some(id=>element.closest(`[data-node-id="${id}"]`)&&element.closest('[data-name^="App"]')))continue;
   const text=element.textContent.trim();
-  const href=links.get(text);
+  const normalized=text.replace(/\s*→$/,'');
+  const href=regionRoutes.find(([id,links])=>element.closest(`[data-node-id="${id}"]`)&&links[normalized])?.[1][normalized];
   if(!href)continue;
   const container=element.parentElement;
   if(container?.getAttribute('data-name')?.startsWith('Button/'))replaceWithLink(container,href);
   else replaceWithLink(element,href);
 }
-const homepage=document.querySelector('[data-node-id="52:10"]');if(homepage)replaceWithLink(homepage,'#');
+// One shared header, footer and closing CTA for the landing and every route.
+const utility=document.querySelector('[data-node-id="52:4"]');if(utility)utility.outerHTML=chrome.header;
+document.querySelector('[data-node-id="52:9"]')?.remove();
+const footer=document.querySelector('[data-node-id="57:482"]');if(footer)footer.outerHTML=chrome.footer;
+const closing=document.querySelector('[data-node-id="57:467"]');if(closing)closing.outerHTML=chrome.closing;
+// D40: approved wording while the desktop implementation remains private.
+for(const p of document.querySelectorAll('p')){
+  if(p.childElementCount)continue;
+  p.textContent=p.textContent.replaceAll('Free and open source','Free and MIT-licensed').replaceAll('Free, open source and local.','Free, MIT-licensed and local.').replaceAll('OPEN SOURCE, MIT','MIT-LICENSED');
+}
 // The original open answer is retained; closed rows receive explicit preview
 // answers rather than an empty disclosure or a misleading protection claim.
 const faqList=document.querySelector('[data-node-id="57:424"]');
@@ -111,9 +130,8 @@ if(faqList){
     if(!answer.textContent)throw new Error('Missing FAQ answer');details.append(answer);row.replaceWith(details);
   });
 }
-const pricing=document.createElement('span');pricing.id='pricing';document.querySelector('#requirements')?.prepend(pricing);
 const notice=document.createElement('aside');notice.className='preview-note';notice.setAttribute('aria-label','Preview status');
-notice.innerHTML='<strong>Preview 11 · November 18, 2026.</strong> This is a prerelease. Product screens show sample data; some designed features are still in development. <a href="./docs.html">Current availability and limitations</a>.';
+notice.innerHTML=`<strong>Preview ${latest.preview} · ${new Date(latest.date+'T00:00:00Z').toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'})}.</strong> This is a prerelease. Product screens show sample data; some designed features are still in development. <a href="./docs.html#preview-status">Current availability and limitations</a>.`;
 document.querySelector('main').prepend(notice);
 // A visible headline is semantic, and every major region is navigable.
 const headline=document.querySelector('[data-node-id="52:31"]');if(headline){const h=document.createElement('h1');for(const a of headline.attributes)h.setAttribute(a.name,a.value);h.textContent=headline.textContent;headline.replaceWith(h);}
@@ -129,6 +147,19 @@ document.head.innerHTML=`<meta charset="utf-8"><meta name="viewport" content="wi
 <link rel="stylesheet" href="./site.css"><link rel="icon" href="./assets/favicon.svg" type="image/svg+xml"><script src="./site.js" defer></script>`;
 document.body.insertAdjacentHTML('afterbegin','<a href="#overview" class="skip-link">Skip to content</a>');
 fs.writeFileSync(path.join(root,'index.html'),dom.serialize());
+for(const page of pages){
+  const subdom=new JSDOM('<!doctype html><html lang="en"><head></head><body>'+page.markup+'</body></html>');
+  const doc=subdom.window.document;
+  doc.head.innerHTML=document.head.innerHTML;
+  doc.title=page.title+' — Intercept';
+  if(page.route==='download'){
+    const refresh=doc.createElement('meta');refresh.httpEquiv='refresh';refresh.content='1;url='+download;doc.head.append(refresh);
+  }
+  for(const img of doc.images){
+    if(!img.getAttribute('src')?.startsWith('./assets/')||!fs.statSync(path.join(root,img.getAttribute('src'))).size)throw new Error('Invalid page asset: '+page.route);
+  }
+  fs.writeFileSync(path.join(root,page.route+'.html'),subdom.serialize());
+}
 const css=fs.readFileSync(path.join(root,'src/site.css'),'utf8')+'\n'+[...classes].map(([token,cls])=>`.${cls}{${declaration(token)}}`).join('\n')+'\n'+fs.readFileSync(path.join(root,'src/responsive.css'),'utf8');
 fs.writeFileSync(path.join(root,'site.css'),css);
 console.log(JSON.stringify({sections:document.querySelectorAll('main>section').length,images:document.images.length,links:document.links.length,cssRules:classes.size,htmlBytes:fs.statSync(path.join(root,'index.html')).size}));

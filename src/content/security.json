@@ -1,0 +1,3413 @@
+{
+  "kind": "stack",
+  "node": "84:177",
+  "name": "Article",
+  "style": {
+    "--basis": "680px",
+    "alignItems": "flex-start"
+  },
+  "children": [
+    {
+      "kind": "text",
+      "node": "84:201",
+      "text": "Trust and security",
+      "style": {
+        "letterSpacing": "0.96px",
+        "lineHeight": "normal",
+        "color": "#2563eb",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "fontFamily": "'Geist Mono',monospace",
+        "textTransform": "uppercase",
+        "whiteSpace": "nowrap"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:202",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "84:203",
+      "text": "Security brief",
+      "style": {
+        "letterSpacing": "-0.88px",
+        "lineHeight": "50px",
+        "color": "#0b1220",
+        "fontSize": "44px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:204",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "18px",
+        "height": "18px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "84:205",
+      "text": "What Intercept records on your PC, what it never records, which permissions it needs and how to check its claims. Written for security reviewers as well as everyday users.",
+      "style": {
+        "lineHeight": "30px",
+        "color": "#3d4757",
+        "fontSize": "19px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:206",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "22px",
+        "height": "22px"
+      }
+    },
+    {
+      "kind": "row",
+      "node": "84:207",
+      "name": "Doc meta",
+      "style": {
+        "gap": "10px",
+        "lineHeight": "normal",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "fontFamily": "'Geist Mono',monospace",
+        "alignItems": "center"
+      },
+      "children": [
+        {
+          "kind": "text",
+          "node": "84:208",
+          "text": "Updated {{dateLabel}}",
+          "style": {
+            "letterSpacing": "0.48px",
+            "color": "#667085",
+            "textTransform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "node": "84:209",
+          "text": "·",
+          "style": {
+            "color": "#98a2b3"
+          }
+        },
+        {
+          "kind": "text",
+          "node": "84:210",
+          "text": "Applies to {{version}}",
+          "style": {
+            "letterSpacing": "0.48px",
+            "color": "#667085",
+            "textTransform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "node": "84:211",
+          "text": "·",
+          "style": {
+            "color": "#98a2b3"
+          }
+        },
+        {
+          "kind": "text",
+          "node": "84:212",
+          "text": "8 min read",
+          "style": {
+            "letterSpacing": "0.48px",
+            "color": "#667085",
+            "textTransform": "uppercase"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "84:213",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "28px",
+        "height": "28px"
+      }
+    },
+    {
+      "kind": "divider",
+      "node": "84:214",
+      "name": "Divider",
+      "text": "",
+      "style": {
+        "background": "#e4e7ec",
+        "width": "100%",
+        "height": "1px"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:215",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "40px",
+        "height": "40px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "84:216",
+      "text": "At a glance",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:217",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "stack",
+      "node": "84:218",
+      "name": "Stack",
+      "style": {
+        "gap": "16px",
+        "width": "100%",
+        "alignItems": "flex-start"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "84:219",
+          "name": "Row",
+          "style": {
+            "gap": "16px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "stack",
+              "node": "84:221",
+              "name": "Stack",
+              "style": {
+                "gap": "8px",
+                "padding": "20px",
+                "borderRadius": "12px",
+                "background": "#f1f4f9",
+                "minHeight": "133px",
+                "flex": "1 1 0",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "84:222",
+                  "name": "Row",
+                  "style": {
+                    "gap": "8px",
+                    "width": "100%",
+                    "alignItems": "center"
+                  },
+                  "children": [
+                    {
+                      "kind": "icon",
+                      "src": "./assets/subpages/f3869.svg",
+                      "size": 16,
+                      "node": "84:223",
+                      "style": {}
+                    },
+                    {
+                      "kind": "text",
+                      "node": "84:225",
+                      "text": "No telemetry",
+                      "style": {
+                        "letterSpacing": "0.69px",
+                        "lineHeight": "normal",
+                        "color": "#0b1220",
+                        "fontSize": "11.5px",
+                        "fontWeight": 500,
+                        "fontFamily": "'Geist Mono',monospace",
+                        "textTransform": "uppercase",
+                        "flex": "1 1 0"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "node": "84:226",
+                  "text": "Intercept sends nothing about you or your PC to anyone. There is no account and no update checker.",
+                  "style": {
+                    "lineHeight": "23px",
+                    "color": "#3d4757",
+                    "fontSize": "15px",
+                    "width": "100%",
+                    "fontWeight": 400,
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "node": "84:227",
+              "name": "Stack",
+              "style": {
+                "gap": "8px",
+                "padding": "20px",
+                "borderRadius": "12px",
+                "background": "#f1f4f9",
+                "minHeight": "133px",
+                "flex": "1 1 0",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "84:228",
+                  "name": "Row",
+                  "style": {
+                    "gap": "8px",
+                    "width": "100%",
+                    "alignItems": "center"
+                  },
+                  "children": [
+                    {
+                      "kind": "icon",
+                      "src": "./assets/subpages/f3869.svg",
+                      "size": 16,
+                      "node": "84:229",
+                      "style": {}
+                    },
+                    {
+                      "kind": "text",
+                      "node": "84:231",
+                      "text": "Zero egress",
+                      "style": {
+                        "letterSpacing": "0.69px",
+                        "lineHeight": "normal",
+                        "color": "#0b1220",
+                        "fontSize": "11.5px",
+                        "fontWeight": 500,
+                        "fontFamily": "'Geist Mono',monospace",
+                        "textTransform": "uppercase",
+                        "flex": "1 1 0"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "node": "84:232",
+                  "text": "Fonts are bundled, signature checks run offline, and enrichment comes only from files you import.",
+                  "style": {
+                    "lineHeight": "23px",
+                    "color": "#3d4757",
+                    "fontSize": "15px",
+                    "width": "100%",
+                    "fontWeight": 400,
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "84:220",
+          "name": "Row",
+          "style": {
+            "gap": "16px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "stack",
+              "node": "84:233",
+              "name": "Stack",
+              "style": {
+                "gap": "8px",
+                "padding": "20px",
+                "borderRadius": "12px",
+                "background": "#f1f4f9",
+                "minHeight": "133px",
+                "flex": "1 1 0",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "84:234",
+                  "name": "Row",
+                  "style": {
+                    "gap": "8px",
+                    "width": "100%",
+                    "alignItems": "center"
+                  },
+                  "children": [
+                    {
+                      "kind": "icon",
+                      "src": "./assets/subpages/f3869.svg",
+                      "size": 16,
+                      "node": "84:235",
+                      "style": {}
+                    },
+                    {
+                      "kind": "text",
+                      "node": "84:237",
+                      "text": "Never reads secrets",
+                      "style": {
+                        "letterSpacing": "0.69px",
+                        "lineHeight": "normal",
+                        "color": "#0b1220",
+                        "fontSize": "11.5px",
+                        "fontWeight": 500,
+                        "fontFamily": "'Geist Mono',monospace",
+                        "textTransform": "uppercase",
+                        "flex": "1 1 0"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "node": "84:238",
+                  "text": "Credential and browser reviews read names, ages and permissions. Never passwords or cookie values.",
+                  "style": {
+                    "lineHeight": "23px",
+                    "color": "#3d4757",
+                    "fontSize": "15px",
+                    "width": "100%",
+                    "fontWeight": 400,
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "node": "84:239",
+              "name": "Stack",
+              "style": {
+                "gap": "8px",
+                "padding": "20px",
+                "borderRadius": "12px",
+                "background": "#fbf1df",
+                "minHeight": "133px",
+                "flex": "1 1 0",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "84:240",
+                  "name": "Row",
+                  "style": {
+                    "gap": "8px",
+                    "width": "100%",
+                    "alignItems": "center"
+                  },
+                  "children": [
+                    {
+                      "kind": "icon",
+                      "src": "./assets/subpages/dc993.svg",
+                      "size": 16,
+                      "node": "84:241",
+                      "style": {}
+                    },
+                    {
+                      "kind": "text",
+                      "node": "84:245",
+                      "text": "Unsigned preview",
+                      "style": {
+                        "letterSpacing": "0.69px",
+                        "lineHeight": "normal",
+                        "color": "#0b1220",
+                        "fontSize": "11.5px",
+                        "fontWeight": 500,
+                        "fontFamily": "'Geist Mono',monospace",
+                        "textTransform": "uppercase",
+                        "flex": "1 1 0"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "node": "84:246",
+                  "text": "Installers are not code-signed yet. Compare the SHA-256 published with each release before you run it.",
+                  "style": {
+                    "lineHeight": "23px",
+                    "color": "#3d4757",
+                    "fontSize": "15px",
+                    "width": "100%",
+                    "fontWeight": 400,
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "84:247",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "56px",
+        "height": "56px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "84:248",
+      "text": "Local by design",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:249",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "84:250",
+      "text": "The desktop app works without a network connection. It keeps its history in your Windows profile and never trims it: migrations only add, and deleting anything you own takes a typed confirmation.",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:251",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "20px",
+        "height": "20px"
+      }
+    },
+    {
+      "kind": "table",
+      "node": "84:252",
+      "name": "Where data lives",
+      "style": {
+        "borderRadius": "12px",
+        "background": "#fff",
+        "borderColor": "#e4e7ec",
+        "borderWidth": "1px",
+        "width": "100%",
+        "alignItems": "flex-start",
+        "overflow": "hidden"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "84:253",
+          "name": "Table header",
+          "style": {
+            "gap": "24px",
+            "background": "#f1f4f9",
+            "letterSpacing": "0.69px",
+            "lineHeight": "normal",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px",
+            "color": "#667085",
+            "fontSize": "11.5px",
+            "fontWeight": 500,
+            "fontFamily": "'Geist Mono',monospace",
+            "textTransform": "uppercase",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "84:254",
+              "text": "Data",
+              "style": {
+                "--basis": "170px"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "84:255",
+              "text": "Where it is kept",
+              "style": {
+                "--basis": "270px"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "84:256",
+              "text": "How long",
+              "style": {
+                "flex": "1 1 0"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "84:257",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "16px",
+            "paddingBottom": "16px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "84:258",
+              "text": "Activity history",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "170px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "84:259",
+              "text": "Local database in your Windows profile",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "270px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "84:260",
+              "text": "Until you delete it",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "84:261",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "16px",
+            "paddingBottom": "16px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "84:262",
+              "text": "Actions ledger",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "170px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "84:263",
+              "text": "Your profile, next to the history",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "270px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "84:264",
+              "text": "Until you delete it",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "84:265",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "16px",
+            "paddingBottom": "16px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "84:266",
+              "text": "Settings and rules",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "170px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "84:267",
+              "text": "Preferences store in your profile",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "270px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "84:268",
+              "text": "Until you change them",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "84:269",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "16px",
+            "paddingBottom": "16px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "84:270",
+              "text": "Imported enrichment",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "170px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "84:271",
+              "text": "GeoIP or tracker-list files you choose",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "270px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "84:272",
+              "text": "Until you remove them",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "84:273",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "callout",
+      "node": "84:274",
+      "name": "Callout/info",
+      "style": {
+        "gap": "12px",
+        "paddingLeft": "20px",
+        "paddingRight": "22px",
+        "borderRadius": "12px",
+        "background": "#e7effe",
+        "paddingTop": "18px",
+        "paddingBottom": "18px",
+        "width": "100%",
+        "alignItems": "flex-start"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "84:275",
+          "name": "Row",
+          "style": {
+            "paddingTop": "2px",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "icon",
+              "src": "./assets/subpages/53661.svg",
+              "size": 18,
+              "node": "84:276",
+              "style": {}
+            }
+          ]
+        },
+        {
+          "kind": "stack",
+          "node": "84:280",
+          "name": "Stack",
+          "style": {
+            "gap": "4px",
+            "fontSize": "15px",
+            "flex": "1 1 0",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "84:281",
+              "text": "This website is separate from the app.",
+              "style": {
+                "lineHeight": "22px",
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "width": "100%",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "84:282",
+              "text": "Visiting this site or downloading an installer contacts GitHub’s hosting. The desktop app makes no outbound connections.",
+              "style": {
+                "lineHeight": "23px",
+                "color": "#3d4757",
+                "width": "100%",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "84:283",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "56px",
+        "height": "56px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "84:284",
+      "text": "What is recorded",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:285",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "84:286",
+      "text": "Intercept records metadata about activity, with the source of each field. It does not record content.",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:287",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "20px",
+        "height": "20px"
+      }
+    },
+    {
+      "kind": "row",
+      "node": "84:288",
+      "name": "Row",
+      "style": {
+        "gap": "16px",
+        "width": "100%",
+        "alignItems": "flex-start"
+      },
+      "children": [
+        {
+          "kind": "stack",
+          "node": "84:289",
+          "name": "Stack",
+          "style": {
+            "gap": "14px",
+            "padding": "22px",
+            "borderRadius": "12px",
+            "background": "#e3f5ec",
+            "minHeight": "352px",
+            "flex": "1 1 0",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "84:290",
+              "text": "Recorded",
+              "style": {
+                "lineHeight": "24px",
+                "color": "#0b1220",
+                "fontSize": "17px",
+                "fontWeight": 600,
+                "width": "100%",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "stack",
+              "node": "84:291",
+              "name": "Checklist",
+              "style": {
+                "gap": "10px",
+                "width": "100%",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "84:292",
+                  "name": "Row",
+                  "style": {
+                    "gap": "12px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "row",
+                      "node": "84:293",
+                      "name": "Row",
+                      "style": {
+                        "paddingTop": "2px",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "icon",
+                          "src": "./assets/subpages/b4c89.svg",
+                          "size": 18,
+                          "node": "84:294",
+                          "style": {}
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "node": "84:296",
+                      "text": "Which app or process acted, with its publisher signature",
+                      "style": {
+                        "lineHeight": "23px",
+                        "color": "#3d4757",
+                        "fontSize": "15px",
+                        "flex": "1 1 0",
+                        "fontWeight": 400,
+                        "fontFamily": "'Instrument Sans',sans-serif"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "row",
+                  "node": "84:297",
+                  "name": "Row",
+                  "style": {
+                    "gap": "12px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "row",
+                      "node": "84:298",
+                      "name": "Row",
+                      "style": {
+                        "paddingTop": "2px",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "icon",
+                          "src": "./assets/subpages/b4c89.svg",
+                          "size": 18,
+                          "node": "84:299",
+                          "style": {}
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "node": "84:301",
+                      "text": "When a camera or microphone was in use, from Windows’ own records",
+                      "style": {
+                        "lineHeight": "23px",
+                        "color": "#3d4757",
+                        "fontSize": "15px",
+                        "flex": "1 1 0",
+                        "fontWeight": 400,
+                        "fontFamily": "'Instrument Sans',sans-serif"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "row",
+                  "node": "84:302",
+                  "name": "Row",
+                  "style": {
+                    "gap": "12px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "row",
+                      "node": "84:303",
+                      "name": "Row",
+                      "style": {
+                        "paddingTop": "2px",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "icon",
+                          "src": "./assets/subpages/b4c89.svg",
+                          "size": 18,
+                          "node": "84:304",
+                          "style": {}
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "node": "84:306",
+                      "text": "Which process connected where, with traffic per hour",
+                      "style": {
+                        "lineHeight": "23px",
+                        "color": "#3d4757",
+                        "fontSize": "15px",
+                        "flex": "1 1 0",
+                        "fontWeight": 400,
+                        "fontFamily": "'Instrument Sans',sans-serif"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "row",
+                  "node": "84:307",
+                  "name": "Row",
+                  "style": {
+                    "gap": "12px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "row",
+                      "node": "84:308",
+                      "name": "Row",
+                      "style": {
+                        "paddingTop": "2px",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "icon",
+                          "src": "./assets/subpages/b4c89.svg",
+                          "size": 18,
+                          "node": "84:309",
+                          "style": {}
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "node": "84:311",
+                      "text": "Recipients and counts of software-generated input",
+                      "style": {
+                        "lineHeight": "23px",
+                        "color": "#3d4757",
+                        "fontSize": "15px",
+                        "flex": "1 1 0",
+                        "fontWeight": 400,
+                        "fontFamily": "'Instrument Sans',sans-serif"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "row",
+                  "node": "84:312",
+                  "name": "Row",
+                  "style": {
+                    "gap": "12px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "row",
+                      "node": "84:313",
+                      "name": "Row",
+                      "style": {
+                        "paddingTop": "2px",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "icon",
+                          "src": "./assets/subpages/b4c89.svg",
+                          "size": 18,
+                          "node": "84:314",
+                          "style": {}
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "node": "84:316",
+                      "text": "Agent sessions: files changed, commands run and destinations",
+                      "style": {
+                        "lineHeight": "23px",
+                        "color": "#3d4757",
+                        "fontSize": "15px",
+                        "flex": "1 1 0",
+                        "fontWeight": 400,
+                        "fontFamily": "'Instrument Sans',sans-serif"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "stack",
+          "node": "84:317",
+          "name": "Stack",
+          "style": {
+            "gap": "14px",
+            "padding": "22px",
+            "borderRadius": "12px",
+            "background": "#fdebe9",
+            "minHeight": "352px",
+            "flex": "1 1 0",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "84:318",
+              "text": "Never recorded",
+              "style": {
+                "lineHeight": "24px",
+                "color": "#0b1220",
+                "fontSize": "17px",
+                "fontWeight": 600,
+                "width": "100%",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "stack",
+              "node": "84:319",
+              "name": "Checklist",
+              "style": {
+                "gap": "10px",
+                "width": "100%",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "84:320",
+                  "name": "Row",
+                  "style": {
+                    "gap": "12px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "row",
+                      "node": "84:321",
+                      "name": "Row",
+                      "style": {
+                        "paddingTop": "2px",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "icon",
+                          "src": "./assets/subpages/7accf.svg",
+                          "size": 18,
+                          "node": "84:322",
+                          "style": {}
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "node": "84:325",
+                      "text": "Typed key values or pointer coordinates",
+                      "style": {
+                        "lineHeight": "23px",
+                        "color": "#3d4757",
+                        "fontSize": "15px",
+                        "flex": "1 1 0",
+                        "fontWeight": 400,
+                        "fontFamily": "'Instrument Sans',sans-serif"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "row",
+                  "node": "84:326",
+                  "name": "Row",
+                  "style": {
+                    "gap": "12px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "row",
+                      "node": "84:327",
+                      "name": "Row",
+                      "style": {
+                        "paddingTop": "2px",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "icon",
+                          "src": "./assets/subpages/7accf.svg",
+                          "size": 18,
+                          "node": "84:328",
+                          "style": {}
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "node": "84:331",
+                      "text": "What a camera saw or a microphone heard",
+                      "style": {
+                        "lineHeight": "23px",
+                        "color": "#3d4757",
+                        "fontSize": "15px",
+                        "flex": "1 1 0",
+                        "fontWeight": 400,
+                        "fontFamily": "'Instrument Sans',sans-serif"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "row",
+                  "node": "84:332",
+                  "name": "Row",
+                  "style": {
+                    "gap": "12px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "row",
+                      "node": "84:333",
+                      "name": "Row",
+                      "style": {
+                        "paddingTop": "2px",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "icon",
+                          "src": "./assets/subpages/7accf.svg",
+                          "size": 18,
+                          "node": "84:334",
+                          "style": {}
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "node": "84:337",
+                      "text": "Passwords, cookie values or token contents",
+                      "style": {
+                        "lineHeight": "23px",
+                        "color": "#3d4757",
+                        "fontSize": "15px",
+                        "flex": "1 1 0",
+                        "fontWeight": 400,
+                        "fontFamily": "'Instrument Sans',sans-serif"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "row",
+                  "node": "84:338",
+                  "name": "Row",
+                  "style": {
+                    "gap": "12px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "row",
+                      "node": "84:339",
+                      "name": "Row",
+                      "style": {
+                        "paddingTop": "2px",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "icon",
+                          "src": "./assets/subpages/7accf.svg",
+                          "size": 18,
+                          "node": "84:340",
+                          "style": {}
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "node": "84:343",
+                      "text": "Encrypted network contents",
+                      "style": {
+                        "lineHeight": "23px",
+                        "color": "#3d4757",
+                        "fontSize": "15px",
+                        "flex": "1 1 0",
+                        "fontWeight": 400,
+                        "fontFamily": "'Instrument Sans',sans-serif"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "row",
+                  "node": "84:344",
+                  "name": "Row",
+                  "style": {
+                    "gap": "12px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "row",
+                      "node": "84:345",
+                      "name": "Row",
+                      "style": {
+                        "paddingTop": "2px",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "icon",
+                          "src": "./assets/subpages/7accf.svg",
+                          "size": 18,
+                          "node": "84:346",
+                          "style": {}
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "node": "84:349",
+                      "text": "Command argument values, except for flagged events, with secrets redacted",
+                      "style": {
+                        "lineHeight": "23px",
+                        "color": "#3d4757",
+                        "fontSize": "15px",
+                        "flex": "1 1 0",
+                        "fontWeight": 400,
+                        "fontFamily": "'Instrument Sans',sans-serif"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "84:350",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "56px",
+        "height": "56px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "84:351",
+      "text": "Permissions",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:352",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "84:353",
+      "text": "Intercept runs as a standard user. Administrator rights are requested one feature at a time, only when you turn that feature on.",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:354",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "20px",
+        "height": "20px"
+      }
+    },
+    {
+      "kind": "table",
+      "node": "84:355",
+      "name": "Permissions table",
+      "style": {
+        "borderRadius": "12px",
+        "background": "#fff",
+        "borderColor": "#e4e7ec",
+        "borderWidth": "1px",
+        "width": "100%",
+        "alignItems": "flex-start",
+        "overflow": "hidden"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "84:356",
+          "name": "Table header",
+          "style": {
+            "gap": "24px",
+            "background": "#f1f4f9",
+            "letterSpacing": "0.69px",
+            "lineHeight": "normal",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px",
+            "color": "#667085",
+            "fontSize": "11.5px",
+            "fontWeight": 500,
+            "fontFamily": "'Geist Mono',monospace",
+            "textTransform": "uppercase",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "84:357",
+              "text": "Feature",
+              "style": {
+                "--basis": "200px"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "84:358",
+              "text": "Administrator",
+              "style": {
+                "--basis": "150px"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "84:359",
+              "text": "Why",
+              "style": {
+                "flex": "1 1 0"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "84:360",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "16px",
+            "paddingBottom": "16px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "84:361",
+              "text": "Monitoring, alerts and the input guard",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "200px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "84:362",
+              "text": "Not needed",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "150px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "84:363",
+              "text": "Runs in your user session",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "84:364",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "16px",
+            "paddingBottom": "16px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "84:365",
+              "text": "Network and file tracing",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "200px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "84:366",
+              "text": "When turned on",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "150px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "84:367",
+              "text": "Windows restricts these event providers to administrators",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "84:368",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "16px",
+            "paddingBottom": "16px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "84:369",
+              "text": "Background service",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "200px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "84:370",
+              "text": "To install",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "150px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "84:371",
+              "text": "Keeps recording while the app window is closed",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "84:372",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "16px",
+            "paddingBottom": "16px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "stack",
+              "node": "84:373",
+              "name": "Stack",
+              "style": {
+                "gap": "6px",
+                "--basis": "200px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "node": "84:374",
+                  "text": "Elevated input guard",
+                  "style": {
+                    "lineHeight": "23px",
+                    "color": "#0b1220",
+                    "fontSize": "15px",
+                    "fontWeight": 600,
+                    "width": "100%",
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                },
+                {
+                  "kind": "pill",
+                  "node": "84:375",
+                  "name": "Pill · In development",
+                  "style": {
+                    "borderRadius": "999px",
+                    "background": "#fbf1df",
+                    "paddingLeft": "10px",
+                    "paddingRight": "10px",
+                    "paddingTop": "4px",
+                    "paddingBottom": "4px",
+                    "alignItems": "center"
+                  },
+                  "children": [
+                    {
+                      "kind": "text",
+                      "node": "84:376",
+                      "text": "In development",
+                      "style": {
+                        "letterSpacing": "0.66px",
+                        "lineHeight": "normal",
+                        "color": "#9a4708",
+                        "fontSize": "11px",
+                        "fontWeight": 500,
+                        "fontFamily": "'Geist Mono',monospace",
+                        "textTransform": "uppercase",
+                        "whiteSpace": "nowrap"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "node": "84:377",
+              "text": "One-time consent",
+              "style": {
+                "lineHeight": "23px",
+                "color": "#3d4757",
+                "fontSize": "15px",
+                "--basis": "150px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "84:378",
+              "text": "Sees input aimed at elevated windows and resists ordinary programs ending it",
+              "style": {
+                "lineHeight": "23px",
+                "color": "#3d4757",
+                "fontSize": "15px",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "84:379",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "56px",
+        "height": "56px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "84:380",
+      "text": "Input evidence",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:381",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "84:382",
+      "text": "When the input guard decides on an event, Intercept keeps a receipt: the recipient app, timestamps, event counts and the decision. Receipts never contain key values or pointer coordinates.",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:383",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "20px",
+        "height": "20px"
+      }
+    },
+    {
+      "kind": "callout",
+      "node": "84:384",
+      "name": "Callout/caution",
+      "style": {
+        "gap": "12px",
+        "paddingLeft": "20px",
+        "paddingRight": "22px",
+        "borderRadius": "12px",
+        "background": "#fbf1df",
+        "paddingTop": "18px",
+        "paddingBottom": "18px",
+        "width": "100%",
+        "alignItems": "flex-start"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "84:385",
+          "name": "Row",
+          "style": {
+            "paddingTop": "2px",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "icon",
+              "src": "./assets/subpages/8aa11.svg",
+              "size": 18,
+              "node": "84:386",
+              "style": {}
+            }
+          ]
+        },
+        {
+          "kind": "stack",
+          "node": "84:390",
+          "name": "Stack",
+          "style": {
+            "gap": "4px",
+            "fontSize": "15px",
+            "flex": "1 1 0",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "84:391",
+              "text": "A receipt names the recipient, not the sender.",
+              "style": {
+                "lineHeight": "22px",
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "width": "100%",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "84:392",
+              "text": "It shows which app the input was aimed at and when. It cannot name the program that sent it, and a request to block is not proof of what the recipient received.",
+              "style": {
+                "lineHeight": "23px",
+                "color": "#3d4757",
+                "width": "100%",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "84:393",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "56px",
+        "height": "56px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "84:394",
+      "text": "Trusted agents",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:395",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "84:396",
+      "text": "Claude and Codex are trusted only when their Windows publisher signature verifies: Anthropic, PBC and OpenAI OpCo, LLC. A renamed or unsigned copy is treated like any other program.",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:397",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "14px",
+        "height": "14px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "84:398",
+      "text": "An allowance for computer use activates only with signed-image evidence, a live session indicator calibrated for your Windows build, and an app you approved. A process name or a configuration file alone never activates one.",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:399",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "link",
+      "node": "84:400",
+      "name": "Link/arrow",
+      "style": {
+        "gap": "8px",
+        "alignItems": "center"
+      },
+      "children": [
+        {
+          "kind": "text",
+          "node": "84:401",
+          "text": "How agent attribution works",
+          "style": {
+            "lineHeight": "normal",
+            "color": "#2563eb",
+            "fontSize": "15px",
+            "fontWeight": 600,
+            "fontFamily": "'Instrument Sans',sans-serif",
+            "whiteSpace": "nowrap"
+          }
+        },
+        {
+          "kind": "icon",
+          "src": "./assets/subpages/55209.svg",
+          "size": 16,
+          "node": "84:402",
+          "style": {}
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "84:405",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "56px",
+        "height": "56px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "84:406",
+      "text": "Locked findings",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:407",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "84:408",
+      "text": "Five alerts never go quiet, for any agent and in any mode. You can mark a single event as expected for that path and agent; the guardrail itself stays on.",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:409",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "20px",
+        "height": "20px"
+      }
+    },
+    {
+      "kind": "stack",
+      "node": "84:410",
+      "name": "Stack",
+      "style": {
+        "padding": "22px",
+        "borderRadius": "12px",
+        "background": "#fdebe9",
+        "width": "100%",
+        "alignItems": "flex-start"
+      },
+      "children": [
+        {
+          "kind": "stack",
+          "node": "84:411",
+          "name": "Checklist",
+          "style": {
+            "gap": "12px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "row",
+              "node": "84:412",
+              "name": "Row",
+              "style": {
+                "gap": "12px",
+                "width": "100%",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "84:413",
+                  "name": "Row",
+                  "style": {
+                    "paddingTop": "2px",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "icon",
+                      "src": "./assets/subpages/6a8f6.svg",
+                      "size": 18,
+                      "node": "84:414",
+                      "style": {}
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "node": "84:417",
+                  "text": "Reading a decoy credential file",
+                  "style": {
+                    "lineHeight": "23px",
+                    "color": "#3d4757",
+                    "fontSize": "15px",
+                    "flex": "1 1 0",
+                    "fontWeight": 400,
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "row",
+              "node": "84:418",
+              "name": "Row",
+              "style": {
+                "gap": "12px",
+                "width": "100%",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "84:419",
+                  "name": "Row",
+                  "style": {
+                    "paddingTop": "2px",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "icon",
+                      "src": "./assets/subpages/6a8f6.svg",
+                      "size": 18,
+                      "node": "84:420",
+                      "style": {}
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "node": "84:423",
+                  "text": "Opening saved sign-ins: Credential Manager, browser logins, SSH keys or an agent’s token files",
+                  "style": {
+                    "lineHeight": "23px",
+                    "color": "#3d4757",
+                    "fontSize": "15px",
+                    "flex": "1 1 0",
+                    "fontWeight": 400,
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "row",
+              "node": "84:424",
+              "name": "Row",
+              "style": {
+                "gap": "12px",
+                "width": "100%",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "84:425",
+                  "name": "Row",
+                  "style": {
+                    "paddingTop": "2px",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "icon",
+                      "src": "./assets/subpages/6a8f6.svg",
+                      "size": 18,
+                      "node": "84:426",
+                      "style": {}
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "node": "84:429",
+                  "text": "Adding or changing an MCP server, hook or plugin",
+                  "style": {
+                    "lineHeight": "23px",
+                    "color": "#3d4757",
+                    "fontSize": "15px",
+                    "flex": "1 1 0",
+                    "fontWeight": 400,
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "row",
+              "node": "84:430",
+              "name": "Row",
+              "style": {
+                "gap": "12px",
+                "width": "100%",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "84:431",
+                  "name": "Row",
+                  "style": {
+                    "paddingTop": "2px",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "icon",
+                      "src": "./assets/subpages/6a8f6.svg",
+                      "size": 18,
+                      "node": "84:432",
+                      "style": {}
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "node": "84:435",
+                  "text": "Typing into a protected app",
+                  "style": {
+                    "lineHeight": "23px",
+                    "color": "#3d4757",
+                    "fontSize": "15px",
+                    "flex": "1 1 0",
+                    "fontWeight": 400,
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "row",
+              "node": "84:436",
+              "name": "Row",
+              "style": {
+                "gap": "12px",
+                "width": "100%",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "84:437",
+                  "name": "Row",
+                  "style": {
+                    "paddingTop": "2px",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "icon",
+                      "src": "./assets/subpages/6a8f6.svg",
+                      "size": 18,
+                      "node": "84:438",
+                      "style": {}
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "node": "84:441",
+                  "text": "Turning off or tampering with Intercept’s protection",
+                  "style": {
+                    "lineHeight": "23px",
+                    "color": "#3d4757",
+                    "fontSize": "15px",
+                    "flex": "1 1 0",
+                    "fontWeight": 400,
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "84:442",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "56px",
+        "height": "56px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "84:443",
+      "text": "Verify a download",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:444",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "84:445",
+      "text": "Compare the installer’s SHA-256 with the value published beside it before you run it.",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:446",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "code",
+      "node": "84:447",
+      "name": "Code block",
+      "style": {
+        "gap": "2px",
+        "borderRadius": "10px",
+        "background": "#0a2540",
+        "paddingLeft": "20px",
+        "paddingRight": "20px",
+        "paddingTop": "16px",
+        "paddingBottom": "16px",
+        "width": "100%",
+        "alignItems": "flex-start"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "84:448",
+          "name": "Row",
+          "style": {
+            "gap": "8px",
+            "width": "100%",
+            "alignItems": "center"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "84:449",
+              "text": "PowerShell",
+              "style": {
+                "letterSpacing": "0.66px",
+                "lineHeight": "normal",
+                "color": "#93c5fd",
+                "fontSize": "11px",
+                "fontWeight": 500,
+                "fontFamily": "'Geist Mono',monospace",
+                "textTransform": "uppercase",
+                "flex": "1 1 0"
+              }
+            },
+            {
+              "kind": "row",
+              "node": "84:450",
+              "name": "Row",
+              "style": {
+                "gap": "6px",
+                "alignItems": "center"
+              },
+              "children": [
+                {
+                  "kind": "icon",
+                  "src": "./assets/subpages/2cc2c.svg",
+                  "size": 13,
+                  "node": "84:451",
+                  "style": {}
+                },
+                {
+                  "kind": "text",
+                  "node": "84:454",
+                  "text": "Copy",
+                  "style": {
+                    "lineHeight": "normal",
+                    "color": "#93c5fd",
+                    "fontSize": "11px",
+                    "fontWeight": 500,
+                    "fontFamily": "'Geist Mono',monospace",
+                    "whiteSpace": "nowrap"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "spacer",
+          "node": "84:455",
+          "name": "Spacer",
+          "text": "",
+          "style": {
+            "width": "100%",
+            "minHeight": "6px",
+            "height": "6px"
+          }
+        },
+        {
+          "kind": "text",
+          "node": "84:456",
+          "text": "# PowerShell",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#8593a8",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        },
+        {
+          "kind": "text",
+          "node": "84:457",
+          "text": "Get-FileHash .\\{{installerName}} -Algorithm SHA256",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#dce7fd",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        },
+        {
+          "kind": "text",
+          "node": "84:458",
+          "text": "​",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#dce7fd",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        },
+        {
+          "kind": "text",
+          "node": "84:459",
+          "text": "# Expected for Preview {{preview}}",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#8593a8",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        },
+        {
+          "kind": "text",
+          "node": "84:460",
+          "text": "{{sha256Upper}}",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#dce7fd",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        }
+      ],
+      "codeLayout": {
+        "labelHeight": 14,
+        "labelGap": 10,
+        "lineGap": 2
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:461",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "84:462",
+      "text": "A matching checksum proves you have the published file. It does not prove who built it, because preview builds are not code-signed. Each release’s binary-provenance.json names the source commit it was built from.",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:463",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "14px",
+        "height": "14px"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:464",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "56px",
+        "height": "56px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "84:465",
+      "text": "Known limits",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:466",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "stack",
+      "node": "84:467",
+      "name": "Checklist",
+      "style": {
+        "gap": "14px",
+        "width": "100%",
+        "alignItems": "flex-start"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "84:468",
+          "name": "Row",
+          "style": {
+            "gap": "12px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "row",
+              "node": "84:469",
+              "name": "Row",
+              "style": {
+                "paddingTop": "3px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "icon",
+                  "src": "./assets/subpages/70408.svg",
+                  "size": 18,
+                  "node": "84:470",
+                  "style": {}
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "node": "84:472",
+              "text": "A program running as the same user can end a standard-user guard. The watchdog shortens and records the gap; it cannot prevent it.",
+              "style": {
+                "lineHeight": "26px",
+                "color": "#3d4757",
+                "fontSize": "16px",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "84:473",
+          "name": "Row",
+          "style": {
+            "gap": "12px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "row",
+              "node": "84:474",
+              "name": "Row",
+              "style": {
+                "paddingTop": "3px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "icon",
+                  "src": "./assets/subpages/70408.svg",
+                  "size": 18,
+                  "node": "84:475",
+                  "style": {}
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "node": "84:477",
+              "text": "Windows can silently remove a low-level hook that times out. Intercept renews its hooks and detects some failures, but cannot rule out a gap between renewals.",
+              "style": {
+                "lineHeight": "26px",
+                "color": "#3d4757",
+                "fontSize": "16px",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "84:478",
+          "name": "Row",
+          "style": {
+            "gap": "12px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "row",
+              "node": "84:479",
+              "name": "Row",
+              "style": {
+                "paddingTop": "3px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "icon",
+                  "src": "./assets/subpages/70408.svg",
+                  "size": 18,
+                  "node": "84:480",
+                  "style": {}
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "node": "84:482",
+              "text": "Only Windows-flagged keyboard and mouse injection can be paused. Touch, pen, virtual devices, accessibility actions and browser automation are reported as not paused.",
+              "style": {
+                "lineHeight": "26px",
+                "color": "#3d4757",
+                "fontSize": "16px",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "84:483",
+          "name": "Row",
+          "style": {
+            "gap": "12px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "row",
+              "node": "84:484",
+              "name": "Row",
+              "style": {
+                "paddingTop": "3px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "icon",
+                  "src": "./assets/subpages/70408.svg",
+                  "size": 18,
+                  "node": "84:485",
+                  "style": {}
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "node": "84:487",
+              "text": "Physical input trials and real-agent calibration have not been run for this preview.",
+              "style": {
+                "lineHeight": "26px",
+                "color": "#3d4757",
+                "fontSize": "16px",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "84:488",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "20px",
+        "height": "20px"
+      }
+    },
+    {
+      "kind": "link",
+      "node": "84:489",
+      "name": "Link/arrow",
+      "style": {
+        "gap": "8px",
+        "alignItems": "center"
+      },
+      "children": [
+        {
+          "kind": "text",
+          "node": "84:490",
+          "text": "Read the coverage notes",
+          "style": {
+            "lineHeight": "normal",
+            "color": "#2563eb",
+            "fontSize": "15px",
+            "fontWeight": 600,
+            "fontFamily": "'Instrument Sans',sans-serif",
+            "whiteSpace": "nowrap"
+          }
+        },
+        {
+          "kind": "icon",
+          "src": "./assets/subpages/55209.svg",
+          "size": 16,
+          "node": "84:491",
+          "style": {}
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "84:494",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "56px",
+        "height": "56px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "84:495",
+      "text": "Report a security issue",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "84:496",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "stack",
+      "node": "84:497",
+      "name": "Report card (#report)",
+      "style": {
+        "gap": "16px",
+        "padding": "28px",
+        "borderRadius": "16px",
+        "background": "#0a2540",
+        "width": "100%",
+        "alignItems": "flex-start"
+      },
+      "children": [
+        {
+          "kind": "text",
+          "node": "84:498",
+          "text": "Report vulnerabilities privately through GitHub. Please don’t open a public issue for anything sensitive.",
+          "style": {
+            "lineHeight": "27px",
+            "color": "#f2f5f9",
+            "fontSize": "17px",
+            "width": "100%",
+            "fontWeight": 400,
+            "fontFamily": "'Instrument Sans',sans-serif"
+          }
+        },
+        {
+          "kind": "row",
+          "node": "84:499",
+          "name": "Row",
+          "style": {
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "link",
+              "node": "84:500",
+              "name": "Button/primary",
+              "style": {
+                "gap": "8px",
+                "borderRadius": "6px",
+                "paddingLeft": "22px",
+                "paddingRight": "22px",
+                "paddingTop": "13px",
+                "paddingBottom": "13px",
+                "background": "#fff",
+                "alignItems": "center"
+              },
+              "children": [
+                {
+                  "kind": "icon",
+                  "src": "./assets/subpages/3f323.svg",
+                  "size": 18,
+                  "node": "84:501",
+                  "style": {}
+                },
+                {
+                  "kind": "text",
+                  "node": "84:504",
+                  "text": "Report privately on GitHub",
+                  "style": {
+                    "lineHeight": "normal",
+                    "color": "#0b1220",
+                    "fontSize": "15px",
+                    "fontWeight": 600,
+                    "fontFamily": "'Instrument Sans',sans-serif",
+                    "whiteSpace": "nowrap"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "spacer",
+          "node": "84:505",
+          "name": "Spacer",
+          "text": "",
+          "style": {
+            "width": "100%",
+            "minHeight": "4px",
+            "height": "4px"
+          }
+        },
+        {
+          "kind": "row",
+          "node": "84:506",
+          "name": "Row",
+          "style": {
+            "gap": "24px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "stack",
+              "node": "84:507",
+              "name": "Stack",
+              "style": {
+                "gap": "10px",
+                "flex": "1 1 0",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "node": "84:508",
+                  "text": "Include",
+                  "style": {
+                    "letterSpacing": "0.69px",
+                    "lineHeight": "normal",
+                    "color": "#93c5fd",
+                    "fontSize": "11.5px",
+                    "fontWeight": 500,
+                    "fontFamily": "'Geist Mono',monospace",
+                    "textTransform": "uppercase",
+                    "width": "100%"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "node": "84:509",
+                  "name": "Checklist",
+                  "style": {
+                    "gap": "8px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "row",
+                      "node": "84:510",
+                      "name": "Row",
+                      "style": {
+                        "gap": "12px",
+                        "width": "100%",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "row",
+                          "node": "84:511",
+                          "name": "Row",
+                          "style": {
+                            "paddingTop": "2px",
+                            "alignItems": "flex-start"
+                          },
+                          "children": [
+                            {
+                              "kind": "icon",
+                              "src": "./assets/subpages/2e43d.svg",
+                              "size": 18,
+                              "node": "84:512",
+                              "style": {}
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "text",
+                          "node": "84:514",
+                          "text": "Version and Windows build",
+                          "style": {
+                            "lineHeight": "23px",
+                            "color": "#dce7fd",
+                            "fontSize": "15px",
+                            "flex": "1 1 0",
+                            "fontWeight": 400,
+                            "fontFamily": "'Instrument Sans',sans-serif"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "row",
+                      "node": "84:515",
+                      "name": "Row",
+                      "style": {
+                        "gap": "12px",
+                        "width": "100%",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "row",
+                          "node": "84:516",
+                          "name": "Row",
+                          "style": {
+                            "paddingTop": "2px",
+                            "alignItems": "flex-start"
+                          },
+                          "children": [
+                            {
+                              "kind": "icon",
+                              "src": "./assets/subpages/2e43d.svg",
+                              "size": 18,
+                              "node": "84:517",
+                              "style": {}
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "text",
+                          "node": "84:519",
+                          "text": "Steps to reproduce",
+                          "style": {
+                            "lineHeight": "23px",
+                            "color": "#dce7fd",
+                            "fontSize": "15px",
+                            "flex": "1 1 0",
+                            "fontWeight": 400,
+                            "fontFamily": "'Instrument Sans',sans-serif"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "row",
+                      "node": "84:520",
+                      "name": "Row",
+                      "style": {
+                        "gap": "12px",
+                        "width": "100%",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "row",
+                          "node": "84:521",
+                          "name": "Row",
+                          "style": {
+                            "paddingTop": "2px",
+                            "alignItems": "flex-start"
+                          },
+                          "children": [
+                            {
+                              "kind": "icon",
+                              "src": "./assets/subpages/2e43d.svg",
+                              "size": 18,
+                              "node": "84:522",
+                              "style": {}
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "text",
+                          "node": "84:524",
+                          "text": "What you expected and what happened",
+                          "style": {
+                            "lineHeight": "23px",
+                            "color": "#dce7fd",
+                            "fontSize": "15px",
+                            "flex": "1 1 0",
+                            "fontWeight": 400,
+                            "fontFamily": "'Instrument Sans',sans-serif"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "node": "84:525",
+              "name": "Stack",
+              "style": {
+                "gap": "10px",
+                "flex": "1 1 0",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "node": "84:526",
+                  "text": "Leave out",
+                  "style": {
+                    "letterSpacing": "0.69px",
+                    "lineHeight": "normal",
+                    "color": "#93c5fd",
+                    "fontSize": "11.5px",
+                    "fontWeight": 500,
+                    "fontFamily": "'Geist Mono',monospace",
+                    "textTransform": "uppercase",
+                    "width": "100%"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "node": "84:527",
+                  "name": "Checklist",
+                  "style": {
+                    "gap": "8px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "row",
+                      "node": "84:528",
+                      "name": "Row",
+                      "style": {
+                        "gap": "12px",
+                        "width": "100%",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "row",
+                          "node": "84:529",
+                          "name": "Row",
+                          "style": {
+                            "paddingTop": "2px",
+                            "alignItems": "flex-start"
+                          },
+                          "children": [
+                            {
+                              "kind": "icon",
+                              "src": "./assets/subpages/4ea5b.svg",
+                              "size": 18,
+                              "node": "84:530",
+                              "style": {}
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "text",
+                          "node": "84:533",
+                          "text": "Tokens or credentials",
+                          "style": {
+                            "lineHeight": "23px",
+                            "color": "#dce7fd",
+                            "fontSize": "15px",
+                            "flex": "1 1 0",
+                            "fontWeight": 400,
+                            "fontFamily": "'Instrument Sans',sans-serif"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "row",
+                      "node": "84:534",
+                      "name": "Row",
+                      "style": {
+                        "gap": "12px",
+                        "width": "100%",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "row",
+                          "node": "84:535",
+                          "name": "Row",
+                          "style": {
+                            "paddingTop": "2px",
+                            "alignItems": "flex-start"
+                          },
+                          "children": [
+                            {
+                              "kind": "icon",
+                              "src": "./assets/subpages/4ea5b.svg",
+                              "size": 18,
+                              "node": "84:536",
+                              "style": {}
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "text",
+                          "node": "84:539",
+                          "text": "Your local history or profile",
+                          "style": {
+                            "lineHeight": "23px",
+                            "color": "#dce7fd",
+                            "fontSize": "15px",
+                            "flex": "1 1 0",
+                            "fontWeight": 400,
+                            "fontFamily": "'Instrument Sans',sans-serif"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "row",
+                      "node": "84:540",
+                      "name": "Row",
+                      "style": {
+                        "gap": "12px",
+                        "width": "100%",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "row",
+                          "node": "84:541",
+                          "name": "Row",
+                          "style": {
+                            "paddingTop": "2px",
+                            "alignItems": "flex-start"
+                          },
+                          "children": [
+                            {
+                              "kind": "icon",
+                              "src": "./assets/subpages/4ea5b.svg",
+                              "size": 18,
+                              "node": "84:542",
+                              "style": {}
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "text",
+                          "node": "84:545",
+                          "text": "Credential files or private QA data",
+                          "style": {
+                            "lineHeight": "23px",
+                            "color": "#dce7fd",
+                            "fontSize": "15px",
+                            "flex": "1 1 0",
+                            "fontWeight": 400,
+                            "fontFamily": "'Instrument Sans',sans-serif"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

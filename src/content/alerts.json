@@ -1,0 +1,3686 @@
+{
+  "hero": {
+    "kind": "stack",
+    "node": "89:365",
+    "name": "Stack",
+    "style": {
+      "alignItems": "flex-start"
+    },
+    "children": [
+      {
+        "kind": "text",
+        "node": "89:366",
+        "text": "Alerts",
+        "style": {
+          "letterSpacing": "0.96px",
+          "lineHeight": "normal",
+          "color": "#2563eb",
+          "fontSize": "12px",
+          "fontWeight": 500,
+          "fontFamily": "'Geist Mono',monospace",
+          "textTransform": "uppercase",
+          "whiteSpace": "nowrap"
+        }
+      },
+      {
+        "kind": "spacer",
+        "node": "89:367",
+        "name": "Spacer",
+        "text": "",
+        "style": {
+          "width": "100%",
+          "minHeight": "18px",
+          "height": "18px"
+        }
+      },
+      {
+        "kind": "heading",
+        "node": "89:368",
+        "text": "Plain-language alerts, grouped and quiet by default.",
+        "style": {
+          "letterSpacing": "-1.4px",
+          "lineHeight": "62px",
+          "color": "#0b1220",
+          "fontSize": "56px",
+          "fontWeight": 600,
+          "width": "100%",
+          "fontFamily": "'Instrument Sans',sans-serif"
+        }
+      },
+      {
+        "kind": "spacer",
+        "node": "89:369",
+        "name": "Spacer",
+        "text": "",
+        "style": {
+          "width": "100%",
+          "minHeight": "20px",
+          "height": "20px"
+        }
+      },
+      {
+        "kind": "text",
+        "node": "89:370",
+        "text": "Each finding says what happened, whether it is usually normal, and what Windows could and could not prove. Repeated patterns collapse into one card with evidence, so one decision handles them all.",
+        "style": {
+          "lineHeight": "30px",
+          "color": "#3d4757",
+          "fontSize": "19px",
+          "width": "100%",
+          "fontWeight": 400,
+          "fontFamily": "'Instrument Sans',sans-serif"
+        }
+      },
+      {
+        "kind": "spacer",
+        "node": "89:371",
+        "name": "Spacer",
+        "text": "",
+        "style": {
+          "width": "100%",
+          "minHeight": "32px",
+          "height": "32px"
+        }
+      },
+      {
+        "kind": "row",
+        "node": "89:372",
+        "name": "Row",
+        "style": {
+          "gap": "12px",
+          "alignItems": "flex-start"
+        },
+        "children": [
+          {
+            "kind": "link",
+            "node": "89:373",
+            "name": "Button/primary",
+            "style": {
+              "gap": "8px",
+              "borderRadius": "6px",
+              "background": "#2563eb",
+              "paddingLeft": "22px",
+              "paddingRight": "22px",
+              "paddingTop": "13px",
+              "paddingBottom": "13px",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "icon",
+                "src": "./assets/subpages/0a9c9.svg",
+                "size": 18,
+                "node": "89:374",
+                "style": {}
+              },
+              {
+                "kind": "text",
+                "node": "89:378",
+                "text": "Download for Windows",
+                "style": {
+                  "lineHeight": "normal",
+                  "fontSize": "15px",
+                  "color": "#fff",
+                  "fontWeight": 600,
+                  "fontFamily": "'Instrument Sans',sans-serif",
+                  "whiteSpace": "nowrap"
+                }
+              }
+            ]
+          },
+          {
+            "kind": "link",
+            "node": "89:379",
+            "name": "Button/secondary",
+            "style": {
+              "borderRadius": "6px",
+              "paddingLeft": "22px",
+              "paddingRight": "22px",
+              "paddingTop": "13px",
+              "paddingBottom": "13px",
+              "borderColor": "#c9d1dc",
+              "borderWidth": "1px",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "text",
+                "node": "89:380",
+                "text": "See an example alert",
+                "style": {
+                  "lineHeight": "normal",
+                  "color": "#0b1220",
+                  "fontSize": "15px",
+                  "fontWeight": 600,
+                  "fontFamily": "'Instrument Sans',sans-serif",
+                  "whiteSpace": "nowrap"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "spacer",
+        "node": "89:381",
+        "name": "Spacer",
+        "text": "",
+        "style": {
+          "width": "100%",
+          "minHeight": "20px",
+          "height": "20px"
+        }
+      },
+      {
+        "kind": "row",
+        "node": "89:382",
+        "name": "Facts",
+        "style": {
+          "gap": "24px",
+          "alignItems": "center"
+        },
+        "children": [
+          {
+            "kind": "row",
+            "node": "89:383",
+            "name": "Row",
+            "style": {
+              "gap": "8px",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "dot",
+                "node": "89:384",
+                "name": "Ellipse",
+                "style": {
+                  "width": "4px",
+                  "height": "4px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/728c3.svg",
+                    "size": 18,
+                    "node": null
+                  }
+                ]
+              },
+              {
+                "kind": "text",
+                "node": "89:385",
+                "text": "Nothing described as blocked unless it was",
+                "style": {
+                  "lineHeight": "normal",
+                  "color": "#667085",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "fontFamily": "'Instrument Sans',sans-serif",
+                  "whiteSpace": "nowrap"
+                }
+              }
+            ]
+          },
+          {
+            "kind": "row",
+            "node": "89:386",
+            "name": "Row",
+            "style": {
+              "gap": "8px",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "dot",
+                "node": "89:387",
+                "name": "Ellipse",
+                "style": {
+                  "width": "4px",
+                  "height": "4px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/728c3.svg",
+                    "size": 18,
+                    "node": null
+                  }
+                ]
+              },
+              {
+                "kind": "text",
+                "node": "89:388",
+                "text": "Every dismissal can be undone",
+                "style": {
+                  "lineHeight": "normal",
+                  "color": "#667085",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "fontFamily": "'Instrument Sans',sans-serif",
+                  "whiteSpace": "nowrap"
+                }
+              }
+            ]
+          },
+          {
+            "kind": "row",
+            "node": "89:389",
+            "name": "Row",
+            "style": {
+              "gap": "8px",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "dot",
+                "node": "89:390",
+                "name": "Ellipse",
+                "style": {
+                  "width": "4px",
+                  "height": "4px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/728c3.svg",
+                    "size": 18,
+                    "node": null
+                  }
+                ]
+              },
+              {
+                "kind": "text",
+                "node": "89:391",
+                "text": "No privacy score",
+                "style": {
+                  "lineHeight": "normal",
+                  "color": "#667085",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "fontFamily": "'Instrument Sans',sans-serif",
+                  "whiteSpace": "nowrap"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "nav": {
+    "kind": "row",
+    "node": "89:642",
+    "name": "In-page navigation (sticky)",
+    "style": {
+      "gap": "32px",
+      "paddingLeft": "120px",
+      "paddingRight": "120px",
+      "background": "#fff",
+      "borderColor": "#e4e7ec",
+      "borderTopWidth": "1px",
+      "borderBottomWidth": "1px",
+      "alignItems": "center"
+    },
+    "children": [
+      {
+        "kind": "text",
+        "node": "89:643",
+        "text": "Alerts",
+        "style": {
+          "lineHeight": "normal",
+          "color": "#0b1220",
+          "fontSize": "15px",
+          "fontWeight": 600,
+          "fontFamily": "'Instrument Sans',sans-serif",
+          "whiteSpace": "nowrap"
+        }
+      },
+      {
+        "kind": "text",
+        "node": "89:644",
+        "name": "Rectangle",
+        "text": "",
+        "style": {
+          "background": "#e4e7ec",
+          "minHeight": "20px"
+        }
+      },
+      {
+        "kind": "stack",
+        "node": "89:645",
+        "name": "Tab · An example alert",
+        "style": {
+          "borderColor": "#2563eb",
+          "minHeight": "60px",
+          "alignItems": "flex-start",
+          "justifyContent": "center"
+        },
+        "children": [
+          {
+            "kind": "text",
+            "node": "89:646",
+            "text": "An example alert",
+            "style": {
+              "lineHeight": "normal",
+              "color": "#0b1220",
+              "fontSize": "14.5px",
+              "fontWeight": 500,
+              "fontFamily": "'Instrument Sans',sans-serif",
+              "whiteSpace": "nowrap"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "stack",
+        "node": "89:647",
+        "name": "Tab · Grouping",
+        "style": {
+          "minHeight": "60px",
+          "alignItems": "flex-start",
+          "justifyContent": "center"
+        },
+        "children": [
+          {
+            "kind": "text",
+            "node": "89:648",
+            "text": "Grouping",
+            "style": {
+              "lineHeight": "normal",
+              "color": "#3d4757",
+              "fontSize": "14.5px",
+              "fontWeight": 400,
+              "fontFamily": "'Instrument Sans',sans-serif",
+              "whiteSpace": "nowrap"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "stack",
+        "node": "89:649",
+        "name": "Tab · Always alerts",
+        "style": {
+          "minHeight": "60px",
+          "alignItems": "flex-start",
+          "justifyContent": "center"
+        },
+        "children": [
+          {
+            "kind": "text",
+            "node": "89:650",
+            "text": "Always alerts",
+            "style": {
+              "lineHeight": "normal",
+              "color": "#3d4757",
+              "fontSize": "14.5px",
+              "fontWeight": 400,
+              "fontFamily": "'Instrument Sans',sans-serif",
+              "whiteSpace": "nowrap"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "stack",
+        "node": "89:651",
+        "name": "Tab · Acting on alerts",
+        "style": {
+          "minHeight": "60px",
+          "alignItems": "flex-start",
+          "justifyContent": "center"
+        },
+        "children": [
+          {
+            "kind": "text",
+            "node": "89:652",
+            "text": "Acting on alerts",
+            "style": {
+              "lineHeight": "normal",
+              "color": "#3d4757",
+              "fontSize": "14.5px",
+              "fontWeight": 400,
+              "fontFamily": "'Instrument Sans',sans-serif",
+              "whiteSpace": "nowrap"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "node": "89:653",
+        "name": "flex",
+        "text": "",
+        "style": {
+          "flex": "1 1 0"
+        }
+      },
+      {
+        "kind": "link",
+        "node": "89:654",
+        "name": "Button/primary",
+        "style": {
+          "borderRadius": "6px",
+          "background": "#2563eb",
+          "paddingLeft": "22px",
+          "paddingRight": "22px",
+          "paddingTop": "13px",
+          "paddingBottom": "13px",
+          "alignItems": "center"
+        },
+        "children": [
+          {
+            "kind": "text",
+            "node": "89:655",
+            "text": "Download",
+            "style": {
+              "lineHeight": "normal",
+              "fontSize": "15px",
+              "color": "#fff",
+              "fontWeight": 600,
+              "fontFamily": "'Instrument Sans',sans-serif",
+              "whiteSpace": "nowrap"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "panel": "89:393",
+  "related": {
+    "kind": "stack",
+    "node": "89:933",
+    "name": "Related",
+    "style": {
+      "paddingTop": "80px",
+      "paddingBottom": "96px",
+      "background": "#f1f4f9",
+      "paddingLeft": "120px",
+      "paddingRight": "120px",
+      "alignItems": "flex-start"
+    },
+    "children": [
+      {
+        "kind": "heading",
+        "node": "89:934",
+        "text": "Keep reading",
+        "style": {
+          "letterSpacing": "-0.42px",
+          "lineHeight": "34px",
+          "color": "#0b1220",
+          "fontSize": "28px",
+          "fontWeight": 600,
+          "width": "100%",
+          "fontFamily": "'Instrument Sans',sans-serif"
+        }
+      },
+      {
+        "kind": "spacer",
+        "node": "89:935",
+        "name": "Spacer",
+        "text": "",
+        "style": {
+          "width": "100%",
+          "minHeight": "28px",
+          "height": "28px"
+        }
+      },
+      {
+        "kind": "row",
+        "node": "89:936",
+        "name": "Row",
+        "style": {
+          "gap": "24px",
+          "width": "100%",
+          "alignItems": "flex-start"
+        },
+        "children": [
+          {
+            "kind": "link-card",
+            "node": "89:937",
+            "name": "Link card · Security brief",
+            "style": {
+              "gap": "10px",
+              "padding": "28px",
+              "borderRadius": "16px",
+              "background": "#fff",
+              "minHeight": "243px",
+              "flex": "1 1 0",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "row",
+                "node": "89:938",
+                "name": "Row",
+                "style": {
+                  "borderRadius": "10px",
+                  "background": "#e7effe",
+                  "width": "40px",
+                  "height": "40px",
+                  "alignItems": "center",
+                  "justifyContent": "center"
+                },
+                "children": [
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/22ed5.svg",
+                    "size": 20,
+                    "node": "89:939",
+                    "style": {}
+                  }
+                ]
+              },
+              {
+                "kind": "spacer",
+                "node": "89:941",
+                "name": "Spacer",
+                "text": "",
+                "style": {
+                  "width": "100%",
+                  "minHeight": "6px",
+                  "height": "6px"
+                }
+              },
+              {
+                "kind": "subheading",
+                "node": "89:942",
+                "text": "Security brief",
+                "style": {
+                  "lineHeight": "26px",
+                  "color": "#0b1220",
+                  "fontSize": "20px",
+                  "fontWeight": 600,
+                  "width": "100%",
+                  "fontFamily": "'Instrument Sans',sans-serif"
+                }
+              },
+              {
+                "kind": "text",
+                "node": "89:943",
+                "text": "What alerts can contain, and what Intercept never records.",
+                "style": {
+                  "lineHeight": "23px",
+                  "color": "#3d4757",
+                  "fontSize": "15px",
+                  "width": "100%",
+                  "fontWeight": 400,
+                  "fontFamily": "'Instrument Sans',sans-serif"
+                }
+              },
+              {
+                "kind": "spacer",
+                "node": "89:944",
+                "name": "push",
+                "text": "",
+                "style": {
+                  "width": "100%",
+                  "flex": "1 1 0"
+                }
+              },
+              {
+                "kind": "link",
+                "node": "89:945",
+                "name": "Link/arrow",
+                "style": {
+                  "gap": "8px",
+                  "alignItems": "center"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "89:946",
+                    "text": "Read the security brief",
+                    "style": {
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "15px",
+                      "fontWeight": 600,
+                      "fontFamily": "'Instrument Sans',sans-serif",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/55209.svg",
+                    "size": 16,
+                    "node": "89:947",
+                    "style": {}
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "link-card",
+            "node": "89:950",
+            "name": "Link card · AI agents",
+            "style": {
+              "gap": "10px",
+              "padding": "28px",
+              "borderRadius": "16px",
+              "background": "#fff",
+              "minHeight": "243px",
+              "flex": "1 1 0",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "row",
+                "node": "89:951",
+                "name": "Row",
+                "style": {
+                  "borderRadius": "10px",
+                  "background": "#eee9f7",
+                  "width": "40px",
+                  "height": "40px",
+                  "alignItems": "center",
+                  "justifyContent": "center"
+                },
+                "children": [
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/49e62.svg",
+                    "size": 20,
+                    "node": "89:952",
+                    "style": {}
+                  }
+                ]
+              },
+              {
+                "kind": "spacer",
+                "node": "89:959",
+                "name": "Spacer",
+                "text": "",
+                "style": {
+                  "width": "100%",
+                  "minHeight": "6px",
+                  "height": "6px"
+                }
+              },
+              {
+                "kind": "subheading",
+                "node": "89:960",
+                "text": "AI agents",
+                "style": {
+                  "lineHeight": "26px",
+                  "color": "#0b1220",
+                  "fontSize": "20px",
+                  "fontWeight": 600,
+                  "width": "100%",
+                  "fontFamily": "'Instrument Sans',sans-serif"
+                }
+              },
+              {
+                "kind": "text",
+                "node": "89:961",
+                "text": "Why recognised agent work is logged quietly, and what still alerts.",
+                "style": {
+                  "lineHeight": "23px",
+                  "color": "#3d4757",
+                  "fontSize": "15px",
+                  "width": "100%",
+                  "fontWeight": 400,
+                  "fontFamily": "'Instrument Sans',sans-serif"
+                }
+              },
+              {
+                "kind": "spacer",
+                "node": "89:962",
+                "name": "push",
+                "text": "",
+                "style": {
+                  "width": "100%",
+                  "flex": "1 1 0"
+                }
+              },
+              {
+                "kind": "link",
+                "node": "89:963",
+                "name": "Link/arrow",
+                "style": {
+                  "gap": "8px",
+                  "alignItems": "center"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "89:964",
+                    "text": "Explore AI agents",
+                    "style": {
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "15px",
+                      "fontWeight": 600,
+                      "fontFamily": "'Instrument Sans',sans-serif",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/55209.svg",
+                    "size": 16,
+                    "node": "89:965",
+                    "style": {}
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "link-card",
+            "node": "89:968",
+            "name": "Link card · Advanced mode",
+            "style": {
+              "gap": "10px",
+              "padding": "28px",
+              "borderRadius": "16px",
+              "background": "#fff",
+              "minHeight": "243px",
+              "flex": "1 1 0",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "row",
+                "node": "89:969",
+                "name": "Row",
+                "style": {
+                  "borderRadius": "10px",
+                  "background": "#e7effe",
+                  "width": "40px",
+                  "height": "40px",
+                  "alignItems": "center",
+                  "justifyContent": "center"
+                },
+                "children": [
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/b4329.svg",
+                    "size": 20,
+                    "node": "89:970",
+                    "style": {}
+                  }
+                ]
+              },
+              {
+                "kind": "spacer",
+                "node": "89:980",
+                "name": "Spacer",
+                "text": "",
+                "style": {
+                  "width": "100%",
+                  "minHeight": "6px",
+                  "height": "6px"
+                }
+              },
+              {
+                "kind": "subheading",
+                "node": "89:981",
+                "text": "Advanced mode",
+                "style": {
+                  "lineHeight": "26px",
+                  "color": "#0b1220",
+                  "fontSize": "20px",
+                  "fontWeight": 600,
+                  "width": "100%",
+                  "fontFamily": "'Instrument Sans',sans-serif"
+                }
+              },
+              {
+                "kind": "text",
+                "node": "89:982",
+                "text": "Alerts & rules: filter, group and write your own rules.",
+                "style": {
+                  "lineHeight": "23px",
+                  "color": "#3d4757",
+                  "fontSize": "15px",
+                  "width": "100%",
+                  "fontWeight": 400,
+                  "fontFamily": "'Instrument Sans',sans-serif"
+                }
+              },
+              {
+                "kind": "spacer",
+                "node": "89:983",
+                "name": "push",
+                "text": "",
+                "style": {
+                  "width": "100%",
+                  "flex": "1 1 0"
+                }
+              },
+              {
+                "kind": "link",
+                "node": "89:984",
+                "name": "Link/arrow",
+                "style": {
+                  "gap": "8px",
+                  "alignItems": "center"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "89:985",
+                    "text": "Tour Advanced mode",
+                    "style": {
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "15px",
+                      "fontWeight": 600,
+                      "fontFamily": "'Instrument Sans',sans-serif",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/55209.svg",
+                    "size": 16,
+                    "node": "89:986",
+                    "style": {}
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "example",
+      "content": {
+        "kind": "stack",
+        "node": "89:656",
+        "name": "An example alert (#example)",
+        "style": {
+          "paddingLeft": "120px",
+          "paddingRight": "120px",
+          "paddingTop": "96px",
+          "paddingBottom": "96px",
+          "background": "#fff",
+          "alignItems": "flex-start"
+        },
+        "children": [
+          {
+            "kind": "row",
+            "node": "89:657",
+            "name": "Section header",
+            "style": {
+              "gap": "64px",
+              "width": "100%",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "stack",
+                "node": "89:658",
+                "name": "Stack",
+                "style": {
+                  "gap": "16px",
+                  "--basis": "600px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "89:659",
+                    "text": "An example alert",
+                    "style": {
+                      "letterSpacing": "0.96px",
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "12px",
+                      "fontWeight": 500,
+                      "fontFamily": "'Geist Mono',monospace",
+                      "textTransform": "uppercase",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "heading",
+                    "node": "89:660",
+                    "text": "Read an alert in five seconds.",
+                    "style": {
+                      "letterSpacing": "-0.8px",
+                      "lineHeight": "46px",
+                      "color": "#0b1220",
+                      "fontSize": "40px",
+                      "fontWeight": 600,
+                      "width": "100%",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "89:661",
+                "name": "Stack",
+                "style": {
+                  "paddingTop": "30px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "89:662",
+                    "text": "Every alert follows the same order: what happened, whether it is normal, the evidence, then the actions. This one comes from the sample data.",
+                    "style": {
+                      "lineHeight": "29px",
+                      "color": "#3d4757",
+                      "fontSize": "18px",
+                      "width": "100%",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "spacer",
+            "node": "89:663",
+            "name": "Spacer",
+            "text": "",
+            "style": {
+              "width": "100%",
+              "minHeight": "56px",
+              "height": "56px"
+            }
+          },
+          {
+            "kind": "row",
+            "node": "89:664",
+            "name": "Row",
+            "style": {
+              "gap": "56px",
+              "width": "100%",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "stack",
+                "node": "89:665",
+                "name": "Example panel",
+                "style": {
+                  "gap": "16px",
+                  "borderRadius": "20px",
+                  "background": "#fdebe9",
+                  "paddingLeft": "40px",
+                  "paddingRight": "40px",
+                  "paddingTop": "48px",
+                  "paddingBottom": "48px",
+                  "--basis": "660px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "stack",
+                    "node": "89:666",
+                    "name": "Alert card",
+                    "style": {
+                      "padding": "22px",
+                      "borderRadius": "14px",
+                      "background": "#fff",
+                      "width": "100%",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "row",
+                        "node": "89:667",
+                        "name": "Row",
+                        "style": {
+                          "gap": "14px",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "pill",
+                            "node": "89:668",
+                            "name": "Row",
+                            "style": {
+                              "borderRadius": "999px",
+                              "background": "#fdebe9",
+                              "width": "40px",
+                              "height": "40px",
+                              "alignItems": "center",
+                              "justifyContent": "center"
+                            },
+                            "children": [
+                              {
+                                "kind": "icon",
+                                "src": "./assets/subpages/85496.svg",
+                                "size": 18,
+                                "node": "89:669",
+                                "style": {}
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "stack",
+                            "node": "89:673",
+                            "name": "Stack",
+                            "style": {
+                              "gap": "6px",
+                              "flex": "1 1 0",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "row",
+                                "node": "89:674",
+                                "name": "Row",
+                                "style": {
+                                  "gap": "10px",
+                                  "width": "100%",
+                                  "alignItems": "center"
+                                },
+                                "children": [
+                                  {
+                                    "kind": "text",
+                                    "node": "89:675",
+                                    "text": "Slack used your microphone for the first time",
+                                    "style": {
+                                      "lineHeight": "24px",
+                                      "color": "#0b1220",
+                                      "fontSize": "17px",
+                                      "fontWeight": 600,
+                                      "flex": "1 1 0",
+                                      "fontFamily": "'Instrument Sans',sans-serif"
+                                    }
+                                  },
+                                  {
+                                    "kind": "pill",
+                                    "node": "89:676",
+                                    "name": "Marker 1",
+                                    "style": {
+                                      "borderRadius": "999px",
+                                      "background": "#0a2540",
+                                      "width": "24px",
+                                      "height": "24px",
+                                      "alignItems": "center",
+                                      "justifyContent": "center"
+                                    },
+                                    "children": [
+                                      {
+                                        "kind": "text",
+                                        "node": "89:677",
+                                        "text": "1",
+                                        "style": {
+                                          "lineHeight": "normal",
+                                          "fontSize": "12px",
+                                          "color": "#fff",
+                                          "fontWeight": 500,
+                                          "fontFamily": "'Geist Mono',monospace",
+                                          "whiteSpace": "nowrap"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "kind": "row",
+                                "node": "89:678",
+                                "name": "Row",
+                                "style": {
+                                  "gap": "10px",
+                                  "width": "100%",
+                                  "alignItems": "center"
+                                },
+                                "children": [
+                                  {
+                                    "kind": "text",
+                                    "node": "89:679",
+                                    "text": "Normal if you joined a call or huddle. Confirm once and Intercept stops asking.",
+                                    "style": {
+                                      "lineHeight": "22px",
+                                      "color": "#3d4757",
+                                      "fontSize": "15px",
+                                      "flex": "1 1 0",
+                                      "fontWeight": 400,
+                                      "fontFamily": "'Instrument Sans',sans-serif"
+                                    }
+                                  },
+                                  {
+                                    "kind": "pill",
+                                    "node": "89:680",
+                                    "name": "Marker 2",
+                                    "style": {
+                                      "borderRadius": "999px",
+                                      "background": "#0a2540",
+                                      "width": "24px",
+                                      "height": "24px",
+                                      "alignItems": "center",
+                                      "justifyContent": "center"
+                                    },
+                                    "children": [
+                                      {
+                                        "kind": "text",
+                                        "node": "89:681",
+                                        "text": "2",
+                                        "style": {
+                                          "lineHeight": "normal",
+                                          "fontSize": "12px",
+                                          "color": "#fff",
+                                          "fontWeight": 500,
+                                          "fontFamily": "'Geist Mono',monospace",
+                                          "whiteSpace": "nowrap"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "kind": "row",
+                                "node": "89:682",
+                                "name": "Row",
+                                "style": {
+                                  "gap": "10px",
+                                  "width": "100%",
+                                  "alignItems": "center"
+                                },
+                                "children": [
+                                  {
+                                    "kind": "text",
+                                    "node": "89:683",
+                                    "text": "TODAY 12:43 · SLACK TECHNOLOGIES, LLC · SIGNATURE VERIFIED",
+                                    "style": {
+                                      "lineHeight": "17px",
+                                      "color": "#667085",
+                                      "fontSize": "11.5px",
+                                      "fontFamily": "'Geist Mono',monospace",
+                                      "flex": "1 1 0",
+                                      "fontWeight": 400
+                                    }
+                                  },
+                                  {
+                                    "kind": "pill",
+                                    "node": "89:684",
+                                    "name": "Marker 3",
+                                    "style": {
+                                      "borderRadius": "999px",
+                                      "background": "#0a2540",
+                                      "width": "24px",
+                                      "height": "24px",
+                                      "alignItems": "center",
+                                      "justifyContent": "center"
+                                    },
+                                    "children": [
+                                      {
+                                        "kind": "text",
+                                        "node": "89:685",
+                                        "text": "3",
+                                        "style": {
+                                          "lineHeight": "normal",
+                                          "fontSize": "12px",
+                                          "color": "#fff",
+                                          "fontWeight": 500,
+                                          "fontFamily": "'Geist Mono',monospace",
+                                          "whiteSpace": "nowrap"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "kind": "row",
+                                "node": "89:686",
+                                "name": "Row",
+                                "style": {
+                                  "gap": "8px",
+                                  "paddingTop": "6px",
+                                  "width": "100%",
+                                  "alignItems": "center"
+                                },
+                                "children": [
+                                  {
+                                    "kind": "pill",
+                                    "node": "89:687",
+                                    "name": "Row",
+                                    "style": {
+                                      "borderRadius": "999px",
+                                      "background": "#e9edf3",
+                                      "paddingLeft": "16px",
+                                      "paddingRight": "16px",
+                                      "paddingTop": "8px",
+                                      "paddingBottom": "8px",
+                                      "alignItems": "flex-start"
+                                    },
+                                    "children": [
+                                      {
+                                        "kind": "text",
+                                        "node": "89:688",
+                                        "text": "It was me",
+                                        "style": {
+                                          "lineHeight": "normal",
+                                          "color": "#0b1220",
+                                          "fontSize": "13px",
+                                          "fontWeight": 600,
+                                          "fontFamily": "'Instrument Sans',sans-serif",
+                                          "whiteSpace": "nowrap"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "kind": "pill",
+                                    "node": "89:689",
+                                    "name": "Row",
+                                    "style": {
+                                      "borderRadius": "999px",
+                                      "background": "#2563eb",
+                                      "paddingLeft": "16px",
+                                      "paddingRight": "16px",
+                                      "paddingTop": "8px",
+                                      "paddingBottom": "8px",
+                                      "alignItems": "flex-start"
+                                    },
+                                    "children": [
+                                      {
+                                        "kind": "text",
+                                        "node": "89:690",
+                                        "text": "Review",
+                                        "style": {
+                                          "lineHeight": "normal",
+                                          "fontSize": "13px",
+                                          "color": "#fff",
+                                          "fontWeight": 600,
+                                          "fontFamily": "'Instrument Sans',sans-serif",
+                                          "whiteSpace": "nowrap"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "kind": "text",
+                                    "node": "89:691",
+                                    "name": "flex",
+                                    "text": "",
+                                    "style": {
+                                      "flex": "1 1 0"
+                                    }
+                                  },
+                                  {
+                                    "kind": "pill",
+                                    "node": "89:692",
+                                    "name": "Marker 4",
+                                    "style": {
+                                      "borderRadius": "999px",
+                                      "background": "#0a2540",
+                                      "width": "24px",
+                                      "height": "24px",
+                                      "alignItems": "center",
+                                      "justifyContent": "center"
+                                    },
+                                    "children": [
+                                      {
+                                        "kind": "text",
+                                        "node": "89:693",
+                                        "text": "4",
+                                        "style": {
+                                          "lineHeight": "normal",
+                                          "fontSize": "12px",
+                                          "color": "#fff",
+                                          "fontWeight": 500,
+                                          "fontFamily": "'Geist Mono',monospace",
+                                          "whiteSpace": "nowrap"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "row",
+                    "node": "89:694",
+                    "name": "Row",
+                    "style": {
+                      "gap": "12px",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "pill",
+                        "node": "89:695",
+                        "name": "Row",
+                        "style": {
+                          "gap": "14px",
+                          "borderRadius": "999px",
+                          "background": "#0a2540",
+                          "paddingLeft": "16px",
+                          "paddingRight": "16px",
+                          "paddingTop": "10px",
+                          "paddingBottom": "10px",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "89:696",
+                            "text": "Marked expected",
+                            "style": {
+                              "lineHeight": "normal",
+                              "fontSize": "13.5px",
+                              "color": "#fff",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif",
+                              "whiteSpace": "nowrap"
+                            }
+                          },
+                          {
+                            "kind": "row",
+                            "node": "89:697",
+                            "name": "Row",
+                            "style": {
+                              "gap": "6px",
+                              "alignItems": "center"
+                            },
+                            "children": [
+                              {
+                                "kind": "icon",
+                                "src": "./assets/subpages/31afc.svg",
+                                "size": 14,
+                                "node": "89:698",
+                                "style": {}
+                              },
+                              {
+                                "kind": "text",
+                                "node": "89:701",
+                                "text": "Undo",
+                                "style": {
+                                  "lineHeight": "normal",
+                                  "color": "#93c5fd",
+                                  "fontSize": "13.5px",
+                                  "fontWeight": 600,
+                                  "fontFamily": "'Instrument Sans',sans-serif",
+                                  "whiteSpace": "nowrap"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "pill",
+                        "node": "89:702",
+                        "name": "Marker 5",
+                        "style": {
+                          "borderRadius": "999px",
+                          "background": "#0a2540",
+                          "width": "24px",
+                          "height": "24px",
+                          "alignItems": "center",
+                          "justifyContent": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "89:703",
+                            "text": "5",
+                            "style": {
+                              "lineHeight": "normal",
+                              "fontSize": "12px",
+                              "color": "#fff",
+                              "fontWeight": 500,
+                              "fontFamily": "'Geist Mono',monospace",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "89:704",
+                "name": "Stack",
+                "style": {
+                  "gap": "22px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "row",
+                    "node": "89:705",
+                    "name": "Row",
+                    "style": {
+                      "gap": "14px",
+                      "width": "100%",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "row",
+                        "node": "89:706",
+                        "name": "Row",
+                        "style": {
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "pill",
+                            "node": "89:707",
+                            "name": "Marker 1",
+                            "style": {
+                              "borderRadius": "999px",
+                              "background": "#0a2540",
+                              "width": "24px",
+                              "height": "24px",
+                              "alignItems": "center",
+                              "justifyContent": "center"
+                            },
+                            "children": [
+                              {
+                                "kind": "text",
+                                "node": "89:708",
+                                "text": "1",
+                                "style": {
+                                  "lineHeight": "normal",
+                                  "fontSize": "12px",
+                                  "color": "#fff",
+                                  "fontWeight": 500,
+                                  "fontFamily": "'Geist Mono',monospace",
+                                  "whiteSpace": "nowrap"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "stack",
+                        "node": "89:709",
+                        "name": "Stack",
+                        "style": {
+                          "gap": "4px",
+                          "flex": "1 1 0",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "89:710",
+                            "text": "What happened",
+                            "style": {
+                              "lineHeight": "24px",
+                              "color": "#0b1220",
+                              "fontSize": "17px",
+                              "fontWeight": 600,
+                              "width": "100%",
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          },
+                          {
+                            "kind": "text",
+                            "node": "89:711",
+                            "text": "Plain language first. It names the app that acted and the recipient, never a guessed source.",
+                            "style": {
+                              "lineHeight": "23px",
+                              "color": "#3d4757",
+                              "fontSize": "15px",
+                              "width": "100%",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "row",
+                    "node": "89:712",
+                    "name": "Row",
+                    "style": {
+                      "gap": "14px",
+                      "width": "100%",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "row",
+                        "node": "89:713",
+                        "name": "Row",
+                        "style": {
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "pill",
+                            "node": "89:714",
+                            "name": "Marker 2",
+                            "style": {
+                              "borderRadius": "999px",
+                              "background": "#0a2540",
+                              "width": "24px",
+                              "height": "24px",
+                              "alignItems": "center",
+                              "justifyContent": "center"
+                            },
+                            "children": [
+                              {
+                                "kind": "text",
+                                "node": "89:715",
+                                "text": "2",
+                                "style": {
+                                  "lineHeight": "normal",
+                                  "fontSize": "12px",
+                                  "color": "#fff",
+                                  "fontWeight": 500,
+                                  "fontFamily": "'Geist Mono',monospace",
+                                  "whiteSpace": "nowrap"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "stack",
+                        "node": "89:716",
+                        "name": "Stack",
+                        "style": {
+                          "gap": "4px",
+                          "flex": "1 1 0",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "89:717",
+                            "text": "Is it normal?",
+                            "style": {
+                              "lineHeight": "24px",
+                              "color": "#0b1220",
+                              "fontSize": "17px",
+                              "fontWeight": 600,
+                              "width": "100%",
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          },
+                          {
+                            "kind": "text",
+                            "node": "89:718",
+                            "text": "One line on when this is expected, so you can decide quickly.",
+                            "style": {
+                              "lineHeight": "23px",
+                              "color": "#3d4757",
+                              "fontSize": "15px",
+                              "width": "100%",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "row",
+                    "node": "89:719",
+                    "name": "Row",
+                    "style": {
+                      "gap": "14px",
+                      "width": "100%",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "row",
+                        "node": "89:720",
+                        "name": "Row",
+                        "style": {
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "pill",
+                            "node": "89:721",
+                            "name": "Marker 3",
+                            "style": {
+                              "borderRadius": "999px",
+                              "background": "#0a2540",
+                              "width": "24px",
+                              "height": "24px",
+                              "alignItems": "center",
+                              "justifyContent": "center"
+                            },
+                            "children": [
+                              {
+                                "kind": "text",
+                                "node": "89:722",
+                                "text": "3",
+                                "style": {
+                                  "lineHeight": "normal",
+                                  "fontSize": "12px",
+                                  "color": "#fff",
+                                  "fontWeight": 500,
+                                  "fontFamily": "'Geist Mono',monospace",
+                                  "whiteSpace": "nowrap"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "stack",
+                        "node": "89:723",
+                        "name": "Stack",
+                        "style": {
+                          "gap": "4px",
+                          "flex": "1 1 0",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "89:724",
+                            "text": "Evidence",
+                            "style": {
+                              "lineHeight": "24px",
+                              "color": "#0b1220",
+                              "fontSize": "17px",
+                              "fontWeight": 600,
+                              "width": "100%",
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          },
+                          {
+                            "kind": "text",
+                            "node": "89:725",
+                            "text": "When it happened, which publisher, and whether the signature verified, in monospaced detail.",
+                            "style": {
+                              "lineHeight": "23px",
+                              "color": "#3d4757",
+                              "fontSize": "15px",
+                              "width": "100%",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "row",
+                    "node": "89:726",
+                    "name": "Row",
+                    "style": {
+                      "gap": "14px",
+                      "width": "100%",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "row",
+                        "node": "89:727",
+                        "name": "Row",
+                        "style": {
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "pill",
+                            "node": "89:728",
+                            "name": "Marker 4",
+                            "style": {
+                              "borderRadius": "999px",
+                              "background": "#0a2540",
+                              "width": "24px",
+                              "height": "24px",
+                              "alignItems": "center",
+                              "justifyContent": "center"
+                            },
+                            "children": [
+                              {
+                                "kind": "text",
+                                "node": "89:729",
+                                "text": "4",
+                                "style": {
+                                  "lineHeight": "normal",
+                                  "fontSize": "12px",
+                                  "color": "#fff",
+                                  "fontWeight": 500,
+                                  "fontFamily": "'Geist Mono',monospace",
+                                  "whiteSpace": "nowrap"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "stack",
+                        "node": "89:730",
+                        "name": "Stack",
+                        "style": {
+                          "gap": "4px",
+                          "flex": "1 1 0",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "89:731",
+                            "text": "Actions",
+                            "style": {
+                              "lineHeight": "24px",
+                              "color": "#0b1220",
+                              "fontSize": "17px",
+                              "fontWeight": 600,
+                              "width": "100%",
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          },
+                          {
+                            "kind": "text",
+                            "node": "89:732",
+                            "text": "The safe choice and the review are one click each. Anything risky asks first.",
+                            "style": {
+                              "lineHeight": "23px",
+                              "color": "#3d4757",
+                              "fontSize": "15px",
+                              "width": "100%",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "row",
+                    "node": "89:733",
+                    "name": "Row",
+                    "style": {
+                      "gap": "14px",
+                      "width": "100%",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "row",
+                        "node": "89:734",
+                        "name": "Row",
+                        "style": {
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "pill",
+                            "node": "89:735",
+                            "name": "Marker 5",
+                            "style": {
+                              "borderRadius": "999px",
+                              "background": "#0a2540",
+                              "width": "24px",
+                              "height": "24px",
+                              "alignItems": "center",
+                              "justifyContent": "center"
+                            },
+                            "children": [
+                              {
+                                "kind": "text",
+                                "node": "89:736",
+                                "text": "5",
+                                "style": {
+                                  "lineHeight": "normal",
+                                  "fontSize": "12px",
+                                  "color": "#fff",
+                                  "fontWeight": 500,
+                                  "fontFamily": "'Geist Mono',monospace",
+                                  "whiteSpace": "nowrap"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "stack",
+                        "node": "89:737",
+                        "name": "Stack",
+                        "style": {
+                          "gap": "4px",
+                          "flex": "1 1 0",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "89:738",
+                            "text": "Undo",
+                            "style": {
+                              "lineHeight": "24px",
+                              "color": "#0b1220",
+                              "fontSize": "17px",
+                              "fontWeight": 600,
+                              "width": "100%",
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          },
+                          {
+                            "kind": "text",
+                            "node": "89:739",
+                            "text": "Marking it expected writes to the local actions ledger. Undo for 10 seconds, then from the ledger.",
+                            "style": {
+                              "lineHeight": "23px",
+                              "color": "#3d4757",
+                              "fontSize": "15px",
+                              "width": "100%",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tour": false
+    },
+    {
+      "id": "grouping",
+      "content": {
+        "kind": "stack",
+        "node": "89:740",
+        "name": "Grouping",
+        "style": {
+          "background": "#f1f4f9",
+          "paddingLeft": "120px",
+          "paddingRight": "120px",
+          "paddingTop": "96px",
+          "paddingBottom": "96px",
+          "alignItems": "flex-start"
+        },
+        "children": [
+          {
+            "kind": "row",
+            "node": "89:741",
+            "name": "Row",
+            "style": {
+              "gap": "72px",
+              "width": "100%",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "stack",
+                "node": "89:742",
+                "name": "Stack",
+                "style": {
+                  "gap": "16px",
+                  "--basis": "440px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "89:743",
+                    "text": "Grouped, not repeated",
+                    "style": {
+                      "letterSpacing": "0.96px",
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "12px",
+                      "fontWeight": 500,
+                      "fontFamily": "'Geist Mono',monospace",
+                      "textTransform": "uppercase",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "heading",
+                    "node": "89:744",
+                    "text": "Similar alerts become one decision.",
+                    "style": {
+                      "letterSpacing": "-0.8px",
+                      "lineHeight": "46px",
+                      "color": "#0b1220",
+                      "fontSize": "40px",
+                      "fontWeight": 600,
+                      "width": "100%",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "89:745",
+                    "text": "When the same thing happens across several apps, Intercept groups it with the recipients and counts, and explains the usual cause.",
+                    "style": {
+                      "lineHeight": "28px",
+                      "color": "#3d4757",
+                      "fontSize": "17px",
+                      "width": "100%",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "stack",
+                    "node": "89:746",
+                    "name": "Checklist",
+                    "style": {
+                      "gap": "10px",
+                      "width": "100%",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "row",
+                        "node": "89:747",
+                        "name": "Row",
+                        "style": {
+                          "gap": "12px",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "row",
+                            "node": "89:748",
+                            "name": "Row",
+                            "style": {
+                              "paddingTop": "3px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "icon",
+                                "src": "./assets/subpages/997a0.svg",
+                                "size": 18,
+                                "node": "89:749",
+                                "style": {}
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "text",
+                            "node": "89:751",
+                            "text": "Similar alerts grouped with their recipients and counts",
+                            "style": {
+                              "lineHeight": "24px",
+                              "color": "#3d4757",
+                              "fontSize": "15.5px",
+                              "flex": "1 1 0",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "row",
+                        "node": "89:752",
+                        "name": "Row",
+                        "style": {
+                          "gap": "12px",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "row",
+                            "node": "89:753",
+                            "name": "Row",
+                            "style": {
+                              "paddingTop": "3px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "icon",
+                                "src": "./assets/subpages/997a0.svg",
+                                "size": 18,
+                                "node": "89:754",
+                                "style": {}
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "text",
+                            "node": "89:756",
+                            "text": "Recognised agent activity kept in history, never notified",
+                            "style": {
+                              "lineHeight": "24px",
+                              "color": "#3d4757",
+                              "fontSize": "15.5px",
+                              "flex": "1 1 0",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "row",
+                        "node": "89:757",
+                        "name": "Row",
+                        "style": {
+                          "gap": "12px",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "row",
+                            "node": "89:758",
+                            "name": "Row",
+                            "style": {
+                              "paddingTop": "3px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "icon",
+                                "src": "./assets/subpages/997a0.svg",
+                                "size": 18,
+                                "node": "89:759",
+                                "style": {}
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "text",
+                            "node": "89:761",
+                            "text": "Snooze a group for 24 hours, or mark one app as expected",
+                            "style": {
+                              "lineHeight": "24px",
+                              "color": "#3d4757",
+                              "fontSize": "15.5px",
+                              "flex": "1 1 0",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "89:762",
+                "name": "Stack",
+                "style": {
+                  "gap": "12px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "stack",
+                    "node": "89:763",
+                    "name": "Stack",
+                    "style": {
+                      "gap": "14px",
+                      "padding": "22px",
+                      "borderRadius": "16px",
+                      "background": "#fff",
+                      "width": "100%",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "row",
+                        "node": "89:764",
+                        "name": "Row",
+                        "style": {
+                          "gap": "12px",
+                          "width": "100%",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "row",
+                            "node": "89:765",
+                            "name": "Row",
+                            "style": {
+                              "borderRadius": "10px",
+                              "background": "#f1f4f9",
+                              "width": "36px",
+                              "height": "36px",
+                              "alignItems": "center",
+                              "justifyContent": "center"
+                            },
+                            "children": [
+                              {
+                                "kind": "icon",
+                                "src": "./assets/subpages/3f9d2.svg",
+                                "size": 18,
+                                "node": "89:766",
+                                "style": {}
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "stack",
+                            "node": "89:776",
+                            "name": "Stack",
+                            "style": {
+                              "gap": "2px",
+                              "flex": "1 1 0",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "text",
+                                "node": "89:777",
+                                "text": "Software typed into Slack, Edge, PowerPoint and 3 more apps",
+                                "style": {
+                                  "lineHeight": "22px",
+                                  "color": "#0b1220",
+                                  "fontSize": "15.5px",
+                                  "fontWeight": 600,
+                                  "width": "100%",
+                                  "fontFamily": "'Instrument Sans',sans-serif"
+                                }
+                              },
+                              {
+                                "kind": "text",
+                                "node": "89:778",
+                                "text": "38 times this week · sending program unknown each time",
+                                "style": {
+                                  "lineHeight": "19px",
+                                  "color": "#667085",
+                                  "fontSize": "13.5px",
+                                  "width": "100%",
+                                  "fontWeight": 400,
+                                  "fontFamily": "'Instrument Sans',sans-serif"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "row",
+                        "node": "89:779",
+                        "name": "Row",
+                        "style": {
+                          "gap": "6px",
+                          "width": "100%",
+                          "alignItems": "flex-start",
+                          "flexWrap": "wrap"
+                        },
+                        "children": [
+                          {
+                            "kind": "row",
+                            "node": "89:780",
+                            "name": "Row",
+                            "style": {
+                              "borderRadius": "6px",
+                              "background": "#f1f4f9",
+                              "paddingLeft": "8px",
+                              "paddingRight": "8px",
+                              "paddingTop": "4px",
+                              "paddingBottom": "4px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "text",
+                                "node": "89:781",
+                                "text": "slack.exe ×21",
+                                "style": {
+                                  "lineHeight": "normal",
+                                  "color": "#3d4757",
+                                  "fontSize": "12px",
+                                  "fontFamily": "'Geist Mono',monospace",
+                                  "fontWeight": 400,
+                                  "whiteSpace": "nowrap"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "row",
+                            "node": "89:782",
+                            "name": "Row",
+                            "style": {
+                              "borderRadius": "6px",
+                              "background": "#f1f4f9",
+                              "paddingLeft": "8px",
+                              "paddingRight": "8px",
+                              "paddingTop": "4px",
+                              "paddingBottom": "4px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "text",
+                                "node": "89:783",
+                                "text": "msedge.exe ×9",
+                                "style": {
+                                  "lineHeight": "normal",
+                                  "color": "#3d4757",
+                                  "fontSize": "12px",
+                                  "fontFamily": "'Geist Mono',monospace",
+                                  "fontWeight": 400,
+                                  "whiteSpace": "nowrap"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "row",
+                            "node": "89:784",
+                            "name": "Row",
+                            "style": {
+                              "borderRadius": "6px",
+                              "background": "#f1f4f9",
+                              "paddingLeft": "8px",
+                              "paddingRight": "8px",
+                              "paddingTop": "4px",
+                              "paddingBottom": "4px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "text",
+                                "node": "89:785",
+                                "text": "powerpnt.exe ×4",
+                                "style": {
+                                  "lineHeight": "normal",
+                                  "color": "#3d4757",
+                                  "fontSize": "12px",
+                                  "fontFamily": "'Geist Mono',monospace",
+                                  "fontWeight": 400,
+                                  "whiteSpace": "nowrap"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "row",
+                            "node": "89:786",
+                            "name": "Row",
+                            "style": {
+                              "borderRadius": "6px",
+                              "background": "#f1f4f9",
+                              "paddingLeft": "8px",
+                              "paddingRight": "8px",
+                              "paddingTop": "4px",
+                              "paddingBottom": "4px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "text",
+                                "node": "89:787",
+                                "text": "notepad.exe ×2",
+                                "style": {
+                                  "lineHeight": "normal",
+                                  "color": "#3d4757",
+                                  "fontSize": "12px",
+                                  "fontFamily": "'Geist Mono',monospace",
+                                  "fontWeight": 400,
+                                  "whiteSpace": "nowrap"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "row",
+                            "node": "89:788",
+                            "name": "Row",
+                            "style": {
+                              "borderRadius": "6px",
+                              "background": "#f1f4f9",
+                              "paddingLeft": "8px",
+                              "paddingRight": "8px",
+                              "paddingTop": "4px",
+                              "paddingBottom": "4px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "text",
+                                "node": "89:789",
+                                "text": "zoom.exe ×1",
+                                "style": {
+                                  "lineHeight": "normal",
+                                  "color": "#3d4757",
+                                  "fontSize": "12px",
+                                  "fontFamily": "'Geist Mono',monospace",
+                                  "fontWeight": 400,
+                                  "whiteSpace": "nowrap"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "row",
+                            "node": "89:790",
+                            "name": "Row",
+                            "style": {
+                              "borderRadius": "6px",
+                              "background": "#f1f4f9",
+                              "paddingLeft": "8px",
+                              "paddingRight": "8px",
+                              "paddingTop": "4px",
+                              "paddingBottom": "4px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "text",
+                                "node": "89:791",
+                                "text": "claude.exe ×1",
+                                "style": {
+                                  "lineHeight": "normal",
+                                  "color": "#3d4757",
+                                  "fontSize": "12px",
+                                  "fontFamily": "'Geist Mono',monospace",
+                                  "fontWeight": 400,
+                                  "whiteSpace": "nowrap"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "row",
+                        "node": "89:792",
+                        "name": "Row",
+                        "style": {
+                          "gap": "10px",
+                          "borderRadius": "10px",
+                          "background": "#e7effe",
+                          "paddingLeft": "14px",
+                          "paddingRight": "14px",
+                          "paddingTop": "12px",
+                          "paddingBottom": "12px",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "row",
+                            "node": "89:793",
+                            "name": "Row",
+                            "style": {
+                              "paddingTop": "2px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "icon",
+                                "src": "./assets/subpages/10d05.svg",
+                                "size": 15,
+                                "node": "89:794",
+                                "style": {}
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "text",
+                            "node": "89:798",
+                            "text": "Repeated typing into chat and office apps is usually voice typing, an on-screen keyboard, PowerToys or a password manager. Marking an app as expected stops notifications but keeps the record.",
+                            "style": {
+                              "lineHeight": "20px",
+                              "color": "#3d4757",
+                              "fontSize": "13.5px",
+                              "flex": "1 1 0",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "row",
+                        "node": "89:799",
+                        "name": "Row",
+                        "style": {
+                          "gap": "8px",
+                          "width": "100%",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "pill",
+                            "node": "89:800",
+                            "name": "Row",
+                            "style": {
+                              "borderRadius": "999px",
+                              "paddingLeft": "14px",
+                              "paddingRight": "14px",
+                              "paddingTop": "7px",
+                              "paddingBottom": "7px",
+                              "background": "#fff",
+                              "borderColor": "#c9d1dc",
+                              "borderWidth": "1px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "text",
+                                "node": "89:801",
+                                "text": "Review all 38",
+                                "style": {
+                                  "lineHeight": "normal",
+                                  "color": "#0b1220",
+                                  "fontSize": "13px",
+                                  "fontWeight": 600,
+                                  "fontFamily": "'Instrument Sans',sans-serif",
+                                  "whiteSpace": "nowrap"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "pill",
+                            "node": "89:802",
+                            "name": "Row",
+                            "style": {
+                              "borderRadius": "999px",
+                              "paddingLeft": "14px",
+                              "paddingRight": "14px",
+                              "paddingTop": "7px",
+                              "paddingBottom": "7px",
+                              "background": "#fff",
+                              "borderColor": "#c9d1dc",
+                              "borderWidth": "1px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "text",
+                                "node": "89:803",
+                                "text": "Mark Slack as expected",
+                                "style": {
+                                  "lineHeight": "normal",
+                                  "color": "#0b1220",
+                                  "fontSize": "13px",
+                                  "fontWeight": 600,
+                                  "fontFamily": "'Instrument Sans',sans-serif",
+                                  "whiteSpace": "nowrap"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "text",
+                            "node": "89:804",
+                            "name": "flex",
+                            "text": "",
+                            "style": {
+                              "flex": "1 1 0"
+                            }
+                          },
+                          {
+                            "kind": "pill",
+                            "node": "89:805",
+                            "name": "Row",
+                            "style": {
+                              "borderRadius": "999px",
+                              "background": "#e9edf3",
+                              "paddingLeft": "14px",
+                              "paddingRight": "14px",
+                              "paddingTop": "7px",
+                              "paddingBottom": "7px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "text",
+                                "node": "89:806",
+                                "text": "Snooze group 24 h",
+                                "style": {
+                                  "lineHeight": "normal",
+                                  "color": "#0b1220",
+                                  "fontSize": "13px",
+                                  "fontWeight": 600,
+                                  "fontFamily": "'Instrument Sans',sans-serif",
+                                  "whiteSpace": "nowrap"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "row",
+                    "node": "89:807",
+                    "name": "Row",
+                    "style": {
+                      "gap": "12px",
+                      "borderRadius": "16px",
+                      "paddingLeft": "22px",
+                      "paddingRight": "22px",
+                      "paddingTop": "18px",
+                      "paddingBottom": "18px",
+                      "background": "#fff",
+                      "width": "100%",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "row",
+                        "node": "89:808",
+                        "name": "Row",
+                        "style": {
+                          "borderRadius": "10px",
+                          "background": "#eee9f7",
+                          "width": "36px",
+                          "height": "36px",
+                          "alignItems": "center",
+                          "justifyContent": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "icon",
+                            "src": "./assets/subpages/8f0f9.svg",
+                            "size": 18,
+                            "node": "89:809",
+                            "style": {}
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "stack",
+                        "node": "89:816",
+                        "name": "Stack",
+                        "style": {
+                          "gap": "2px",
+                          "flex": "1 1 0",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "89:817",
+                            "text": "Claude typed in Notepad (6) · Codex clicked in Paint (8)",
+                            "style": {
+                              "lineHeight": "21px",
+                              "color": "#0b1220",
+                              "fontSize": "15px",
+                              "fontWeight": 600,
+                              "width": "100%",
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          },
+                          {
+                            "kind": "text",
+                            "node": "89:818",
+                            "text": "Signed agents working in apps they were approved for. Kept in history, never notified.",
+                            "style": {
+                              "lineHeight": "19px",
+                              "color": "#667085",
+                              "fontSize": "13.5px",
+                              "width": "100%",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "pill",
+                        "node": "89:819",
+                        "name": "Pill · Recognised",
+                        "style": {
+                          "borderRadius": "999px",
+                          "background": "#eee9f7",
+                          "paddingLeft": "10px",
+                          "paddingRight": "10px",
+                          "paddingTop": "4px",
+                          "paddingBottom": "4px",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "89:820",
+                            "text": "Recognised",
+                            "style": {
+                              "letterSpacing": "0.66px",
+                              "lineHeight": "normal",
+                              "color": "#6d28d9",
+                              "fontSize": "11px",
+                              "fontWeight": 500,
+                              "fontFamily": "'Geist Mono',monospace",
+                              "textTransform": "uppercase",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tour": false
+    },
+    {
+      "id": "always-alerts",
+      "content": {
+        "kind": "stack",
+        "node": "89:821",
+        "name": "Always alerts",
+        "style": {
+          "paddingLeft": "120px",
+          "paddingRight": "120px",
+          "paddingTop": "96px",
+          "paddingBottom": "96px",
+          "background": "#fff",
+          "alignItems": "flex-start"
+        },
+        "children": [
+          {
+            "kind": "row",
+            "node": "89:822",
+            "name": "Section header",
+            "style": {
+              "gap": "64px",
+              "width": "100%",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "stack",
+                "node": "89:823",
+                "name": "Stack",
+                "style": {
+                  "gap": "16px",
+                  "--basis": "600px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "89:824",
+                    "text": "Always alerts",
+                    "style": {
+                      "letterSpacing": "0.96px",
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "12px",
+                      "fontWeight": 500,
+                      "fontFamily": "'Geist Mono',monospace",
+                      "textTransform": "uppercase",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "heading",
+                    "node": "89:825",
+                    "text": "Five findings you can’t silence globally.",
+                    "style": {
+                      "letterSpacing": "-0.8px",
+                      "lineHeight": "46px",
+                      "color": "#0b1220",
+                      "fontSize": "40px",
+                      "fontWeight": 600,
+                      "width": "100%",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "89:826",
+                "name": "Stack",
+                "style": {
+                  "paddingTop": "30px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "89:827",
+                    "text": "You can mark a single event as expected for that path and agent. The guardrail itself stays on, for every agent and in every mode.",
+                    "style": {
+                      "lineHeight": "29px",
+                      "color": "#3d4757",
+                      "fontSize": "18px",
+                      "width": "100%",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "spacer",
+            "node": "89:828",
+            "name": "Spacer",
+            "text": "",
+            "style": {
+              "width": "100%",
+              "minHeight": "48px",
+              "height": "48px"
+            }
+          },
+          {
+            "kind": "row",
+            "node": "89:829",
+            "name": "Row",
+            "style": {
+              "gap": "16px",
+              "width": "100%",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "stack",
+                "node": "89:830",
+                "name": "Stack",
+                "style": {
+                  "gap": "14px",
+                  "borderRadius": "14px",
+                  "background": "#fdebe9",
+                  "paddingLeft": "20px",
+                  "paddingRight": "20px",
+                  "paddingTop": "22px",
+                  "paddingBottom": "22px",
+                  "minHeight": "224px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "row",
+                    "node": "89:831",
+                    "name": "Row",
+                    "style": {
+                      "width": "100%",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "icon",
+                        "src": "./assets/subpages/7c1ed.svg",
+                        "size": 20,
+                        "node": "89:832",
+                        "style": {}
+                      },
+                      {
+                        "kind": "text",
+                        "node": "89:838",
+                        "name": "flex",
+                        "text": "",
+                        "style": {
+                          "flex": "1 1 0"
+                        }
+                      },
+                      {
+                        "kind": "icon",
+                        "src": "./assets/subpages/41dfa.svg",
+                        "size": 14,
+                        "node": "89:839",
+                        "style": {}
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "node": "89:842",
+                    "text": "Reading a decoy credential file",
+                    "style": {
+                      "lineHeight": "22px",
+                      "color": "#0b1220",
+                      "fontSize": "15px",
+                      "fontWeight": 500,
+                      "width": "100%",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "89:843",
+                "name": "Stack",
+                "style": {
+                  "gap": "14px",
+                  "borderRadius": "14px",
+                  "background": "#fdebe9",
+                  "paddingLeft": "20px",
+                  "paddingRight": "20px",
+                  "paddingTop": "22px",
+                  "paddingBottom": "22px",
+                  "minHeight": "224px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "row",
+                    "node": "89:844",
+                    "name": "Row",
+                    "style": {
+                      "width": "100%",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "icon",
+                        "src": "./assets/subpages/e7d2a.svg",
+                        "size": 20,
+                        "node": "89:845",
+                        "style": {}
+                      },
+                      {
+                        "kind": "text",
+                        "node": "89:849",
+                        "name": "flex",
+                        "text": "",
+                        "style": {
+                          "flex": "1 1 0"
+                        }
+                      },
+                      {
+                        "kind": "icon",
+                        "src": "./assets/subpages/41dfa.svg",
+                        "size": 14,
+                        "node": "89:850",
+                        "style": {}
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "node": "89:853",
+                    "text": "Opening saved sign-ins, Credential Manager or SSH keys",
+                    "style": {
+                      "lineHeight": "22px",
+                      "color": "#0b1220",
+                      "fontSize": "15px",
+                      "fontWeight": 500,
+                      "width": "100%",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "89:854",
+                "name": "Stack",
+                "style": {
+                  "gap": "14px",
+                  "borderRadius": "14px",
+                  "background": "#fdebe9",
+                  "paddingLeft": "20px",
+                  "paddingRight": "20px",
+                  "paddingTop": "22px",
+                  "paddingBottom": "22px",
+                  "minHeight": "224px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "row",
+                    "node": "89:855",
+                    "name": "Row",
+                    "style": {
+                      "width": "100%",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "icon",
+                        "src": "./assets/subpages/6807e.svg",
+                        "size": 20,
+                        "node": "89:856",
+                        "style": {}
+                      },
+                      {
+                        "kind": "text",
+                        "node": "89:860",
+                        "name": "flex",
+                        "text": "",
+                        "style": {
+                          "flex": "1 1 0"
+                        }
+                      },
+                      {
+                        "kind": "icon",
+                        "src": "./assets/subpages/41dfa.svg",
+                        "size": 14,
+                        "node": "89:861",
+                        "style": {}
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "node": "89:864",
+                    "text": "Adding or changing an MCP server, hook or plugin",
+                    "style": {
+                      "lineHeight": "22px",
+                      "color": "#0b1220",
+                      "fontSize": "15px",
+                      "fontWeight": 500,
+                      "width": "100%",
+                      "fontFamily": "'Instrument Sans',sans-serif",
+                      "fontKerning": "normal"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "89:865",
+                "name": "Stack",
+                "style": {
+                  "gap": "14px",
+                  "borderRadius": "14px",
+                  "background": "#fdebe9",
+                  "paddingLeft": "20px",
+                  "paddingRight": "20px",
+                  "paddingTop": "22px",
+                  "paddingBottom": "22px",
+                  "minHeight": "224px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "row",
+                    "node": "89:866",
+                    "name": "Row",
+                    "style": {
+                      "width": "100%",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "icon",
+                        "src": "./assets/subpages/4bbcb.svg",
+                        "size": 20,
+                        "node": "89:867",
+                        "style": {}
+                      },
+                      {
+                        "kind": "text",
+                        "node": "89:877",
+                        "name": "flex",
+                        "text": "",
+                        "style": {
+                          "flex": "1 1 0"
+                        }
+                      },
+                      {
+                        "kind": "icon",
+                        "src": "./assets/subpages/41dfa.svg",
+                        "size": 14,
+                        "node": "89:878",
+                        "style": {}
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "node": "89:881",
+                    "text": "Typing into a protected app",
+                    "style": {
+                      "lineHeight": "22px",
+                      "color": "#0b1220",
+                      "fontSize": "15px",
+                      "fontWeight": 500,
+                      "width": "100%",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "89:882",
+                "name": "Stack",
+                "style": {
+                  "gap": "14px",
+                  "borderRadius": "14px",
+                  "background": "#fdebe9",
+                  "paddingLeft": "20px",
+                  "paddingRight": "20px",
+                  "paddingTop": "22px",
+                  "paddingBottom": "22px",
+                  "minHeight": "224px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "row",
+                    "node": "89:883",
+                    "name": "Row",
+                    "style": {
+                      "width": "100%",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "icon",
+                        "src": "./assets/subpages/4c54f.svg",
+                        "size": 20,
+                        "node": "89:884",
+                        "style": {}
+                      },
+                      {
+                        "kind": "text",
+                        "node": "89:887",
+                        "name": "flex",
+                        "text": "",
+                        "style": {
+                          "flex": "1 1 0"
+                        }
+                      },
+                      {
+                        "kind": "icon",
+                        "src": "./assets/subpages/41dfa.svg",
+                        "size": 14,
+                        "node": "89:888",
+                        "style": {}
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "node": "89:891",
+                    "text": "Turning off or tampering with Intercept’s protection",
+                    "style": {
+                      "lineHeight": "22px",
+                      "color": "#0b1220",
+                      "fontSize": "15px",
+                      "fontWeight": 500,
+                      "width": "100%",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tour": false
+    },
+    {
+      "id": "acting",
+      "content": {
+        "kind": "stack",
+        "node": "89:892",
+        "name": "Acting on alerts",
+        "style": {
+          "background": "#f1f4f9",
+          "paddingLeft": "120px",
+          "paddingRight": "120px",
+          "paddingTop": "96px",
+          "paddingBottom": "96px",
+          "alignItems": "flex-start"
+        },
+        "children": [
+          {
+            "kind": "row",
+            "node": "89:893",
+            "name": "Section header",
+            "style": {
+              "gap": "64px",
+              "width": "100%",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "stack",
+                "node": "89:894",
+                "name": "Stack",
+                "style": {
+                  "gap": "16px",
+                  "--basis": "600px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "89:895",
+                    "text": "Safe by default",
+                    "style": {
+                      "letterSpacing": "0.96px",
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "12px",
+                      "fontWeight": 500,
+                      "fontFamily": "'Geist Mono',monospace",
+                      "textTransform": "uppercase",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "heading",
+                    "node": "89:896",
+                    "text": "Easy things stay one click. Dangerous things are always deliberate.",
+                    "style": {
+                      "letterSpacing": "-0.8px",
+                      "lineHeight": "46px",
+                      "color": "#0b1220",
+                      "fontSize": "40px",
+                      "fontWeight": 600,
+                      "width": "100%",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "89:897",
+                "name": "Stack",
+                "style": {
+                  "paddingTop": "30px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "89:898",
+                    "text": "Every action has one of four confirmation levels, and every level writes to a local actions ledger you can review and undo.",
+                    "style": {
+                      "lineHeight": "29px",
+                      "color": "#3d4757",
+                      "fontSize": "18px",
+                      "width": "100%",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "spacer",
+            "node": "89:899",
+            "name": "Spacer",
+            "text": "",
+            "style": {
+              "width": "100%",
+              "minHeight": "48px",
+              "height": "48px"
+            }
+          },
+          {
+            "kind": "row",
+            "node": "89:900",
+            "name": "Row",
+            "style": {
+              "gap": "24px",
+              "width": "100%",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "stack",
+                "node": "89:901",
+                "name": "Stack",
+                "style": {
+                  "paddingBottom": "24px",
+                  "borderRadius": "16px",
+                  "background": "#fff",
+                  "minHeight": "209px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start",
+                  "overflow": "hidden"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "89:902",
+                    "name": "Row",
+                    "text": "",
+                    "style": {
+                      "background": "#e3f5ec",
+                      "width": "100%",
+                      "minHeight": "8px"
+                    }
+                  },
+                  {
+                    "kind": "spacer",
+                    "node": "89:903",
+                    "name": "Spacer",
+                    "text": "",
+                    "style": {
+                      "width": "100%",
+                      "minHeight": "20px",
+                      "height": "20px"
+                    }
+                  },
+                  {
+                    "kind": "stack",
+                    "node": "89:904",
+                    "name": "Stack",
+                    "style": {
+                      "gap": "8px",
+                      "paddingLeft": "24px",
+                      "paddingRight": "24px",
+                      "width": "100%",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "89:905",
+                        "text": "01",
+                        "style": {
+                          "letterSpacing": "0.72px",
+                          "lineHeight": "normal",
+                          "color": "#667085",
+                          "fontSize": "12px",
+                          "fontWeight": 500,
+                          "fontFamily": "'Geist Mono',monospace",
+                          "width": "100%"
+                        }
+                      },
+                      {
+                        "kind": "subheading",
+                        "node": "89:906",
+                        "text": "One click + Undo",
+                        "style": {
+                          "lineHeight": "26px",
+                          "color": "#0b1220",
+                          "fontSize": "20px",
+                          "fontWeight": 600,
+                          "width": "100%",
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      },
+                      {
+                        "kind": "text",
+                        "node": "89:907",
+                        "text": "Mark as expected · Snooze · Dismiss",
+                        "style": {
+                          "lineHeight": "21px",
+                          "color": "#0b1220",
+                          "fontSize": "14.5px",
+                          "fontWeight": 500,
+                          "width": "100%",
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      },
+                      {
+                        "kind": "text",
+                        "node": "89:908",
+                        "text": "No dialog. Undo for 10 seconds, then from the ledger.",
+                        "style": {
+                          "lineHeight": "22px",
+                          "color": "#3d4757",
+                          "fontSize": "14.5px",
+                          "width": "100%",
+                          "fontWeight": 400,
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "89:909",
+                "name": "Stack",
+                "style": {
+                  "paddingBottom": "24px",
+                  "borderRadius": "16px",
+                  "background": "#fff",
+                  "minHeight": "209px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start",
+                  "overflow": "hidden"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "89:910",
+                    "name": "Row",
+                    "text": "",
+                    "style": {
+                      "background": "#e7effe",
+                      "width": "100%",
+                      "minHeight": "8px"
+                    }
+                  },
+                  {
+                    "kind": "spacer",
+                    "node": "89:911",
+                    "name": "Spacer",
+                    "text": "",
+                    "style": {
+                      "width": "100%",
+                      "minHeight": "20px",
+                      "height": "20px"
+                    }
+                  },
+                  {
+                    "kind": "stack",
+                    "node": "89:912",
+                    "name": "Stack",
+                    "style": {
+                      "gap": "8px",
+                      "paddingLeft": "24px",
+                      "paddingRight": "24px",
+                      "width": "100%",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "89:913",
+                        "text": "02",
+                        "style": {
+                          "letterSpacing": "0.72px",
+                          "lineHeight": "normal",
+                          "color": "#667085",
+                          "fontSize": "12px",
+                          "fontWeight": 500,
+                          "fontFamily": "'Geist Mono',monospace",
+                          "width": "100%"
+                        }
+                      },
+                      {
+                        "kind": "subheading",
+                        "node": "89:914",
+                        "text": "Confirm the consequence",
+                        "style": {
+                          "lineHeight": "26px",
+                          "color": "#0b1220",
+                          "fontSize": "20px",
+                          "fontWeight": 600,
+                          "width": "100%",
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      },
+                      {
+                        "kind": "text",
+                        "node": "89:915",
+                        "text": "Trust an agent · Add an exception",
+                        "style": {
+                          "lineHeight": "21px",
+                          "color": "#0b1220",
+                          "fontSize": "14.5px",
+                          "fontWeight": 500,
+                          "width": "100%",
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      },
+                      {
+                        "kind": "text",
+                        "node": "89:916",
+                        "text": "One plain sentence of what changes. Cancel is focused.",
+                        "style": {
+                          "lineHeight": "22px",
+                          "color": "#3d4757",
+                          "fontSize": "14.5px",
+                          "width": "100%",
+                          "fontWeight": 400,
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "89:917",
+                "name": "Stack",
+                "style": {
+                  "paddingBottom": "24px",
+                  "borderRadius": "16px",
+                  "background": "#fff",
+                  "minHeight": "209px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start",
+                  "overflow": "hidden"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "89:918",
+                    "name": "Row",
+                    "text": "",
+                    "style": {
+                      "background": "#fbf1df",
+                      "width": "100%",
+                      "minHeight": "8px"
+                    }
+                  },
+                  {
+                    "kind": "spacer",
+                    "node": "89:919",
+                    "name": "Spacer",
+                    "text": "",
+                    "style": {
+                      "width": "100%",
+                      "minHeight": "20px",
+                      "height": "20px"
+                    }
+                  },
+                  {
+                    "kind": "stack",
+                    "node": "89:920",
+                    "name": "Stack",
+                    "style": {
+                      "gap": "8px",
+                      "paddingLeft": "24px",
+                      "paddingRight": "24px",
+                      "width": "100%",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "89:921",
+                        "text": "03",
+                        "style": {
+                          "letterSpacing": "0.72px",
+                          "lineHeight": "normal",
+                          "color": "#667085",
+                          "fontSize": "12px",
+                          "fontWeight": 500,
+                          "fontFamily": "'Geist Mono',monospace",
+                          "width": "100%"
+                        }
+                      },
+                      {
+                        "kind": "subheading",
+                        "node": "89:922",
+                        "text": "Hold, then auto-revert",
+                        "style": {
+                          "lineHeight": "26px",
+                          "color": "#0b1220",
+                          "fontSize": "20px",
+                          "fontWeight": 600,
+                          "width": "100%",
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      },
+                      {
+                        "kind": "text",
+                        "node": "89:923",
+                        "text": "Turn off input protection · Pause monitoring",
+                        "style": {
+                          "lineHeight": "21px",
+                          "color": "#0b1220",
+                          "fontSize": "14.5px",
+                          "fontWeight": 500,
+                          "width": "100%",
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      },
+                      {
+                        "kind": "text",
+                        "node": "89:924",
+                        "text": "Hold for 1.5 s. Back on automatically in 15 minutes by default.",
+                        "style": {
+                          "lineHeight": "22px",
+                          "color": "#3d4757",
+                          "fontSize": "14.5px",
+                          "width": "100%",
+                          "fontWeight": 400,
+                          "fontFamily": "'Instrument Sans',sans-serif",
+                          "fontKerning": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "89:925",
+                "name": "Stack",
+                "style": {
+                  "paddingBottom": "24px",
+                  "borderRadius": "16px",
+                  "background": "#fff",
+                  "minHeight": "209px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start",
+                  "overflow": "hidden"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "89:926",
+                    "name": "Row",
+                    "text": "",
+                    "style": {
+                      "background": "#fdebe9",
+                      "width": "100%",
+                      "minHeight": "8px"
+                    }
+                  },
+                  {
+                    "kind": "spacer",
+                    "node": "89:927",
+                    "name": "Spacer",
+                    "text": "",
+                    "style": {
+                      "width": "100%",
+                      "minHeight": "20px",
+                      "height": "20px"
+                    }
+                  },
+                  {
+                    "kind": "stack",
+                    "node": "89:928",
+                    "name": "Stack",
+                    "style": {
+                      "gap": "8px",
+                      "paddingLeft": "24px",
+                      "paddingRight": "24px",
+                      "width": "100%",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "89:929",
+                        "text": "04",
+                        "style": {
+                          "letterSpacing": "0.72px",
+                          "lineHeight": "normal",
+                          "color": "#667085",
+                          "fontSize": "12px",
+                          "fontWeight": 500,
+                          "fontFamily": "'Geist Mono',monospace",
+                          "width": "100%"
+                        }
+                      },
+                      {
+                        "kind": "subheading",
+                        "node": "89:930",
+                        "text": "Typed confirmation",
+                        "style": {
+                          "lineHeight": "26px",
+                          "color": "#0b1220",
+                          "fontSize": "20px",
+                          "fontWeight": 600,
+                          "width": "100%",
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      },
+                      {
+                        "kind": "text",
+                        "node": "89:931",
+                        "text": "Delete Credential Manager entries · Remove a passkey",
+                        "style": {
+                          "lineHeight": "21px",
+                          "color": "#0b1220",
+                          "fontSize": "14.5px",
+                          "fontWeight": 500,
+                          "width": "100%",
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      },
+                      {
+                        "kind": "text",
+                        "node": "89:932",
+                        "text": "Lists exactly what can’t be undone. Type the phrase shown.",
+                        "style": {
+                          "lineHeight": "22px",
+                          "color": "#3d4757",
+                          "fontSize": "14.5px",
+                          "width": "100%",
+                          "fontWeight": 400,
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tour": false
+    }
+  ]
+}

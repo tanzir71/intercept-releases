@@ -1,0 +1,3046 @@
+{
+  "kind": "stack",
+  "node": "93:833",
+  "name": "Article",
+  "style": {
+    "--basis": "680px",
+    "alignItems": "flex-start"
+  },
+  "children": [
+    {
+      "kind": "text",
+      "node": "93:849",
+      "text": "Trust and security",
+      "style": {
+        "letterSpacing": "0.96px",
+        "lineHeight": "normal",
+        "color": "#2563eb",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "fontFamily": "'Geist Mono',monospace",
+        "textTransform": "uppercase",
+        "whiteSpace": "nowrap"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "93:850",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "93:851",
+      "text": "Coverage notes",
+      "style": {
+        "letterSpacing": "-0.88px",
+        "lineHeight": "50px",
+        "color": "#0b1220",
+        "fontSize": "44px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "93:852",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "18px",
+        "height": "18px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "93:853",
+      "text": "Windows doesn’t expose everything. This page lists, route by route and signal by signal, what Intercept can prove and where the line is, so you never have to guess.",
+      "style": {
+        "lineHeight": "30px",
+        "color": "#3d4757",
+        "fontSize": "19px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "93:854",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "22px",
+        "height": "22px"
+      }
+    },
+    {
+      "kind": "row",
+      "node": "93:855",
+      "name": "Doc meta",
+      "style": {
+        "gap": "10px",
+        "lineHeight": "normal",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "fontFamily": "'Geist Mono',monospace",
+        "alignItems": "center"
+      },
+      "children": [
+        {
+          "kind": "text",
+          "node": "93:856",
+          "text": "Updated {{dateLabel}}",
+          "style": {
+            "letterSpacing": "0.48px",
+            "color": "#667085",
+            "textTransform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "node": "93:857",
+          "text": "·",
+          "style": {
+            "color": "#98a2b3"
+          }
+        },
+        {
+          "kind": "text",
+          "node": "93:858",
+          "text": "Applies to {{version}}",
+          "style": {
+            "letterSpacing": "0.48px",
+            "color": "#667085",
+            "textTransform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "node": "93:859",
+          "text": "·",
+          "style": {
+            "color": "#98a2b3"
+          }
+        },
+        {
+          "kind": "text",
+          "node": "93:860",
+          "text": "7 min read",
+          "style": {
+            "letterSpacing": "0.48px",
+            "color": "#667085",
+            "textTransform": "uppercase"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "93:861",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "28px",
+        "height": "28px"
+      }
+    },
+    {
+      "kind": "divider",
+      "node": "93:862",
+      "name": "Divider",
+      "text": "",
+      "style": {
+        "background": "#e4e7ec",
+        "width": "100%",
+        "height": "1px"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "93:863",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "40px",
+        "height": "40px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "93:864",
+      "text": "Summary",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "93:865",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "row",
+      "node": "93:866",
+      "name": "Row",
+      "style": {
+        "gap": "16px",
+        "width": "100%",
+        "alignItems": "flex-start"
+      },
+      "children": [
+        {
+          "kind": "stack",
+          "node": "93:867",
+          "name": "Stack",
+          "style": {
+            "gap": "6px",
+            "padding": "20px",
+            "borderRadius": "12px",
+            "background": "#f1f4f9",
+            "minHeight": "147px",
+            "flex": "1 1 0",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "heading",
+              "node": "93:868",
+              "text": "1 of 8",
+              "style": {
+                "letterSpacing": "-0.64px",
+                "lineHeight": "38px",
+                "color": "#047857",
+                "fontSize": "32px",
+                "fontWeight": 600,
+                "width": "100%",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:869",
+              "text": "input routes can be paused, in the apps you choose",
+              "style": {
+                "lineHeight": "21px",
+                "color": "#3d4757",
+                "fontSize": "14.5px",
+                "width": "100%",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "stack",
+          "node": "93:870",
+          "name": "Stack",
+          "style": {
+            "gap": "6px",
+            "padding": "20px",
+            "borderRadius": "12px",
+            "background": "#f1f4f9",
+            "minHeight": "147px",
+            "flex": "1 1 0",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "heading",
+              "node": "93:871",
+              "text": "7",
+              "style": {
+                "letterSpacing": "-0.64px",
+                "lineHeight": "38px",
+                "color": "#b45309",
+                "fontSize": "32px",
+                "fontWeight": 600,
+                "width": "100%",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:872",
+              "text": "routes are reported as not paused, never hidden",
+              "style": {
+                "lineHeight": "21px",
+                "color": "#3d4757",
+                "fontSize": "14.5px",
+                "width": "100%",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "stack",
+          "node": "93:873",
+          "name": "Stack",
+          "style": {
+            "gap": "6px",
+            "padding": "20px",
+            "borderRadius": "12px",
+            "background": "#f1f4f9",
+            "minHeight": "147px",
+            "flex": "1 1 0",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "heading",
+              "node": "93:874",
+              "text": "30 s",
+              "style": {
+                "letterSpacing": "-0.64px",
+                "lineHeight": "38px",
+                "color": "#0b1220",
+                "fontSize": "32px",
+                "fontWeight": 600,
+                "width": "100%",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:875",
+              "text": "between hook renewals, with gaps recorded",
+              "style": {
+                "lineHeight": "21px",
+                "color": "#3d4757",
+                "fontSize": "14.5px",
+                "width": "100%",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "93:876",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "56px",
+        "height": "56px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "93:877",
+      "text": "Input routes",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "93:878",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "93:879",
+      "text": "Software can reach an app in many ways. Intercept pauses only the route Windows flags as injected keyboard and mouse input. The others are reported as not paused, and are never folded into a “protected” claim.",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "93:880",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "20px",
+        "height": "20px"
+      }
+    },
+    {
+      "kind": "table",
+      "node": "93:881",
+      "name": "Input routes",
+      "style": {
+        "borderRadius": "12px",
+        "background": "#fff",
+        "borderColor": "#e4e7ec",
+        "borderWidth": "1px",
+        "width": "100%",
+        "alignItems": "flex-start",
+        "overflow": "hidden"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "93:882",
+          "name": "Table header",
+          "style": {
+            "gap": "24px",
+            "background": "#f1f4f9",
+            "letterSpacing": "0.69px",
+            "lineHeight": "normal",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px",
+            "color": "#667085",
+            "fontSize": "11.5px",
+            "fontWeight": 500,
+            "fontFamily": "'Geist Mono',monospace",
+            "textTransform": "uppercase",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "93:883",
+              "text": "Route",
+              "style": {
+                "--basis": "250px"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:884",
+              "text": "Status",
+              "style": {
+                "--basis": "120px"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:885",
+              "text": "What wider coverage needs",
+              "style": {
+                "flex": "1 1 0"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "93:886",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "stack",
+              "node": "93:887",
+              "name": "Stack",
+              "style": {
+                "gap": "6px",
+                "--basis": "250px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "node": "93:888",
+                  "text": "Windows keyboard and mouse injection",
+                  "style": {
+                    "lineHeight": "22px",
+                    "color": "#0b1220",
+                    "fontSize": "15px",
+                    "fontWeight": 600,
+                    "width": "100%",
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                },
+                {
+                  "kind": "text",
+                  "node": "93:889",
+                  "text": "SendInput · keybd_event · mouse_event",
+                  "style": {
+                    "lineHeight": "18px",
+                    "color": "#667085",
+                    "fontSize": "12px",
+                    "fontFamily": "'Geist Mono',monospace",
+                    "width": "100%",
+                    "fontWeight": 400
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "node": "93:890",
+              "name": "Stack",
+              "style": {
+                "--basis": "120px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "93:891",
+                  "name": "Row",
+                  "style": {
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "pill",
+                      "node": "93:892",
+                      "name": "Pill · Paused",
+                      "style": {
+                        "borderRadius": "999px",
+                        "background": "#e3f5ec",
+                        "paddingLeft": "10px",
+                        "paddingRight": "10px",
+                        "paddingTop": "4px",
+                        "paddingBottom": "4px",
+                        "alignItems": "center"
+                      },
+                      "children": [
+                        {
+                          "kind": "text",
+                          "node": "93:893",
+                          "text": "Paused",
+                          "style": {
+                            "letterSpacing": "0.66px",
+                            "lineHeight": "normal",
+                            "color": "#047857",
+                            "fontSize": "11px",
+                            "fontWeight": 500,
+                            "fontFamily": "'Geist Mono',monospace",
+                            "textTransform": "uppercase",
+                            "whiteSpace": "nowrap"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "node": "93:894",
+              "text": "Covered in the apps you choose, until you resume",
+              "style": {
+                "lineHeight": "23px",
+                "color": "#3d4757",
+                "fontSize": "15px",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "93:895",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "stack",
+              "node": "93:896",
+              "name": "Stack",
+              "style": {
+                "gap": "6px",
+                "--basis": "250px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "node": "93:897",
+                  "text": "Synthetic touch and pen",
+                  "style": {
+                    "lineHeight": "22px",
+                    "color": "#0b1220",
+                    "fontSize": "15px",
+                    "fontWeight": 600,
+                    "width": "100%",
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                },
+                {
+                  "kind": "text",
+                  "node": "93:898",
+                  "text": "InjectSyntheticPointerInput",
+                  "style": {
+                    "lineHeight": "18px",
+                    "color": "#667085",
+                    "fontSize": "12px",
+                    "fontFamily": "'Geist Mono',monospace",
+                    "width": "100%",
+                    "fontWeight": 400
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "node": "93:899",
+              "name": "Stack",
+              "style": {
+                "--basis": "120px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "93:900",
+                  "name": "Row",
+                  "style": {
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "pill",
+                      "node": "93:901",
+                      "name": "Pill · Not paused",
+                      "style": {
+                        "borderRadius": "999px",
+                        "background": "#fbf1df",
+                        "paddingLeft": "10px",
+                        "paddingRight": "10px",
+                        "paddingTop": "4px",
+                        "paddingBottom": "4px",
+                        "alignItems": "center"
+                      },
+                      "children": [
+                        {
+                          "kind": "text",
+                          "node": "93:902",
+                          "text": "Not paused",
+                          "style": {
+                            "letterSpacing": "0.66px",
+                            "lineHeight": "normal",
+                            "color": "#9a4708",
+                            "fontSize": "11px",
+                            "fontWeight": 500,
+                            "fontFamily": "'Geist Mono',monospace",
+                            "textTransform": "uppercase",
+                            "whiteSpace": "nowrap"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "node": "93:903",
+              "text": "A separate pointer control with native delivery tests",
+              "style": {
+                "lineHeight": "23px",
+                "color": "#3d4757",
+                "fontSize": "15px",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "93:904",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "stack",
+              "node": "93:905",
+              "name": "Stack",
+              "style": {
+                "gap": "6px",
+                "--basis": "250px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "node": "93:906",
+                  "text": "Virtual or remote input devices",
+                  "style": {
+                    "lineHeight": "22px",
+                    "color": "#0b1220",
+                    "fontSize": "15px",
+                    "fontWeight": 600,
+                    "width": "100%",
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                },
+                {
+                  "kind": "text",
+                  "node": "93:907",
+                  "text": "Virtual HID · remote desktop input",
+                  "style": {
+                    "lineHeight": "18px",
+                    "color": "#667085",
+                    "fontSize": "12px",
+                    "fontFamily": "'Geist Mono',monospace",
+                    "width": "100%",
+                    "fontWeight": 400
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "node": "93:908",
+              "name": "Stack",
+              "style": {
+                "--basis": "120px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "93:909",
+                  "name": "Row",
+                  "style": {
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "pill",
+                      "node": "93:910",
+                      "name": "Pill · Detected only",
+                      "style": {
+                        "borderRadius": "999px",
+                        "background": "#fbf1df",
+                        "paddingLeft": "10px",
+                        "paddingRight": "10px",
+                        "paddingTop": "4px",
+                        "paddingBottom": "4px",
+                        "alignItems": "center"
+                      },
+                      "children": [
+                        {
+                          "kind": "text",
+                          "node": "93:911",
+                          "text": "Detected only",
+                          "style": {
+                            "letterSpacing": "0.66px",
+                            "lineHeight": "normal",
+                            "color": "#9a4708",
+                            "fontSize": "11px",
+                            "fontWeight": 500,
+                            "fontFamily": "'Geist Mono',monospace",
+                            "textTransform": "uppercase",
+                            "whiteSpace": "nowrap"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "node": "93:912",
+              "text": "Control at the device or session source",
+              "style": {
+                "lineHeight": "23px",
+                "color": "#3d4757",
+                "fontSize": "15px",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "93:913",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "stack",
+              "node": "93:914",
+              "name": "Stack",
+              "style": {
+                "gap": "6px",
+                "--basis": "250px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "node": "93:915",
+                  "text": "Accessibility actions",
+                  "style": {
+                    "lineHeight": "22px",
+                    "color": "#0b1220",
+                    "fontSize": "15px",
+                    "fontWeight": 600,
+                    "width": "100%",
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                },
+                {
+                  "kind": "text",
+                  "node": "93:916",
+                  "text": "UI Automation Invoke · Toggle · Value",
+                  "style": {
+                    "lineHeight": "18px",
+                    "color": "#667085",
+                    "fontSize": "12px",
+                    "fontFamily": "'Geist Mono',monospace",
+                    "width": "100%",
+                    "fontWeight": 400
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "node": "93:917",
+              "name": "Stack",
+              "style": {
+                "--basis": "120px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "93:918",
+                  "name": "Row",
+                  "style": {
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "pill",
+                      "node": "93:919",
+                      "name": "Pill · Not paused",
+                      "style": {
+                        "borderRadius": "999px",
+                        "background": "#fbf1df",
+                        "paddingLeft": "10px",
+                        "paddingRight": "10px",
+                        "paddingTop": "4px",
+                        "paddingBottom": "4px",
+                        "alignItems": "center"
+                      },
+                      "children": [
+                        {
+                          "kind": "text",
+                          "node": "93:920",
+                          "text": "Not paused",
+                          "style": {
+                            "letterSpacing": "0.66px",
+                            "lineHeight": "normal",
+                            "color": "#9a4708",
+                            "fontSize": "11px",
+                            "fontWeight": 500,
+                            "fontFamily": "'Geist Mono',monospace",
+                            "textTransform": "uppercase",
+                            "whiteSpace": "nowrap"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "node": "93:921",
+              "text": "Cooperation from the automation client or the app",
+              "style": {
+                "lineHeight": "23px",
+                "color": "#3d4757",
+                "fontSize": "15px",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "93:922",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "stack",
+              "node": "93:923",
+              "name": "Stack",
+              "style": {
+                "gap": "6px",
+                "--basis": "250px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "node": "93:924",
+                  "text": "Browser automation",
+                  "style": {
+                    "lineHeight": "22px",
+                    "color": "#0b1220",
+                    "fontSize": "15px",
+                    "fontWeight": 600,
+                    "width": "100%",
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                },
+                {
+                  "kind": "text",
+                  "node": "93:925",
+                  "text": "Playwright · DevTools input",
+                  "style": {
+                    "lineHeight": "18px",
+                    "color": "#667085",
+                    "fontSize": "12px",
+                    "fontFamily": "'Geist Mono',monospace",
+                    "width": "100%",
+                    "fontWeight": 400
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "node": "93:926",
+              "name": "Stack",
+              "style": {
+                "--basis": "120px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "93:927",
+                  "name": "Row",
+                  "style": {
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "pill",
+                      "node": "93:928",
+                      "name": "Pill · Not paused",
+                      "style": {
+                        "borderRadius": "999px",
+                        "background": "#fbf1df",
+                        "paddingLeft": "10px",
+                        "paddingRight": "10px",
+                        "paddingTop": "4px",
+                        "paddingBottom": "4px",
+                        "alignItems": "center"
+                      },
+                      "children": [
+                        {
+                          "kind": "text",
+                          "node": "93:929",
+                          "text": "Not paused",
+                          "style": {
+                            "letterSpacing": "0.66px",
+                            "lineHeight": "normal",
+                            "color": "#9a4708",
+                            "fontSize": "11px",
+                            "fontWeight": 500,
+                            "fontFamily": "'Geist Mono',monospace",
+                            "textTransform": "uppercase",
+                            "whiteSpace": "nowrap"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "node": "93:930",
+              "text": "A browser integration that pauses known clients",
+              "style": {
+                "lineHeight": "23px",
+                "color": "#3d4757",
+                "fontSize": "15px",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "93:931",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "stack",
+              "node": "93:932",
+              "name": "Stack",
+              "style": {
+                "gap": "6px",
+                "--basis": "250px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "node": "93:933",
+                  "text": "Window messages and app APIs",
+                  "style": {
+                    "lineHeight": "22px",
+                    "color": "#0b1220",
+                    "fontSize": "15px",
+                    "fontWeight": 600,
+                    "width": "100%",
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                },
+                {
+                  "kind": "text",
+                  "node": "93:934",
+                  "text": "Posted messages · COM · scripting",
+                  "style": {
+                    "lineHeight": "18px",
+                    "color": "#667085",
+                    "fontSize": "12px",
+                    "fontFamily": "'Geist Mono',monospace",
+                    "width": "100%",
+                    "fontWeight": 400
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "node": "93:935",
+              "name": "Stack",
+              "style": {
+                "--basis": "120px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "93:936",
+                  "name": "Row",
+                  "style": {
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "pill",
+                      "node": "93:937",
+                      "name": "Pill · Not paused",
+                      "style": {
+                        "borderRadius": "999px",
+                        "background": "#fbf1df",
+                        "paddingLeft": "10px",
+                        "paddingRight": "10px",
+                        "paddingTop": "4px",
+                        "paddingBottom": "4px",
+                        "alignItems": "center"
+                      },
+                      "children": [
+                        {
+                          "kind": "text",
+                          "node": "93:938",
+                          "text": "Not paused",
+                          "style": {
+                            "letterSpacing": "0.66px",
+                            "lineHeight": "normal",
+                            "color": "#9a4708",
+                            "fontSize": "11px",
+                            "fontWeight": 500,
+                            "fontFamily": "'Geist Mono',monospace",
+                            "textTransform": "uppercase",
+                            "whiteSpace": "nowrap"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "node": "93:939",
+              "text": "Enforcement inside each app",
+              "style": {
+                "lineHeight": "23px",
+                "color": "#3d4757",
+                "fontSize": "15px",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "93:940",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "stack",
+              "node": "93:941",
+              "name": "Stack",
+              "style": {
+                "gap": "6px",
+                "--basis": "250px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "node": "93:942",
+                  "text": "Other desktops and sessions",
+                  "style": {
+                    "lineHeight": "22px",
+                    "color": "#0b1220",
+                    "fontSize": "15px",
+                    "fontWeight": 600,
+                    "width": "100%",
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                },
+                {
+                  "kind": "text",
+                  "node": "93:943",
+                  "text": "Secure desktop · another user · a VM",
+                  "style": {
+                    "lineHeight": "18px",
+                    "color": "#667085",
+                    "fontSize": "12px",
+                    "fontFamily": "'Geist Mono',monospace",
+                    "width": "100%",
+                    "fontWeight": 400
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "node": "93:944",
+              "name": "Stack",
+              "style": {
+                "--basis": "120px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "93:945",
+                  "name": "Row",
+                  "style": {
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "pill",
+                      "node": "93:946",
+                      "name": "Pill · Not paused",
+                      "style": {
+                        "borderRadius": "999px",
+                        "background": "#fbf1df",
+                        "paddingLeft": "10px",
+                        "paddingRight": "10px",
+                        "paddingTop": "4px",
+                        "paddingBottom": "4px",
+                        "alignItems": "center"
+                      },
+                      "children": [
+                        {
+                          "kind": "text",
+                          "node": "93:947",
+                          "text": "Not paused",
+                          "style": {
+                            "letterSpacing": "0.66px",
+                            "lineHeight": "normal",
+                            "color": "#9a4708",
+                            "fontSize": "11px",
+                            "fontWeight": 500,
+                            "fontFamily": "'Geist Mono',monospace",
+                            "textTransform": "uppercase",
+                            "whiteSpace": "nowrap"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "node": "93:948",
+              "text": "A verified control in each environment",
+              "style": {
+                "lineHeight": "23px",
+                "color": "#3d4757",
+                "fontSize": "15px",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "93:949",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "stack",
+              "node": "93:950",
+              "name": "Stack",
+              "style": {
+                "gap": "6px",
+                "--basis": "250px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "node": "93:951",
+                  "text": "Unknown and future routes",
+                  "style": {
+                    "lineHeight": "22px",
+                    "color": "#0b1220",
+                    "fontSize": "15px",
+                    "fontWeight": 600,
+                    "width": "100%",
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                },
+                {
+                  "kind": "text",
+                  "node": "93:952",
+                  "text": "A new injection API",
+                  "style": {
+                    "lineHeight": "18px",
+                    "color": "#667085",
+                    "fontSize": "12px",
+                    "fontFamily": "'Geist Mono',monospace",
+                    "width": "100%",
+                    "fontWeight": 400
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "node": "93:953",
+              "name": "Stack",
+              "style": {
+                "--basis": "120px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "93:954",
+                  "name": "Row",
+                  "style": {
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "pill",
+                      "node": "93:955",
+                      "name": "Pill · Not paused",
+                      "style": {
+                        "borderRadius": "999px",
+                        "background": "#fbf1df",
+                        "paddingLeft": "10px",
+                        "paddingRight": "10px",
+                        "paddingTop": "4px",
+                        "paddingBottom": "4px",
+                        "alignItems": "center"
+                      },
+                      "children": [
+                        {
+                          "kind": "text",
+                          "node": "93:956",
+                          "text": "Not paused",
+                          "style": {
+                            "letterSpacing": "0.66px",
+                            "lineHeight": "normal",
+                            "color": "#9a4708",
+                            "fontSize": "11px",
+                            "fontWeight": 500,
+                            "fontFamily": "'Geist Mono',monospace",
+                            "textTransform": "uppercase",
+                            "whiteSpace": "nowrap"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "node": "93:957",
+              "text": "An explicit adapter, tested before any claim",
+              "style": {
+                "lineHeight": "23px",
+                "color": "#3d4757",
+                "fontSize": "15px",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "93:958",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "93:959",
+      "text": "For virtual input devices, Intercept classifies the device transport and counts virtual-keyboard events. That is detection, not blocking.",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "93:960",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "8px",
+        "height": "8px"
+      }
+    },
+    {
+      "kind": "callout",
+      "node": "93:961",
+      "name": "Callout/caution",
+      "style": {
+        "gap": "12px",
+        "paddingLeft": "20px",
+        "paddingRight": "22px",
+        "borderRadius": "12px",
+        "background": "#fbf1df",
+        "paddingTop": "18px",
+        "paddingBottom": "18px",
+        "width": "100%",
+        "alignItems": "flex-start"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "93:962",
+          "name": "Row",
+          "style": {
+            "paddingTop": "2px",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "icon",
+              "src": "./assets/subpages/8aa11.svg",
+              "size": 18,
+              "node": "93:963",
+              "style": {}
+            }
+          ]
+        },
+        {
+          "kind": "stack",
+          "node": "93:967",
+          "name": "Stack",
+          "style": {
+            "gap": "4px",
+            "fontSize": "15px",
+            "flex": "1 1 0",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "93:968",
+              "text": "Blocked counts are guard decisions, not proof of delivery.",
+              "style": {
+                "lineHeight": "22px",
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "width": "100%",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:969",
+              "text": "A receipt shows the guard asked for an event to be stopped. It doesn’t measure what the recipient finally received.",
+              "style": {
+                "lineHeight": "23px",
+                "color": "#3d4757",
+                "width": "100%",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "93:970",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "56px",
+        "height": "56px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "93:971",
+      "text": "Other signals",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "93:972",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "table",
+      "node": "93:973",
+      "name": "Signals",
+      "style": {
+        "borderRadius": "12px",
+        "background": "#fff",
+        "borderColor": "#e4e7ec",
+        "borderWidth": "1px",
+        "width": "100%",
+        "alignItems": "flex-start",
+        "overflow": "hidden"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "93:974",
+          "name": "Table header",
+          "style": {
+            "gap": "24px",
+            "background": "#f1f4f9",
+            "letterSpacing": "0.69px",
+            "lineHeight": "normal",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px",
+            "color": "#667085",
+            "fontSize": "11.5px",
+            "fontWeight": 500,
+            "fontFamily": "'Geist Mono',monospace",
+            "textTransform": "uppercase",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "93:975",
+              "text": "Signal",
+              "style": {
+                "--basis": "140px"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:976",
+              "text": "What Intercept proves",
+              "style": {
+                "--basis": "230px"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:977",
+              "text": "What it can’t",
+              "style": {
+                "flex": "1 1 0"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "93:978",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "93:979",
+              "text": "Camera and microphone",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "140px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:980",
+              "text": "Which app used the sensor, and when, from Windows’ own records",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "230px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:981",
+              "text": "What was seen or heard",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "93:982",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "93:983",
+              "text": "Network",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "140px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:984",
+              "text": "Which process connected where, with traffic per hour",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "230px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:985",
+              "text": "Encrypted contents. Very short connections can be missed; names from DNS are marked as inferred",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "93:986",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "93:987",
+              "text": "AI agents writing code",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "140px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:988",
+              "text": "Every child process traced to the signed agent that started it",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "230px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:989",
+              "text": "Activity inside WSL, which is attributed to WSL, not itemised",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "93:990",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "93:991",
+              "text": "AI agents using your apps",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "140px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:992",
+              "text": "Input passes only into approved apps during a signature-verified session",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "230px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:993",
+              "text": "Whether another program typed into the same app during that session",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "93:994",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "93:995",
+              "text": "Sign-ins and browsers",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "140px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:996",
+              "text": "Names, ages and permissions of saved sign-ins and extensions",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "230px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:997",
+              "text": "Passwords, cookie values or token contents. They are never read",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "93:998",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "56px",
+        "height": "56px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "93:999",
+      "text": "Guard limits",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "93:1000",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "stack",
+      "node": "93:1001",
+      "name": "Checklist",
+      "style": {
+        "gap": "14px",
+        "width": "100%",
+        "alignItems": "flex-start"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "93:1002",
+          "name": "Row",
+          "style": {
+            "gap": "12px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "row",
+              "node": "93:1003",
+              "name": "Row",
+              "style": {
+                "paddingTop": "3px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "icon",
+                  "src": "./assets/subpages/70408.svg",
+                  "size": 18,
+                  "node": "93:1004",
+                  "style": {}
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "node": "93:1006",
+              "text": "Same-user termination. Any program running as you can end a standard-user guard. The watchdog relaunches it within 2 s and records the gap with its cause.",
+              "style": {
+                "lineHeight": "26px",
+                "color": "#3d4757",
+                "fontSize": "16px",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "93:1007",
+          "name": "Row",
+          "style": {
+            "gap": "12px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "row",
+              "node": "93:1008",
+              "name": "Row",
+              "style": {
+                "paddingTop": "3px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "icon",
+                  "src": "./assets/subpages/70408.svg",
+                  "size": 18,
+                  "node": "93:1009",
+                  "style": {}
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "node": "93:1011",
+              "text": "Elevated windows. A standard-user guard can’t act on input aimed at elevated windows. The optional elevated guard, still in development, addresses this.",
+              "style": {
+                "lineHeight": "26px",
+                "color": "#3d4757",
+                "fontSize": "16px",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "93:1012",
+          "name": "Row",
+          "style": {
+            "gap": "12px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "row",
+              "node": "93:1013",
+              "name": "Row",
+              "style": {
+                "paddingTop": "3px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "icon",
+                  "src": "./assets/subpages/70408.svg",
+                  "size": 18,
+                  "node": "93:1014",
+                  "style": {}
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "node": "93:1016",
+              "text": "Hook renewal. Hooks are replaced every 30 seconds. Windows can remove a timed-out hook silently between renewals.",
+              "style": {
+                "lineHeight": "26px",
+                "color": "#3d4757",
+                "fontSize": "16px",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "93:1017",
+          "name": "Row",
+          "style": {
+            "gap": "12px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "row",
+              "node": "93:1018",
+              "name": "Row",
+              "style": {
+                "paddingTop": "3px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "icon",
+                  "src": "./assets/subpages/70408.svg",
+                  "size": 18,
+                  "node": "93:1019",
+                  "style": {}
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "node": "93:1021",
+              "text": "Earlier hooks. Another program’s hook earlier in the chain can handle an event before Intercept’s guard sees it.",
+              "style": {
+                "lineHeight": "26px",
+                "color": "#3d4757",
+                "fontSize": "16px",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "93:1022",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "56px",
+        "height": "56px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "93:1023",
+      "text": "Agent allowances",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "93:1024",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "93:1025",
+      "text": "An allowance lets a trusted agent’s input through to an approved app during its session. Intercept always shows how strong the evidence was.",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "93:1026",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "20px",
+        "height": "20px"
+      }
+    },
+    {
+      "kind": "table",
+      "node": "93:1027",
+      "name": "Allowance evidence",
+      "style": {
+        "borderRadius": "12px",
+        "background": "#fff",
+        "borderColor": "#e4e7ec",
+        "borderWidth": "1px",
+        "width": "100%",
+        "alignItems": "flex-start",
+        "overflow": "hidden"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "93:1028",
+          "name": "Table header",
+          "style": {
+            "gap": "24px",
+            "background": "#f1f4f9",
+            "letterSpacing": "0.69px",
+            "lineHeight": "normal",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px",
+            "color": "#667085",
+            "fontSize": "11.5px",
+            "fontWeight": 500,
+            "fontFamily": "'Geist Mono',monospace",
+            "textTransform": "uppercase",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "93:1029",
+              "text": "Evidence",
+              "style": {
+                "--basis": "130px"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:1030",
+              "text": "When",
+              "style": {
+                "--basis": "230px"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:1031",
+              "text": "Label shown",
+              "style": {
+                "flex": "1 1 0"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "93:1032",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "93:1033",
+              "text": "Window",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "130px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:1034",
+              "text": "The recipient and a narrow time window only",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "230px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:1035",
+              "text": "“Allowed under Claude’s session”",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "93:1036",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "93:1037",
+              "text": "Marker",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "130px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:1038",
+              "text": "Also matched an input marker found during calibration",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "230px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:1039",
+              "text": "“Matched Claude’s input marker (heuristic)”",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "93:1040",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "stack",
+              "node": "93:1041",
+              "name": "Stack",
+              "style": {
+                "gap": "6px",
+                "--basis": "130px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "node": "93:1042",
+                  "text": "Windows trace",
+                  "style": {
+                    "lineHeight": "23px",
+                    "color": "#0b1220",
+                    "fontSize": "15px",
+                    "fontWeight": 600,
+                    "width": "100%",
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                },
+                {
+                  "kind": "row",
+                  "node": "93:1043",
+                  "name": "Row",
+                  "style": {
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "pill",
+                      "node": "93:1044",
+                      "name": "Pill · Not yet available",
+                      "style": {
+                        "borderRadius": "999px",
+                        "background": "#f1f4f9",
+                        "paddingLeft": "10px",
+                        "paddingRight": "10px",
+                        "paddingTop": "4px",
+                        "paddingBottom": "4px",
+                        "alignItems": "center"
+                      },
+                      "children": [
+                        {
+                          "kind": "text",
+                          "node": "93:1045",
+                          "text": "Not yet available",
+                          "style": {
+                            "letterSpacing": "0.66px",
+                            "lineHeight": "normal",
+                            "color": "#3d4757",
+                            "fontSize": "11px",
+                            "fontWeight": 500,
+                            "fontFamily": "'Geist Mono',monospace",
+                            "textTransform": "uppercase",
+                            "whiteSpace": "nowrap"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "node": "93:1046",
+              "text": "A Windows trace names the agent’s helper process",
+              "style": {
+                "lineHeight": "23px",
+                "color": "#3d4757",
+                "fontSize": "15px",
+                "--basis": "230px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "93:1047",
+              "text": "“Confirmed by Windows trace”",
+              "style": {
+                "lineHeight": "23px",
+                "color": "#3d4757",
+                "fontSize": "15px",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "93:1048",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "93:1049",
+      "text": "Allowances never apply to protected apps. When markers exist, a mismatch blocks the event and raises a medium finding. Without an active, calibrated session, an agent gets no allowance at all.",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "93:1050",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "14px",
+        "height": "14px"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "93:1051",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "56px",
+        "height": "56px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "93:1052",
+      "text": "Verification status",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "93:1053",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "93:1054",
+      "text": "What has and hasn’t been checked for Preview {{preview}}, from its release notes.",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "93:1055",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "20px",
+        "height": "20px"
+      }
+    },
+    {
+      "kind": "row",
+      "node": "93:1056",
+      "name": "Row",
+      "style": {
+        "gap": "16px",
+        "width": "100%",
+        "alignItems": "flex-start"
+      },
+      "children": [
+        {
+          "kind": "stack",
+          "node": "93:1057",
+          "name": "Stack",
+          "style": {
+            "gap": "14px",
+            "padding": "22px",
+            "borderRadius": "12px",
+            "background": "#e3f5ec",
+            "minHeight": "296px",
+            "flex": "1 1 0",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "93:1058",
+              "text": "Checked for this build",
+              "style": {
+                "lineHeight": "24px",
+                "color": "#0b1220",
+                "fontSize": "17px",
+                "fontWeight": 600,
+                "width": "100%",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "stack",
+              "node": "93:1059",
+              "name": "Checklist",
+              "style": {
+                "gap": "10px",
+                "width": "100%",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "93:1060",
+                  "name": "Row",
+                  "style": {
+                    "gap": "12px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "row",
+                      "node": "93:1061",
+                      "name": "Row",
+                      "style": {
+                        "paddingTop": "2px",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "icon",
+                          "src": "./assets/subpages/b4c89.svg",
+                          "size": 18,
+                          "node": "93:1062",
+                          "style": {}
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "node": "93:1064",
+                      "text": "Production native and UI builds, bound to the exact package",
+                      "style": {
+                        "lineHeight": "23px",
+                        "color": "#3d4757",
+                        "fontSize": "15px",
+                        "flex": "1 1 0",
+                        "fontWeight": 400,
+                        "fontFamily": "'Instrument Sans',sans-serif"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "row",
+                  "node": "93:1065",
+                  "name": "Row",
+                  "style": {
+                    "gap": "12px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "row",
+                      "node": "93:1066",
+                      "name": "Row",
+                      "style": {
+                        "paddingTop": "2px",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "icon",
+                          "src": "./assets/subpages/b4c89.svg",
+                          "size": 18,
+                          "node": "93:1067",
+                          "style": {}
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "node": "93:1069",
+                      "text": "13 isolated policy API checks",
+                      "style": {
+                        "lineHeight": "23px",
+                        "color": "#3d4757",
+                        "fontSize": "15px",
+                        "flex": "1 1 0",
+                        "fontWeight": 400,
+                        "fontFamily": "'Instrument Sans',sans-serif"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "row",
+                  "node": "93:1070",
+                  "name": "Row",
+                  "style": {
+                    "gap": "12px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "row",
+                      "node": "93:1071",
+                      "name": "Row",
+                      "style": {
+                        "paddingTop": "2px",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "icon",
+                          "src": "./assets/subpages/b4c89.svg",
+                          "size": 18,
+                          "node": "93:1072",
+                          "style": {}
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "node": "93:1074",
+                      "text": "11 packaged GUI checks with collection paused and hooks unarmed",
+                      "style": {
+                        "lineHeight": "23px",
+                        "color": "#3d4757",
+                        "fontSize": "15px",
+                        "flex": "1 1 0",
+                        "fontWeight": 400,
+                        "fontFamily": "'Instrument Sans',sans-serif"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "row",
+                  "node": "93:1075",
+                  "name": "Row",
+                  "style": {
+                    "gap": "12px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "row",
+                      "node": "93:1076",
+                      "name": "Row",
+                      "style": {
+                        "paddingTop": "2px",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "icon",
+                          "src": "./assets/subpages/b4c89.svg",
+                          "size": 18,
+                          "node": "93:1077",
+                          "style": {}
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "node": "93:1079",
+                      "text": "Focused UI checks and the indexed-lookup check",
+                      "style": {
+                        "lineHeight": "23px",
+                        "color": "#3d4757",
+                        "fontSize": "15px",
+                        "flex": "1 1 0",
+                        "fontWeight": 400,
+                        "fontFamily": "'Instrument Sans',sans-serif"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "stack",
+          "node": "93:1080",
+          "name": "Stack",
+          "style": {
+            "gap": "14px",
+            "padding": "22px",
+            "borderRadius": "12px",
+            "background": "#fbf1df",
+            "minHeight": "296px",
+            "flex": "1 1 0",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "93:1081",
+              "text": "Not run yet",
+              "style": {
+                "lineHeight": "24px",
+                "color": "#0b1220",
+                "fontSize": "17px",
+                "fontWeight": 600,
+                "width": "100%",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "stack",
+              "node": "93:1082",
+              "name": "Checklist",
+              "style": {
+                "gap": "10px",
+                "width": "100%",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "93:1083",
+                  "name": "Row",
+                  "style": {
+                    "gap": "12px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "row",
+                      "node": "93:1084",
+                      "name": "Row",
+                      "style": {
+                        "paddingTop": "2px",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "icon",
+                          "src": "./assets/subpages/70408.svg",
+                          "size": 18,
+                          "node": "93:1085",
+                          "style": {}
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "node": "93:1087",
+                      "text": "Physical input and timing trials",
+                      "style": {
+                        "lineHeight": "23px",
+                        "color": "#3d4757",
+                        "fontSize": "15px",
+                        "flex": "1 1 0",
+                        "fontWeight": 400,
+                        "fontFamily": "'Instrument Sans',sans-serif"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "row",
+                  "node": "93:1088",
+                  "name": "Row",
+                  "style": {
+                    "gap": "12px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "row",
+                      "node": "93:1089",
+                      "name": "Row",
+                      "style": {
+                        "paddingTop": "2px",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "icon",
+                          "src": "./assets/subpages/70408.svg",
+                          "size": 18,
+                          "node": "93:1090",
+                          "style": {}
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "node": "93:1092",
+                      "text": "Real-agent calibration (AG-1) for Claude and Codex",
+                      "style": {
+                        "lineHeight": "23px",
+                        "color": "#3d4757",
+                        "fontSize": "15px",
+                        "flex": "1 1 0",
+                        "fontWeight": 400,
+                        "fontFamily": "'Instrument Sans',sans-serif"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "row",
+                  "node": "93:1093",
+                  "name": "Row",
+                  "style": {
+                    "gap": "12px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "row",
+                      "node": "93:1094",
+                      "name": "Row",
+                      "style": {
+                        "paddingTop": "2px",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "icon",
+                          "src": "./assets/subpages/70408.svg",
+                          "size": 18,
+                          "node": "93:1095",
+                          "style": {}
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "node": "93:1097",
+                      "text": "Windows, elevation and sign-out matrices (S29–S36)",
+                      "style": {
+                        "lineHeight": "23px",
+                        "color": "#3d4757",
+                        "fontSize": "15px",
+                        "flex": "1 1 0",
+                        "fontWeight": 400,
+                        "fontFamily": "'Instrument Sans',sans-serif"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "row",
+                  "node": "93:1098",
+                  "name": "Row",
+                  "style": {
+                    "gap": "12px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "row",
+                      "node": "93:1099",
+                      "name": "Row",
+                      "style": {
+                        "paddingTop": "2px",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "icon",
+                          "src": "./assets/subpages/70408.svg",
+                          "size": 18,
+                          "node": "93:1100",
+                          "style": {}
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "node": "93:1102",
+                      "text": "Large-history acceptance checks",
+                      "style": {
+                        "lineHeight": "23px",
+                        "color": "#3d4757",
+                        "fontSize": "15px",
+                        "flex": "1 1 0",
+                        "fontWeight": 400,
+                        "fontFamily": "'Instrument Sans',sans-serif"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "93:1103",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "20px",
+        "height": "20px"
+      }
+    },
+    {
+      "kind": "link",
+      "node": "93:1104",
+      "name": "Link/arrow",
+      "style": {
+        "gap": "8px",
+        "alignItems": "center"
+      },
+      "children": [
+        {
+          "kind": "text",
+          "node": "93:1105",
+          "text": "Read the Preview {{preview}} release notes",
+          "style": {
+            "lineHeight": "normal",
+            "color": "#2563eb",
+            "fontSize": "15px",
+            "fontWeight": 600,
+            "fontFamily": "'Instrument Sans',sans-serif",
+            "whiteSpace": "nowrap"
+          }
+        },
+        {
+          "kind": "icon",
+          "src": "./assets/subpages/55209.svg",
+          "size": 16,
+          "node": "93:1106",
+          "style": {}
+        }
+      ]
+    }
+  ]
+}

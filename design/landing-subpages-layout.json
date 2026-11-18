@@ -1,0 +1,985 @@
+{
+  "source": "Figma 27KqP1vfoaUKUFoBoekwTZ · Landing subpages · 2026-11-19",
+  "contentWidth": 1440,
+  "tolerance": 2,
+  "pages": {
+    "download": [
+      {
+        "node": "80:33",
+        "kind": "heading",
+        "x": 120,
+        "y": 230,
+        "width": 592,
+        "height": 124
+      },
+      {
+        "node": "80:117",
+        "kind": "heading",
+        "x": 120,
+        "y": 842,
+        "width": 600,
+        "height": 46
+      },
+      {
+        "node": "82:56",
+        "kind": "code",
+        "x": 142,
+        "y": 1020,
+        "width": 238,
+        "height": 110
+      },
+      {
+        "node": "80:194",
+        "kind": "heading",
+        "x": 120,
+        "y": 1619,
+        "width": 440,
+        "height": 92
+      },
+      {
+        "node": "80:202",
+        "kind": "table",
+        "x": 632,
+        "y": 1587,
+        "width": 688,
+        "height": 446
+      },
+      {
+        "node": "80:225",
+        "kind": "heading",
+        "x": 120,
+        "y": 2209,
+        "width": 1200,
+        "height": 34
+      }
+    ],
+    "docs": [
+      {
+        "node": "83:93",
+        "kind": "heading",
+        "x": 120,
+        "y": 259,
+        "width": 760,
+        "height": 62
+      },
+      {
+        "node": "83:122",
+        "kind": "heading",
+        "x": 156,
+        "y": 664,
+        "width": 520,
+        "height": 68
+      },
+      {
+        "node": "83:220",
+        "kind": "heading",
+        "x": 120,
+        "y": 1265,
+        "width": 1200,
+        "height": 46
+      },
+      {
+        "node": "83:329",
+        "kind": "heading",
+        "x": 120,
+        "y": 2245,
+        "width": 1200,
+        "height": 34
+      }
+    ],
+    "security": [
+      {
+        "node": "84:203",
+        "kind": "heading",
+        "x": 400,
+        "y": 233,
+        "width": 680,
+        "height": 50
+      },
+      {
+        "node": "84:216",
+        "kind": "heading",
+        "x": 400,
+        "y": 498,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "84:248",
+        "kind": "heading",
+        "x": 400,
+        "y": 886,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "84:252",
+        "kind": "table",
+        "x": 400,
+        "y": 1040,
+        "width": 680,
+        "height": 311
+      },
+      {
+        "node": "84:274",
+        "kind": "callout",
+        "x": 400,
+        "y": 1367,
+        "width": 680,
+        "height": 108
+      },
+      {
+        "node": "84:284",
+        "kind": "heading",
+        "x": 400,
+        "y": 1531,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "84:351",
+        "kind": "heading",
+        "x": 400,
+        "y": 2065,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "84:355",
+        "kind": "table",
+        "x": 400,
+        "y": 2191,
+        "width": 680,
+        "height": 380
+      },
+      {
+        "node": "84:380",
+        "kind": "heading",
+        "x": 400,
+        "y": 2627,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "84:384",
+        "kind": "callout",
+        "x": 400,
+        "y": 2781,
+        "width": 680,
+        "height": 108
+      },
+      {
+        "node": "84:394",
+        "kind": "heading",
+        "x": 400,
+        "y": 2945,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "84:406",
+        "kind": "heading",
+        "x": 400,
+        "y": 3267,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "84:443",
+        "kind": "heading",
+        "x": 400,
+        "y": 3679,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "84:447",
+        "kind": "code",
+        "x": 400,
+        "y": 3773,
+        "width": 680,
+        "height": 169
+      },
+      {
+        "node": "84:465",
+        "kind": "heading",
+        "x": 400,
+        "y": 4112,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "84:495",
+        "kind": "heading",
+        "x": 400,
+        "y": 4480,
+        "width": 680,
+        "height": 34
+      }
+    ],
+    "input-protection": [
+      {
+        "node": "85:222",
+        "kind": "product-image",
+        "x": 120,
+        "y": 689,
+        "width": 1200,
+        "height": 520
+      },
+      {
+        "node": "85:197",
+        "kind": "heading",
+        "x": 120,
+        "y": 222,
+        "width": 820,
+        "height": 186
+      },
+      {
+        "node": "85:853",
+        "kind": "heading",
+        "x": 120,
+        "y": 4706,
+        "width": 1200,
+        "height": 34
+      },
+      {
+        "node": "85:559",
+        "kind": "heading",
+        "x": 120,
+        "y": 1461,
+        "width": 600,
+        "height": 92
+      },
+      {
+        "node": "85:604",
+        "kind": "heading",
+        "x": 120,
+        "y": 2097,
+        "width": 600,
+        "height": 46
+      },
+      {
+        "node": "85:674",
+        "kind": "heading",
+        "x": 120,
+        "y": 2856,
+        "width": 470,
+        "height": 92
+      },
+      {
+        "node": "85:736",
+        "kind": "table",
+        "x": 690,
+        "y": 3020,
+        "width": 602,
+        "height": 179
+      },
+      {
+        "node": "85:753",
+        "kind": "heading",
+        "x": 120,
+        "y": 3451,
+        "width": 600,
+        "height": 46
+      },
+      {
+        "node": "85:801",
+        "kind": "heading",
+        "x": 120,
+        "y": 4118,
+        "width": 520,
+        "height": 92
+      }
+    ],
+    "ai-agents": [
+      {
+        "node": "87:305",
+        "kind": "product-image",
+        "x": 120,
+        "y": 627,
+        "width": 1200,
+        "height": 520
+      },
+      {
+        "node": "87:280",
+        "kind": "heading",
+        "x": 120,
+        "y": 222,
+        "width": 820,
+        "height": 124
+      },
+      {
+        "node": "87:1010",
+        "kind": "heading",
+        "x": 120,
+        "y": 4863,
+        "width": 1200,
+        "height": 34
+      },
+      {
+        "node": "87:708",
+        "kind": "heading",
+        "x": 120,
+        "y": 1399,
+        "width": 600,
+        "height": 92
+      },
+      {
+        "node": "87:721",
+        "kind": "heading",
+        "x": 152,
+        "y": 1651,
+        "width": 524,
+        "height": 32
+      },
+      {
+        "node": "87:753",
+        "kind": "heading",
+        "x": 764,
+        "y": 1651,
+        "width": 524,
+        "height": 32
+      },
+      {
+        "node": "87:781",
+        "kind": "heading",
+        "x": 120,
+        "y": 2187,
+        "width": 600,
+        "height": 92
+      },
+      {
+        "node": "87:785",
+        "kind": "table",
+        "x": 120,
+        "y": 2327,
+        "width": 1200,
+        "height": 215
+      },
+      {
+        "node": "87:810",
+        "kind": "callout",
+        "x": 120,
+        "y": 2562,
+        "width": 1200,
+        "height": 108
+      },
+      {
+        "node": "87:823",
+        "kind": "heading",
+        "x": 120,
+        "y": 2933.5,
+        "width": 500,
+        "height": 92
+      },
+      {
+        "node": "87:903",
+        "kind": "heading",
+        "x": 120,
+        "y": 3585,
+        "width": 600,
+        "height": 92
+      },
+      {
+        "node": "87:984",
+        "kind": "heading",
+        "x": 120,
+        "y": 4363,
+        "width": 600,
+        "height": 92
+      }
+    ],
+    "alerts": [
+      {
+        "node": "89:393",
+        "kind": "product-image",
+        "x": 120,
+        "y": 627,
+        "width": 1200,
+        "height": 520
+      },
+      {
+        "node": "89:368",
+        "kind": "heading",
+        "x": 120,
+        "y": 222,
+        "width": 820,
+        "height": 124
+      },
+      {
+        "node": "89:934",
+        "kind": "heading",
+        "x": 120,
+        "y": 3958,
+        "width": 1200,
+        "height": 34
+      },
+      {
+        "node": "89:660",
+        "kind": "heading",
+        "x": 120,
+        "y": 1399,
+        "width": 600,
+        "height": 46
+      },
+      {
+        "node": "89:744",
+        "kind": "heading",
+        "x": 120,
+        "y": 2237,
+        "width": 440,
+        "height": 92
+      },
+      {
+        "node": "89:825",
+        "kind": "heading",
+        "x": 120,
+        "y": 2799,
+        "width": 600,
+        "height": 92
+      },
+      {
+        "node": "89:896",
+        "kind": "heading",
+        "x": 120,
+        "y": 3387,
+        "width": 600,
+        "height": 138
+      }
+    ],
+    "advanced-mode": [
+      {
+        "node": "91:481",
+        "kind": "product-image",
+        "x": 120,
+        "y": 627,
+        "width": 1200,
+        "height": 520
+      },
+      {
+        "node": "91:456",
+        "kind": "heading",
+        "x": 120,
+        "y": 222,
+        "width": 820,
+        "height": 124
+      },
+      {
+        "node": "91:3629",
+        "kind": "heading",
+        "x": 120,
+        "y": 4794,
+        "width": 1200,
+        "height": 34
+      },
+      {
+        "node": "91:1399",
+        "kind": "product-image",
+        "x": 662,
+        "y": 1367,
+        "width": 658,
+        "height": 460
+      },
+      {
+        "node": "91:1381",
+        "kind": "heading",
+        "x": 120,
+        "y": 1455,
+        "width": 470,
+        "height": 84
+      },
+      {
+        "node": "91:2281",
+        "kind": "product-image",
+        "x": 120,
+        "y": 2019,
+        "width": 658,
+        "height": 460
+      },
+      {
+        "node": "91:2729",
+        "kind": "heading",
+        "x": 850,
+        "y": 2128,
+        "width": 470,
+        "height": 42
+      },
+      {
+        "node": "91:2751",
+        "kind": "heading",
+        "x": 120,
+        "y": 2771,
+        "width": 470,
+        "height": 84
+      },
+      {
+        "node": "91:2769",
+        "kind": "product-image",
+        "x": 662,
+        "y": 2671,
+        "width": 658,
+        "height": 460
+      },
+      {
+        "node": "91:3100",
+        "kind": "product-image",
+        "x": 120,
+        "y": 3323,
+        "width": 658,
+        "height": 460
+      },
+      {
+        "node": "91:3565",
+        "kind": "heading",
+        "x": 850,
+        "y": 3423,
+        "width": 470,
+        "height": 84
+      },
+      {
+        "node": "91:3587",
+        "kind": "heading",
+        "x": 120,
+        "y": 4007,
+        "width": 600,
+        "height": 46
+      },
+      {
+        "node": "91:3599",
+        "kind": "table",
+        "x": 120,
+        "y": 4194,
+        "width": 1200,
+        "height": 424
+      }
+    ],
+    "attribution": [
+      {
+        "node": "92:796",
+        "kind": "heading",
+        "x": 400,
+        "y": 233,
+        "width": 680,
+        "height": 50
+      },
+      {
+        "node": "92:809",
+        "kind": "heading",
+        "x": 400,
+        "y": 498,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "92:865",
+        "kind": "heading",
+        "x": 400,
+        "y": 981,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "92:869",
+        "kind": "table",
+        "x": 400,
+        "y": 1079,
+        "width": 680,
+        "height": 502
+      },
+      {
+        "node": "92:908",
+        "kind": "heading",
+        "x": 400,
+        "y": 1637,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "92:914",
+        "kind": "callout",
+        "x": 400,
+        "y": 1859,
+        "width": 680,
+        "height": 108
+      },
+      {
+        "node": "92:924",
+        "kind": "heading",
+        "x": 400,
+        "y": 2023,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "92:930",
+        "kind": "code",
+        "x": 400,
+        "y": 2177,
+        "width": 680,
+        "height": 169
+      },
+      {
+        "node": "92:962",
+        "kind": "callout",
+        "x": 400,
+        "y": 2526,
+        "width": 680,
+        "height": 131
+      },
+      {
+        "node": "92:972",
+        "kind": "heading",
+        "x": 400,
+        "y": 2713,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "92:976",
+        "kind": "table",
+        "x": 400,
+        "y": 2811,
+        "width": 680,
+        "height": 334
+      },
+      {
+        "node": "92:1009",
+        "kind": "heading",
+        "x": 400,
+        "y": 3201,
+        "width": 680,
+        "height": 34
+      }
+    ],
+    "coverage": [
+      {
+        "node": "93:851",
+        "kind": "heading",
+        "x": 400,
+        "y": 233,
+        "width": 680,
+        "height": 50
+      },
+      {
+        "node": "93:864",
+        "kind": "heading",
+        "x": 400,
+        "y": 498,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "93:868",
+        "kind": "heading",
+        "x": 420,
+        "y": 568,
+        "width": 176,
+        "height": 38
+      },
+      {
+        "node": "93:871",
+        "kind": "heading",
+        "x": 652,
+        "y": 568,
+        "width": 176,
+        "height": 38
+      },
+      {
+        "node": "93:874",
+        "kind": "heading",
+        "x": 884,
+        "y": 568,
+        "width": 176,
+        "height": 38
+      },
+      {
+        "node": "93:877",
+        "kind": "heading",
+        "x": 400,
+        "y": 751,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "93:881",
+        "kind": "table",
+        "x": 400,
+        "y": 905,
+        "width": 680,
+        "height": 717
+      },
+      {
+        "node": "93:961",
+        "kind": "callout",
+        "x": 400,
+        "y": 1702,
+        "width": 680,
+        "height": 108
+      },
+      {
+        "node": "93:971",
+        "kind": "heading",
+        "x": 400,
+        "y": 1866,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "93:973",
+        "kind": "table",
+        "x": 400,
+        "y": 1916,
+        "width": 680,
+        "height": 531
+      },
+      {
+        "node": "93:999",
+        "kind": "heading",
+        "x": 400,
+        "y": 2503,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "93:1023",
+        "kind": "heading",
+        "x": 400,
+        "y": 2859,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "93:1027",
+        "kind": "table",
+        "x": 400,
+        "y": 2985,
+        "width": 680,
+        "height": 271
+      },
+      {
+        "node": "93:1052",
+        "kind": "heading",
+        "x": 400,
+        "y": 3426,
+        "width": 680,
+        "height": 34
+      }
+    ],
+    "build": [
+      {
+        "node": "94:906",
+        "kind": "heading",
+        "x": 400,
+        "y": 233,
+        "width": 680,
+        "height": 50
+      },
+      {
+        "node": "94:919",
+        "kind": "heading",
+        "x": 400,
+        "y": 468,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "94:921",
+        "kind": "callout",
+        "x": 400,
+        "y": 518,
+        "width": 680,
+        "height": 131
+      },
+      {
+        "node": "94:931",
+        "kind": "heading",
+        "x": 400,
+        "y": 705,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "94:933",
+        "kind": "table",
+        "x": 400,
+        "y": 755,
+        "width": 680,
+        "height": 370
+      },
+      {
+        "node": "94:959",
+        "kind": "heading",
+        "x": 400,
+        "y": 1181,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "94:961",
+        "kind": "code",
+        "x": 400,
+        "y": 1231,
+        "width": 680,
+        "height": 261
+      },
+      {
+        "node": "94:982",
+        "kind": "table",
+        "x": 400,
+        "y": 1612,
+        "width": 680,
+        "height": 197
+      },
+      {
+        "node": "94:999",
+        "kind": "heading",
+        "x": 400,
+        "y": 1865,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "94:1001",
+        "kind": "code",
+        "x": 400,
+        "y": 1915,
+        "width": 680,
+        "height": 192
+      },
+      {
+        "node": "94:1020",
+        "kind": "heading",
+        "x": 400,
+        "y": 2277,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "94:1024",
+        "kind": "code",
+        "x": 400,
+        "y": 2399,
+        "width": 680,
+        "height": 146
+      },
+      {
+        "node": "94:1041",
+        "kind": "heading",
+        "x": 400,
+        "y": 2687,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "94:1045",
+        "kind": "code",
+        "x": 400,
+        "y": 2809,
+        "width": 680,
+        "height": 77
+      }
+    ],
+    "releases": [
+      {
+        "node": "94:1170",
+        "kind": "heading",
+        "x": 400,
+        "y": 233,
+        "width": 680,
+        "height": 50
+      }
+    ],
+    "pricing": [
+      {
+        "node": "95:963",
+        "kind": "heading",
+        "x": 310,
+        "y": 238,
+        "width": 820,
+        "height": 62
+      },
+      {
+        "node": "95:972",
+        "kind": "heading",
+        "x": 162,
+        "y": 504,
+        "width": 93,
+        "height": 76
+      },
+      {
+        "node": "95:1048",
+        "kind": "heading",
+        "x": 900,
+        "y": 534,
+        "width": 384,
+        "height": 32
+      },
+      {
+        "node": "95:1083",
+        "kind": "heading",
+        "x": 120,
+        "y": 1152,
+        "width": 1200,
+        "height": 46
+      }
+    ],
+    "notices": [
+      {
+        "node": "95:1208",
+        "kind": "heading",
+        "x": 400,
+        "y": 233,
+        "width": 680,
+        "height": 50
+      },
+      {
+        "node": "95:1219",
+        "kind": "heading",
+        "x": 400,
+        "y": 468,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "95:1223",
+        "kind": "table",
+        "x": 400,
+        "y": 566,
+        "width": 680,
+        "height": 549
+      },
+      {
+        "node": "95:1261",
+        "kind": "callout",
+        "x": 400,
+        "y": 1131,
+        "width": 680,
+        "height": 108
+      },
+      {
+        "node": "95:1271",
+        "kind": "heading",
+        "x": 400,
+        "y": 1295,
+        "width": 680,
+        "height": 34
+      },
+      {
+        "node": "95:1273",
+        "kind": "table",
+        "x": 400,
+        "y": 1345,
+        "width": 680,
+        "height": 301
+      },
+      {
+        "node": "95:1296",
+        "kind": "heading",
+        "x": 400,
+        "y": 1760,
+        "width": 680,
+        "height": 34
+      }
+    ]
+  }
+}

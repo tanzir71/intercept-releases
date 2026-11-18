@@ -1,0 +1,1421 @@
+{
+  "kind": "stack",
+  "node": "95:932",
+  "name": "P12 · Pricing — /pricing.html",
+  "style": {
+    "background": "#fff",
+    "alignItems": "flex-start"
+  },
+  "children": [
+    {
+      "kind": "stack",
+      "node": "95:959",
+      "name": "Hero",
+      "style": {
+        "paddingTop": "96px",
+        "paddingBottom": "64px",
+        "paddingLeft": "120px",
+        "paddingRight": "120px",
+        "background": "#fff",
+        "width": "100%",
+        "alignItems": "center"
+      },
+      "children": [
+        {
+          "kind": "stack",
+          "node": "95:960",
+          "name": "Stack",
+          "style": {
+            "--basis": "820px",
+            "alignItems": "center"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "95:961",
+              "text": "Pricing",
+              "style": {
+                "letterSpacing": "0.96px",
+                "lineHeight": "normal",
+                "color": "#2563eb",
+                "fontSize": "12px",
+                "fontWeight": 500,
+                "fontFamily": "'Geist Mono',monospace",
+                "textTransform": "uppercase",
+                "whiteSpace": "nowrap"
+              }
+            },
+            {
+              "kind": "spacer",
+              "node": "95:962",
+              "name": "Spacer",
+              "text": "",
+              "style": {
+                "width": "100%",
+                "minHeight": "18px",
+                "height": "18px"
+              }
+            },
+            {
+              "kind": "heading",
+              "node": "95:963",
+              "text": "Free. Every feature, for everyone.",
+              "style": {
+                "letterSpacing": "-1.4px",
+                "lineHeight": "62px",
+                "color": "#0b1220",
+                "fontSize": "56px",
+                "fontWeight": 600,
+                "textAlign": "center",
+                "width": "100%",
+                "fontFamily": "'Instrument Sans',sans-serif",
+                "fontKerning": "normal"
+              }
+            },
+            {
+              "kind": "spacer",
+              "node": "95:964",
+              "name": "Spacer",
+              "text": "",
+              "style": {
+                "width": "100%",
+                "minHeight": "20px",
+                "height": "20px"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:965",
+              "text": "Intercept is free and MIT-licensed. There is no paid tier, no trial, no account and no licence key.",
+              "style": {
+                "lineHeight": "30px",
+                "color": "#3d4757",
+                "fontSize": "19px",
+                "textAlign": "center",
+                "width": "100%",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "stack",
+      "node": "95:966",
+      "name": "Plans",
+      "style": {
+        "paddingTop": "16px",
+        "paddingBottom": "96px",
+        "paddingLeft": "120px",
+        "paddingRight": "120px",
+        "background": "#fff",
+        "width": "100%",
+        "alignItems": "flex-start"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "95:967",
+          "name": "Row",
+          "style": {
+            "gap": "24px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "stack",
+              "node": "95:968",
+              "name": "Plan · Intercept for Windows",
+              "style": {
+                "padding": "40px",
+                "borderRadius": "20px",
+                "borderColor": "#2563eb",
+                "borderWidth": "2px",
+                "--basis": "720px",
+                "minHeight": "538px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "node": "95:969",
+                  "text": "Intercept for Windows",
+                  "style": {
+                    "letterSpacing": "0.96px",
+                    "lineHeight": "normal",
+                    "color": "#2563eb",
+                    "fontSize": "12px",
+                    "fontWeight": 500,
+                    "fontFamily": "'Geist Mono',monospace",
+                    "textTransform": "uppercase",
+                    "whiteSpace": "nowrap"
+                  }
+                },
+                {
+                  "kind": "spacer",
+                  "node": "95:970",
+                  "name": "Spacer",
+                  "text": "",
+                  "style": {
+                    "width": "100%",
+                    "minHeight": "16px",
+                    "height": "16px"
+                  }
+                },
+                {
+                  "kind": "row",
+                  "node": "95:971",
+                  "name": "Row",
+                  "style": {
+                    "gap": "14px",
+                    "width": "100%",
+                    "alignItems": "baseline"
+                  },
+                  "children": [
+                    {
+                      "kind": "heading",
+                      "node": "95:972",
+                      "text": "$0",
+                      "style": {
+                        "letterSpacing": "-2.16px",
+                        "lineHeight": "76px",
+                        "color": "#0b1220",
+                        "fontSize": "72px",
+                        "fontWeight": 600,
+                        "fontFamily": "'Instrument Sans',sans-serif",
+                        "minWidth": "93px"
+                      }
+                    },
+                    {
+                      "kind": "text",
+                      "node": "95:973",
+                      "text": "for personal and work use",
+                      "style": {
+                        "lineHeight": "normal",
+                        "color": "#667085",
+                        "fontSize": "17px",
+                        "fontWeight": 400,
+                        "fontFamily": "'Instrument Sans',sans-serif"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "spacer",
+                  "node": "95:974",
+                  "name": "Spacer",
+                  "text": "",
+                  "style": {
+                    "width": "100%",
+                    "minHeight": "12px",
+                    "height": "12px"
+                  }
+                },
+                {
+                  "kind": "text",
+                  "node": "95:975",
+                  "text": "No account, no telemetry and no paid tier. Every feature ships in the same build.",
+                  "style": {
+                    "lineHeight": "28px",
+                    "color": "#3d4757",
+                    "fontSize": "17px",
+                    "width": "100%",
+                    "fontWeight": 400,
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                },
+                {
+                  "kind": "spacer",
+                  "node": "95:976",
+                  "name": "Spacer",
+                  "text": "",
+                  "style": {
+                    "width": "100%",
+                    "minHeight": "24px",
+                    "height": "24px"
+                  }
+                },
+                {
+                  "kind": "row",
+                  "node": "95:977",
+                  "name": "Row",
+                  "style": {
+                    "gap": "20px",
+                    "alignItems": "center"
+                  },
+                  "children": [
+                    {
+                      "kind": "link",
+                      "node": "95:978",
+                      "name": "Button/primary",
+                      "style": {
+                        "gap": "8px",
+                        "borderRadius": "6px",
+                        "background": "#2563eb",
+                        "paddingLeft": "22px",
+                        "paddingRight": "22px",
+                        "paddingTop": "13px",
+                        "paddingBottom": "13px",
+                        "alignItems": "center"
+                      },
+                      "children": [
+                        {
+                          "kind": "icon",
+                          "src": "./assets/subpages/0a9c9.svg",
+                          "size": 18,
+                          "node": "95:979",
+                          "style": {}
+                        },
+                        {
+                          "kind": "text",
+                          "node": "95:983",
+                          "text": "Download for Windows",
+                          "style": {
+                            "lineHeight": "normal",
+                            "fontSize": "15px",
+                            "color": "#fff",
+                            "fontWeight": 600,
+                            "fontFamily": "'Instrument Sans',sans-serif",
+                            "whiteSpace": "nowrap"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "row",
+                      "node": "95:984",
+                      "name": "Facts",
+                      "style": {
+                        "gap": "24px",
+                        "alignItems": "center"
+                      },
+                      "children": [
+                        {
+                          "kind": "row",
+                          "node": "95:985",
+                          "name": "Row",
+                          "style": {
+                            "gap": "8px",
+                            "alignItems": "center"
+                          },
+                          "children": [
+                            {
+                              "kind": "dot",
+                              "node": "95:986",
+                              "name": "Ellipse",
+                              "style": {
+                                "width": "4px",
+                                "height": "4px",
+                                "alignItems": "flex-start"
+                              },
+                              "children": [
+                                {
+                                  "kind": "icon",
+                                  "src": "./assets/subpages/728c3.svg",
+                                  "size": 18,
+                                  "node": null
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "text",
+                              "node": "95:987",
+                              "text": "Windows 11 x64",
+                              "style": {
+                                "lineHeight": "normal",
+                                "color": "#667085",
+                                "fontSize": "14px",
+                                "fontWeight": 400,
+                                "fontFamily": "'Instrument Sans',sans-serif",
+                                "whiteSpace": "nowrap"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "row",
+                          "node": "95:988",
+                          "name": "Row",
+                          "style": {
+                            "gap": "8px",
+                            "alignItems": "center"
+                          },
+                          "children": [
+                            {
+                              "kind": "dot",
+                              "node": "95:989",
+                              "name": "Ellipse",
+                              "style": {
+                                "width": "4px",
+                                "height": "4px",
+                                "alignItems": "flex-start"
+                              },
+                              "children": [
+                                {
+                                  "kind": "icon",
+                                  "src": "./assets/subpages/728c3.svg",
+                                  "size": 18,
+                                  "node": null
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "text",
+                              "node": "95:990",
+                              "text": "Preview {{preview}}",
+                              "style": {
+                                "lineHeight": "normal",
+                                "color": "#667085",
+                                "fontSize": "14px",
+                                "fontWeight": 400,
+                                "fontFamily": "'Instrument Sans',sans-serif",
+                                "whiteSpace": "nowrap"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "spacer",
+                  "node": "95:991",
+                  "name": "Spacer",
+                  "text": "",
+                  "style": {
+                    "width": "100%",
+                    "minHeight": "32px",
+                    "height": "32px"
+                  }
+                },
+                {
+                  "kind": "divider",
+                  "node": "95:992",
+                  "name": "Divider",
+                  "text": "",
+                  "style": {
+                    "background": "#e4e7ec",
+                    "width": "100%",
+                    "height": "1px"
+                  }
+                },
+                {
+                  "kind": "spacer",
+                  "node": "95:993",
+                  "name": "Spacer",
+                  "text": "",
+                  "style": {
+                    "width": "100%",
+                    "minHeight": "24px",
+                    "height": "24px"
+                  }
+                },
+                {
+                  "kind": "text",
+                  "node": "95:994",
+                  "text": "Included",
+                  "style": {
+                    "letterSpacing": "0.69px",
+                    "lineHeight": "normal",
+                    "color": "#667085",
+                    "fontSize": "11.5px",
+                    "fontWeight": 500,
+                    "fontFamily": "'Geist Mono',monospace",
+                    "textTransform": "uppercase",
+                    "width": "100%"
+                  }
+                },
+                {
+                  "kind": "spacer",
+                  "node": "95:995",
+                  "name": "Spacer",
+                  "text": "",
+                  "style": {
+                    "width": "100%",
+                    "minHeight": "16px",
+                    "height": "16px"
+                  }
+                },
+                {
+                  "kind": "row",
+                  "node": "95:996",
+                  "name": "Row",
+                  "style": {
+                    "gap": "32px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "stack",
+                      "node": "95:997",
+                      "name": "Stack",
+                      "style": {
+                        "flex": "1 1 0",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "stack",
+                          "node": "95:998",
+                          "name": "Checklist",
+                          "style": {
+                            "gap": "10px",
+                            "width": "100%",
+                            "alignItems": "flex-start"
+                          },
+                          "children": [
+                            {
+                              "kind": "row",
+                              "node": "95:999",
+                              "name": "Row",
+                              "style": {
+                                "gap": "12px",
+                                "width": "100%",
+                                "alignItems": "flex-start"
+                              },
+                              "children": [
+                                {
+                                  "kind": "row",
+                                  "node": "95:1000",
+                                  "name": "Row",
+                                  "style": {
+                                    "paddingTop": "3px",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "children": [
+                                    {
+                                      "kind": "icon",
+                                      "src": "./assets/subpages/997a0.svg",
+                                      "size": 18,
+                                      "node": "95:1001",
+                                      "style": {}
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "text",
+                                  "node": "95:1003",
+                                  "text": "Camera, microphone, network and sign-in activity",
+                                  "style": {
+                                    "lineHeight": "24px",
+                                    "color": "#3d4757",
+                                    "fontSize": "15.5px",
+                                    "flex": "1 1 0",
+                                    "fontWeight": 400,
+                                    "fontFamily": "'Instrument Sans',sans-serif"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "row",
+                              "node": "95:1004",
+                              "name": "Row",
+                              "style": {
+                                "gap": "12px",
+                                "width": "100%",
+                                "alignItems": "flex-start"
+                              },
+                              "children": [
+                                {
+                                  "kind": "row",
+                                  "node": "95:1005",
+                                  "name": "Row",
+                                  "style": {
+                                    "paddingTop": "3px",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "children": [
+                                    {
+                                      "kind": "icon",
+                                      "src": "./assets/subpages/997a0.svg",
+                                      "size": 18,
+                                      "node": "95:1006",
+                                      "style": {}
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "text",
+                                  "node": "95:1008",
+                                  "text": "Input protection with no time limit",
+                                  "style": {
+                                    "lineHeight": "24px",
+                                    "color": "#3d4757",
+                                    "fontSize": "15.5px",
+                                    "flex": "1 1 0",
+                                    "fontWeight": 400,
+                                    "fontFamily": "'Instrument Sans',sans-serif"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "row",
+                              "node": "95:1009",
+                              "name": "Row",
+                              "style": {
+                                "gap": "12px",
+                                "width": "100%",
+                                "alignItems": "flex-start"
+                              },
+                              "children": [
+                                {
+                                  "kind": "row",
+                                  "node": "95:1010",
+                                  "name": "Row",
+                                  "style": {
+                                    "paddingTop": "3px",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "children": [
+                                    {
+                                      "kind": "icon",
+                                      "src": "./assets/subpages/997a0.svg",
+                                      "size": 18,
+                                      "node": "95:1011",
+                                      "style": {}
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "text",
+                                  "node": "95:1013",
+                                  "text": "Claude and Codex as trusted agents",
+                                  "style": {
+                                    "lineHeight": "24px",
+                                    "color": "#3d4757",
+                                    "fontSize": "15.5px",
+                                    "flex": "1 1 0",
+                                    "fontWeight": 400,
+                                    "fontFamily": "'Instrument Sans',sans-serif"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "row",
+                              "node": "95:1014",
+                              "name": "Row",
+                              "style": {
+                                "gap": "12px",
+                                "width": "100%",
+                                "alignItems": "flex-start"
+                              },
+                              "children": [
+                                {
+                                  "kind": "row",
+                                  "node": "95:1015",
+                                  "name": "Row",
+                                  "style": {
+                                    "paddingTop": "3px",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "children": [
+                                    {
+                                      "kind": "icon",
+                                      "src": "./assets/subpages/997a0.svg",
+                                      "size": 18,
+                                      "node": "95:1016",
+                                      "style": {}
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "text",
+                                  "node": "95:1018",
+                                  "text": "Plain-language alerts, grouped",
+                                  "style": {
+                                    "lineHeight": "24px",
+                                    "color": "#3d4757",
+                                    "fontSize": "15.5px",
+                                    "flex": "1 1 0",
+                                    "fontWeight": 400,
+                                    "fontFamily": "'Instrument Sans',sans-serif"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "stack",
+                      "node": "95:1019",
+                      "name": "Stack",
+                      "style": {
+                        "flex": "1 1 0",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "stack",
+                          "node": "95:1020",
+                          "name": "Checklist",
+                          "style": {
+                            "gap": "10px",
+                            "width": "100%",
+                            "alignItems": "flex-start"
+                          },
+                          "children": [
+                            {
+                              "kind": "row",
+                              "node": "95:1021",
+                              "name": "Row",
+                              "style": {
+                                "gap": "12px",
+                                "width": "100%",
+                                "alignItems": "flex-start"
+                              },
+                              "children": [
+                                {
+                                  "kind": "row",
+                                  "node": "95:1022",
+                                  "name": "Row",
+                                  "style": {
+                                    "paddingTop": "3px",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "children": [
+                                    {
+                                      "kind": "icon",
+                                      "src": "./assets/subpages/997a0.svg",
+                                      "size": 18,
+                                      "node": "95:1023",
+                                      "style": {}
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "text",
+                                  "node": "95:1025",
+                                  "text": "Simple and Advanced modes",
+                                  "style": {
+                                    "lineHeight": "24px",
+                                    "color": "#3d4757",
+                                    "fontSize": "15.5px",
+                                    "flex": "1 1 0",
+                                    "fontWeight": 400,
+                                    "fontFamily": "'Instrument Sans',sans-serif"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "row",
+                              "node": "95:1026",
+                              "name": "Row",
+                              "style": {
+                                "gap": "12px",
+                                "width": "100%",
+                                "alignItems": "flex-start"
+                              },
+                              "children": [
+                                {
+                                  "kind": "row",
+                                  "node": "95:1027",
+                                  "name": "Row",
+                                  "style": {
+                                    "paddingTop": "3px",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "children": [
+                                    {
+                                      "kind": "icon",
+                                      "src": "./assets/subpages/997a0.svg",
+                                      "size": 18,
+                                      "node": "95:1028",
+                                      "style": {}
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "text",
+                                  "node": "95:1030",
+                                  "text": "Local history that is never trimmed",
+                                  "style": {
+                                    "lineHeight": "24px",
+                                    "color": "#3d4757",
+                                    "fontSize": "15.5px",
+                                    "flex": "1 1 0",
+                                    "fontWeight": 400,
+                                    "fontFamily": "'Instrument Sans',sans-serif"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "row",
+                              "node": "95:1031",
+                              "name": "Row",
+                              "style": {
+                                "gap": "12px",
+                                "width": "100%",
+                                "alignItems": "flex-start"
+                              },
+                              "children": [
+                                {
+                                  "kind": "row",
+                                  "node": "95:1032",
+                                  "name": "Row",
+                                  "style": {
+                                    "paddingTop": "3px",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "children": [
+                                    {
+                                      "kind": "icon",
+                                      "src": "./assets/subpages/997a0.svg",
+                                      "size": 18,
+                                      "node": "95:1033",
+                                      "style": {}
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "text",
+                                  "node": "95:1035",
+                                  "text": "Actions ledger with Undo",
+                                  "style": {
+                                    "lineHeight": "24px",
+                                    "color": "#3d4757",
+                                    "fontSize": "15.5px",
+                                    "flex": "1 1 0",
+                                    "fontWeight": 400,
+                                    "fontFamily": "'Instrument Sans',sans-serif"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "row",
+                              "node": "95:1036",
+                              "name": "Row",
+                              "style": {
+                                "gap": "12px",
+                                "width": "100%",
+                                "alignItems": "flex-start"
+                              },
+                              "children": [
+                                {
+                                  "kind": "row",
+                                  "node": "95:1037",
+                                  "name": "Row",
+                                  "style": {
+                                    "paddingTop": "3px",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "children": [
+                                    {
+                                      "kind": "icon",
+                                      "src": "./assets/subpages/997a0.svg",
+                                      "size": 18,
+                                      "node": "95:1038",
+                                      "style": {}
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "text",
+                                  "node": "95:1040",
+                                  "text": "Offline signature checks",
+                                  "style": {
+                                    "lineHeight": "24px",
+                                    "color": "#3d4757",
+                                    "fontSize": "15.5px",
+                                    "flex": "1 1 0",
+                                    "fontWeight": 400,
+                                    "fontFamily": "'Instrument Sans',sans-serif"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "node": "95:1041",
+              "name": "Using it at work",
+              "style": {
+                "borderRadius": "20px",
+                "background": "#f1f4f9",
+                "paddingLeft": "36px",
+                "paddingRight": "36px",
+                "paddingTop": "40px",
+                "paddingBottom": "40px",
+                "minHeight": "538px",
+                "flex": "1 1 0",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "row",
+                  "node": "95:1042",
+                  "name": "Row",
+                  "style": {
+                    "borderRadius": "10px",
+                    "background": "#fff",
+                    "width": "44px",
+                    "height": "44px",
+                    "alignItems": "center",
+                    "justifyContent": "center"
+                  },
+                  "children": [
+                    {
+                      "kind": "icon",
+                      "src": "./assets/subpages/1791c.svg",
+                      "size": 22,
+                      "node": "95:1043",
+                      "style": {}
+                    }
+                  ]
+                },
+                {
+                  "kind": "spacer",
+                  "node": "95:1047",
+                  "name": "Spacer",
+                  "text": "",
+                  "style": {
+                    "width": "100%",
+                    "minHeight": "20px",
+                    "height": "20px"
+                  }
+                },
+                {
+                  "kind": "heading",
+                  "node": "95:1048",
+                  "text": "Using it at work",
+                  "style": {
+                    "letterSpacing": "-0.26px",
+                    "lineHeight": "32px",
+                    "color": "#0b1220",
+                    "fontSize": "26px",
+                    "fontWeight": 600,
+                    "width": "100%",
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                },
+                {
+                  "kind": "spacer",
+                  "node": "95:1049",
+                  "name": "Spacer",
+                  "text": "",
+                  "style": {
+                    "width": "100%",
+                    "minHeight": "12px",
+                    "height": "12px"
+                  }
+                },
+                {
+                  "kind": "text",
+                  "node": "95:1050",
+                  "text": "The MIT licence allows commercial use. Check Intercept against your organisation’s software policy before you roll it out.",
+                  "style": {
+                    "lineHeight": "26px",
+                    "color": "#3d4757",
+                    "fontSize": "16px",
+                    "width": "100%",
+                    "fontWeight": 400,
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                },
+                {
+                  "kind": "spacer",
+                  "node": "95:1051",
+                  "name": "Spacer",
+                  "text": "",
+                  "style": {
+                    "width": "100%",
+                    "minHeight": "20px",
+                    "height": "20px"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "node": "95:1052",
+                  "name": "Checklist",
+                  "style": {
+                    "gap": "10px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "row",
+                      "node": "95:1053",
+                      "name": "Row",
+                      "style": {
+                        "gap": "12px",
+                        "width": "100%",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "row",
+                          "node": "95:1054",
+                          "name": "Row",
+                          "style": {
+                            "paddingTop": "3px",
+                            "alignItems": "flex-start"
+                          },
+                          "children": [
+                            {
+                              "kind": "icon",
+                              "src": "./assets/subpages/70408.svg",
+                              "size": 18,
+                              "node": "95:1055",
+                              "style": {}
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "text",
+                          "node": "95:1057",
+                          "text": "No support contract or SLA during the preview",
+                          "style": {
+                            "lineHeight": "24px",
+                            "color": "#3d4757",
+                            "fontSize": "15.5px",
+                            "flex": "1 1 0",
+                            "fontWeight": 400,
+                            "fontFamily": "'Instrument Sans',sans-serif"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "row",
+                      "node": "95:1058",
+                      "name": "Row",
+                      "style": {
+                        "gap": "12px",
+                        "width": "100%",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "row",
+                          "node": "95:1059",
+                          "name": "Row",
+                          "style": {
+                            "paddingTop": "3px",
+                            "alignItems": "flex-start"
+                          },
+                          "children": [
+                            {
+                              "kind": "icon",
+                              "src": "./assets/subpages/70408.svg",
+                              "size": 18,
+                              "node": "95:1060",
+                              "style": {}
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "text",
+                          "node": "95:1062",
+                          "text": "No managed deployment or central console",
+                          "style": {
+                            "lineHeight": "24px",
+                            "color": "#3d4757",
+                            "fontSize": "15.5px",
+                            "flex": "1 1 0",
+                            "fontWeight": 400,
+                            "fontFamily": "'Instrument Sans',sans-serif"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "row",
+                      "node": "95:1063",
+                      "name": "Row",
+                      "style": {
+                        "gap": "12px",
+                        "width": "100%",
+                        "alignItems": "flex-start"
+                      },
+                      "children": [
+                        {
+                          "kind": "row",
+                          "node": "95:1064",
+                          "name": "Row",
+                          "style": {
+                            "paddingTop": "3px",
+                            "alignItems": "flex-start"
+                          },
+                          "children": [
+                            {
+                              "kind": "icon",
+                              "src": "./assets/subpages/70408.svg",
+                              "size": 18,
+                              "node": "95:1065",
+                              "style": {}
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "text",
+                          "node": "95:1067",
+                          "text": "Installers are not code-signed yet",
+                          "style": {
+                            "lineHeight": "24px",
+                            "color": "#3d4757",
+                            "fontSize": "15.5px",
+                            "flex": "1 1 0",
+                            "fontWeight": 400,
+                            "fontFamily": "'Instrument Sans',sans-serif"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "spacer",
+                  "node": "95:1068",
+                  "name": "push",
+                  "text": "",
+                  "style": {
+                    "width": "100%",
+                    "flex": "1 1 0"
+                  }
+                },
+                {
+                  "kind": "spacer",
+                  "node": "95:1069",
+                  "name": "Spacer",
+                  "text": "",
+                  "style": {
+                    "width": "100%",
+                    "minHeight": "24px",
+                    "height": "24px"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "node": "95:1070",
+                  "name": "Stack",
+                  "style": {
+                    "gap": "14px",
+                    "width": "100%",
+                    "alignItems": "flex-start"
+                  },
+                  "children": [
+                    {
+                      "kind": "link",
+                      "node": "95:1071",
+                      "name": "Link/arrow",
+                      "style": {
+                        "gap": "8px",
+                        "alignItems": "center"
+                      },
+                      "children": [
+                        {
+                          "kind": "text",
+                          "node": "95:1072",
+                          "text": "Read the security brief",
+                          "style": {
+                            "lineHeight": "normal",
+                            "color": "#2563eb",
+                            "fontSize": "15px",
+                            "fontWeight": 600,
+                            "fontFamily": "'Instrument Sans',sans-serif",
+                            "whiteSpace": "nowrap"
+                          }
+                        },
+                        {
+                          "kind": "icon",
+                          "src": "./assets/subpages/55209.svg",
+                          "size": 16,
+                          "node": "95:1073",
+                          "style": {}
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "link",
+                      "node": "95:1076",
+                      "name": "Link/arrow",
+                      "style": {
+                        "gap": "8px",
+                        "alignItems": "center"
+                      },
+                      "children": [
+                        {
+                          "kind": "text",
+                          "node": "95:1077",
+                          "text": "Read the licence",
+                          "style": {
+                            "lineHeight": "normal",
+                            "color": "#2563eb",
+                            "fontSize": "15px",
+                            "fontWeight": 600,
+                            "fontFamily": "'Instrument Sans',sans-serif",
+                            "whiteSpace": "nowrap"
+                          }
+                        },
+                        {
+                          "kind": "icon",
+                          "src": "./assets/subpages/91474.svg",
+                          "size": 16,
+                          "node": "95:1078",
+                          "style": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "stack",
+      "node": "95:1082",
+      "name": "Pricing questions",
+      "style": {
+        "paddingTop": "88px",
+        "paddingBottom": "96px",
+        "background": "#f1f4f9",
+        "paddingLeft": "120px",
+        "paddingRight": "120px",
+        "width": "100%",
+        "alignItems": "flex-start"
+      },
+      "children": [
+        {
+          "kind": "heading",
+          "node": "95:1083",
+          "text": "Pricing questions",
+          "style": {
+            "letterSpacing": "-0.8px",
+            "lineHeight": "46px",
+            "color": "#0b1220",
+            "fontSize": "40px",
+            "fontWeight": 600,
+            "width": "100%",
+            "fontFamily": "'Instrument Sans',sans-serif"
+          }
+        },
+        {
+          "kind": "spacer",
+          "node": "95:1084",
+          "name": "Spacer",
+          "text": "",
+          "style": {
+            "width": "100%",
+            "minHeight": "40px",
+            "height": "40px"
+          }
+        },
+        {
+          "kind": "row",
+          "node": "95:1085",
+          "name": "Row",
+          "style": {
+            "gap": "48px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "stack",
+              "node": "95:1086",
+              "name": "Stack",
+              "style": {
+                "gap": "10px",
+                "paddingTop": "24px",
+                "paddingBottom": "28px",
+                "borderColor": "#c9d1dc",
+                "borderTopWidth": "1px",
+                "flex": "1 1 0",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "subheading",
+                  "node": "95:1087",
+                  "text": "Is there a paid version?",
+                  "style": {
+                    "lineHeight": "25px",
+                    "color": "#0b1220",
+                    "fontSize": "18px",
+                    "fontWeight": 600,
+                    "width": "100%",
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                },
+                {
+                  "kind": "text",
+                  "node": "95:1088",
+                  "text": "No. There is one build, and every feature is in it.",
+                  "style": {
+                    "lineHeight": "26px",
+                    "color": "#3d4757",
+                    "fontSize": "16px",
+                    "width": "100%",
+                    "fontWeight": 400,
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "node": "95:1089",
+              "name": "Stack",
+              "style": {
+                "gap": "10px",
+                "paddingTop": "24px",
+                "paddingBottom": "28px",
+                "borderColor": "#c9d1dc",
+                "borderTopWidth": "1px",
+                "flex": "1 1 0",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "subheading",
+                  "node": "95:1090",
+                  "text": "Can I use Intercept at work?",
+                  "style": {
+                    "lineHeight": "25px",
+                    "color": "#0b1220",
+                    "fontSize": "18px",
+                    "fontWeight": 600,
+                    "width": "100%",
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                },
+                {
+                  "kind": "text",
+                  "node": "95:1091",
+                  "text": "Yes. The MIT licence permits commercial use. There is no support contract during the preview.",
+                  "style": {
+                    "lineHeight": "26px",
+                    "color": "#3d4757",
+                    "fontSize": "16px",
+                    "width": "100%",
+                    "fontWeight": 400,
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "95:1092",
+          "name": "Row",
+          "style": {
+            "gap": "48px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "stack",
+              "node": "95:1093",
+              "name": "Stack",
+              "style": {
+                "gap": "10px",
+                "paddingTop": "24px",
+                "paddingBottom": "28px",
+                "borderColor": "#c9d1dc",
+                "borderTopWidth": "1px",
+                "flex": "1 1 0",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "subheading",
+                  "node": "95:1094",
+                  "text": "Do I need an account or a licence key?",
+                  "style": {
+                    "lineHeight": "25px",
+                    "color": "#0b1220",
+                    "fontSize": "18px",
+                    "fontWeight": 600,
+                    "width": "100%",
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                },
+                {
+                  "kind": "text",
+                  "node": "95:1095",
+                  "text": "No. Intercept has no account, licence key or activation, and the app makes no outbound connections.",
+                  "style": {
+                    "lineHeight": "26px",
+                    "color": "#3d4757",
+                    "fontSize": "16px",
+                    "width": "100%",
+                    "fontWeight": 400,
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "node": "95:1096",
+              "name": "Stack",
+              "style": {
+                "gap": "10px",
+                "paddingTop": "24px",
+                "paddingBottom": "28px",
+                "borderColor": "#c9d1dc",
+                "borderTopWidth": "1px",
+                "flex": "1 1 0",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "subheading",
+                  "node": "95:1097",
+                  "text": "Where do I get help?",
+                  "style": {
+                    "lineHeight": "25px",
+                    "color": "#0b1220",
+                    "fontSize": "18px",
+                    "fontWeight": 600,
+                    "width": "100%",
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                },
+                {
+                  "kind": "text",
+                  "node": "95:1098",
+                  "text": "Read the documentation, or report a problem on GitHub. Report security issues privately, as the security brief describes.",
+                  "style": {
+                    "lineHeight": "26px",
+                    "color": "#3d4757",
+                    "fontSize": "16px",
+                    "width": "100%",
+                    "fontWeight": 400,
+                    "fontFamily": "'Instrument Sans',sans-serif"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

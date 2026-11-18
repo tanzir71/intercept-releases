@@ -1,0 +1,92 @@
+{
+  "panels": [
+    {
+      "node": "85:222",
+      "file": "panel-85-222.webp",
+      "pixels": [
+        2400,
+        1040
+      ],
+      "scale": 2,
+      "encoding": "lossless WebP",
+      "sha256": "1e61637a5dc7af13260896e28464df0783a16e894e2d03597d3451646e84426d"
+    },
+    {
+      "node": "87:305",
+      "file": "panel-87-305.webp",
+      "pixels": [
+        2400,
+        1040
+      ],
+      "scale": 2,
+      "encoding": "lossless WebP",
+      "sha256": "f5fd6cbb2fb91c1cdab05e67db927fe29960806c1cb2a77269f847a4275c61ac"
+    },
+    {
+      "node": "89:393",
+      "file": "panel-89-393.webp",
+      "pixels": [
+        2400,
+        1040
+      ],
+      "scale": 2,
+      "encoding": "lossless WebP",
+      "sha256": "d78c9c166388fc14f4275e2ae1eeddf74df5706f0d9b4268081e7b65b8b8202a"
+    },
+    {
+      "node": "91:1399",
+      "file": "panel-91-1399.webp",
+      "pixels": [
+        1316,
+        920
+      ],
+      "scale": 2,
+      "encoding": "lossless WebP",
+      "sha256": "993e19f61aaf91ea556a9bb8fe321d4cb7de6422c464f87bb296833ac51b4c6f"
+    },
+    {
+      "node": "91:2281",
+      "file": "panel-91-2281.webp",
+      "pixels": [
+        1316,
+        920
+      ],
+      "scale": 2,
+      "encoding": "lossless WebP",
+      "sha256": "e8fc63cd99e0e35788158d18c1b522c529fa9659fa312f519142a484771b6934"
+    },
+    {
+      "node": "91:2769",
+      "file": "panel-91-2769.webp",
+      "pixels": [
+        1316,
+        920
+      ],
+      "scale": 2,
+      "encoding": "lossless WebP",
+      "sha256": "5a013f53639ca8fc234243223563affa27100469f6540e8873f23c7c3fdea5a6"
+    },
+    {
+      "node": "91:3100",
+      "file": "panel-91-3100.webp",
+      "pixels": [
+        1316,
+        920
+      ],
+      "scale": 2,
+      "encoding": "lossless WebP",
+      "sha256": "a8416228f937765ccbcd5c91e034a6b5f65b90c8f440e805c69a617cba1fa2ff"
+    },
+    {
+      "node": "91:481",
+      "file": "panel-91-481.webp",
+      "pixels": [
+        2400,
+        1040
+      ],
+      "scale": 2,
+      "encoding": "lossless WebP",
+      "sha256": "319cc9cb52b00445d113b4f98cea1fb80a9937ba17437f4c3ae9a0299330c181"
+    }
+  ]
+}

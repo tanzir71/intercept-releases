@@ -1,0 +1,1180 @@
+{
+  "kind": "stack",
+  "node": "95:1196",
+  "name": "Article",
+  "style": {
+    "--basis": "680px",
+    "alignItems": "flex-start"
+  },
+  "children": [
+    {
+      "kind": "text",
+      "node": "95:1206",
+      "text": "Project",
+      "style": {
+        "letterSpacing": "0.96px",
+        "lineHeight": "normal",
+        "color": "#2563eb",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "fontFamily": "'Geist Mono',monospace",
+        "textTransform": "uppercase",
+        "whiteSpace": "nowrap"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "95:1207",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "95:1208",
+      "text": "Third-party notices",
+      "style": {
+        "letterSpacing": "-0.88px",
+        "lineHeight": "50px",
+        "color": "#0b1220",
+        "fontSize": "44px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "95:1209",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "18px",
+        "height": "18px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "95:1210",
+      "text": "Intercept is MIT-licensed and builds on open-source components. Their licences and notices ship with every installer.",
+      "style": {
+        "lineHeight": "30px",
+        "color": "#3d4757",
+        "fontSize": "19px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "95:1211",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "22px",
+        "height": "22px"
+      }
+    },
+    {
+      "kind": "row",
+      "node": "95:1212",
+      "name": "Doc meta",
+      "style": {
+        "gap": "10px",
+        "lineHeight": "normal",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "fontFamily": "'Geist Mono',monospace",
+        "alignItems": "center"
+      },
+      "children": [
+        {
+          "kind": "text",
+          "node": "95:1213",
+          "text": "Updated {{dateLabel}}",
+          "style": {
+            "letterSpacing": "0.48px",
+            "color": "#667085",
+            "textTransform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "node": "95:1214",
+          "text": "·",
+          "style": {
+            "color": "#98a2b3"
+          }
+        },
+        {
+          "kind": "text",
+          "node": "95:1215",
+          "text": "Applies to {{version}}",
+          "style": {
+            "letterSpacing": "0.48px",
+            "color": "#667085",
+            "textTransform": "uppercase"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "95:1216",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "28px",
+        "height": "28px"
+      }
+    },
+    {
+      "kind": "divider",
+      "node": "95:1217",
+      "name": "Divider",
+      "text": "",
+      "style": {
+        "background": "#e4e7ec",
+        "width": "100%",
+        "height": "1px"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "95:1218",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "40px",
+        "height": "40px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "95:1219",
+      "text": "Desktop app",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "95:1220",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "95:1221",
+      "text": "The installer includes the full notices in its licenses folder. The main components are:",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "95:1222",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "20px",
+        "height": "20px"
+      }
+    },
+    {
+      "kind": "table",
+      "node": "95:1223",
+      "name": "Desktop components",
+      "style": {
+        "borderRadius": "12px",
+        "background": "#fff",
+        "borderColor": "#e4e7ec",
+        "borderWidth": "1px",
+        "width": "100%",
+        "alignItems": "flex-start",
+        "overflow": "hidden"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "95:1224",
+          "name": "Table header",
+          "style": {
+            "gap": "24px",
+            "background": "#f1f4f9",
+            "letterSpacing": "0.69px",
+            "lineHeight": "normal",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px",
+            "color": "#667085",
+            "fontSize": "11.5px",
+            "fontWeight": 500,
+            "fontFamily": "'Geist Mono',monospace",
+            "textTransform": "uppercase",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "95:1225",
+              "text": "Component",
+              "style": {
+                "--basis": "170px"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1226",
+              "text": "Licence",
+              "style": {
+                "--basis": "200px"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1227",
+              "text": "Used for",
+              "style": {
+                "flex": "1 1 0"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "95:1228",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "95:1229",
+              "text": "Electron",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "170px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1230",
+              "text": "MIT, with bundled Chromium and Node notices",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "200px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1231",
+              "text": "Desktop shell, tray and notifications",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "95:1232",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "95:1233",
+              "text": "windows-rs, windows-sys",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "170px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1234",
+              "text": "MIT or Apache-2.0",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "200px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1235",
+              "text": "Windows bindings",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "95:1236",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "95:1237",
+              "text": "ferrisetw",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "170px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1238",
+              "text": "MIT or Apache-2.0",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "200px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1239",
+              "text": "Optional DNS, file and network tracing",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "95:1240",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "95:1241",
+              "text": "rusqlite, SQLite",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "170px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1242",
+              "text": "MIT; public domain",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "200px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1243",
+              "text": "The local history store",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "95:1244",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "95:1245",
+              "text": "React, Vite, TypeScript",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "170px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1246",
+              "text": "MIT; Apache-2.0 for TypeScript",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "200px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1247",
+              "text": "The interface and its build",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "95:1248",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "95:1249",
+              "text": "Lucide",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "170px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1250",
+              "text": "ISC",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "200px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1251",
+              "text": "Interface icons",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "95:1252",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "95:1253",
+              "text": "Inter, Roboto Mono",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "170px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1254",
+              "text": "SIL Open Font License 1.1",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "200px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1255",
+              "text": "Interface fonts",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "95:1256",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "95:1257",
+              "text": "Simple Icons",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "170px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1258",
+              "text": "CC0-1.0, with brand terms",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "200px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1259",
+              "text": "Selected application logos",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "95:1260",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "callout",
+      "node": "95:1261",
+      "name": "Callout/info",
+      "style": {
+        "gap": "12px",
+        "paddingLeft": "20px",
+        "paddingRight": "22px",
+        "borderRadius": "12px",
+        "background": "#e7effe",
+        "paddingTop": "18px",
+        "paddingBottom": "18px",
+        "width": "100%",
+        "alignItems": "flex-start"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "95:1262",
+          "name": "Row",
+          "style": {
+            "paddingTop": "2px",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "icon",
+              "src": "./assets/subpages/53661.svg",
+              "size": 18,
+              "node": "95:1263",
+              "style": {}
+            }
+          ]
+        },
+        {
+          "kind": "stack",
+          "node": "95:1267",
+          "name": "Stack",
+          "style": {
+            "gap": "4px",
+            "fontSize": "15px",
+            "flex": "1 1 0",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "95:1268",
+              "text": "Data you import keeps its own licence.",
+              "style": {
+                "lineHeight": "22px",
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "width": "100%",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1269",
+              "text": "Optional GeoIP databases or tracker lists that you import are covered by their own terms. Intercept bundles none of them.",
+              "style": {
+                "lineHeight": "23px",
+                "color": "#3d4757",
+                "width": "100%",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "95:1270",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "56px",
+        "height": "56px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "95:1271",
+      "text": "This website",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "95:1272",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "table",
+      "node": "95:1273",
+      "name": "Website assets",
+      "style": {
+        "borderRadius": "12px",
+        "background": "#fff",
+        "borderColor": "#e4e7ec",
+        "borderWidth": "1px",
+        "width": "100%",
+        "alignItems": "flex-start",
+        "overflow": "hidden"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "95:1274",
+          "name": "Table header",
+          "style": {
+            "gap": "24px",
+            "background": "#f1f4f9",
+            "letterSpacing": "0.69px",
+            "lineHeight": "normal",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px",
+            "color": "#667085",
+            "fontSize": "11.5px",
+            "fontWeight": 500,
+            "fontFamily": "'Geist Mono',monospace",
+            "textTransform": "uppercase",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "95:1275",
+              "text": "Asset",
+              "style": {
+                "--basis": "200px"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1276",
+              "text": "Licence",
+              "style": {
+                "flex": "1 1 0"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "95:1277",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "95:1278",
+              "text": "Instrument Sans",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "200px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1279",
+              "text": "SIL Open Font License 1.1",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "95:1280",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "95:1281",
+              "text": "Geist Mono",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "200px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1282",
+              "text": "SIL Open Font License 1.1",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "95:1283",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "95:1284",
+              "text": "Inter",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "200px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1285",
+              "text": "SIL Open Font License 1.1",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "95:1286",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "95:1287",
+              "text": "Roboto Mono",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "200px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1288",
+              "text": "SIL Open Font License 1.1",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "95:1289",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "95:1290",
+              "text": "Lucide icons",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "200px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "95:1291",
+              "text": "ISC",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "95:1292",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "95:1293",
+      "text": "Each licence file is published alongside the site, and the website itself is MIT-licensed.",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "95:1294",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "14px",
+        "height": "14px"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "95:1295",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "56px",
+        "height": "56px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "95:1296",
+      "text": "Trademarks",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "95:1297",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "95:1298",
+      "text": "Intercept is an independent project and is not affiliated with Anthropic, OpenAI or Microsoft. Claude is a trademark of Anthropic, PBC. Codex is a trademark of OpenAI. Windows is a trademark of Microsoft Corporation. Application logos identify programs and don’t imply endorsement.",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "95:1299",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "14px",
+        "height": "14px"
+      }
+    }
+  ]
+}

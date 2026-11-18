@@ -1,62 +1,65 @@
-// Focused local Chromium checks. No app launch, collector, hooks or user profile.
+// Optional Chromium checks. Uses an isolated profile; no app, hooks or OS clipboard.
 const {app,BrowserWindow,session}=require('electron');
-const fs=require('node:fs');
-const path=require('node:path');
-const assert=require('node:assert/strict');
-const root=path.resolve(__dirname,'..');
-const provenance=JSON.parse(fs.readFileSync(path.join(root,'binary-provenance.json'),'utf8'));
-assert(/^\d+\.\d+\.\d+-preview\.\d+$/.test(provenance.version));
-const release=`https://github.com/tanzir71/intercept-releases/releases/tag/v${provenance.version}`;
-const download=`https://github.com/tanzir71/intercept-releases/releases/download/v${provenance.version}/${provenance.installer.name}`;
-const out=path.resolve(process.argv[2]);
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'..'),out=path.resolve(process.argv[2]||'.build/verification');
+const {files,latest,download}=require('./check-pages.cjs')(root);
 fs.mkdirSync(out,{recursive:true});
 app.disableHardwareAcceleration();app.setPath('userData',path.join(out,'browser-profile'));
-let win;
-const external=[];
+app.on('window-all-closed',()=>{});
+let win,noJs;const external=[],attempts=[],metrics=[];
+const pause=ms=>new Promise(r=>setTimeout(r,ms));
+const bounded=(promise,label)=>{let timer;return Promise.race([promise,new Promise((_,reject)=>{timer=setTimeout(()=>reject(new Error('Browser check timed out: '+label)),15000)})]).finally(()=>clearTimeout(timer))};
+const evaluate=(fn,...args)=>win.webContents.executeJavaScript('('+fn.toString()+')('+args.map(a=>JSON.stringify(a)).join(',')+')');
+const block=(event,url)=>{if(/^https?:/.test(url)){event.preventDefault();(url===download?attempts:external).push(url)}};
 app.whenReady().then(async()=>{
-  session.defaultSession.webRequest.onBeforeRequest((d,cb)=>{
-    if(/^https?:/.test(d.url)){external.push(d.url);cb({cancel:true});}else cb({});
-  });
-  win=new BrowserWindow({width:1440,height:1400,show:false,webPreferences:{offscreen:true,sandbox:true,contextIsolation:true,nodeIntegration:false}});
-  await win.loadFile(path.join(root,'index.html'));
-  await win.webContents.executeJavaScript('document.fonts.ready.then(()=>true)');
-  await new Promise(r=>setTimeout(r,350));
-  const metrics=await win.webContents.executeJavaScript(`(()=>({width:innerWidth,height:document.documentElement.scrollHeight,
-    images:[...document.images].map(i=>({src:i.getAttribute('src'),ok:i.complete&&i.naturalWidth>0,width:i.getBoundingClientRect().width,height:i.getBoundingClientRect().height})),
-    links:[...document.links].map(a=>({text:a.textContent.trim(),href:a.getAttribute('href')})),
-    faq:document.querySelectorAll('details').length,hero:document.querySelector('[data-node-id="52:28"]').getBoundingClientRect().toJSON(),
-    heading:document.querySelector('h1').getBoundingClientRect().toJSON()}))()`);
-  assert.equal(metrics.width,1440);assert.equal(metrics.faq,7);assert(metrics.images.every(i=>i.ok&&i.width>0&&i.height>0));
-  const downloads=metrics.links.filter(a=>a.text==='Download for Windows');
-  assert(downloads.length>0&&downloads.every(a=>a.href===download));
-  assert(metrics.links.some(a=>a.href===release));
-  assert(metrics.links.filter(a=>a.href?.includes('/releases/tag/')).every(a=>a.href===release));
-  for(const a of metrics.links){if(a.href?.startsWith('#')&&a.href!=='#')assert(await win.webContents.executeJavaScript(`!!document.getElementById(${JSON.stringify(a.href.slice(1))})`),a.href);}
-  assert.equal(external.length,0);
-  fs.writeFileSync(path.join(out,'desktop.png'),(await win.webContents.capturePage()).toPNG());
-  await win.webContents.executeJavaScript('scrollTo(0,6200)');await new Promise(r=>setTimeout(r,150));
-  fs.writeFileSync(path.join(out,'modes.png'),(await win.webContents.capturePage()).toPNG());
-  await win.webContents.executeJavaScript('scrollTo(0,11200)');await new Promise(r=>setTimeout(r,150));
-  fs.writeFileSync(path.join(out,'faq.png'),(await win.webContents.capturePage()).toPNG());
-  win.setContentSize(390,844);await win.webContents.executeJavaScript('scrollTo(0,0)');await new Promise(r=>setTimeout(r,250));
-  const mobile=await win.webContents.executeJavaScript(`(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,heading:document.querySelector('h1').getBoundingClientRect().toJSON()}))()`);
-  assert.equal(mobile.width,390);assert(mobile.heading.left>=0&&mobile.heading.right<=391);
-  fs.writeFileSync(path.join(out,'mobile.png'),(await win.webContents.capturePage()).toPNG());
-  const faqProof=await win.webContents.executeJavaScript(`(()=>{const d=document.querySelectorAll('details')[1];d.querySelector('summary').click();return d.open&&d.querySelector('p').textContent.length>30})()`);assert(faqProof);
-  const heroAlignment=[];
-  for(const width of [390,1024,1280,1440,1855,1920,2560]){
-    win.setContentSize(width,875);await win.webContents.executeJavaScript('scrollTo(0,0)');await new Promise(r=>setTimeout(r,100));
-    const geometry=await win.webContents.executeJavaScript(`(()=>{const panel=document.querySelector('[data-node-id="55:14"]').getBoundingClientRect(),preview=document.querySelector('[data-node-id="52:53"]').getBoundingClientRect();return {viewport:innerWidth,panel:panel.toJSON(),preview:preview.toJSON(),centerDifference:Math.abs((panel.left+panel.right-preview.left-preview.right)/2)}})()`);
-    assert(geometry.panel.width<=1200.1,`Hero panel exceeds the approved maximum at ${width}`);
-    assert(geometry.centerDifference<1,`Hero preview is not centered at ${width}`);
-    assert(geometry.preview.left>=geometry.panel.left&&geometry.preview.right<=geometry.panel.right,`Hero preview escapes the panel at ${width}`);
-    heroAlignment.push(geometry);
-    if(width===1855||width===1920){
-      await win.webContents.executeJavaScript(`document.querySelector('[data-node-id="55:14"]').scrollIntoView({block:'center'})`);await new Promise(r=>setTimeout(r,100));
-      fs.writeFileSync(path.join(out,`hero-${width}.png`),(await win.webContents.capturePage()).toPNG());
-    }
+ session.defaultSession.setPermissionRequestHandler((_w,_p,cb)=>cb(false));
+ session.defaultSession.webRequest.onBeforeRequest((d,cb)=>{if(/^https?:/.test(d.url)){(d.url===download?attempts:external).push(d.url);cb({cancel:true})}else cb({})});
+ win=new BrowserWindow({width:1440,height:1000,show:false,webPreferences:{offscreen:true,sandbox:true,contextIsolation:true,nodeIntegration:false}});
+ win.webContents.setWindowOpenHandler(()=>({action:'deny'}));win.webContents.on('will-navigate',block);
+ for(const width of [1440,390]){
+  win.setContentSize(width,1000);
+  for(const file of files){
+   await win.loadFile(path.join(root,file));await evaluate(async()=>{await document.fonts.ready;return true});await pause(file==='download.html'?1300:100);
+   await evaluate(async()=>{await Promise.all([...document.images].map(i=>{i.loading='eager';return i.decode().catch(()=>null)}));return true});
+   const m=await evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,height:document.documentElement.scrollHeight,h1:document.querySelector('h1').getBoundingClientRect().toJSON(),broken:[...document.images].filter(i=>!i.complete||!i.naturalWidth).map(i=>i.src),overflow:[...document.querySelectorAll('main *')].filter(e=>{const b=e.getBoundingClientRect();return b.right>innerWidth+1&&b.width>0}).slice(0,10).map(e=>({node:e.dataset.nodeId,tag:e.tagName,right:e.getBoundingClientRect().right,text:e.textContent.slice(0,60)}))}));
+   m.file=file;metrics.push(m);assert.equal(m.broken.length,0,file+' broken images');
+   fs.writeFileSync(path.join(out,file.replace('.html','')+'-'+width+'.png'),(await win.webContents.capturePage()).toPNG());
   }
-  const report={passed:true,version:provenance.version,release,download,metrics,mobile,faqProof,heroAlignment,externalRequests:external};fs.writeFileSync(path.join(out,'verification.json'),JSON.stringify(report,null,2));
-  console.log(JSON.stringify({passed:true,images:metrics.images.length,links:metrics.links.length,faq:metrics.faq,height:metrics.height,mobile:mobile.width,externalRequests:external.length}));
-  win.destroy();app.quit();
-}).catch(e=>{console.error(e);if(win&&!win.isDestroyed())win.destroy();app.exit(1)});
+ }
+ await win.loadFile(path.join(root,'security.html'));
+ const copy=await evaluate(async()=>{let copied;Object.defineProperty(navigator,'clipboard',{value:{writeText:async s=>{copied=s}},configurable:true});const b=document.querySelector('[data-copy]');b.click();await new Promise(r=>setTimeout(r,50));return {copied,status:b.closest('.code-block').querySelector('[data-copy-status]').textContent}});
+ assert(copy.copied?.includes(latest.installer.sha256.toUpperCase())&&copy.status==='Copied');
+ win.setContentSize(1440,1000);
+ const spy=await evaluate(async()=>{document.getElementById('known-limits').scrollIntoView({behavior:'instant'});await new Promise(r=>setTimeout(r,400));return document.querySelector('.doc-toc a[aria-current]')?.hash});assert.equal(spy,'#known-limits');
+ noJs=new BrowserWindow({width:390,height:844,show:false,webPreferences:{javascript:false,offscreen:true,sandbox:true,contextIsolation:true,nodeIntegration:false}});noJs.webContents.on('will-navigate',block);
+ const before=attempts.length;await noJs.loadFile(path.join(root,'download.html'));await pause(1500);assert(attempts.length>before,'No-JS refresh did not attempt installer');noJs.destroy();noJs=null;
+ const layout=JSON.parse(fs.readFileSync(path.join(root,'design/landing-subpages-layout.json')));
+ const layoutResults=[];
+ const previousWindow=win;
+ win=new BrowserWindow({width:1440,height:1000,show:false,webPreferences:{offscreen:true,sandbox:true,contextIsolation:true,nodeIntegration:false,backgroundThrottling:false}});
+ previousWindow.destroy();
+ win.webContents.on('will-navigate',block);
+ for(const [page,targets] of Object.entries(layout.pages)){
+  fs.appendFileSync(path.join(out,'progress.log'),'Layout: '+page+'\n');
+  win.setContentSize(1440,1000);await bounded(win.loadFile(path.join(root,page+'.html')),page+' load');
+  const scrollbar=await evaluate(()=>innerWidth-document.documentElement.clientWidth);
+  win.setContentSize(layout.contentWidth+scrollbar,1000);
+  await bounded(evaluate(async()=>{document.body.offsetHeight;await document.fonts.ready;await Promise.all([...document.images].map(i=>{i.loading='eager';return i.decode().catch(()=>null)}));return true}),page+' images');
+  await pause(150);
+  const result=await evaluate(targets=>targets.map(t=>{const e=document.querySelector('[data-node-id="'+t.node+'"]');return {...t,actual:e?.getBoundingClientRect().toJSON()}}),targets);
+  for(const t of result){assert(t.actual,page+' missing layout node '+t.node);for(const key of ['x','y','width','height'])assert(Math.abs(t.actual[key]-t[key])<=layout.tolerance+.01,page+' layout '+t.node+' '+key+': '+t.actual[key]+' vs '+t[key])}
+  layoutResults.push({page,contentWidth:layout.contentWidth,targets:result.length,maxDifference:Math.max(...result.flatMap(t=>['x','y','width','height'].map(k=>Math.abs(t.actual[k]-t[k]))))});
+  fs.writeFileSync(path.join(out,page+'-figma.png'),(await bounded(win.webContents.capturePage({x:0,y:0,width:1440,height:1000}),page+' capture')).toPNG());
+ }
+ const hero=[];await win.loadFile(path.join(root,'index.html'));
+ for(const width of [390,1024,1280,1440,1855,1920,2560]){
+  win.setContentSize(width,875);await pause(100);
+  const g=await evaluate(()=>{const p=document.querySelector('[data-node-id="55:14"]').getBoundingClientRect(),s=document.querySelector('[data-node-id="52:53"]').getBoundingClientRect();return {width:innerWidth,panel:p.toJSON(),screen:s.toJSON(),difference:Math.abs((p.left+p.right-s.left-s.right)/2)}});
+  hero.push(g);assert(g.panel.width<=1200.1&&g.difference<1&&g.screen.left>=g.panel.left&&g.screen.right<=g.panel.right,'Hero alignment '+width);
+ }
+ fs.writeFileSync(path.join(out,'verification.json'),JSON.stringify({passed:!external.length&&metrics.every(m=>m.scrollWidth<=m.width),pages:14,metrics,copy,spy,noJsDownload:true,downloadAttempts:attempts.length,external,hero,layoutResults},null,2));
+ assert.equal(external.length,0,'Unexpected runtime requests');
+ for(const m of metrics)assert(m.scrollWidth<=m.width,m.file+' overflow '+m.width+': '+JSON.stringify(m.overflow));
+ console.log(JSON.stringify({passed:true,pages:14,viewports:metrics.length,copy:true,scrollspy:true,noJsDownload:true,externalRequests:0}));
+ win.destroy();app.quit();
+}).catch(e=>{console.error(e);for(const w of [win,noJs])if(w&&!w.isDestroyed())w.destroy();app.exit(1)});

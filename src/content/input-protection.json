@@ -1,0 +1,4126 @@
+{
+  "hero": {
+    "kind": "stack",
+    "node": "85:194",
+    "name": "Stack",
+    "style": {
+      "alignItems": "flex-start"
+    },
+    "children": [
+      {
+        "kind": "text",
+        "node": "85:195",
+        "text": "Input protection",
+        "style": {
+          "letterSpacing": "0.96px",
+          "lineHeight": "normal",
+          "color": "#2563eb",
+          "fontSize": "12px",
+          "fontWeight": 500,
+          "fontFamily": "'Geist Mono',monospace",
+          "textTransform": "uppercase",
+          "whiteSpace": "nowrap"
+        }
+      },
+      {
+        "kind": "spacer",
+        "node": "85:196",
+        "name": "Spacer",
+        "text": "",
+        "style": {
+          "width": "100%",
+          "minHeight": "18px",
+          "height": "18px"
+        }
+      },
+      {
+        "kind": "heading",
+        "node": "85:197",
+        "text": "Stop software from typing for you, without stopping the agents you trust.",
+        "style": {
+          "letterSpacing": "-1.4px",
+          "lineHeight": "62px",
+          "color": "#0b1220",
+          "fontSize": "56px",
+          "fontWeight": 600,
+          "width": "100%",
+          "fontFamily": "'Instrument Sans',sans-serif"
+        }
+      },
+      {
+        "kind": "spacer",
+        "node": "85:198",
+        "name": "Spacer",
+        "text": "",
+        "style": {
+          "width": "100%",
+          "minHeight": "20px",
+          "height": "20px"
+        }
+      },
+      {
+        "kind": "text",
+        "node": "85:199",
+        "text": "Remote-control tools, macros and compromised apps act by injecting keystrokes and clicks. Intercept blocks the input Windows flags as injected, in the apps you choose, for as long as you choose.",
+        "style": {
+          "lineHeight": "30px",
+          "color": "#3d4757",
+          "fontSize": "19px",
+          "width": "100%",
+          "fontWeight": 400,
+          "fontFamily": "'Instrument Sans',sans-serif"
+        }
+      },
+      {
+        "kind": "spacer",
+        "node": "85:200",
+        "name": "Spacer",
+        "text": "",
+        "style": {
+          "width": "100%",
+          "minHeight": "32px",
+          "height": "32px"
+        }
+      },
+      {
+        "kind": "row",
+        "node": "85:201",
+        "name": "Row",
+        "style": {
+          "gap": "12px",
+          "alignItems": "flex-start"
+        },
+        "children": [
+          {
+            "kind": "link",
+            "node": "85:202",
+            "name": "Button/primary",
+            "style": {
+              "gap": "8px",
+              "borderRadius": "6px",
+              "background": "#2563eb",
+              "paddingLeft": "22px",
+              "paddingRight": "22px",
+              "paddingTop": "13px",
+              "paddingBottom": "13px",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "icon",
+                "src": "./assets/subpages/0a9c9.svg",
+                "size": 18,
+                "node": "85:203",
+                "style": {}
+              },
+              {
+                "kind": "text",
+                "node": "85:207",
+                "text": "Download for Windows",
+                "style": {
+                  "lineHeight": "normal",
+                  "fontSize": "15px",
+                  "color": "#fff",
+                  "fontWeight": 600,
+                  "fontFamily": "'Instrument Sans',sans-serif",
+                  "whiteSpace": "nowrap"
+                }
+              }
+            ]
+          },
+          {
+            "kind": "link",
+            "node": "85:208",
+            "name": "Button/secondary",
+            "style": {
+              "borderRadius": "6px",
+              "paddingLeft": "22px",
+              "paddingRight": "22px",
+              "paddingTop": "13px",
+              "paddingBottom": "13px",
+              "borderColor": "#c9d1dc",
+              "borderWidth": "1px",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "text",
+                "node": "85:209",
+                "text": "Read the coverage notes",
+                "style": {
+                  "lineHeight": "normal",
+                  "color": "#0b1220",
+                  "fontSize": "15px",
+                  "fontWeight": 600,
+                  "fontFamily": "'Instrument Sans',sans-serif",
+                  "whiteSpace": "nowrap"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "spacer",
+        "node": "85:210",
+        "name": "Spacer",
+        "text": "",
+        "style": {
+          "width": "100%",
+          "minHeight": "20px",
+          "height": "20px"
+        }
+      },
+      {
+        "kind": "row",
+        "node": "85:211",
+        "name": "Facts",
+        "style": {
+          "gap": "24px",
+          "alignItems": "center"
+        },
+        "children": [
+          {
+            "kind": "row",
+            "node": "85:212",
+            "name": "Row",
+            "style": {
+              "gap": "8px",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "dot",
+                "node": "85:213",
+                "name": "Ellipse",
+                "style": {
+                  "width": "4px",
+                  "height": "4px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/728c3.svg",
+                    "size": 18,
+                    "node": null
+                  }
+                ]
+              },
+              {
+                "kind": "text",
+                "node": "85:214",
+                "text": "No time limit",
+                "style": {
+                  "lineHeight": "normal",
+                  "color": "#667085",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "fontFamily": "'Instrument Sans',sans-serif",
+                  "whiteSpace": "nowrap"
+                }
+              }
+            ]
+          },
+          {
+            "kind": "row",
+            "node": "85:215",
+            "name": "Row",
+            "style": {
+              "gap": "8px",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "dot",
+                "node": "85:216",
+                "name": "Ellipse",
+                "style": {
+                  "width": "4px",
+                  "height": "4px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/728c3.svg",
+                    "size": 18,
+                    "node": null
+                  }
+                ]
+              },
+              {
+                "kind": "text",
+                "node": "85:217",
+                "text": "Armed at Windows sign-in",
+                "style": {
+                  "lineHeight": "normal",
+                  "color": "#667085",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "fontFamily": "'Instrument Sans',sans-serif",
+                  "whiteSpace": "nowrap"
+                }
+              }
+            ]
+          },
+          {
+            "kind": "row",
+            "node": "85:218",
+            "name": "Row",
+            "style": {
+              "gap": "8px",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "dot",
+                "node": "85:219",
+                "name": "Ellipse",
+                "style": {
+                  "width": "4px",
+                  "height": "4px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/728c3.svg",
+                    "size": 18,
+                    "node": null
+                  }
+                ]
+              },
+              {
+                "kind": "text",
+                "node": "85:220",
+                "text": "Matched by publisher signature",
+                "style": {
+                  "lineHeight": "normal",
+                  "color": "#667085",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "fontFamily": "'Instrument Sans',sans-serif",
+                  "whiteSpace": "nowrap"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "nav": {
+    "kind": "row",
+    "node": "85:539",
+    "name": "In-page navigation (sticky)",
+    "style": {
+      "gap": "32px",
+      "paddingLeft": "120px",
+      "paddingRight": "120px",
+      "background": "#fff",
+      "borderColor": "#e4e7ec",
+      "borderTopWidth": "1px",
+      "borderBottomWidth": "1px",
+      "alignItems": "center"
+    },
+    "children": [
+      {
+        "kind": "text",
+        "node": "85:540",
+        "text": "Input protection",
+        "style": {
+          "lineHeight": "normal",
+          "color": "#0b1220",
+          "fontSize": "15px",
+          "fontWeight": 600,
+          "fontFamily": "'Instrument Sans',sans-serif",
+          "whiteSpace": "nowrap"
+        }
+      },
+      {
+        "kind": "text",
+        "node": "85:541",
+        "name": "Rectangle",
+        "text": "",
+        "style": {
+          "background": "#e4e7ec",
+          "minHeight": "20px"
+        }
+      },
+      {
+        "kind": "stack",
+        "node": "85:542",
+        "name": "Tab · How it works",
+        "style": {
+          "borderColor": "#2563eb",
+          "minHeight": "60px",
+          "alignItems": "flex-start",
+          "justifyContent": "center"
+        },
+        "children": [
+          {
+            "kind": "text",
+            "node": "85:543",
+            "text": "How it works",
+            "style": {
+              "lineHeight": "normal",
+              "color": "#0b1220",
+              "fontSize": "14.5px",
+              "fontWeight": 500,
+              "fontFamily": "'Instrument Sans',sans-serif",
+              "whiteSpace": "nowrap"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "stack",
+        "node": "85:544",
+        "name": "Tab · Levels",
+        "style": {
+          "minHeight": "60px",
+          "alignItems": "flex-start",
+          "justifyContent": "center"
+        },
+        "children": [
+          {
+            "kind": "text",
+            "node": "85:545",
+            "text": "Levels",
+            "style": {
+              "lineHeight": "normal",
+              "color": "#3d4757",
+              "fontSize": "14.5px",
+              "fontWeight": 400,
+              "fontFamily": "'Instrument Sans',sans-serif",
+              "whiteSpace": "nowrap"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "stack",
+        "node": "85:546",
+        "name": "Tab · Protected apps",
+        "style": {
+          "minHeight": "60px",
+          "alignItems": "flex-start",
+          "justifyContent": "center"
+        },
+        "children": [
+          {
+            "kind": "text",
+            "node": "85:547",
+            "text": "Protected apps",
+            "style": {
+              "lineHeight": "normal",
+              "color": "#3d4757",
+              "fontSize": "14.5px",
+              "fontWeight": 400,
+              "fontFamily": "'Instrument Sans',sans-serif",
+              "whiteSpace": "nowrap"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "stack",
+        "node": "85:548",
+        "name": "Tab · Coverage",
+        "style": {
+          "minHeight": "60px",
+          "alignItems": "flex-start",
+          "justifyContent": "center"
+        },
+        "children": [
+          {
+            "kind": "text",
+            "node": "85:549",
+            "text": "Coverage",
+            "style": {
+              "lineHeight": "normal",
+              "color": "#3d4757",
+              "fontSize": "14.5px",
+              "fontWeight": 400,
+              "fontFamily": "'Instrument Sans',sans-serif",
+              "whiteSpace": "nowrap"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "stack",
+        "node": "85:550",
+        "name": "Tab · With AI agents",
+        "style": {
+          "minHeight": "60px",
+          "alignItems": "flex-start",
+          "justifyContent": "center"
+        },
+        "children": [
+          {
+            "kind": "text",
+            "node": "85:551",
+            "text": "With AI agents",
+            "style": {
+              "lineHeight": "normal",
+              "color": "#3d4757",
+              "fontSize": "14.5px",
+              "fontWeight": 400,
+              "fontFamily": "'Instrument Sans',sans-serif",
+              "whiteSpace": "nowrap"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "node": "85:552",
+        "name": "flex",
+        "text": "",
+        "style": {
+          "flex": "1 1 0"
+        }
+      },
+      {
+        "kind": "link",
+        "node": "85:553",
+        "name": "Button/primary",
+        "style": {
+          "borderRadius": "6px",
+          "background": "#2563eb",
+          "paddingLeft": "22px",
+          "paddingRight": "22px",
+          "paddingTop": "13px",
+          "paddingBottom": "13px",
+          "alignItems": "center"
+        },
+        "children": [
+          {
+            "kind": "text",
+            "node": "85:554",
+            "text": "Download",
+            "style": {
+              "lineHeight": "normal",
+              "fontSize": "15px",
+              "color": "#fff",
+              "fontWeight": 600,
+              "fontFamily": "'Instrument Sans',sans-serif",
+              "whiteSpace": "nowrap"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "panel": "85:222",
+  "related": {
+    "kind": "stack",
+    "node": "85:852",
+    "name": "Related",
+    "style": {
+      "paddingTop": "80px",
+      "paddingBottom": "96px",
+      "background": "#f1f4f9",
+      "paddingLeft": "120px",
+      "paddingRight": "120px",
+      "alignItems": "flex-start"
+    },
+    "children": [
+      {
+        "kind": "heading",
+        "node": "85:853",
+        "text": "Keep reading",
+        "style": {
+          "letterSpacing": "-0.42px",
+          "lineHeight": "34px",
+          "color": "#0b1220",
+          "fontSize": "28px",
+          "fontWeight": 600,
+          "width": "100%",
+          "fontFamily": "'Instrument Sans',sans-serif"
+        }
+      },
+      {
+        "kind": "spacer",
+        "node": "85:854",
+        "name": "Spacer",
+        "text": "",
+        "style": {
+          "width": "100%",
+          "minHeight": "28px",
+          "height": "28px"
+        }
+      },
+      {
+        "kind": "row",
+        "node": "85:855",
+        "name": "Row",
+        "style": {
+          "gap": "24px",
+          "width": "100%",
+          "alignItems": "flex-start"
+        },
+        "children": [
+          {
+            "kind": "link-card",
+            "node": "85:856",
+            "name": "Link card · Coverage notes",
+            "style": {
+              "gap": "10px",
+              "padding": "28px",
+              "borderRadius": "16px",
+              "background": "#fff",
+              "minHeight": "243px",
+              "flex": "1 1 0",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "row",
+                "node": "85:857",
+                "name": "Row",
+                "style": {
+                  "borderRadius": "10px",
+                  "background": "#e7effe",
+                  "width": "40px",
+                  "height": "40px",
+                  "alignItems": "center",
+                  "justifyContent": "center"
+                },
+                "children": [
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/3e086.svg",
+                    "size": 20,
+                    "node": "85:858",
+                    "style": {}
+                  }
+                ]
+              },
+              {
+                "kind": "spacer",
+                "node": "85:864",
+                "name": "Spacer",
+                "text": "",
+                "style": {
+                  "width": "100%",
+                  "minHeight": "6px",
+                  "height": "6px"
+                }
+              },
+              {
+                "kind": "subheading",
+                "node": "85:865",
+                "text": "Coverage notes",
+                "style": {
+                  "lineHeight": "26px",
+                  "color": "#0b1220",
+                  "fontSize": "20px",
+                  "fontWeight": 600,
+                  "width": "100%",
+                  "fontFamily": "'Instrument Sans',sans-serif"
+                }
+              },
+              {
+                "kind": "text",
+                "node": "85:866",
+                "text": "Every input route, what Intercept can see on it and what it can’t.",
+                "style": {
+                  "lineHeight": "23px",
+                  "color": "#3d4757",
+                  "fontSize": "15px",
+                  "width": "100%",
+                  "fontWeight": 400,
+                  "fontFamily": "'Instrument Sans',sans-serif"
+                }
+              },
+              {
+                "kind": "spacer",
+                "node": "85:867",
+                "name": "push",
+                "text": "",
+                "style": {
+                  "width": "100%",
+                  "flex": "1 1 0"
+                }
+              },
+              {
+                "kind": "link",
+                "node": "85:868",
+                "name": "Link/arrow",
+                "style": {
+                  "gap": "8px",
+                  "alignItems": "center"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "85:869",
+                    "text": "Read the coverage notes",
+                    "style": {
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "15px",
+                      "fontWeight": 600,
+                      "fontFamily": "'Instrument Sans',sans-serif",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/55209.svg",
+                    "size": 16,
+                    "node": "85:870",
+                    "style": {}
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "link-card",
+            "node": "85:873",
+            "name": "Link card · Security brief",
+            "style": {
+              "gap": "10px",
+              "padding": "28px",
+              "borderRadius": "16px",
+              "background": "#fff",
+              "minHeight": "243px",
+              "flex": "1 1 0",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "row",
+                "node": "85:874",
+                "name": "Row",
+                "style": {
+                  "borderRadius": "10px",
+                  "background": "#e7effe",
+                  "width": "40px",
+                  "height": "40px",
+                  "alignItems": "center",
+                  "justifyContent": "center"
+                },
+                "children": [
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/22ed5.svg",
+                    "size": 20,
+                    "node": "85:875",
+                    "style": {}
+                  }
+                ]
+              },
+              {
+                "kind": "spacer",
+                "node": "85:877",
+                "name": "Spacer",
+                "text": "",
+                "style": {
+                  "width": "100%",
+                  "minHeight": "6px",
+                  "height": "6px"
+                }
+              },
+              {
+                "kind": "subheading",
+                "node": "85:878",
+                "text": "Security brief",
+                "style": {
+                  "lineHeight": "26px",
+                  "color": "#0b1220",
+                  "fontSize": "20px",
+                  "fontWeight": 600,
+                  "width": "100%",
+                  "fontFamily": "'Instrument Sans',sans-serif"
+                }
+              },
+              {
+                "kind": "text",
+                "node": "85:879",
+                "text": "What is recorded, what never is, and the permissions each feature needs.",
+                "style": {
+                  "lineHeight": "23px",
+                  "color": "#3d4757",
+                  "fontSize": "15px",
+                  "width": "100%",
+                  "fontWeight": 400,
+                  "fontFamily": "'Instrument Sans',sans-serif"
+                }
+              },
+              {
+                "kind": "spacer",
+                "node": "85:880",
+                "name": "push",
+                "text": "",
+                "style": {
+                  "width": "100%",
+                  "flex": "1 1 0"
+                }
+              },
+              {
+                "kind": "link",
+                "node": "85:881",
+                "name": "Link/arrow",
+                "style": {
+                  "gap": "8px",
+                  "alignItems": "center"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "85:882",
+                    "text": "Read the security brief",
+                    "style": {
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "15px",
+                      "fontWeight": 600,
+                      "fontFamily": "'Instrument Sans',sans-serif",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/55209.svg",
+                    "size": 16,
+                    "node": "85:883",
+                    "style": {}
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "link-card",
+            "node": "85:886",
+            "name": "Link card · AI agents",
+            "style": {
+              "gap": "10px",
+              "padding": "28px",
+              "borderRadius": "16px",
+              "background": "#fff",
+              "minHeight": "243px",
+              "flex": "1 1 0",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "row",
+                "node": "85:887",
+                "name": "Row",
+                "style": {
+                  "borderRadius": "10px",
+                  "background": "#eee9f7",
+                  "width": "40px",
+                  "height": "40px",
+                  "alignItems": "center",
+                  "justifyContent": "center"
+                },
+                "children": [
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/49e62.svg",
+                    "size": 20,
+                    "node": "85:888",
+                    "style": {}
+                  }
+                ]
+              },
+              {
+                "kind": "spacer",
+                "node": "85:895",
+                "name": "Spacer",
+                "text": "",
+                "style": {
+                  "width": "100%",
+                  "minHeight": "6px",
+                  "height": "6px"
+                }
+              },
+              {
+                "kind": "subheading",
+                "node": "85:896",
+                "text": "AI agents",
+                "style": {
+                  "lineHeight": "26px",
+                  "color": "#0b1220",
+                  "fontSize": "20px",
+                  "fontWeight": 600,
+                  "width": "100%",
+                  "fontFamily": "'Instrument Sans',sans-serif"
+                }
+              },
+              {
+                "kind": "text",
+                "node": "85:897",
+                "text": "How Claude and Codex are verified, traced and kept inside their scope.",
+                "style": {
+                  "lineHeight": "23px",
+                  "color": "#3d4757",
+                  "fontSize": "15px",
+                  "width": "100%",
+                  "fontWeight": 400,
+                  "fontFamily": "'Instrument Sans',sans-serif"
+                }
+              },
+              {
+                "kind": "spacer",
+                "node": "85:898",
+                "name": "push",
+                "text": "",
+                "style": {
+                  "width": "100%",
+                  "flex": "1 1 0"
+                }
+              },
+              {
+                "kind": "link",
+                "node": "85:899",
+                "name": "Link/arrow",
+                "style": {
+                  "gap": "8px",
+                  "alignItems": "center"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "85:900",
+                    "text": "Explore AI agents",
+                    "style": {
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "15px",
+                      "fontWeight": 600,
+                      "fontFamily": "'Instrument Sans',sans-serif",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/55209.svg",
+                    "size": 16,
+                    "node": "85:901",
+                    "style": {}
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "how-it-works",
+      "content": {
+        "kind": "stack",
+        "node": "85:555",
+        "name": "How it works",
+        "style": {
+          "paddingLeft": "120px",
+          "paddingRight": "120px",
+          "paddingTop": "96px",
+          "paddingBottom": "96px",
+          "background": "#fff",
+          "alignItems": "flex-start"
+        },
+        "children": [
+          {
+            "kind": "row",
+            "node": "85:556",
+            "name": "Section header",
+            "style": {
+              "gap": "64px",
+              "width": "100%",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "stack",
+                "node": "85:557",
+                "name": "Stack",
+                "style": {
+                  "gap": "16px",
+                  "--basis": "600px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "85:558",
+                    "text": "How it works",
+                    "style": {
+                      "letterSpacing": "0.96px",
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "12px",
+                      "fontWeight": 500,
+                      "fontFamily": "'Geist Mono',monospace",
+                      "textTransform": "uppercase",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "heading",
+                    "node": "85:559",
+                    "text": "Blocks the input Windows marks as injected.",
+                    "style": {
+                      "letterSpacing": "-0.8px",
+                      "lineHeight": "46px",
+                      "color": "#0b1220",
+                      "fontSize": "40px",
+                      "fontWeight": 600,
+                      "width": "100%",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "85:560",
+                "name": "Stack",
+                "style": {
+                  "paddingTop": "30px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "85:561",
+                    "text": "Windows sets a flag on keyboard and mouse events that software injects. Intercept’s guard reads that flag before the event reaches an app, and stops it when the app is one you protect.",
+                    "style": {
+                      "lineHeight": "29px",
+                      "color": "#3d4757",
+                      "fontSize": "18px",
+                      "width": "100%",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "spacer",
+            "node": "85:562",
+            "name": "Spacer",
+            "text": "",
+            "style": {
+              "width": "100%",
+              "minHeight": "56px",
+              "height": "56px"
+            }
+          },
+          {
+            "kind": "row",
+            "node": "85:563",
+            "name": "Row",
+            "style": {
+              "gap": "24px",
+              "width": "100%",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "stack",
+                "node": "85:564",
+                "name": "Stack",
+                "style": {
+                  "gap": "10px",
+                  "paddingTop": "28px",
+                  "paddingBottom": "32px",
+                  "borderRadius": "16px",
+                  "background": "#f1f4f9",
+                  "paddingLeft": "28px",
+                  "paddingRight": "28px",
+                  "minHeight": "242px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "row",
+                    "node": "85:565",
+                    "name": "Row",
+                    "style": {
+                      "width": "100%",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "pill",
+                        "node": "85:566",
+                        "name": "Row",
+                        "style": {
+                          "borderRadius": "999px",
+                          "background": "#fff",
+                          "width": "44px",
+                          "height": "44px",
+                          "alignItems": "center",
+                          "justifyContent": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "icon",
+                            "src": "./assets/subpages/19997.svg",
+                            "size": 20,
+                            "node": "85:567",
+                            "style": {}
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "text",
+                        "node": "85:577",
+                        "text": "01",
+                        "style": {
+                          "letterSpacing": "0.72px",
+                          "lineHeight": "normal",
+                          "color": "#667085",
+                          "fontSize": "12px",
+                          "fontWeight": 500,
+                          "fontFamily": "'Geist Mono',monospace",
+                          "flex": "1 1 0"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "spacer",
+                    "node": "85:578",
+                    "name": "Spacer",
+                    "text": "",
+                    "style": {
+                      "width": "100%",
+                      "minHeight": "8px",
+                      "height": "8px"
+                    }
+                  },
+                  {
+                    "kind": "subheading",
+                    "node": "85:579",
+                    "text": "Flagged by Windows",
+                    "style": {
+                      "lineHeight": "28px",
+                      "color": "#0b1220",
+                      "fontSize": "22px",
+                      "fontWeight": 600,
+                      "width": "100%",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "85:580",
+                    "text": "A program injects keys or clicks with SendInput or a similar call. Windows marks each of those events as injected.",
+                    "style": {
+                      "lineHeight": "24px",
+                      "color": "#3d4757",
+                      "fontSize": "15.5px",
+                      "width": "100%",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "85:581",
+                "name": "Stack",
+                "style": {
+                  "gap": "10px",
+                  "paddingTop": "28px",
+                  "paddingBottom": "32px",
+                  "borderRadius": "16px",
+                  "background": "#f1f4f9",
+                  "paddingLeft": "28px",
+                  "paddingRight": "28px",
+                  "minHeight": "242px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "row",
+                    "node": "85:582",
+                    "name": "Row",
+                    "style": {
+                      "width": "100%",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "pill",
+                        "node": "85:583",
+                        "name": "Row",
+                        "style": {
+                          "borderRadius": "999px",
+                          "background": "#fff",
+                          "width": "44px",
+                          "height": "44px",
+                          "alignItems": "center",
+                          "justifyContent": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "icon",
+                            "src": "./assets/subpages/9761d.svg",
+                            "size": 20,
+                            "node": "85:584",
+                            "style": {}
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "text",
+                        "node": "85:587",
+                        "text": "02",
+                        "style": {
+                          "letterSpacing": "0.72px",
+                          "lineHeight": "normal",
+                          "color": "#667085",
+                          "fontSize": "12px",
+                          "fontWeight": 500,
+                          "fontFamily": "'Geist Mono',monospace",
+                          "flex": "1 1 0"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "spacer",
+                    "node": "85:588",
+                    "name": "Spacer",
+                    "text": "",
+                    "style": {
+                      "width": "100%",
+                      "minHeight": "8px",
+                      "height": "8px"
+                    }
+                  },
+                  {
+                    "kind": "subheading",
+                    "node": "85:589",
+                    "text": "Matched to the app",
+                    "style": {
+                      "lineHeight": "28px",
+                      "color": "#0b1220",
+                      "fontSize": "22px",
+                      "fontWeight": 600,
+                      "width": "100%",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "85:590",
+                    "text": "The guard looks up the app the input is aimed at by its signature, package or path. Never by file name alone.",
+                    "style": {
+                      "lineHeight": "24px",
+                      "color": "#3d4757",
+                      "fontSize": "15.5px",
+                      "width": "100%",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "85:591",
+                "name": "Stack",
+                "style": {
+                  "gap": "10px",
+                  "paddingTop": "28px",
+                  "paddingBottom": "32px",
+                  "borderRadius": "16px",
+                  "background": "#f1f4f9",
+                  "paddingLeft": "28px",
+                  "paddingRight": "28px",
+                  "minHeight": "242px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "row",
+                    "node": "85:592",
+                    "name": "Row",
+                    "style": {
+                      "width": "100%",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "pill",
+                        "node": "85:593",
+                        "name": "Row",
+                        "style": {
+                          "borderRadius": "999px",
+                          "background": "#fff",
+                          "width": "44px",
+                          "height": "44px",
+                          "alignItems": "center",
+                          "justifyContent": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "icon",
+                            "src": "./assets/subpages/7544b.svg",
+                            "size": 20,
+                            "node": "85:594",
+                            "style": {}
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "text",
+                        "node": "85:596",
+                        "text": "03",
+                        "style": {
+                          "letterSpacing": "0.72px",
+                          "lineHeight": "normal",
+                          "color": "#667085",
+                          "fontSize": "12px",
+                          "fontWeight": 500,
+                          "fontFamily": "'Geist Mono',monospace",
+                          "flex": "1 1 0"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "spacer",
+                    "node": "85:597",
+                    "name": "Spacer",
+                    "text": "",
+                    "style": {
+                      "width": "100%",
+                      "minHeight": "8px",
+                      "height": "8px"
+                    }
+                  },
+                  {
+                    "kind": "subheading",
+                    "node": "85:598",
+                    "text": "Stopped and recorded",
+                    "style": {
+                      "lineHeight": "28px",
+                      "color": "#0b1220",
+                      "fontSize": "22px",
+                      "fontWeight": 600,
+                      "width": "100%",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "85:599",
+                    "text": "If the app is protected, the event is stopped. A receipt keeps the recipient, time and count. Never the keys.",
+                    "style": {
+                      "lineHeight": "24px",
+                      "color": "#3d4757",
+                      "fontSize": "15.5px",
+                      "width": "100%",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tour": false
+    },
+    {
+      "id": "levels",
+      "content": {
+        "kind": "stack",
+        "node": "85:600",
+        "name": "Levels",
+        "style": {
+          "background": "#f1f4f9",
+          "paddingLeft": "120px",
+          "paddingRight": "120px",
+          "paddingTop": "96px",
+          "paddingBottom": "96px",
+          "alignItems": "flex-start"
+        },
+        "children": [
+          {
+            "kind": "row",
+            "node": "85:601",
+            "name": "Section header",
+            "style": {
+              "gap": "64px",
+              "width": "100%",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "stack",
+                "node": "85:602",
+                "name": "Stack",
+                "style": {
+                  "gap": "16px",
+                  "--basis": "600px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "85:603",
+                    "text": "Three levels",
+                    "style": {
+                      "letterSpacing": "0.96px",
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "12px",
+                      "fontWeight": 500,
+                      "fontFamily": "'Geist Mono',monospace",
+                      "textTransform": "uppercase",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "heading",
+                    "node": "85:604",
+                    "text": "Choose how strict it should be.",
+                    "style": {
+                      "letterSpacing": "-0.8px",
+                      "lineHeight": "46px",
+                      "color": "#0b1220",
+                      "fontSize": "40px",
+                      "fontWeight": 600,
+                      "width": "100%",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "85:605",
+                "name": "Stack",
+                "style": {
+                  "paddingTop": "30px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "85:606",
+                    "text": "Each level says what it might affect before you choose it, and you can change it at any time. Turning protection on never asks for confirmation. Turning it off always does.",
+                    "style": {
+                      "lineHeight": "29px",
+                      "color": "#3d4757",
+                      "fontSize": "18px",
+                      "width": "100%",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "spacer",
+            "node": "85:607",
+            "name": "Spacer",
+            "text": "",
+            "style": {
+              "width": "100%",
+              "minHeight": "56px",
+              "height": "56px"
+            }
+          },
+          {
+            "kind": "row",
+            "node": "85:608",
+            "name": "Row",
+            "style": {
+              "gap": "24px",
+              "width": "100%",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "stack",
+                "node": "85:609",
+                "name": "Level · Sensitive apps",
+                "style": {
+                  "gap": "12px",
+                  "padding": "28px",
+                  "borderRadius": "16px",
+                  "background": "#fff",
+                  "borderColor": "#2563eb",
+                  "borderWidth": "2px",
+                  "minHeight": "288px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "row",
+                    "node": "85:610",
+                    "name": "Row",
+                    "style": {
+                      "gap": "10px",
+                      "width": "100%",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "dot",
+                        "node": "85:611",
+                        "name": "Ellipse",
+                        "style": {
+                          "width": "18px",
+                          "height": "18px",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "icon",
+                            "src": "./assets/subpages/dd95f.svg",
+                            "size": 18,
+                            "node": null
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "subheading",
+                        "node": "85:612",
+                        "text": "Sensitive apps",
+                        "style": {
+                          "lineHeight": "26px",
+                          "color": "#0b1220",
+                          "fontSize": "20px",
+                          "fontWeight": 600,
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      },
+                      {
+                        "kind": "pill",
+                        "node": "85:613",
+                        "name": "Pill · Default",
+                        "style": {
+                          "borderRadius": "999px",
+                          "background": "#e7effe",
+                          "paddingLeft": "10px",
+                          "paddingRight": "10px",
+                          "paddingTop": "4px",
+                          "paddingBottom": "4px",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "85:614",
+                            "text": "Default",
+                            "style": {
+                              "letterSpacing": "0.66px",
+                              "lineHeight": "normal",
+                              "color": "#1d4ed8",
+                              "fontSize": "11px",
+                              "fontWeight": 500,
+                              "fontFamily": "'Geist Mono',monospace",
+                              "textTransform": "uppercase",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "node": "85:615",
+                    "text": "Blocks software typing and clicking in password managers, terminals, Windows Security and Intercept itself. Everything else keeps working.",
+                    "style": {
+                      "lineHeight": "24px",
+                      "color": "#3d4757",
+                      "fontSize": "15.5px",
+                      "width": "100%",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "spacer",
+                    "node": "85:616",
+                    "name": "push",
+                    "text": "",
+                    "style": {
+                      "width": "100%",
+                      "flex": "1 1 0"
+                    }
+                  },
+                  {
+                    "kind": "divider",
+                    "node": "85:617",
+                    "name": "Divider",
+                    "text": "",
+                    "style": {
+                      "background": "#e4e7ec",
+                      "width": "100%",
+                      "height": "1px"
+                    }
+                  },
+                  {
+                    "kind": "stack",
+                    "node": "85:618",
+                    "name": "Stack",
+                    "style": {
+                      "gap": "4px",
+                      "width": "100%",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "85:619",
+                        "text": "Might affect",
+                        "style": {
+                          "letterSpacing": "0.66px",
+                          "lineHeight": "normal",
+                          "color": "#667085",
+                          "fontSize": "11px",
+                          "fontWeight": 500,
+                          "fontFamily": "'Geist Mono',monospace",
+                          "textTransform": "uppercase",
+                          "width": "100%"
+                        }
+                      },
+                      {
+                        "kind": "text",
+                        "node": "85:620",
+                        "text": "Nothing you use day to day",
+                        "style": {
+                          "lineHeight": "22px",
+                          "color": "#047857",
+                          "fontSize": "14.5px",
+                          "width": "100%",
+                          "fontWeight": 400,
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "85:621",
+                "name": "Level · Everywhere",
+                "style": {
+                  "gap": "12px",
+                  "padding": "28px",
+                  "borderRadius": "16px",
+                  "background": "#fff",
+                  "minHeight": "288px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "row",
+                    "node": "85:622",
+                    "name": "Row",
+                    "style": {
+                      "gap": "10px",
+                      "width": "100%",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "dot",
+                        "node": "85:623",
+                        "name": "Ellipse",
+                        "style": {
+                          "width": "18px",
+                          "height": "18px",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "icon",
+                            "src": "./assets/subpages/01fa6.svg",
+                            "size": 18,
+                            "node": null
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "subheading",
+                        "node": "85:624",
+                        "text": "Everywhere",
+                        "style": {
+                          "lineHeight": "26px",
+                          "color": "#0b1220",
+                          "fontSize": "20px",
+                          "fontWeight": 600,
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "node": "85:625",
+                    "text": "Blocks software typing and clicking in every app, except in the apps your trusted AI agents are approved for.",
+                    "style": {
+                      "lineHeight": "24px",
+                      "color": "#3d4757",
+                      "fontSize": "15.5px",
+                      "width": "100%",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "spacer",
+                    "node": "85:626",
+                    "name": "push",
+                    "text": "",
+                    "style": {
+                      "width": "100%",
+                      "flex": "1 1 0"
+                    }
+                  },
+                  {
+                    "kind": "divider",
+                    "node": "85:627",
+                    "name": "Divider",
+                    "text": "",
+                    "style": {
+                      "background": "#e4e7ec",
+                      "width": "100%",
+                      "height": "1px"
+                    }
+                  },
+                  {
+                    "kind": "stack",
+                    "node": "85:628",
+                    "name": "Stack",
+                    "style": {
+                      "gap": "4px",
+                      "width": "100%",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "85:629",
+                        "text": "Might affect",
+                        "style": {
+                          "letterSpacing": "0.66px",
+                          "lineHeight": "normal",
+                          "color": "#667085",
+                          "fontSize": "11px",
+                          "fontWeight": 500,
+                          "fontFamily": "'Geist Mono',monospace",
+                          "textTransform": "uppercase",
+                          "width": "100%"
+                        }
+                      },
+                      {
+                        "kind": "text",
+                        "node": "85:630",
+                        "text": "On-screen keyboards, voice typing, PowerToys remaps, password-manager auto-type, remote support",
+                        "style": {
+                          "lineHeight": "22px",
+                          "color": "#3d4757",
+                          "fontSize": "14.5px",
+                          "width": "100%",
+                          "fontWeight": 400,
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "85:631",
+                "name": "Level · Only when I’m away",
+                "style": {
+                  "gap": "12px",
+                  "padding": "28px",
+                  "borderRadius": "16px",
+                  "background": "#fff",
+                  "minHeight": "288px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "row",
+                    "node": "85:632",
+                    "name": "Row",
+                    "style": {
+                      "gap": "10px",
+                      "width": "100%",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "dot",
+                        "node": "85:633",
+                        "name": "Ellipse",
+                        "style": {
+                          "width": "18px",
+                          "height": "18px",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "icon",
+                            "src": "./assets/subpages/01fa6.svg",
+                            "size": 18,
+                            "node": null
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "subheading",
+                        "node": "85:634",
+                        "text": "Only when I’m away",
+                        "style": {
+                          "lineHeight": "26px",
+                          "color": "#0b1220",
+                          "fontSize": "20px",
+                          "fontWeight": 600,
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "node": "85:635",
+                    "text": "Blocks everywhere while the PC is locked or idle for 5 minutes. Works normally while you are using it.",
+                    "style": {
+                      "lineHeight": "24px",
+                      "color": "#3d4757",
+                      "fontSize": "15.5px",
+                      "width": "100%",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "spacer",
+                    "node": "85:636",
+                    "name": "push",
+                    "text": "",
+                    "style": {
+                      "width": "100%",
+                      "flex": "1 1 0"
+                    }
+                  },
+                  {
+                    "kind": "divider",
+                    "node": "85:637",
+                    "name": "Divider",
+                    "text": "",
+                    "style": {
+                      "background": "#e4e7ec",
+                      "width": "100%",
+                      "height": "1px"
+                    }
+                  },
+                  {
+                    "kind": "stack",
+                    "node": "85:638",
+                    "name": "Stack",
+                    "style": {
+                      "gap": "4px",
+                      "width": "100%",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "85:639",
+                        "text": "Might affect",
+                        "style": {
+                          "letterSpacing": "0.66px",
+                          "lineHeight": "normal",
+                          "color": "#667085",
+                          "fontSize": "11px",
+                          "fontWeight": 500,
+                          "fontFamily": "'Geist Mono',monospace",
+                          "textTransform": "uppercase",
+                          "width": "100%"
+                        }
+                      },
+                      {
+                        "kind": "text",
+                        "node": "85:640",
+                        "text": "Agents you leave running that aren’t trusted",
+                        "style": {
+                          "lineHeight": "22px",
+                          "color": "#3d4757",
+                          "fontSize": "14.5px",
+                          "width": "100%",
+                          "fontWeight": 400,
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "spacer",
+            "node": "85:641",
+            "name": "Spacer",
+            "text": "",
+            "style": {
+              "width": "100%",
+              "minHeight": "32px",
+              "height": "32px"
+            }
+          },
+          {
+            "kind": "row",
+            "node": "85:642",
+            "name": "Row",
+            "style": {
+              "gap": "24px",
+              "width": "100%",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "row",
+                "node": "85:643",
+                "name": "Row",
+                "style": {
+                  "gap": "14px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "row",
+                    "node": "85:644",
+                    "name": "Row",
+                    "style": {
+                      "borderRadius": "10px",
+                      "background": "#e3f5ec",
+                      "width": "40px",
+                      "height": "40px",
+                      "alignItems": "center",
+                      "justifyContent": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "icon",
+                        "src": "./assets/subpages/b0753.svg",
+                        "size": 20,
+                        "node": "85:645",
+                        "style": {}
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "stack",
+                    "node": "85:648",
+                    "name": "Stack",
+                    "style": {
+                      "gap": "4px",
+                      "flex": "1 1 0",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "85:649",
+                        "text": "No time limit",
+                        "style": {
+                          "lineHeight": "24px",
+                          "color": "#0b1220",
+                          "fontSize": "17px",
+                          "fontWeight": 600,
+                          "width": "100%",
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      },
+                      {
+                        "kind": "text",
+                        "node": "85:650",
+                        "text": "Stays on until you turn it off. Turning it off switches back on after 15 minutes by default.",
+                        "style": {
+                          "lineHeight": "23px",
+                          "color": "#3d4757",
+                          "fontSize": "15px",
+                          "width": "100%",
+                          "fontWeight": 400,
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "row",
+                "node": "85:651",
+                "name": "Row",
+                "style": {
+                  "gap": "14px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "row",
+                    "node": "85:652",
+                    "name": "Row",
+                    "style": {
+                      "borderRadius": "10px",
+                      "background": "#e3f5ec",
+                      "width": "40px",
+                      "height": "40px",
+                      "alignItems": "center",
+                      "justifyContent": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "icon",
+                        "src": "./assets/subpages/eb495.svg",
+                        "size": 20,
+                        "node": "85:653",
+                        "style": {}
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "stack",
+                    "node": "85:657",
+                    "name": "Stack",
+                    "style": {
+                      "gap": "4px",
+                      "flex": "1 1 0",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "85:658",
+                        "text": "Armed at sign-in",
+                        "style": {
+                          "lineHeight": "24px",
+                          "color": "#0b1220",
+                          "fontSize": "17px",
+                          "fontWeight": 600,
+                          "width": "100%",
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      },
+                      {
+                        "kind": "text",
+                        "node": "85:659",
+                        "text": "A per-user task arms the guard as Windows signs you in, before most startup apps run.",
+                        "style": {
+                          "lineHeight": "23px",
+                          "color": "#3d4757",
+                          "fontSize": "15px",
+                          "width": "100%",
+                          "fontWeight": 400,
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "row",
+                "node": "85:660",
+                "name": "Row",
+                "style": {
+                  "gap": "14px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "row",
+                    "node": "85:661",
+                    "name": "Row",
+                    "style": {
+                      "borderRadius": "10px",
+                      "background": "#e3f5ec",
+                      "width": "40px",
+                      "height": "40px",
+                      "alignItems": "center",
+                      "justifyContent": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "icon",
+                        "src": "./assets/subpages/ee5fc.svg",
+                        "size": 20,
+                        "node": "85:662",
+                        "style": {}
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "stack",
+                    "node": "85:667",
+                    "name": "Stack",
+                    "style": {
+                      "gap": "4px",
+                      "flex": "1 1 0",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "85:668",
+                        "text": "Re-armed within 2 s",
+                        "style": {
+                          "lineHeight": "24px",
+                          "color": "#0b1220",
+                          "fontSize": "17px",
+                          "fontWeight": 600,
+                          "width": "100%",
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      },
+                      {
+                        "kind": "text",
+                        "node": "85:669",
+                        "text": "A watchdog restarts the guard if it stops, and records every gap with its cause.",
+                        "style": {
+                          "lineHeight": "23px",
+                          "color": "#3d4757",
+                          "fontSize": "15px",
+                          "width": "100%",
+                          "fontWeight": 400,
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tour": false
+    },
+    {
+      "id": "protected-apps",
+      "content": {
+        "kind": "stack",
+        "node": "85:670",
+        "name": "Protected apps",
+        "style": {
+          "paddingLeft": "120px",
+          "paddingRight": "120px",
+          "paddingTop": "96px",
+          "paddingBottom": "96px",
+          "background": "#fff",
+          "alignItems": "flex-start"
+        },
+        "children": [
+          {
+            "kind": "row",
+            "node": "85:671",
+            "name": "Row",
+            "style": {
+              "gap": "72px",
+              "width": "100%",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "stack",
+                "node": "85:672",
+                "name": "Stack",
+                "style": {
+                  "gap": "16px",
+                  "--basis": "470px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "85:673",
+                    "text": "Protected apps",
+                    "style": {
+                      "letterSpacing": "0.96px",
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "12px",
+                      "fontWeight": 500,
+                      "fontFamily": "'Geist Mono',monospace",
+                      "textTransform": "uppercase",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "heading",
+                    "node": "85:674",
+                    "text": "Matched by publisher signature, never by name.",
+                    "style": {
+                      "letterSpacing": "-0.8px",
+                      "lineHeight": "46px",
+                      "color": "#0b1220",
+                      "fontSize": "40px",
+                      "fontWeight": 600,
+                      "width": "100%",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "85:675",
+                    "text": "Add the apps that hold your secrets. Intercept identifies each one by its Windows signature, package or install path, so a renamed copy can’t slip into or out of the list.",
+                    "style": {
+                      "lineHeight": "28px",
+                      "color": "#3d4757",
+                      "fontSize": "17px",
+                      "width": "100%",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "85:676",
+                    "text": "Intercept itself, Windows Security, Windows sign-in prompts and Windows terminals are always protected, and can’t be removed in Simple mode.",
+                    "style": {
+                      "lineHeight": "28px",
+                      "color": "#3d4757",
+                      "fontSize": "17px",
+                      "width": "100%",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "85:677",
+                "name": "Stack",
+                "style": {
+                  "gap": "18px",
+                  "padding": "28px",
+                  "borderRadius": "16px",
+                  "background": "#f1f4f9",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "row",
+                    "node": "85:678",
+                    "name": "Row",
+                    "style": {
+                      "gap": "10px",
+                      "width": "100%",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "85:679",
+                        "text": "Protected apps",
+                        "style": {
+                          "lineHeight": "24px",
+                          "color": "#0b1220",
+                          "fontSize": "17px",
+                          "fontWeight": 600,
+                          "fontFamily": "'Instrument Sans',sans-serif",
+                          "whiteSpace": "nowrap"
+                        }
+                      },
+                      {
+                        "kind": "pill",
+                        "node": "85:680",
+                        "name": "Pill · 9 apps",
+                        "style": {
+                          "borderRadius": "999px",
+                          "background": "#e3f5ec",
+                          "paddingLeft": "10px",
+                          "paddingRight": "10px",
+                          "paddingTop": "4px",
+                          "paddingBottom": "4px",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "85:681",
+                            "text": "9 apps",
+                            "style": {
+                              "letterSpacing": "0.66px",
+                              "lineHeight": "normal",
+                              "color": "#047857",
+                              "fontSize": "11px",
+                              "fontWeight": 500,
+                              "fontFamily": "'Geist Mono',monospace",
+                              "textTransform": "uppercase",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "row",
+                    "node": "85:682",
+                    "name": "Row",
+                    "style": {
+                      "gap": "8px",
+                      "width": "100%",
+                      "alignItems": "flex-start",
+                      "flexWrap": "wrap"
+                    },
+                    "children": [
+                      {
+                        "kind": "pill",
+                        "node": "85:683",
+                        "name": "Chip · Intercept",
+                        "style": {
+                          "gap": "6px",
+                          "borderRadius": "999px",
+                          "paddingLeft": "12px",
+                          "paddingRight": "12px",
+                          "paddingTop": "7px",
+                          "paddingBottom": "7px",
+                          "background": "#fff",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "icon",
+                            "src": "./assets/subpages/7dc38.svg",
+                            "size": 13,
+                            "node": "85:684",
+                            "style": {}
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:687",
+                            "text": "Intercept",
+                            "style": {
+                              "lineHeight": "normal",
+                              "color": "#0b1220",
+                              "fontSize": "13px",
+                              "fontWeight": 500,
+                              "fontFamily": "'Instrument Sans',sans-serif",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "pill",
+                        "node": "85:688",
+                        "name": "Chip · Windows Security",
+                        "style": {
+                          "gap": "6px",
+                          "borderRadius": "999px",
+                          "paddingLeft": "12px",
+                          "paddingRight": "12px",
+                          "paddingTop": "7px",
+                          "paddingBottom": "7px",
+                          "background": "#fff",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "icon",
+                            "src": "./assets/subpages/7dc38.svg",
+                            "size": 13,
+                            "node": "85:689",
+                            "style": {}
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:692",
+                            "text": "Windows Security",
+                            "style": {
+                              "lineHeight": "normal",
+                              "color": "#0b1220",
+                              "fontSize": "13px",
+                              "fontWeight": 500,
+                              "fontFamily": "'Instrument Sans',sans-serif",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "pill",
+                        "node": "85:693",
+                        "name": "Chip · Sign-in prompts",
+                        "style": {
+                          "gap": "6px",
+                          "borderRadius": "999px",
+                          "paddingLeft": "12px",
+                          "paddingRight": "12px",
+                          "paddingTop": "7px",
+                          "paddingBottom": "7px",
+                          "background": "#fff",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "icon",
+                            "src": "./assets/subpages/7dc38.svg",
+                            "size": 13,
+                            "node": "85:694",
+                            "style": {}
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:697",
+                            "text": "Sign-in prompts",
+                            "style": {
+                              "lineHeight": "normal",
+                              "color": "#0b1220",
+                              "fontSize": "13px",
+                              "fontWeight": 500,
+                              "fontFamily": "'Instrument Sans',sans-serif",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "pill",
+                        "node": "85:698",
+                        "name": "Chip · Windows Terminal",
+                        "style": {
+                          "gap": "6px",
+                          "borderRadius": "999px",
+                          "paddingLeft": "12px",
+                          "paddingRight": "12px",
+                          "paddingTop": "7px",
+                          "paddingBottom": "7px",
+                          "background": "#fff",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "icon",
+                            "src": "./assets/subpages/7dc38.svg",
+                            "size": 13,
+                            "node": "85:699",
+                            "style": {}
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:702",
+                            "text": "Windows Terminal",
+                            "style": {
+                              "lineHeight": "normal",
+                              "color": "#0b1220",
+                              "fontSize": "13px",
+                              "fontWeight": 500,
+                              "fontFamily": "'Instrument Sans',sans-serif",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "pill",
+                        "node": "85:703",
+                        "name": "Chip · PowerShell",
+                        "style": {
+                          "gap": "6px",
+                          "borderRadius": "999px",
+                          "paddingLeft": "12px",
+                          "paddingRight": "12px",
+                          "paddingTop": "7px",
+                          "paddingBottom": "7px",
+                          "background": "#fff",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "icon",
+                            "src": "./assets/subpages/7dc38.svg",
+                            "size": 13,
+                            "node": "85:704",
+                            "style": {}
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:707",
+                            "text": "PowerShell",
+                            "style": {
+                              "lineHeight": "normal",
+                              "color": "#0b1220",
+                              "fontSize": "13px",
+                              "fontWeight": 500,
+                              "fontFamily": "'Instrument Sans',sans-serif",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "pill",
+                        "node": "85:708",
+                        "name": "Chip · Command Prompt",
+                        "style": {
+                          "gap": "6px",
+                          "borderRadius": "999px",
+                          "paddingLeft": "12px",
+                          "paddingRight": "12px",
+                          "paddingTop": "7px",
+                          "paddingBottom": "7px",
+                          "background": "#fff",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "icon",
+                            "src": "./assets/subpages/7dc38.svg",
+                            "size": 13,
+                            "node": "85:709",
+                            "style": {}
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:712",
+                            "text": "Command Prompt",
+                            "style": {
+                              "lineHeight": "normal",
+                              "color": "#0b1220",
+                              "fontSize": "13px",
+                              "fontWeight": 500,
+                              "fontFamily": "'Instrument Sans',sans-serif",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "pill",
+                        "node": "85:713",
+                        "name": "Chip · 1Password",
+                        "style": {
+                          "gap": "6px",
+                          "borderRadius": "999px",
+                          "paddingLeft": "12px",
+                          "paddingRight": "12px",
+                          "paddingTop": "7px",
+                          "paddingBottom": "7px",
+                          "background": "#fff",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "icon",
+                            "src": "./assets/subpages/62dad.svg",
+                            "size": 13,
+                            "node": "85:714",
+                            "style": {}
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:718",
+                            "text": "1Password",
+                            "style": {
+                              "lineHeight": "normal",
+                              "color": "#0b1220",
+                              "fontSize": "13px",
+                              "fontWeight": 500,
+                              "fontFamily": "'Instrument Sans',sans-serif",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "pill",
+                        "node": "85:719",
+                        "name": "Chip · Bitwarden",
+                        "style": {
+                          "gap": "6px",
+                          "borderRadius": "999px",
+                          "paddingLeft": "12px",
+                          "paddingRight": "12px",
+                          "paddingTop": "7px",
+                          "paddingBottom": "7px",
+                          "background": "#fff",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "icon",
+                            "src": "./assets/subpages/62dad.svg",
+                            "size": 13,
+                            "node": "85:720",
+                            "style": {}
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:724",
+                            "text": "Bitwarden",
+                            "style": {
+                              "lineHeight": "normal",
+                              "color": "#0b1220",
+                              "fontSize": "13px",
+                              "fontWeight": 500,
+                              "fontFamily": "'Instrument Sans',sans-serif",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "pill",
+                        "node": "85:725",
+                        "name": "Chip · KeePassXC",
+                        "style": {
+                          "gap": "6px",
+                          "borderRadius": "999px",
+                          "paddingLeft": "12px",
+                          "paddingRight": "12px",
+                          "paddingTop": "7px",
+                          "paddingBottom": "7px",
+                          "background": "#fff",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "icon",
+                            "src": "./assets/subpages/62dad.svg",
+                            "size": 13,
+                            "node": "85:726",
+                            "style": {}
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:730",
+                            "text": "KeePassXC",
+                            "style": {
+                              "lineHeight": "normal",
+                              "color": "#0b1220",
+                              "fontSize": "13px",
+                              "fontWeight": 500,
+                              "fontFamily": "'Instrument Sans',sans-serif",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "pill",
+                        "node": "85:731",
+                        "name": "Chip · Add app",
+                        "style": {
+                          "gap": "6px",
+                          "borderRadius": "999px",
+                          "background": "#f1f4f9",
+                          "paddingLeft": "12px",
+                          "paddingRight": "12px",
+                          "paddingTop": "7px",
+                          "paddingBottom": "7px",
+                          "borderColor": "#c9d1dc",
+                          "borderWidth": "1px",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "icon",
+                            "src": "./assets/subpages/34bf7.svg",
+                            "size": 13,
+                            "node": "85:732",
+                            "style": {}
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:735",
+                            "text": "Add app",
+                            "style": {
+                              "lineHeight": "normal",
+                              "color": "#2563eb",
+                              "fontSize": "13px",
+                              "fontWeight": 500,
+                              "fontFamily": "'Instrument Sans',sans-serif",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "table",
+                    "node": "85:736",
+                    "name": "Table",
+                    "style": {
+                      "borderRadius": "12px",
+                      "background": "#fff",
+                      "borderColor": "#e4e7ec",
+                      "borderWidth": "1px",
+                      "width": "100%",
+                      "alignItems": "flex-start",
+                      "overflow": "hidden"
+                    },
+                    "children": [
+                      {
+                        "kind": "row",
+                        "node": "85:737",
+                        "name": "Table header",
+                        "style": {
+                          "gap": "24px",
+                          "background": "#f1f4f9",
+                          "letterSpacing": "0.69px",
+                          "lineHeight": "normal",
+                          "paddingLeft": "20px",
+                          "paddingRight": "20px",
+                          "paddingTop": "12px",
+                          "paddingBottom": "12px",
+                          "color": "#667085",
+                          "fontSize": "11.5px",
+                          "fontWeight": 500,
+                          "fontFamily": "'Geist Mono',monospace",
+                          "textTransform": "uppercase",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "85:738",
+                            "text": "Matched by",
+                            "style": {
+                              "--basis": "130px"
+                            }
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:739",
+                            "text": "Example",
+                            "style": {
+                              "flex": "1 1 0"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "row",
+                        "node": "85:740",
+                        "name": "Table row",
+                        "style": {
+                          "gap": "24px",
+                          "lineHeight": "21px",
+                          "paddingLeft": "20px",
+                          "paddingRight": "20px",
+                          "paddingTop": "12px",
+                          "paddingBottom": "12px",
+                          "fontSize": "14px",
+                          "borderColor": "#e4e7ec",
+                          "borderTopWidth": "1px",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "85:741",
+                            "text": "Signer",
+                            "style": {
+                              "color": "#0b1220",
+                              "fontWeight": 600,
+                              "--basis": "130px",
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:742",
+                            "text": "AgileBits Inc. · 1Password",
+                            "style": {
+                              "color": "#3d4757",
+                              "flex": "1 1 0",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "row",
+                        "node": "85:743",
+                        "name": "Table row",
+                        "style": {
+                          "gap": "24px",
+                          "lineHeight": "21px",
+                          "paddingLeft": "20px",
+                          "paddingRight": "20px",
+                          "paddingTop": "12px",
+                          "paddingBottom": "12px",
+                          "fontSize": "14px",
+                          "borderColor": "#e4e7ec",
+                          "borderTopWidth": "1px",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "85:744",
+                            "text": "Package family",
+                            "style": {
+                              "color": "#0b1220",
+                              "fontWeight": 600,
+                              "--basis": "130px",
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:745",
+                            "text": "Microsoft.WindowsTerminal_8wekyb3d8bbwe",
+                            "style": {
+                              "color": "#3d4757",
+                              "flex": "1 1 0",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "row",
+                        "node": "85:746",
+                        "name": "Table row",
+                        "style": {
+                          "gap": "24px",
+                          "lineHeight": "21px",
+                          "paddingLeft": "20px",
+                          "paddingRight": "20px",
+                          "paddingTop": "12px",
+                          "paddingBottom": "12px",
+                          "fontSize": "14px",
+                          "borderColor": "#e4e7ec",
+                          "borderTopWidth": "1px",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "85:747",
+                            "text": "Install path",
+                            "style": {
+                              "color": "#0b1220",
+                              "fontWeight": 600,
+                              "--basis": "130px",
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:748",
+                            "text": "C:\\Program Files\\KeePassXC\\KeePassXC.exe",
+                            "style": {
+                              "color": "#3d4757",
+                              "flex": "1 1 0",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tour": false
+    },
+    {
+      "id": "coverage",
+      "content": {
+        "kind": "stack",
+        "node": "85:749",
+        "name": "Coverage",
+        "style": {
+          "background": "#f1f4f9",
+          "paddingLeft": "120px",
+          "paddingRight": "120px",
+          "paddingTop": "96px",
+          "paddingBottom": "96px",
+          "alignItems": "flex-start"
+        },
+        "children": [
+          {
+            "kind": "row",
+            "node": "85:750",
+            "name": "Section header",
+            "style": {
+              "gap": "64px",
+              "width": "100%",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "stack",
+                "node": "85:751",
+                "name": "Stack",
+                "style": {
+                  "gap": "16px",
+                  "--basis": "600px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "85:752",
+                    "text": "Honest coverage",
+                    "style": {
+                      "letterSpacing": "0.96px",
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "12px",
+                      "fontWeight": 500,
+                      "fontFamily": "'Geist Mono',monospace",
+                      "textTransform": "uppercase",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "heading",
+                    "node": "85:753",
+                    "text": "Clear about what it can’t stop.",
+                    "style": {
+                      "letterSpacing": "-0.8px",
+                      "lineHeight": "46px",
+                      "color": "#0b1220",
+                      "fontSize": "40px",
+                      "fontWeight": 600,
+                      "width": "100%",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "85:754",
+                "name": "Stack",
+                "style": {
+                  "gap": "20px",
+                  "paddingTop": "30px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "85:755",
+                    "text": "No single Windows hook can stop every way software controls an app. Intercept pauses one route and reports the other seven as not paused, route by route. It never shows a blanket “protected” claim.",
+                    "style": {
+                      "lineHeight": "29px",
+                      "color": "#3d4757",
+                      "fontSize": "18px",
+                      "width": "100%",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "link",
+                    "node": "85:756",
+                    "name": "Link/arrow",
+                    "style": {
+                      "gap": "8px",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "85:757",
+                        "text": "Read the coverage notes",
+                        "style": {
+                          "lineHeight": "normal",
+                          "color": "#2563eb",
+                          "fontSize": "15px",
+                          "fontWeight": 600,
+                          "fontFamily": "'Instrument Sans',sans-serif",
+                          "whiteSpace": "nowrap"
+                        }
+                      },
+                      {
+                        "kind": "icon",
+                        "src": "./assets/subpages/55209.svg",
+                        "size": 16,
+                        "node": "85:758",
+                        "style": {}
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "spacer",
+            "node": "85:761",
+            "name": "Spacer",
+            "text": "",
+            "style": {
+              "width": "100%",
+              "minHeight": "48px",
+              "height": "48px"
+            }
+          },
+          {
+            "kind": "row",
+            "node": "85:762",
+            "name": "Row",
+            "style": {
+              "gap": "48px",
+              "borderRadius": "16px",
+              "paddingLeft": "28px",
+              "paddingRight": "28px",
+              "paddingTop": "12px",
+              "paddingBottom": "12px",
+              "background": "#fff",
+              "width": "100%",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "stack",
+                "node": "85:763",
+                "name": "Stack",
+                "style": {
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "row",
+                    "node": "85:764",
+                    "name": "Row",
+                    "style": {
+                      "gap": "16px",
+                      "paddingTop": "16px",
+                      "paddingBottom": "16px",
+                      "width": "100%",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "85:765",
+                        "text": "Windows keyboard and mouse injection",
+                        "style": {
+                          "lineHeight": "22px",
+                          "color": "#0b1220",
+                          "fontSize": "15.5px",
+                          "fontWeight": 600,
+                          "flex": "1 1 0",
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      },
+                      {
+                        "kind": "pill",
+                        "node": "85:766",
+                        "name": "Pill · Paused",
+                        "style": {
+                          "borderRadius": "999px",
+                          "background": "#e3f5ec",
+                          "paddingLeft": "10px",
+                          "paddingRight": "10px",
+                          "paddingTop": "4px",
+                          "paddingBottom": "4px",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "85:767",
+                            "text": "Paused",
+                            "style": {
+                              "letterSpacing": "0.66px",
+                              "lineHeight": "normal",
+                              "color": "#047857",
+                              "fontSize": "11px",
+                              "fontWeight": 500,
+                              "fontFamily": "'Geist Mono',monospace",
+                              "textTransform": "uppercase",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "row",
+                    "node": "85:768",
+                    "name": "Row",
+                    "style": {
+                      "gap": "16px",
+                      "paddingTop": "16px",
+                      "paddingBottom": "16px",
+                      "borderColor": "#e4e7ec",
+                      "borderTopWidth": "1px",
+                      "width": "100%",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "85:769",
+                        "text": "Synthetic touch and pen",
+                        "style": {
+                          "lineHeight": "22px",
+                          "color": "#0b1220",
+                          "fontSize": "15.5px",
+                          "flex": "1 1 0",
+                          "fontWeight": 400,
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      },
+                      {
+                        "kind": "pill",
+                        "node": "85:770",
+                        "name": "Pill · Not paused",
+                        "style": {
+                          "borderRadius": "999px",
+                          "background": "#fbf1df",
+                          "paddingLeft": "10px",
+                          "paddingRight": "10px",
+                          "paddingTop": "4px",
+                          "paddingBottom": "4px",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "85:771",
+                            "text": "Not paused",
+                            "style": {
+                              "letterSpacing": "0.66px",
+                              "lineHeight": "normal",
+                              "color": "#9a4708",
+                              "fontSize": "11px",
+                              "fontWeight": 500,
+                              "fontFamily": "'Geist Mono',monospace",
+                              "textTransform": "uppercase",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "row",
+                    "node": "85:772",
+                    "name": "Row",
+                    "style": {
+                      "gap": "16px",
+                      "paddingTop": "16px",
+                      "paddingBottom": "16px",
+                      "borderColor": "#e4e7ec",
+                      "borderTopWidth": "1px",
+                      "width": "100%",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "85:773",
+                        "text": "Virtual or remote input devices",
+                        "style": {
+                          "lineHeight": "22px",
+                          "color": "#0b1220",
+                          "fontSize": "15.5px",
+                          "flex": "1 1 0",
+                          "fontWeight": 400,
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      },
+                      {
+                        "kind": "pill",
+                        "node": "85:774",
+                        "name": "Pill · Not paused",
+                        "style": {
+                          "borderRadius": "999px",
+                          "background": "#fbf1df",
+                          "paddingLeft": "10px",
+                          "paddingRight": "10px",
+                          "paddingTop": "4px",
+                          "paddingBottom": "4px",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "85:775",
+                            "text": "Not paused",
+                            "style": {
+                              "letterSpacing": "0.66px",
+                              "lineHeight": "normal",
+                              "color": "#9a4708",
+                              "fontSize": "11px",
+                              "fontWeight": 500,
+                              "fontFamily": "'Geist Mono',monospace",
+                              "textTransform": "uppercase",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "row",
+                    "node": "85:776",
+                    "name": "Row",
+                    "style": {
+                      "gap": "16px",
+                      "paddingTop": "16px",
+                      "paddingBottom": "16px",
+                      "borderColor": "#e4e7ec",
+                      "borderTopWidth": "1px",
+                      "width": "100%",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "85:777",
+                        "text": "Accessibility actions (UI Automation)",
+                        "style": {
+                          "lineHeight": "22px",
+                          "color": "#0b1220",
+                          "fontSize": "15.5px",
+                          "flex": "1 1 0",
+                          "fontWeight": 400,
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      },
+                      {
+                        "kind": "pill",
+                        "node": "85:778",
+                        "name": "Pill · Not paused",
+                        "style": {
+                          "borderRadius": "999px",
+                          "background": "#fbf1df",
+                          "paddingLeft": "10px",
+                          "paddingRight": "10px",
+                          "paddingTop": "4px",
+                          "paddingBottom": "4px",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "85:779",
+                            "text": "Not paused",
+                            "style": {
+                              "letterSpacing": "0.66px",
+                              "lineHeight": "normal",
+                              "color": "#9a4708",
+                              "fontSize": "11px",
+                              "fontWeight": 500,
+                              "fontFamily": "'Geist Mono',monospace",
+                              "textTransform": "uppercase",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "85:780",
+                "name": "Stack",
+                "style": {
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "row",
+                    "node": "85:781",
+                    "name": "Row",
+                    "style": {
+                      "gap": "16px",
+                      "paddingTop": "16px",
+                      "paddingBottom": "16px",
+                      "width": "100%",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "85:782",
+                        "text": "Browser automation",
+                        "style": {
+                          "lineHeight": "22px",
+                          "color": "#0b1220",
+                          "fontSize": "15.5px",
+                          "flex": "1 1 0",
+                          "fontWeight": 400,
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      },
+                      {
+                        "kind": "pill",
+                        "node": "85:783",
+                        "name": "Pill · Not paused",
+                        "style": {
+                          "borderRadius": "999px",
+                          "background": "#fbf1df",
+                          "paddingLeft": "10px",
+                          "paddingRight": "10px",
+                          "paddingTop": "4px",
+                          "paddingBottom": "4px",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "85:784",
+                            "text": "Not paused",
+                            "style": {
+                              "letterSpacing": "0.66px",
+                              "lineHeight": "normal",
+                              "color": "#9a4708",
+                              "fontSize": "11px",
+                              "fontWeight": 500,
+                              "fontFamily": "'Geist Mono',monospace",
+                              "textTransform": "uppercase",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "row",
+                    "node": "85:785",
+                    "name": "Row",
+                    "style": {
+                      "gap": "16px",
+                      "paddingTop": "16px",
+                      "paddingBottom": "16px",
+                      "borderColor": "#e4e7ec",
+                      "borderTopWidth": "1px",
+                      "width": "100%",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "85:786",
+                        "text": "Window messages and app APIs",
+                        "style": {
+                          "lineHeight": "22px",
+                          "color": "#0b1220",
+                          "fontSize": "15.5px",
+                          "flex": "1 1 0",
+                          "fontWeight": 400,
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      },
+                      {
+                        "kind": "pill",
+                        "node": "85:787",
+                        "name": "Pill · Not paused",
+                        "style": {
+                          "borderRadius": "999px",
+                          "background": "#fbf1df",
+                          "paddingLeft": "10px",
+                          "paddingRight": "10px",
+                          "paddingTop": "4px",
+                          "paddingBottom": "4px",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "85:788",
+                            "text": "Not paused",
+                            "style": {
+                              "letterSpacing": "0.66px",
+                              "lineHeight": "normal",
+                              "color": "#9a4708",
+                              "fontSize": "11px",
+                              "fontWeight": 500,
+                              "fontFamily": "'Geist Mono',monospace",
+                              "textTransform": "uppercase",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "row",
+                    "node": "85:789",
+                    "name": "Row",
+                    "style": {
+                      "gap": "16px",
+                      "paddingTop": "16px",
+                      "paddingBottom": "16px",
+                      "borderColor": "#e4e7ec",
+                      "borderTopWidth": "1px",
+                      "width": "100%",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "85:790",
+                        "text": "Other desktops and sessions",
+                        "style": {
+                          "lineHeight": "22px",
+                          "color": "#0b1220",
+                          "fontSize": "15.5px",
+                          "flex": "1 1 0",
+                          "fontWeight": 400,
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      },
+                      {
+                        "kind": "pill",
+                        "node": "85:791",
+                        "name": "Pill · Not paused",
+                        "style": {
+                          "borderRadius": "999px",
+                          "background": "#fbf1df",
+                          "paddingLeft": "10px",
+                          "paddingRight": "10px",
+                          "paddingTop": "4px",
+                          "paddingBottom": "4px",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "85:792",
+                            "text": "Not paused",
+                            "style": {
+                              "letterSpacing": "0.66px",
+                              "lineHeight": "normal",
+                              "color": "#9a4708",
+                              "fontSize": "11px",
+                              "fontWeight": 500,
+                              "fontFamily": "'Geist Mono',monospace",
+                              "textTransform": "uppercase",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "row",
+                    "node": "85:793",
+                    "name": "Row",
+                    "style": {
+                      "gap": "16px",
+                      "paddingTop": "16px",
+                      "paddingBottom": "16px",
+                      "borderColor": "#e4e7ec",
+                      "borderTopWidth": "1px",
+                      "width": "100%",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "85:794",
+                        "text": "Unknown and future routes",
+                        "style": {
+                          "lineHeight": "22px",
+                          "color": "#0b1220",
+                          "fontSize": "15.5px",
+                          "flex": "1 1 0",
+                          "fontWeight": 400,
+                          "fontFamily": "'Instrument Sans',sans-serif"
+                        }
+                      },
+                      {
+                        "kind": "pill",
+                        "node": "85:795",
+                        "name": "Pill · Not paused",
+                        "style": {
+                          "borderRadius": "999px",
+                          "background": "#fbf1df",
+                          "paddingLeft": "10px",
+                          "paddingRight": "10px",
+                          "paddingTop": "4px",
+                          "paddingBottom": "4px",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "85:796",
+                            "text": "Not paused",
+                            "style": {
+                              "letterSpacing": "0.66px",
+                              "lineHeight": "normal",
+                              "color": "#9a4708",
+                              "fontSize": "11px",
+                              "fontWeight": 500,
+                              "fontFamily": "'Geist Mono',monospace",
+                              "textTransform": "uppercase",
+                              "whiteSpace": "nowrap"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tour": false
+    },
+    {
+      "id": "with-ai-agents",
+      "content": {
+        "kind": "stack",
+        "node": "85:797",
+        "name": "With AI agents",
+        "style": {
+          "paddingLeft": "120px",
+          "paddingRight": "120px",
+          "paddingTop": "96px",
+          "paddingBottom": "96px",
+          "background": "#fff",
+          "alignItems": "flex-start"
+        },
+        "children": [
+          {
+            "kind": "row",
+            "node": "85:798",
+            "name": "Row",
+            "style": {
+              "gap": "72px",
+              "width": "100%",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "stack",
+                "node": "85:799",
+                "name": "Stack",
+                "style": {
+                  "gap": "16px",
+                  "--basis": "520px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "85:800",
+                    "text": "With AI agents",
+                    "style": {
+                      "letterSpacing": "0.96px",
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "12px",
+                      "fontWeight": 500,
+                      "fontFamily": "'Geist Mono',monospace",
+                      "textTransform": "uppercase",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "heading",
+                    "node": "85:801",
+                    "text": "Agents you trust keep working.",
+                    "style": {
+                      "letterSpacing": "-0.8px",
+                      "lineHeight": "46px",
+                      "color": "#0b1220",
+                      "fontSize": "40px",
+                      "fontWeight": 600,
+                      "width": "100%",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "85:802",
+                    "text": "While a trusted Claude or Codex session is active, its input reaches only the apps you approved for it. Protected apps stay protected, for every agent.",
+                    "style": {
+                      "lineHeight": "28px",
+                      "color": "#3d4757",
+                      "fontSize": "17px",
+                      "width": "100%",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "stack",
+                    "node": "85:803",
+                    "name": "Checklist",
+                    "style": {
+                      "gap": "10px",
+                      "width": "100%",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "row",
+                        "node": "85:804",
+                        "name": "Row",
+                        "style": {
+                          "gap": "12px",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "row",
+                            "node": "85:805",
+                            "name": "Row",
+                            "style": {
+                              "paddingTop": "3px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "icon",
+                                "src": "./assets/subpages/997a0.svg",
+                                "size": 18,
+                                "node": "85:806",
+                                "style": {}
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:808",
+                            "text": "Claude: terminals, IDEs and browsers are never on its approved list",
+                            "style": {
+                              "lineHeight": "24px",
+                              "color": "#3d4757",
+                              "fontSize": "15.5px",
+                              "flex": "1 1 0",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "row",
+                        "node": "85:809",
+                        "name": "Row",
+                        "style": {
+                          "gap": "12px",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "row",
+                            "node": "85:810",
+                            "name": "Row",
+                            "style": {
+                              "paddingTop": "3px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "icon",
+                                "src": "./assets/subpages/997a0.svg",
+                                "size": 18,
+                                "node": "85:811",
+                                "style": {}
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:813",
+                            "text": "Codex: follows its always-allowed list in config.toml, minus terminals and elevated apps",
+                            "style": {
+                              "lineHeight": "24px",
+                              "color": "#3d4757",
+                              "fontSize": "15.5px",
+                              "flex": "1 1 0",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "row",
+                        "node": "85:814",
+                        "name": "Row",
+                        "style": {
+                          "gap": "12px",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "row",
+                            "node": "85:815",
+                            "name": "Row",
+                            "style": {
+                              "paddingTop": "3px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "icon",
+                                "src": "./assets/subpages/997a0.svg",
+                                "size": 18,
+                                "node": "85:816",
+                                "style": {}
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:818",
+                            "text": "Labelled honestly: allowed under the agent’s session",
+                            "style": {
+                              "lineHeight": "24px",
+                              "color": "#3d4757",
+                              "fontSize": "15.5px",
+                              "flex": "1 1 0",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "row",
+                        "node": "85:819",
+                        "name": "Row",
+                        "style": {
+                          "gap": "12px",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "row",
+                            "node": "85:820",
+                            "name": "Row",
+                            "style": {
+                              "paddingTop": "3px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "icon",
+                                "src": "./assets/subpages/997a0.svg",
+                                "size": 18,
+                                "node": "85:821",
+                                "style": {}
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:823",
+                            "text": "No active session, no allowance",
+                            "style": {
+                              "lineHeight": "24px",
+                              "color": "#3d4757",
+                              "fontSize": "15.5px",
+                              "flex": "1 1 0",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "spacer",
+                    "node": "85:824",
+                    "name": "Spacer",
+                    "text": "",
+                    "style": {
+                      "width": "100%",
+                      "minHeight": "4px",
+                      "height": "4px"
+                    }
+                  },
+                  {
+                    "kind": "link",
+                    "node": "85:825",
+                    "name": "Link/arrow",
+                    "style": {
+                      "gap": "8px",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "85:826",
+                        "text": "Explore AI agents",
+                        "style": {
+                          "lineHeight": "normal",
+                          "color": "#2563eb",
+                          "fontSize": "15px",
+                          "fontWeight": 600,
+                          "fontFamily": "'Instrument Sans',sans-serif",
+                          "whiteSpace": "nowrap"
+                        }
+                      },
+                      {
+                        "kind": "icon",
+                        "src": "./assets/subpages/55209.svg",
+                        "size": 16,
+                        "node": "85:827",
+                        "style": {}
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "85:830",
+                "name": "Stack",
+                "style": {
+                  "gap": "16px",
+                  "padding": "28px",
+                  "borderRadius": "16px",
+                  "background": "#0a2540",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "85:831",
+                    "text": "Two events during one Claude session",
+                    "style": {
+                      "letterSpacing": "0.69px",
+                      "lineHeight": "normal",
+                      "color": "#93c5fd",
+                      "fontSize": "11.5px",
+                      "fontWeight": 500,
+                      "fontFamily": "'Geist Mono',monospace",
+                      "textTransform": "uppercase",
+                      "width": "100%"
+                    }
+                  },
+                  {
+                    "kind": "stack",
+                    "node": "85:832",
+                    "name": "Stack",
+                    "style": {
+                      "gap": "4px",
+                      "borderRadius": "10px",
+                      "background": "#071a2e",
+                      "paddingLeft": "18px",
+                      "paddingRight": "18px",
+                      "paddingTop": "16px",
+                      "paddingBottom": "16px",
+                      "width": "100%",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "row",
+                        "node": "85:833",
+                        "name": "Row",
+                        "style": {
+                          "gap": "12px",
+                          "lineHeight": "20px",
+                          "fontSize": "13px",
+                          "fontFamily": "'Geist Mono',monospace",
+                          "width": "100%",
+                          "alignItems": "flex-start",
+                          "fontWeight": 400
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "85:834",
+                            "text": "session",
+                            "style": {
+                              "color": "#8593a8",
+                              "--basis": "84px"
+                            }
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:835",
+                            "text": "claude.exe · Anthropic, PBC ✓",
+                            "style": {
+                              "color": "#dce7fd",
+                              "flex": "1 1 0"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "row",
+                        "node": "85:836",
+                        "name": "Row",
+                        "style": {
+                          "gap": "12px",
+                          "lineHeight": "20px",
+                          "fontSize": "13px",
+                          "fontFamily": "'Geist Mono',monospace",
+                          "width": "100%",
+                          "alignItems": "flex-start",
+                          "fontWeight": 400
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "85:837",
+                            "text": "recipient",
+                            "style": {
+                              "color": "#8593a8",
+                              "--basis": "84px"
+                            }
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:838",
+                            "text": "notepad.exe · approved for Claude",
+                            "style": {
+                              "color": "#dce7fd",
+                              "flex": "1 1 0"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "row",
+                        "node": "85:839",
+                        "name": "Row",
+                        "style": {
+                          "paddingTop": "6px",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "pill",
+                            "node": "85:840",
+                            "name": "Pill · Allowed under session · logged",
+                            "style": {
+                              "borderRadius": "999px",
+                              "background": "#e3f5ec",
+                              "paddingLeft": "10px",
+                              "paddingRight": "10px",
+                              "paddingTop": "4px",
+                              "paddingBottom": "4px",
+                              "alignItems": "center"
+                            },
+                            "children": [
+                              {
+                                "kind": "text",
+                                "node": "85:841",
+                                "text": "Allowed under session · logged",
+                                "style": {
+                                  "letterSpacing": "0.66px",
+                                  "lineHeight": "normal",
+                                  "color": "#047857",
+                                  "fontSize": "11px",
+                                  "fontWeight": 500,
+                                  "fontFamily": "'Geist Mono',monospace",
+                                  "textTransform": "uppercase",
+                                  "whiteSpace": "nowrap"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "stack",
+                    "node": "85:842",
+                    "name": "Stack",
+                    "style": {
+                      "gap": "4px",
+                      "borderRadius": "10px",
+                      "background": "#071a2e",
+                      "paddingLeft": "18px",
+                      "paddingRight": "18px",
+                      "paddingTop": "16px",
+                      "paddingBottom": "16px",
+                      "width": "100%",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "row",
+                        "node": "85:843",
+                        "name": "Row",
+                        "style": {
+                          "gap": "12px",
+                          "lineHeight": "20px",
+                          "fontSize": "13px",
+                          "fontFamily": "'Geist Mono',monospace",
+                          "width": "100%",
+                          "alignItems": "flex-start",
+                          "fontWeight": 400
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "85:844",
+                            "text": "session",
+                            "style": {
+                              "color": "#8593a8",
+                              "--basis": "84px"
+                            }
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:845",
+                            "text": "claude.exe · Anthropic, PBC ✓",
+                            "style": {
+                              "color": "#dce7fd",
+                              "flex": "1 1 0"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "row",
+                        "node": "85:846",
+                        "name": "Row",
+                        "style": {
+                          "gap": "12px",
+                          "lineHeight": "20px",
+                          "fontSize": "13px",
+                          "fontFamily": "'Geist Mono',monospace",
+                          "width": "100%",
+                          "alignItems": "flex-start",
+                          "fontWeight": 400
+                        },
+                        "children": [
+                          {
+                            "kind": "text",
+                            "node": "85:847",
+                            "text": "recipient",
+                            "style": {
+                              "color": "#8593a8",
+                              "--basis": "84px"
+                            }
+                          },
+                          {
+                            "kind": "text",
+                            "node": "85:848",
+                            "text": "1password.exe · protected app",
+                            "style": {
+                              "color": "#dce7fd",
+                              "flex": "1 1 0"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "row",
+                        "node": "85:849",
+                        "name": "Row",
+                        "style": {
+                          "paddingTop": "6px",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "pill",
+                            "node": "85:850",
+                            "name": "Pill · Blocked · always alerts",
+                            "style": {
+                              "borderRadius": "999px",
+                              "background": "#fdebe9",
+                              "paddingLeft": "10px",
+                              "paddingRight": "10px",
+                              "paddingTop": "4px",
+                              "paddingBottom": "4px",
+                              "alignItems": "center"
+                            },
+                            "children": [
+                              {
+                                "kind": "text",
+                                "node": "85:851",
+                                "text": "Blocked · always alerts",
+                                "style": {
+                                  "letterSpacing": "0.66px",
+                                  "lineHeight": "normal",
+                                  "color": "#b42318",
+                                  "fontSize": "11px",
+                                  "fontWeight": 500,
+                                  "fontFamily": "'Geist Mono',monospace",
+                                  "textTransform": "uppercase",
+                                  "whiteSpace": "nowrap"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tour": false
+    }
+  ]
+}

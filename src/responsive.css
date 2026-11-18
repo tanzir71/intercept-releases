@@ -5,7 +5,7 @@
 @media(max-width:1279px){
   body{overflow-x:hidden}
   [data-node-id="52:4"],[data-node-id="52:9"],[data-node-id="52:28"]{padding-left:24px;padding-right:24px}
-  main>section>div>div[data-name="Inner"],main>section>div>div[data-name="Group"]{max-width:calc(100vw - 48px)}
+  main:not(.subpage)>section>div>div[data-name="Inner"],main:not(.subpage)>section>div>div[data-name="Group"]{max-width:calc(100vw - 48px)}
   [data-node-id="52:29"]{width:min(960px,100%)}
   [data-node-id="55:14"]{width:100%}
   [data-node-id="52:416"]{padding-left:24px;padding-right:24px;overflow-x:auto}
@@ -28,9 +28,9 @@
   [data-node-id="52:53"]{top:24px}
   [data-node-id="52:416"]{height:56px;gap:24px;white-space:nowrap}
   [data-node-id="52:436"]{padding:24px 20px;height:auto;flex-wrap:wrap}
-  main>section>div{padding:64px 20px}
-  main>section>div>div[data-name="Inner"]{width:100%;max-width:100%}
-  main>section>div>div[data-name="Inner"]>div{flex-wrap:wrap;gap:32px}
+  main:not(.subpage)>section>div{padding:64px 20px}
+  main:not(.subpage)>section>div>div[data-name="Inner"]{width:100%;max-width:100%}
+  main:not(.subpage)>section>div>div[data-name="Inner"]>div{flex-wrap:wrap;gap:32px}
   [data-node-id="52:489"]>div>div,[data-node-id="57:414"]{flex-direction:column}
   [data-node-id="57:415"]{width:100%}
   .feature-rows>div{flex-direction:column;width:100%;gap:32px}
@@ -42,5 +42,10 @@
   [data-node-id="57:482"]{padding:48px 20px}
   [data-node-id="57:482"]>div{width:100%;max-width:100%;flex-wrap:wrap;gap:32px}
   .preview-note{text-align:left;padding:12px 20px;font-size:13px}
+  [data-node-id="52:437"],[data-node-id="52:438"],[data-node-id="57:353"],[data-node-id="57:354"]{width:100%;max-width:100%;flex-wrap:wrap;gap:24px}
+  .wide-section>div{max-width:100%}
+  [data-node-id="55:19"],[data-node-id="56:157"]{flex-direction:column;gap:24px}
+  [data-node-id="55:20"],[data-node-id="55:23"],[data-node-id="56:158"],[data-node-id="56:161"]{width:100%;max-width:100%;flex:auto}
+  [data-node-id="55:23"],[data-node-id="56:161"]{padding-top:0}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

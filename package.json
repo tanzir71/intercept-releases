@@ -5,6 +5,6 @@
   "type": "module",
   "description": "Public Intercept landing page and Windows installer releases",
   "license": "MIT",
-  "scripts": { "build": "node scripts/build.mjs" },
+  "scripts": { "build": "node scripts/build.mjs", "check": "node scripts/check-pages.cjs" },
   "devDependencies": { "esbuild": "0.25.12", "jsdom": "31.0.1", "react": "19.1.1", "react-dom": "19.1.1" }
 }

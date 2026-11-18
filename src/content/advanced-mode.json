@@ -1,0 +1,2418 @@
+{
+  "hero": {
+    "kind": "stack",
+    "node": "91:453",
+    "name": "Stack",
+    "style": {
+      "alignItems": "flex-start"
+    },
+    "children": [
+      {
+        "kind": "text",
+        "node": "91:454",
+        "text": "Advanced mode",
+        "style": {
+          "letterSpacing": "0.96px",
+          "lineHeight": "normal",
+          "color": "#2563eb",
+          "fontSize": "12px",
+          "fontWeight": 500,
+          "fontFamily": "'Geist Mono',monospace",
+          "textTransform": "uppercase",
+          "whiteSpace": "nowrap"
+        }
+      },
+      {
+        "kind": "spacer",
+        "node": "91:455",
+        "name": "Spacer",
+        "text": "",
+        "style": {
+          "width": "100%",
+          "minHeight": "18px",
+          "height": "18px"
+        }
+      },
+      {
+        "kind": "heading",
+        "node": "91:456",
+        "text": "Every event, every rule, every field, when you need the detail.",
+        "style": {
+          "letterSpacing": "-1.4px",
+          "lineHeight": "62px",
+          "color": "#0b1220",
+          "fontSize": "56px",
+          "fontWeight": 600,
+          "width": "100%",
+          "fontFamily": "'Instrument Sans',sans-serif"
+        }
+      },
+      {
+        "kind": "spacer",
+        "node": "91:457",
+        "name": "Spacer",
+        "text": "",
+        "style": {
+          "width": "100%",
+          "minHeight": "20px",
+          "height": "20px"
+        }
+      },
+      {
+        "kind": "text",
+        "node": "91:458",
+        "text": "Simple mode keeps the common actions one click away. Advanced mode keeps the full record: the live feed, process trees, destinations, rules and guard health. Switch at any time; the data and the confirmations are the same.",
+        "style": {
+          "lineHeight": "30px",
+          "color": "#3d4757",
+          "fontSize": "19px",
+          "width": "100%",
+          "fontWeight": 400,
+          "fontFamily": "'Instrument Sans',sans-serif"
+        }
+      },
+      {
+        "kind": "spacer",
+        "node": "91:459",
+        "name": "Spacer",
+        "text": "",
+        "style": {
+          "width": "100%",
+          "minHeight": "32px",
+          "height": "32px"
+        }
+      },
+      {
+        "kind": "row",
+        "node": "91:460",
+        "name": "Row",
+        "style": {
+          "gap": "12px",
+          "alignItems": "flex-start"
+        },
+        "children": [
+          {
+            "kind": "link",
+            "node": "91:461",
+            "name": "Button/primary",
+            "style": {
+              "gap": "8px",
+              "borderRadius": "6px",
+              "background": "#2563eb",
+              "paddingLeft": "22px",
+              "paddingRight": "22px",
+              "paddingTop": "13px",
+              "paddingBottom": "13px",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "icon",
+                "src": "./assets/subpages/0a9c9.svg",
+                "size": 18,
+                "node": "91:462",
+                "style": {}
+              },
+              {
+                "kind": "text",
+                "node": "91:466",
+                "text": "Download for Windows",
+                "style": {
+                  "lineHeight": "normal",
+                  "fontSize": "15px",
+                  "color": "#fff",
+                  "fontWeight": 600,
+                  "fontFamily": "'Instrument Sans',sans-serif",
+                  "whiteSpace": "nowrap"
+                }
+              }
+            ]
+          },
+          {
+            "kind": "link",
+            "node": "91:467",
+            "name": "Button/secondary",
+            "style": {
+              "borderRadius": "6px",
+              "paddingLeft": "22px",
+              "paddingRight": "22px",
+              "paddingTop": "13px",
+              "paddingBottom": "13px",
+              "borderColor": "#c9d1dc",
+              "borderWidth": "1px",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "text",
+                "node": "91:468",
+                "text": "Compare the two modes",
+                "style": {
+                  "lineHeight": "normal",
+                  "color": "#0b1220",
+                  "fontSize": "15px",
+                  "fontWeight": 600,
+                  "fontFamily": "'Instrument Sans',sans-serif",
+                  "whiteSpace": "nowrap"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "spacer",
+        "node": "91:469",
+        "name": "Spacer",
+        "text": "",
+        "style": {
+          "width": "100%",
+          "minHeight": "20px",
+          "height": "20px"
+        }
+      },
+      {
+        "kind": "row",
+        "node": "91:470",
+        "name": "Facts",
+        "style": {
+          "gap": "24px",
+          "alignItems": "center"
+        },
+        "children": [
+          {
+            "kind": "row",
+            "node": "91:471",
+            "name": "Row",
+            "style": {
+              "gap": "8px",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "dot",
+                "node": "91:472",
+                "name": "Ellipse",
+                "style": {
+                  "width": "4px",
+                  "height": "4px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/728c3.svg",
+                    "size": 18,
+                    "node": null
+                  }
+                ]
+              },
+              {
+                "kind": "text",
+                "node": "91:473",
+                "text": "Same record in both modes",
+                "style": {
+                  "lineHeight": "normal",
+                  "color": "#667085",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "fontFamily": "'Instrument Sans',sans-serif",
+                  "whiteSpace": "nowrap"
+                }
+              }
+            ]
+          },
+          {
+            "kind": "row",
+            "node": "91:474",
+            "name": "Row",
+            "style": {
+              "gap": "8px",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "dot",
+                "node": "91:475",
+                "name": "Ellipse",
+                "style": {
+                  "width": "4px",
+                  "height": "4px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/728c3.svg",
+                    "size": 18,
+                    "node": null
+                  }
+                ]
+              },
+              {
+                "kind": "text",
+                "node": "91:476",
+                "text": "Switch from the title bar",
+                "style": {
+                  "lineHeight": "normal",
+                  "color": "#667085",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "fontFamily": "'Instrument Sans',sans-serif",
+                  "whiteSpace": "nowrap"
+                }
+              }
+            ]
+          },
+          {
+            "kind": "row",
+            "node": "91:477",
+            "name": "Row",
+            "style": {
+              "gap": "8px",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "dot",
+                "node": "91:478",
+                "name": "Ellipse",
+                "style": {
+                  "width": "4px",
+                  "height": "4px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/728c3.svg",
+                    "size": 18,
+                    "node": null
+                  }
+                ]
+              },
+              {
+                "kind": "text",
+                "node": "91:479",
+                "text": "Every field shows its source",
+                "style": {
+                  "lineHeight": "normal",
+                  "color": "#667085",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "fontFamily": "'Instrument Sans',sans-serif",
+                  "whiteSpace": "nowrap"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "nav": {
+    "kind": "row",
+    "node": "91:1361",
+    "name": "In-page navigation (sticky)",
+    "style": {
+      "gap": "32px",
+      "paddingLeft": "120px",
+      "paddingRight": "120px",
+      "background": "#fff",
+      "borderColor": "#e4e7ec",
+      "borderTopWidth": "1px",
+      "borderBottomWidth": "1px",
+      "alignItems": "center"
+    },
+    "children": [
+      {
+        "kind": "text",
+        "node": "91:1362",
+        "text": "Advanced mode",
+        "style": {
+          "lineHeight": "normal",
+          "color": "#0b1220",
+          "fontSize": "15px",
+          "fontWeight": 600,
+          "fontFamily": "'Instrument Sans',sans-serif",
+          "whiteSpace": "nowrap"
+        }
+      },
+      {
+        "kind": "text",
+        "node": "91:1363",
+        "name": "Rectangle",
+        "text": "",
+        "style": {
+          "background": "#e4e7ec",
+          "minHeight": "20px"
+        }
+      },
+      {
+        "kind": "stack",
+        "node": "91:1364",
+        "name": "Tab · Overview",
+        "style": {
+          "borderColor": "#2563eb",
+          "minHeight": "60px",
+          "alignItems": "flex-start",
+          "justifyContent": "center"
+        },
+        "children": [
+          {
+            "kind": "text",
+            "node": "91:1365",
+            "text": "Overview",
+            "style": {
+              "lineHeight": "normal",
+              "color": "#0b1220",
+              "fontSize": "14.5px",
+              "fontWeight": 500,
+              "fontFamily": "'Instrument Sans',sans-serif",
+              "whiteSpace": "nowrap"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "stack",
+        "node": "91:1366",
+        "name": "Tab · Settings",
+        "style": {
+          "minHeight": "60px",
+          "alignItems": "flex-start",
+          "justifyContent": "center"
+        },
+        "children": [
+          {
+            "kind": "text",
+            "node": "91:1367",
+            "text": "Settings",
+            "style": {
+              "lineHeight": "normal",
+              "color": "#3d4757",
+              "fontSize": "14.5px",
+              "fontWeight": 400,
+              "fontFamily": "'Instrument Sans',sans-serif",
+              "whiteSpace": "nowrap"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "stack",
+        "node": "91:1368",
+        "name": "Tab · Alerts & rules",
+        "style": {
+          "minHeight": "60px",
+          "alignItems": "flex-start",
+          "justifyContent": "center"
+        },
+        "children": [
+          {
+            "kind": "text",
+            "node": "91:1369",
+            "text": "Alerts & rules",
+            "style": {
+              "lineHeight": "normal",
+              "color": "#3d4757",
+              "fontSize": "14.5px",
+              "fontWeight": 400,
+              "fontFamily": "'Instrument Sans',sans-serif",
+              "whiteSpace": "nowrap"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "stack",
+        "node": "91:1370",
+        "name": "Tab · Agents",
+        "style": {
+          "minHeight": "60px",
+          "alignItems": "flex-start",
+          "justifyContent": "center"
+        },
+        "children": [
+          {
+            "kind": "text",
+            "node": "91:1371",
+            "text": "Agents",
+            "style": {
+              "lineHeight": "normal",
+              "color": "#3d4757",
+              "fontSize": "14.5px",
+              "fontWeight": 400,
+              "fontFamily": "'Instrument Sans',sans-serif",
+              "whiteSpace": "nowrap"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "stack",
+        "node": "91:1372",
+        "name": "Tab · Simple or Advanced",
+        "style": {
+          "minHeight": "60px",
+          "alignItems": "flex-start",
+          "justifyContent": "center"
+        },
+        "children": [
+          {
+            "kind": "text",
+            "node": "91:1373",
+            "text": "Simple or Advanced",
+            "style": {
+              "lineHeight": "normal",
+              "color": "#3d4757",
+              "fontSize": "14.5px",
+              "fontWeight": 400,
+              "fontFamily": "'Instrument Sans',sans-serif",
+              "whiteSpace": "nowrap"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "node": "91:1374",
+        "name": "flex",
+        "text": "",
+        "style": {
+          "flex": "1 1 0"
+        }
+      },
+      {
+        "kind": "link",
+        "node": "91:1375",
+        "name": "Button/primary",
+        "style": {
+          "borderRadius": "6px",
+          "background": "#2563eb",
+          "paddingLeft": "22px",
+          "paddingRight": "22px",
+          "paddingTop": "13px",
+          "paddingBottom": "13px",
+          "alignItems": "center"
+        },
+        "children": [
+          {
+            "kind": "text",
+            "node": "91:1376",
+            "text": "Download",
+            "style": {
+              "lineHeight": "normal",
+              "fontSize": "15px",
+              "color": "#fff",
+              "fontWeight": 600,
+              "fontFamily": "'Instrument Sans',sans-serif",
+              "whiteSpace": "nowrap"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "panel": "91:481",
+  "related": {
+    "kind": "stack",
+    "node": "91:3628",
+    "name": "Related",
+    "style": {
+      "paddingTop": "80px",
+      "paddingBottom": "96px",
+      "background": "#f1f4f9",
+      "paddingLeft": "120px",
+      "paddingRight": "120px",
+      "alignItems": "flex-start"
+    },
+    "children": [
+      {
+        "kind": "heading",
+        "node": "91:3629",
+        "text": "Keep reading",
+        "style": {
+          "letterSpacing": "-0.42px",
+          "lineHeight": "34px",
+          "color": "#0b1220",
+          "fontSize": "28px",
+          "fontWeight": 600,
+          "width": "100%",
+          "fontFamily": "'Instrument Sans',sans-serif"
+        }
+      },
+      {
+        "kind": "spacer",
+        "node": "91:3630",
+        "name": "Spacer",
+        "text": "",
+        "style": {
+          "width": "100%",
+          "minHeight": "28px",
+          "height": "28px"
+        }
+      },
+      {
+        "kind": "row",
+        "node": "91:3631",
+        "name": "Row",
+        "style": {
+          "gap": "24px",
+          "width": "100%",
+          "alignItems": "flex-start"
+        },
+        "children": [
+          {
+            "kind": "link-card",
+            "node": "91:3632",
+            "name": "Link card · Alerts",
+            "style": {
+              "gap": "10px",
+              "padding": "28px",
+              "borderRadius": "16px",
+              "background": "#fff",
+              "minHeight": "243px",
+              "flex": "1 1 0",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "row",
+                "node": "91:3633",
+                "name": "Row",
+                "style": {
+                  "borderRadius": "10px",
+                  "background": "#fdebe9",
+                  "width": "40px",
+                  "height": "40px",
+                  "alignItems": "center",
+                  "justifyContent": "center"
+                },
+                "children": [
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/46c29.svg",
+                    "size": 20,
+                    "node": "91:3634",
+                    "style": {}
+                  }
+                ]
+              },
+              {
+                "kind": "spacer",
+                "node": "91:3637",
+                "name": "Spacer",
+                "text": "",
+                "style": {
+                  "width": "100%",
+                  "minHeight": "6px",
+                  "height": "6px"
+                }
+              },
+              {
+                "kind": "subheading",
+                "node": "91:3638",
+                "text": "Alerts",
+                "style": {
+                  "lineHeight": "26px",
+                  "color": "#0b1220",
+                  "fontSize": "20px",
+                  "fontWeight": 600,
+                  "width": "100%",
+                  "fontFamily": "'Instrument Sans',sans-serif"
+                }
+              },
+              {
+                "kind": "text",
+                "node": "91:3639",
+                "text": "How findings are written, grouped and acted on.",
+                "style": {
+                  "lineHeight": "23px",
+                  "color": "#3d4757",
+                  "fontSize": "15px",
+                  "width": "100%",
+                  "fontWeight": 400,
+                  "fontFamily": "'Instrument Sans',sans-serif",
+                  "fontKerning": "normal"
+                }
+              },
+              {
+                "kind": "spacer",
+                "node": "91:3640",
+                "name": "push",
+                "text": "",
+                "style": {
+                  "width": "100%",
+                  "flex": "1 1 0"
+                }
+              },
+              {
+                "kind": "link",
+                "node": "91:3641",
+                "name": "Link/arrow",
+                "style": {
+                  "gap": "8px",
+                  "alignItems": "center"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "91:3642",
+                    "text": "Explore alerts",
+                    "style": {
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "15px",
+                      "fontWeight": 600,
+                      "fontFamily": "'Instrument Sans',sans-serif",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/55209.svg",
+                    "size": 16,
+                    "node": "91:3643",
+                    "style": {}
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "link-card",
+            "node": "91:3646",
+            "name": "Link card · AI agents",
+            "style": {
+              "gap": "10px",
+              "padding": "28px",
+              "borderRadius": "16px",
+              "background": "#fff",
+              "minHeight": "243px",
+              "flex": "1 1 0",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "row",
+                "node": "91:3647",
+                "name": "Row",
+                "style": {
+                  "borderRadius": "10px",
+                  "background": "#eee9f7",
+                  "width": "40px",
+                  "height": "40px",
+                  "alignItems": "center",
+                  "justifyContent": "center"
+                },
+                "children": [
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/49e62.svg",
+                    "size": 20,
+                    "node": "91:3648",
+                    "style": {}
+                  }
+                ]
+              },
+              {
+                "kind": "spacer",
+                "node": "91:3655",
+                "name": "Spacer",
+                "text": "",
+                "style": {
+                  "width": "100%",
+                  "minHeight": "6px",
+                  "height": "6px"
+                }
+              },
+              {
+                "kind": "subheading",
+                "node": "91:3656",
+                "text": "AI agents",
+                "style": {
+                  "lineHeight": "26px",
+                  "color": "#0b1220",
+                  "fontSize": "20px",
+                  "fontWeight": 600,
+                  "width": "100%",
+                  "fontFamily": "'Instrument Sans',sans-serif"
+                }
+              },
+              {
+                "kind": "text",
+                "node": "91:3657",
+                "text": "Sessions, lineage and guardrails for Claude and Codex.",
+                "style": {
+                  "lineHeight": "23px",
+                  "color": "#3d4757",
+                  "fontSize": "15px",
+                  "width": "100%",
+                  "fontWeight": 400,
+                  "fontFamily": "'Instrument Sans',sans-serif"
+                }
+              },
+              {
+                "kind": "spacer",
+                "node": "91:3658",
+                "name": "push",
+                "text": "",
+                "style": {
+                  "width": "100%",
+                  "flex": "1 1 0"
+                }
+              },
+              {
+                "kind": "link",
+                "node": "91:3659",
+                "name": "Link/arrow",
+                "style": {
+                  "gap": "8px",
+                  "alignItems": "center"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "91:3660",
+                    "text": "Explore AI agents",
+                    "style": {
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "15px",
+                      "fontWeight": 600,
+                      "fontFamily": "'Instrument Sans',sans-serif",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/55209.svg",
+                    "size": 16,
+                    "node": "91:3661",
+                    "style": {}
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "link-card",
+            "node": "91:3664",
+            "name": "Link card · Input protection",
+            "style": {
+              "gap": "10px",
+              "padding": "28px",
+              "borderRadius": "16px",
+              "background": "#fff",
+              "minHeight": "243px",
+              "flex": "1 1 0",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "row",
+                "node": "91:3665",
+                "name": "Row",
+                "style": {
+                  "borderRadius": "10px",
+                  "background": "#e3f5ec",
+                  "width": "40px",
+                  "height": "40px",
+                  "alignItems": "center",
+                  "justifyContent": "center"
+                },
+                "children": [
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/19997.svg",
+                    "size": 20,
+                    "node": "91:3666",
+                    "style": {}
+                  }
+                ]
+              },
+              {
+                "kind": "spacer",
+                "node": "91:3676",
+                "name": "Spacer",
+                "text": "",
+                "style": {
+                  "width": "100%",
+                  "minHeight": "6px",
+                  "height": "6px"
+                }
+              },
+              {
+                "kind": "subheading",
+                "node": "91:3677",
+                "text": "Input protection",
+                "style": {
+                  "lineHeight": "26px",
+                  "color": "#0b1220",
+                  "fontSize": "20px",
+                  "fontWeight": 600,
+                  "width": "100%",
+                  "fontFamily": "'Instrument Sans',sans-serif"
+                }
+              },
+              {
+                "kind": "text",
+                "node": "91:3678",
+                "text": "Levels, protected apps and honest route coverage.",
+                "style": {
+                  "lineHeight": "23px",
+                  "color": "#3d4757",
+                  "fontSize": "15px",
+                  "width": "100%",
+                  "fontWeight": 400,
+                  "fontFamily": "'Instrument Sans',sans-serif"
+                }
+              },
+              {
+                "kind": "spacer",
+                "node": "91:3679",
+                "name": "push",
+                "text": "",
+                "style": {
+                  "width": "100%",
+                  "flex": "1 1 0"
+                }
+              },
+              {
+                "kind": "link",
+                "node": "91:3680",
+                "name": "Link/arrow",
+                "style": {
+                  "gap": "8px",
+                  "alignItems": "center"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "91:3681",
+                    "text": "Explore input protection",
+                    "style": {
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "15px",
+                      "fontWeight": 600,
+                      "fontFamily": "'Instrument Sans',sans-serif",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "icon",
+                    "src": "./assets/subpages/55209.svg",
+                    "size": 16,
+                    "node": "91:3682",
+                    "style": {}
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "content": {
+        "kind": "stack",
+        "node": "91:1379",
+        "name": "Stack",
+        "style": {
+          "gap": "16px",
+          "alignItems": "flex-start"
+        },
+        "children": [
+          {
+            "kind": "text",
+            "node": "91:1380",
+            "text": "Stop 1 · Overview",
+            "style": {
+              "letterSpacing": "0.96px",
+              "lineHeight": "normal",
+              "color": "#2563eb",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "fontFamily": "'Geist Mono',monospace",
+              "textTransform": "uppercase",
+              "whiteSpace": "nowrap"
+            }
+          },
+          {
+            "kind": "heading",
+            "node": "91:1381",
+            "text": "A live record of access, connections and changes.",
+            "style": {
+              "letterSpacing": "-0.72px",
+              "lineHeight": "42px",
+              "color": "#0b1220",
+              "fontSize": "36px",
+              "fontWeight": 600,
+              "width": "100%",
+              "fontFamily": "'Instrument Sans',sans-serif"
+            }
+          },
+          {
+            "kind": "text",
+            "node": "91:1382",
+            "text": "The Overview puts every signal on one screen: sensors, synthetic input, network, agents and sign-ins, with a 24-hour activity chart and the live feed underneath.",
+            "style": {
+              "lineHeight": "28px",
+              "color": "#3d4757",
+              "fontSize": "17px",
+              "width": "100%",
+              "fontWeight": 400,
+              "fontFamily": "'Instrument Sans',sans-serif"
+            }
+          },
+          {
+            "kind": "stack",
+            "node": "91:1383",
+            "name": "Checklist",
+            "style": {
+              "gap": "10px",
+              "width": "100%",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "row",
+                "node": "91:1384",
+                "name": "Row",
+                "style": {
+                  "gap": "12px",
+                  "width": "100%",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "row",
+                    "node": "91:1385",
+                    "name": "Row",
+                    "style": {
+                      "paddingTop": "3px",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "icon",
+                        "src": "./assets/subpages/997a0.svg",
+                        "size": 18,
+                        "node": "91:1386",
+                        "style": {}
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "node": "91:1388",
+                    "text": "Counters for events, open findings, apps, destinations and agents",
+                    "style": {
+                      "lineHeight": "24px",
+                      "color": "#3d4757",
+                      "fontSize": "15.5px",
+                      "flex": "1 1 0",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "row",
+                "node": "91:1389",
+                "name": "Row",
+                "style": {
+                  "gap": "12px",
+                  "width": "100%",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "row",
+                    "node": "91:1390",
+                    "name": "Row",
+                    "style": {
+                      "paddingTop": "3px",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "icon",
+                        "src": "./assets/subpages/997a0.svg",
+                        "size": 18,
+                        "node": "91:1391",
+                        "style": {}
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "node": "91:1393",
+                    "text": "Input guard status, route by route",
+                    "style": {
+                      "lineHeight": "24px",
+                      "color": "#3d4757",
+                      "fontSize": "15.5px",
+                      "flex": "1 1 0",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "row",
+                "node": "91:1394",
+                "name": "Row",
+                "style": {
+                  "gap": "12px",
+                  "width": "100%",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "row",
+                    "node": "91:1395",
+                    "name": "Row",
+                    "style": {
+                      "paddingTop": "3px",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "icon",
+                        "src": "./assets/subpages/997a0.svg",
+                        "size": 18,
+                        "node": "91:1396",
+                        "style": {}
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "node": "91:1398",
+                    "text": "Live feed with the source and attribution of every row",
+                    "style": {
+                      "lineHeight": "24px",
+                      "color": "#3d4757",
+                      "fontSize": "15.5px",
+                      "flex": "1 1 0",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tour": true,
+      "panel": "91:1399"
+    },
+    {
+      "id": "settings",
+      "content": {
+        "kind": "stack",
+        "node": "91:2279",
+        "name": "Tour 2",
+        "style": {
+          "background": "#f1f4f9",
+          "paddingLeft": "120px",
+          "paddingRight": "120px",
+          "paddingTop": "96px",
+          "paddingBottom": "96px",
+          "alignItems": "flex-start"
+        },
+        "children": [
+          {
+            "kind": "row",
+            "node": "91:2280",
+            "name": "Row",
+            "style": {
+              "gap": "72px",
+              "width": "100%",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "product-image",
+                "node": "91:2281",
+                "src": "./assets/subpages/panel-91-2281.webp",
+                "width": 658,
+                "height": 460,
+                "style": {}
+              },
+              {
+                "kind": "stack",
+                "node": "91:2727",
+                "name": "Stack",
+                "style": {
+                  "gap": "16px",
+                  "--basis": "470px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "91:2728",
+                    "text": "Stop 2 · Settings › Input protection",
+                    "style": {
+                      "letterSpacing": "0.96px",
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "12px",
+                      "fontWeight": 500,
+                      "fontFamily": "'Geist Mono',monospace",
+                      "textTransform": "uppercase",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "heading",
+                    "node": "91:2729",
+                    "text": "Tune the guard, rule by rule.",
+                    "style": {
+                      "letterSpacing": "-0.72px",
+                      "lineHeight": "42px",
+                      "color": "#0b1220",
+                      "fontSize": "36px",
+                      "fontWeight": 600,
+                      "width": "100%",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "91:2730",
+                    "text": "Choose how long protection lasts, where it applies and which rules switch it. Rules run in order, and locked rules always win.",
+                    "style": {
+                      "lineHeight": "28px",
+                      "color": "#3d4757",
+                      "fontSize": "17px",
+                      "width": "100%",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "stack",
+                    "node": "91:2731",
+                    "name": "Checklist",
+                    "style": {
+                      "gap": "10px",
+                      "width": "100%",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "row",
+                        "node": "91:2732",
+                        "name": "Row",
+                        "style": {
+                          "gap": "12px",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "row",
+                            "node": "91:2733",
+                            "name": "Row",
+                            "style": {
+                              "paddingTop": "3px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "icon",
+                                "src": "./assets/subpages/997a0.svg",
+                                "size": 18,
+                                "node": "91:2734",
+                                "style": {}
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "text",
+                            "node": "91:2736",
+                            "text": "Until I resume, this session only, or timed",
+                            "style": {
+                              "lineHeight": "24px",
+                              "color": "#3d4757",
+                              "fontSize": "15.5px",
+                              "flex": "1 1 0",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "row",
+                        "node": "91:2737",
+                        "name": "Row",
+                        "style": {
+                          "gap": "12px",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "row",
+                            "node": "91:2738",
+                            "name": "Row",
+                            "style": {
+                              "paddingTop": "3px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "icon",
+                                "src": "./assets/subpages/997a0.svg",
+                                "size": 18,
+                                "node": "91:2739",
+                                "style": {}
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "text",
+                            "node": "91:2741",
+                            "text": "Ordered automation rules for away, agent sessions and bypasses",
+                            "style": {
+                              "lineHeight": "24px",
+                              "color": "#3d4757",
+                              "fontSize": "15.5px",
+                              "flex": "1 1 0",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "row",
+                        "node": "91:2742",
+                        "name": "Row",
+                        "style": {
+                          "gap": "12px",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "row",
+                            "node": "91:2743",
+                            "name": "Row",
+                            "style": {
+                              "paddingTop": "3px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "icon",
+                                "src": "./assets/subpages/997a0.svg",
+                                "size": 18,
+                                "node": "91:2744",
+                                "style": {}
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "text",
+                            "node": "91:2746",
+                            "text": "What the guard can prove: renewals, callback timing and gaps",
+                            "style": {
+                              "lineHeight": "24px",
+                              "color": "#3d4757",
+                              "fontSize": "15.5px",
+                              "flex": "1 1 0",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tour": true
+    },
+    {
+      "id": "alerts-and-rules",
+      "content": {
+        "kind": "stack",
+        "node": "91:2747",
+        "name": "Tour 3",
+        "style": {
+          "paddingLeft": "120px",
+          "paddingRight": "120px",
+          "paddingTop": "96px",
+          "paddingBottom": "96px",
+          "background": "#fff",
+          "alignItems": "flex-start"
+        },
+        "children": [
+          {
+            "kind": "row",
+            "node": "91:2748",
+            "name": "Row",
+            "style": {
+              "gap": "72px",
+              "width": "100%",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "stack",
+                "node": "91:2749",
+                "name": "Stack",
+                "style": {
+                  "gap": "16px",
+                  "--basis": "470px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "91:2750",
+                    "text": "Stop 3 · Alerts & rules",
+                    "style": {
+                      "letterSpacing": "0.96px",
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "12px",
+                      "fontWeight": 500,
+                      "fontFamily": "'Geist Mono',monospace",
+                      "textTransform": "uppercase",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "heading",
+                    "node": "91:2751",
+                    "text": "Filter, group and write your own rules.",
+                    "style": {
+                      "letterSpacing": "-0.72px",
+                      "lineHeight": "42px",
+                      "color": "#0b1220",
+                      "fontSize": "36px",
+                      "fontWeight": 600,
+                      "width": "100%",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "91:2752",
+                    "text": "Work through findings in a table, act on several at once, and preview a rule before you create it, including exactly what it would silence.",
+                    "style": {
+                      "lineHeight": "28px",
+                      "color": "#3d4757",
+                      "fontSize": "17px",
+                      "width": "100%",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "stack",
+                    "node": "91:2753",
+                    "name": "Checklist",
+                    "style": {
+                      "gap": "10px",
+                      "width": "100%",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "row",
+                        "node": "91:2754",
+                        "name": "Row",
+                        "style": {
+                          "gap": "12px",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "row",
+                            "node": "91:2755",
+                            "name": "Row",
+                            "style": {
+                              "paddingTop": "3px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "icon",
+                                "src": "./assets/subpages/997a0.svg",
+                                "size": 18,
+                                "node": "91:2756",
+                                "style": {}
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "text",
+                            "node": "91:2758",
+                            "text": "Group by kind, recipient or source",
+                            "style": {
+                              "lineHeight": "24px",
+                              "color": "#3d4757",
+                              "fontSize": "15.5px",
+                              "flex": "1 1 0",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "row",
+                        "node": "91:2759",
+                        "name": "Row",
+                        "style": {
+                          "gap": "12px",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "row",
+                            "node": "91:2760",
+                            "name": "Row",
+                            "style": {
+                              "paddingTop": "3px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "icon",
+                                "src": "./assets/subpages/997a0.svg",
+                                "size": 18,
+                                "node": "91:2761",
+                                "style": {}
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "text",
+                            "node": "91:2763",
+                            "text": "Rule preview counts the open findings it would match",
+                            "style": {
+                              "lineHeight": "24px",
+                              "color": "#3d4757",
+                              "fontSize": "15.5px",
+                              "flex": "1 1 0",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "row",
+                        "node": "91:2764",
+                        "name": "Row",
+                        "style": {
+                          "gap": "12px",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "row",
+                            "node": "91:2765",
+                            "name": "Row",
+                            "style": {
+                              "paddingTop": "3px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "icon",
+                                "src": "./assets/subpages/997a0.svg",
+                                "size": 18,
+                                "node": "91:2766",
+                                "style": {}
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "text",
+                            "node": "91:2768",
+                            "text": "Recipient rules warn that they can’t tell who typed",
+                            "style": {
+                              "lineHeight": "24px",
+                              "color": "#3d4757",
+                              "fontSize": "15.5px",
+                              "flex": "1 1 0",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "product-image",
+                "node": "91:2769",
+                "src": "./assets/subpages/panel-91-2769.webp",
+                "width": 658,
+                "height": 460,
+                "style": {}
+              }
+            ]
+          }
+        ]
+      },
+      "tour": true
+    },
+    {
+      "id": "agents",
+      "content": {
+        "kind": "stack",
+        "node": "91:3098",
+        "name": "Tour 4",
+        "style": {
+          "background": "#f1f4f9",
+          "paddingLeft": "120px",
+          "paddingRight": "120px",
+          "paddingTop": "96px",
+          "paddingBottom": "96px",
+          "alignItems": "flex-start"
+        },
+        "children": [
+          {
+            "kind": "row",
+            "node": "91:3099",
+            "name": "Row",
+            "style": {
+              "gap": "72px",
+              "width": "100%",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "product-image",
+                "node": "91:3100",
+                "src": "./assets/subpages/panel-91-3100.webp",
+                "width": 658,
+                "height": 460,
+                "style": {}
+              },
+              {
+                "kind": "stack",
+                "node": "91:3563",
+                "name": "Stack",
+                "style": {
+                  "gap": "16px",
+                  "--basis": "470px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "91:3564",
+                    "text": "Stop 4 · Agents › Session detail",
+                    "style": {
+                      "letterSpacing": "0.96px",
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "12px",
+                      "fontWeight": 500,
+                      "fontFamily": "'Geist Mono',monospace",
+                      "textTransform": "uppercase",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "heading",
+                    "node": "91:3565",
+                    "text": "Process trees, destinations and guardrail counters.",
+                    "style": {
+                      "letterSpacing": "-0.72px",
+                      "lineHeight": "42px",
+                      "color": "#0b1220",
+                      "fontSize": "36px",
+                      "fontWeight": 600,
+                      "width": "100%",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "91:3566",
+                    "text": "Open any agent session to see the lineage from the agent root, files written inside and outside scope, every destination and the exact event that tripped a guardrail.",
+                    "style": {
+                      "lineHeight": "28px",
+                      "color": "#3d4757",
+                      "fontSize": "17px",
+                      "width": "100%",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "stack",
+                    "node": "91:3567",
+                    "name": "Checklist",
+                    "style": {
+                      "gap": "10px",
+                      "width": "100%",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "row",
+                        "node": "91:3568",
+                        "name": "Row",
+                        "style": {
+                          "gap": "12px",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "row",
+                            "node": "91:3569",
+                            "name": "Row",
+                            "style": {
+                              "paddingTop": "3px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "icon",
+                                "src": "./assets/subpages/997a0.svg",
+                                "size": 18,
+                                "node": "91:3570",
+                                "style": {}
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "text",
+                            "node": "91:3572",
+                            "text": "Process tree with PID, files, network and elevation",
+                            "style": {
+                              "lineHeight": "24px",
+                              "color": "#3d4757",
+                              "fontSize": "15.5px",
+                              "flex": "1 1 0",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "row",
+                        "node": "91:3573",
+                        "name": "Row",
+                        "style": {
+                          "gap": "12px",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "row",
+                            "node": "91:3574",
+                            "name": "Row",
+                            "style": {
+                              "paddingTop": "3px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "icon",
+                                "src": "./assets/subpages/997a0.svg",
+                                "size": 18,
+                                "node": "91:3575",
+                                "style": {}
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "text",
+                            "node": "91:3577",
+                            "text": "Destinations checked against your approved list",
+                            "style": {
+                              "lineHeight": "24px",
+                              "color": "#3d4757",
+                              "fontSize": "15.5px",
+                              "flex": "1 1 0",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "row",
+                        "node": "91:3578",
+                        "name": "Row",
+                        "style": {
+                          "gap": "12px",
+                          "width": "100%",
+                          "alignItems": "flex-start"
+                        },
+                        "children": [
+                          {
+                            "kind": "row",
+                            "node": "91:3579",
+                            "name": "Row",
+                            "style": {
+                              "paddingTop": "3px",
+                              "alignItems": "flex-start"
+                            },
+                            "children": [
+                              {
+                                "kind": "icon",
+                                "src": "./assets/subpages/997a0.svg",
+                                "size": 18,
+                                "node": "91:3580",
+                                "style": {}
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "text",
+                            "node": "91:3582",
+                            "text": "Per-session guardrail counters, and export for review",
+                            "style": {
+                              "lineHeight": "24px",
+                              "color": "#3d4757",
+                              "fontSize": "15.5px",
+                              "flex": "1 1 0",
+                              "fontWeight": 400,
+                              "fontFamily": "'Instrument Sans',sans-serif"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tour": true
+    },
+    {
+      "id": "compare",
+      "content": {
+        "kind": "stack",
+        "node": "91:3583",
+        "name": "Simple or Advanced",
+        "style": {
+          "paddingLeft": "120px",
+          "paddingRight": "120px",
+          "paddingTop": "96px",
+          "paddingBottom": "96px",
+          "background": "#fff",
+          "alignItems": "flex-start"
+        },
+        "children": [
+          {
+            "kind": "row",
+            "node": "91:3584",
+            "name": "Section header",
+            "style": {
+              "gap": "64px",
+              "width": "100%",
+              "alignItems": "flex-start"
+            },
+            "children": [
+              {
+                "kind": "stack",
+                "node": "91:3585",
+                "name": "Stack",
+                "style": {
+                  "gap": "16px",
+                  "--basis": "600px",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "91:3586",
+                    "text": "Simple or Advanced",
+                    "style": {
+                      "letterSpacing": "0.96px",
+                      "lineHeight": "normal",
+                      "color": "#2563eb",
+                      "fontSize": "12px",
+                      "fontWeight": 500,
+                      "fontFamily": "'Geist Mono',monospace",
+                      "textTransform": "uppercase",
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  {
+                    "kind": "heading",
+                    "node": "91:3587",
+                    "text": "Two views of the same record.",
+                    "style": {
+                      "letterSpacing": "-0.8px",
+                      "lineHeight": "46px",
+                      "color": "#0b1220",
+                      "fontSize": "40px",
+                      "fontWeight": 600,
+                      "width": "100%",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "stack",
+                "node": "91:3588",
+                "name": "Stack",
+                "style": {
+                  "paddingTop": "30px",
+                  "flex": "1 1 0",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "91:3589",
+                    "text": "Both modes read the same local history and use the same four confirmation levels. Pick the one that fits the moment, and switch from the title bar.",
+                    "style": {
+                      "lineHeight": "29px",
+                      "color": "#3d4757",
+                      "fontSize": "18px",
+                      "width": "100%",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "spacer",
+            "node": "91:3590",
+            "name": "Spacer",
+            "text": "",
+            "style": {
+              "width": "100%",
+              "minHeight": "40px",
+              "height": "40px"
+            }
+          },
+          {
+            "kind": "row",
+            "node": "91:3591",
+            "name": "Row",
+            "style": {
+              "gap": "16px",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "kind": "pill",
+                "node": "91:3592",
+                "name": "Row",
+                "style": {
+                  "gap": "2px",
+                  "padding": "4px",
+                  "borderRadius": "999px",
+                  "background": "#0a2540",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "pill",
+                    "node": "91:3593",
+                    "name": "Row",
+                    "style": {
+                      "borderRadius": "999px",
+                      "background": "#2563eb",
+                      "paddingLeft": "16px",
+                      "paddingRight": "16px",
+                      "paddingTop": "7px",
+                      "paddingBottom": "7px",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "91:3594",
+                        "text": "Simple",
+                        "style": {
+                          "lineHeight": "normal",
+                          "fontSize": "13px",
+                          "color": "#fff",
+                          "fontWeight": 600,
+                          "fontFamily": "'Instrument Sans',sans-serif",
+                          "whiteSpace": "nowrap"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "pill",
+                    "node": "91:3595",
+                    "name": "Row",
+                    "style": {
+                      "borderRadius": "999px",
+                      "paddingLeft": "16px",
+                      "paddingRight": "16px",
+                      "paddingTop": "7px",
+                      "paddingBottom": "7px",
+                      "alignItems": "flex-start"
+                    },
+                    "children": [
+                      {
+                        "kind": "text",
+                        "node": "91:3596",
+                        "text": "Advanced",
+                        "style": {
+                          "lineHeight": "normal",
+                          "color": "#a9b4c4",
+                          "fontSize": "13px",
+                          "fontWeight": 600,
+                          "fontFamily": "'Instrument Sans',sans-serif",
+                          "whiteSpace": "nowrap"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "text",
+                "node": "91:3597",
+                "text": "The mode switch sits in the app’s title bar, next to Local only.",
+                "style": {
+                  "lineHeight": "normal",
+                  "color": "#667085",
+                  "fontSize": "15px",
+                  "fontWeight": 400,
+                  "fontFamily": "'Instrument Sans',sans-serif",
+                  "whiteSpace": "nowrap"
+                }
+              }
+            ]
+          },
+          {
+            "kind": "spacer",
+            "node": "91:3598",
+            "name": "Spacer",
+            "text": "",
+            "style": {
+              "width": "100%",
+              "minHeight": "24px",
+              "height": "24px"
+            }
+          },
+          {
+            "kind": "table",
+            "node": "91:3599",
+            "name": "Mode comparison",
+            "style": {
+              "borderRadius": "12px",
+              "background": "#fff",
+              "borderColor": "#e4e7ec",
+              "borderWidth": "1px",
+              "width": "100%",
+              "alignItems": "flex-start",
+              "overflow": "hidden"
+            },
+            "children": [
+              {
+                "kind": "row",
+                "node": "91:3600",
+                "name": "Table header",
+                "style": {
+                  "gap": "24px",
+                  "background": "#f1f4f9",
+                  "letterSpacing": "0.69px",
+                  "lineHeight": "normal",
+                  "paddingLeft": "20px",
+                  "paddingRight": "20px",
+                  "paddingTop": "12px",
+                  "paddingBottom": "12px",
+                  "color": "#667085",
+                  "fontSize": "11.5px",
+                  "fontWeight": 500,
+                  "fontFamily": "'Geist Mono',monospace",
+                  "textTransform": "uppercase",
+                  "width": "100%",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "91:3601",
+                    "text": "​",
+                    "style": {
+                      "--basis": "200px"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "91:3602",
+                    "text": "Simple",
+                    "style": {
+                      "--basis": "420px"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "91:3603",
+                    "text": "Advanced",
+                    "style": {
+                      "flex": "1 1 0"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "row",
+                "node": "91:3604",
+                "name": "Table row",
+                "style": {
+                  "gap": "24px",
+                  "lineHeight": "23px",
+                  "paddingLeft": "20px",
+                  "paddingRight": "20px",
+                  "paddingTop": "18px",
+                  "paddingBottom": "18px",
+                  "fontSize": "15px",
+                  "borderColor": "#e4e7ec",
+                  "borderTopWidth": "1px",
+                  "width": "100%",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "91:3605",
+                    "text": "Navigation",
+                    "style": {
+                      "color": "#0b1220",
+                      "fontWeight": 600,
+                      "--basis": "200px",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "91:3606",
+                    "text": "Home, Protection, AI agents, Privacy, Alerts",
+                    "style": {
+                      "color": "#3d4757",
+                      "--basis": "420px",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "91:3607",
+                    "text": "Overview, Timeline, Apps, Network, Agents, Identity, Alerts & rules, Settings",
+                    "style": {
+                      "color": "#3d4757",
+                      "flex": "1 1 0",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "row",
+                "node": "91:3608",
+                "name": "Table row",
+                "style": {
+                  "gap": "24px",
+                  "lineHeight": "23px",
+                  "paddingLeft": "20px",
+                  "paddingRight": "20px",
+                  "paddingTop": "18px",
+                  "paddingBottom": "18px",
+                  "fontSize": "15px",
+                  "borderColor": "#e4e7ec",
+                  "borderTopWidth": "1px",
+                  "width": "100%",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "91:3609",
+                    "text": "Home",
+                    "style": {
+                      "color": "#0b1220",
+                      "fontWeight": 600,
+                      "--basis": "200px",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "91:3610",
+                    "text": "Status and five feature cards with one action each",
+                    "style": {
+                      "color": "#3d4757",
+                      "--basis": "420px",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "91:3611",
+                    "text": "Activity overview with counters, chart and live feed",
+                    "style": {
+                      "color": "#3d4757",
+                      "flex": "1 1 0",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "row",
+                "node": "91:3612",
+                "name": "Table row",
+                "style": {
+                  "gap": "24px",
+                  "lineHeight": "23px",
+                  "paddingLeft": "20px",
+                  "paddingRight": "20px",
+                  "paddingTop": "18px",
+                  "paddingBottom": "18px",
+                  "fontSize": "15px",
+                  "borderColor": "#e4e7ec",
+                  "borderTopWidth": "1px",
+                  "width": "100%",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "91:3613",
+                    "text": "Alerts",
+                    "style": {
+                      "color": "#0b1220",
+                      "fontWeight": 600,
+                      "--basis": "200px",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "91:3614",
+                    "text": "Grouped cards in plain language",
+                    "style": {
+                      "color": "#3d4757",
+                      "--basis": "420px",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "91:3615",
+                    "text": "A table with filters, bulk actions and rule preview",
+                    "style": {
+                      "color": "#3d4757",
+                      "flex": "1 1 0",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "row",
+                "node": "91:3616",
+                "name": "Table row",
+                "style": {
+                  "gap": "24px",
+                  "lineHeight": "23px",
+                  "paddingLeft": "20px",
+                  "paddingRight": "20px",
+                  "paddingTop": "18px",
+                  "paddingBottom": "18px",
+                  "fontSize": "15px",
+                  "borderColor": "#e4e7ec",
+                  "borderTopWidth": "1px",
+                  "width": "100%",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "91:3617",
+                    "text": "Input protection",
+                    "style": {
+                      "color": "#0b1220",
+                      "fontWeight": 600,
+                      "--basis": "200px",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "91:3618",
+                    "text": "Three levels and your protected apps",
+                    "style": {
+                      "color": "#3d4757",
+                      "--basis": "420px",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "91:3619",
+                    "text": "Persistence, scope, ordered rules and guard health",
+                    "style": {
+                      "color": "#3d4757",
+                      "flex": "1 1 0",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "row",
+                "node": "91:3620",
+                "name": "Table row",
+                "style": {
+                  "gap": "24px",
+                  "lineHeight": "23px",
+                  "paddingLeft": "20px",
+                  "paddingRight": "20px",
+                  "paddingTop": "18px",
+                  "paddingBottom": "18px",
+                  "fontSize": "15px",
+                  "borderColor": "#e4e7ec",
+                  "borderTopWidth": "1px",
+                  "width": "100%",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "91:3621",
+                    "text": "AI agents",
+                    "style": {
+                      "color": "#0b1220",
+                      "fontWeight": 600,
+                      "--basis": "200px",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "91:3622",
+                    "text": "Live session summary and guardrails",
+                    "style": {
+                      "color": "#3d4757",
+                      "--basis": "420px",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "91:3623",
+                    "text": "Process tree, destinations and per-session counters",
+                    "style": {
+                      "color": "#3d4757",
+                      "flex": "1 1 0",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              },
+              {
+                "kind": "row",
+                "node": "91:3624",
+                "name": "Table row",
+                "style": {
+                  "gap": "24px",
+                  "lineHeight": "23px",
+                  "paddingLeft": "20px",
+                  "paddingRight": "20px",
+                  "paddingTop": "18px",
+                  "paddingBottom": "18px",
+                  "fontSize": "15px",
+                  "borderColor": "#e4e7ec",
+                  "borderTopWidth": "1px",
+                  "width": "100%",
+                  "alignItems": "flex-start"
+                },
+                "children": [
+                  {
+                    "kind": "text",
+                    "node": "91:3625",
+                    "text": "Confirmations",
+                    "style": {
+                      "color": "#0b1220",
+                      "fontWeight": 600,
+                      "--basis": "200px",
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "91:3626",
+                    "text": "The same four levels",
+                    "style": {
+                      "color": "#3d4757",
+                      "--basis": "420px",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  },
+                  {
+                    "kind": "text",
+                    "node": "91:3627",
+                    "text": "The same four levels",
+                    "style": {
+                      "color": "#3d4757",
+                      "flex": "1 1 0",
+                      "fontWeight": 400,
+                      "fontFamily": "'Instrument Sans',sans-serif"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tour": false
+    }
+  ]
+}

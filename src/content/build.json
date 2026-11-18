@@ -1,0 +1,1831 @@
+{
+  "kind": "stack",
+  "node": "94:888",
+  "name": "Article",
+  "style": {
+    "--basis": "680px",
+    "alignItems": "flex-start"
+  },
+  "children": [
+    {
+      "kind": "text",
+      "node": "94:904",
+      "text": "Project",
+      "style": {
+        "letterSpacing": "0.96px",
+        "lineHeight": "normal",
+        "color": "#2563eb",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "fontFamily": "'Geist Mono',monospace",
+        "textTransform": "uppercase",
+        "whiteSpace": "nowrap"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "94:905",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "94:906",
+      "text": "Build from source",
+      "style": {
+        "letterSpacing": "-0.88px",
+        "lineHeight": "50px",
+        "color": "#0b1220",
+        "fontSize": "44px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "94:907",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "18px",
+        "height": "18px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "94:908",
+      "text": "Build the Intercept desktop app and this website yourself, and check a published installer against the source it came from.",
+      "style": {
+        "lineHeight": "30px",
+        "color": "#3d4757",
+        "fontSize": "19px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "94:909",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "22px",
+        "height": "22px"
+      }
+    },
+    {
+      "kind": "row",
+      "node": "94:910",
+      "name": "Doc meta",
+      "style": {
+        "gap": "10px",
+        "lineHeight": "normal",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "fontFamily": "'Geist Mono',monospace",
+        "alignItems": "center"
+      },
+      "children": [
+        {
+          "kind": "text",
+          "node": "94:911",
+          "text": "Updated {{dateLabel}}",
+          "style": {
+            "letterSpacing": "0.48px",
+            "color": "#667085",
+            "textTransform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:912",
+          "text": "·",
+          "style": {
+            "color": "#98a2b3"
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:913",
+          "text": "Node 22.12+ · Rust stable",
+          "style": {
+            "letterSpacing": "0.48px",
+            "color": "#667085",
+            "textTransform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:914",
+          "text": "·",
+          "style": {
+            "color": "#98a2b3"
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:915",
+          "text": "10 min read",
+          "style": {
+            "letterSpacing": "0.48px",
+            "color": "#667085",
+            "textTransform": "uppercase"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "94:916",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "28px",
+        "height": "28px"
+      }
+    },
+    {
+      "kind": "divider",
+      "node": "94:917",
+      "name": "Divider",
+      "text": "",
+      "style": {
+        "background": "#e4e7ec",
+        "width": "100%",
+        "height": "1px"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "94:918",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "40px",
+        "height": "40px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "94:919",
+      "text": "Before you start",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "94:920",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "callout",
+      "node": "94:921",
+      "name": "Callout/caution",
+      "style": {
+        "gap": "12px",
+        "paddingLeft": "20px",
+        "paddingRight": "22px",
+        "borderRadius": "12px",
+        "background": "#fbf1df",
+        "paddingTop": "18px",
+        "paddingBottom": "18px",
+        "width": "100%",
+        "alignItems": "flex-start"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "94:922",
+          "name": "Row",
+          "style": {
+            "paddingTop": "2px",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "icon",
+              "src": "./assets/subpages/8aa11.svg",
+              "size": 18,
+              "node": "94:923",
+              "style": {}
+            }
+          ]
+        },
+        {
+          "kind": "stack",
+          "node": "94:927",
+          "name": "Stack",
+          "style": {
+            "gap": "4px",
+            "fontSize": "15px",
+            "flex": "1 1 0",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "94:928",
+              "text": "The desktop source repository is currently private.",
+              "style": {
+                "lineHeight": "22px",
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "width": "100%",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "94:929",
+              "text": "These steps apply once it is published. Until then you can build this website from its public repository, and check each installer against its SHA-256 and binary-provenance.json, which names the source commit.",
+              "style": {
+                "lineHeight": "23px",
+                "color": "#3d4757",
+                "width": "100%",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "94:930",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "56px",
+        "height": "56px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "94:931",
+      "text": "Prerequisites",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "94:932",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "table",
+      "node": "94:933",
+      "name": "Prerequisites",
+      "style": {
+        "borderRadius": "12px",
+        "background": "#fff",
+        "borderColor": "#e4e7ec",
+        "borderWidth": "1px",
+        "width": "100%",
+        "alignItems": "flex-start",
+        "overflow": "hidden"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "94:934",
+          "name": "Table header",
+          "style": {
+            "gap": "24px",
+            "background": "#f1f4f9",
+            "letterSpacing": "0.69px",
+            "lineHeight": "normal",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px",
+            "color": "#667085",
+            "fontSize": "11.5px",
+            "fontWeight": 500,
+            "fontFamily": "'Geist Mono',monospace",
+            "textTransform": "uppercase",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "94:935",
+              "text": "Tool",
+              "style": {
+                "--basis": "190px"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "94:936",
+              "text": "Version",
+              "style": {
+                "--basis": "170px"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "94:937",
+              "text": "Used for",
+              "style": {
+                "flex": "1 1 0"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "94:938",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "94:939",
+              "text": "Windows",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "190px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "94:940",
+              "text": "11 x64, 24H2 or 25H2",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "170px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "94:941",
+              "text": "Native collectors and the guard are Windows-only",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "94:942",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "94:943",
+              "text": "Node.js",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "190px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "94:944",
+              "text": "22.12 or later",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "170px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "94:945",
+              "text": "The UI and the Electron shell",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "94:946",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "94:947",
+              "text": "Rust",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "190px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "94:948",
+              "text": "Stable, MSVC toolchain",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "170px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "94:949",
+              "text": "The core, the service and the guard",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "94:950",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "94:951",
+              "text": "Visual Studio C++ build tools",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "190px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "94:952",
+              "text": "Current",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "170px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "94:953",
+              "text": "Required by the Rust MSVC target",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "94:954",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "lineHeight": "23px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "fontSize": "15px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "94:955",
+              "text": "Git",
+              "style": {
+                "color": "#0b1220",
+                "fontWeight": 600,
+                "--basis": "190px",
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "94:956",
+              "text": "Any recent version",
+              "style": {
+                "color": "#3d4757",
+                "--basis": "170px",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "94:957",
+              "text": "Cloning the repository",
+              "style": {
+                "color": "#3d4757",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "94:958",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "56px",
+        "height": "56px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "94:959",
+      "text": "Build the desktop app",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "94:960",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "code",
+      "node": "94:961",
+      "name": "Code block",
+      "style": {
+        "gap": "2px",
+        "borderRadius": "10px",
+        "background": "#0a2540",
+        "paddingLeft": "20px",
+        "paddingRight": "20px",
+        "paddingTop": "16px",
+        "paddingBottom": "16px",
+        "width": "100%",
+        "alignItems": "flex-start"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "94:962",
+          "name": "Row",
+          "style": {
+            "gap": "8px",
+            "width": "100%",
+            "alignItems": "center"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "94:963",
+              "text": "PowerShell",
+              "style": {
+                "letterSpacing": "0.66px",
+                "lineHeight": "normal",
+                "color": "#93c5fd",
+                "fontSize": "11px",
+                "fontWeight": 500,
+                "fontFamily": "'Geist Mono',monospace",
+                "textTransform": "uppercase",
+                "flex": "1 1 0"
+              }
+            },
+            {
+              "kind": "row",
+              "node": "94:964",
+              "name": "Row",
+              "style": {
+                "gap": "6px",
+                "alignItems": "center"
+              },
+              "children": [
+                {
+                  "kind": "icon",
+                  "src": "./assets/subpages/2cc2c.svg",
+                  "size": 13,
+                  "node": "94:965",
+                  "style": {}
+                },
+                {
+                  "kind": "text",
+                  "node": "94:968",
+                  "text": "Copy",
+                  "style": {
+                    "lineHeight": "normal",
+                    "color": "#93c5fd",
+                    "fontSize": "11px",
+                    "fontWeight": 500,
+                    "fontFamily": "'Geist Mono',monospace",
+                    "whiteSpace": "nowrap"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "spacer",
+          "node": "94:969",
+          "name": "Spacer",
+          "text": "",
+          "style": {
+            "width": "100%",
+            "minHeight": "6px",
+            "height": "6px"
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:970",
+          "text": "# From the repository root",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#8593a8",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:971",
+          "text": "# Install exact dependency versions",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#8593a8",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:972",
+          "text": "npm ci",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#dce7fd",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:973",
+          "text": "​",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#dce7fd",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:974",
+          "text": "# Run the app from source, with a debug native build",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#8593a8",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:975",
+          "text": "npm run desktop",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#dce7fd",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:976",
+          "text": "​",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#dce7fd",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:977",
+          "text": "# Build the Windows installer (NSIS, x64)",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#8593a8",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:978",
+          "text": "npm run desktop:build",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#dce7fd",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        }
+      ],
+      "codeLayout": {
+        "labelHeight": 14,
+        "labelGap": 10,
+        "lineGap": 2
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "94:979",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "94:980",
+      "text": "The installer is written to release/phase2/. Builds you make are unsigned unless you sign them yourself. Electron is bundled, so the installed app needs neither Node nor WebView2.",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "94:981",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "20px",
+        "height": "20px"
+      }
+    },
+    {
+      "kind": "table",
+      "node": "94:982",
+      "name": "Other scripts",
+      "style": {
+        "borderRadius": "12px",
+        "background": "#fff",
+        "borderColor": "#e4e7ec",
+        "borderWidth": "1px",
+        "width": "100%",
+        "alignItems": "flex-start",
+        "overflow": "hidden"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "94:983",
+          "name": "Table header",
+          "style": {
+            "gap": "24px",
+            "background": "#f1f4f9",
+            "letterSpacing": "0.69px",
+            "lineHeight": "normal",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px",
+            "color": "#667085",
+            "fontSize": "11.5px",
+            "fontWeight": 500,
+            "fontFamily": "'Geist Mono',monospace",
+            "textTransform": "uppercase",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "94:984",
+              "text": "Script",
+              "style": {
+                "--basis": "200px"
+              }
+            },
+            {
+              "kind": "text",
+              "node": "94:985",
+              "text": "What it does",
+              "style": {
+                "flex": "1 1 0"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "94:986",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "stack",
+              "node": "94:987",
+              "name": "Stack",
+              "style": {
+                "--basis": "200px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "node": "94:988",
+                  "text": "npm run dev",
+                  "style": {
+                    "lineHeight": "22px",
+                    "color": "#0b1220",
+                    "fontSize": "13.5px",
+                    "fontFamily": "'Geist Mono',monospace",
+                    "width": "100%",
+                    "fontWeight": 400
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "node": "94:989",
+              "text": "A browser design preview with clearly labelled sample data",
+              "style": {
+                "lineHeight": "23px",
+                "color": "#3d4757",
+                "fontSize": "15px",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "94:990",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "stack",
+              "node": "94:991",
+              "name": "Stack",
+              "style": {
+                "--basis": "200px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "node": "94:992",
+                  "text": "npm run storybook",
+                  "style": {
+                    "lineHeight": "22px",
+                    "color": "#0b1220",
+                    "fontSize": "13.5px",
+                    "fontFamily": "'Geist Mono',monospace",
+                    "width": "100%",
+                    "fontWeight": 400
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "node": "94:993",
+              "text": "Component review at localhost:6006",
+              "style": {
+                "lineHeight": "23px",
+                "color": "#3d4757",
+                "fontSize": "15px",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "row",
+          "node": "94:994",
+          "name": "Table row",
+          "style": {
+            "gap": "24px",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "borderColor": "#e4e7ec",
+            "borderTopWidth": "1px",
+            "width": "100%",
+            "alignItems": "flex-start"
+          },
+          "children": [
+            {
+              "kind": "stack",
+              "node": "94:995",
+              "name": "Stack",
+              "style": {
+                "--basis": "200px",
+                "alignItems": "flex-start"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "node": "94:996",
+                  "text": "npm run desktop:pack",
+                  "style": {
+                    "lineHeight": "22px",
+                    "color": "#0b1220",
+                    "fontSize": "13.5px",
+                    "fontFamily": "'Geist Mono',monospace",
+                    "width": "100%",
+                    "fontWeight": 400
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "node": "94:997",
+              "text": "An unpacked release app for local checks",
+              "style": {
+                "lineHeight": "23px",
+                "color": "#3d4757",
+                "fontSize": "15px",
+                "flex": "1 1 0",
+                "fontWeight": 400,
+                "fontFamily": "'Instrument Sans',sans-serif"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "spacer",
+      "node": "94:998",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "56px",
+        "height": "56px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "94:999",
+      "text": "Run the checks",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "94:1000",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "code",
+      "node": "94:1001",
+      "name": "Code block",
+      "style": {
+        "gap": "2px",
+        "borderRadius": "10px",
+        "background": "#0a2540",
+        "paddingLeft": "20px",
+        "paddingRight": "20px",
+        "paddingTop": "16px",
+        "paddingBottom": "16px",
+        "width": "100%",
+        "alignItems": "flex-start"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "94:1002",
+          "name": "Row",
+          "style": {
+            "gap": "8px",
+            "width": "100%",
+            "alignItems": "center"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "94:1003",
+              "text": "PowerShell",
+              "style": {
+                "letterSpacing": "0.66px",
+                "lineHeight": "normal",
+                "color": "#93c5fd",
+                "fontSize": "11px",
+                "fontWeight": 500,
+                "fontFamily": "'Geist Mono',monospace",
+                "textTransform": "uppercase",
+                "flex": "1 1 0"
+              }
+            },
+            {
+              "kind": "row",
+              "node": "94:1004",
+              "name": "Row",
+              "style": {
+                "gap": "6px",
+                "alignItems": "center"
+              },
+              "children": [
+                {
+                  "kind": "icon",
+                  "src": "./assets/subpages/2cc2c.svg",
+                  "size": 13,
+                  "node": "94:1005",
+                  "style": {}
+                },
+                {
+                  "kind": "text",
+                  "node": "94:1008",
+                  "text": "Copy",
+                  "style": {
+                    "lineHeight": "normal",
+                    "color": "#93c5fd",
+                    "fontSize": "11px",
+                    "fontWeight": 500,
+                    "fontFamily": "'Geist Mono',monospace",
+                    "whiteSpace": "nowrap"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "spacer",
+          "node": "94:1009",
+          "name": "Spacer",
+          "text": "",
+          "style": {
+            "width": "100%",
+            "minHeight": "6px",
+            "height": "6px"
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:1010",
+          "text": "cargo fmt --all -- --check",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#dce7fd",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:1011",
+          "text": "cargo test --workspace",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#dce7fd",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:1012",
+          "text": "npm run build",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#dce7fd",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:1013",
+          "text": "npm test",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#dce7fd",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:1014",
+          "text": "npm run test:desktop",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#dce7fd",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:1015",
+          "text": "npm run storybook:build",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#dce7fd",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        }
+      ],
+      "codeLayout": {
+        "labelHeight": 14,
+        "labelGap": 10,
+        "lineGap": 2
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "94:1016",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "94:1017",
+      "text": "npm run check runs the full set in one go. Physical input trials and agent calibration need a disposable Windows account or VM; see the coverage notes before running them.",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "94:1018",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "14px",
+        "height": "14px"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "94:1019",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "56px",
+        "height": "56px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "94:1020",
+      "text": "Build this website",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "94:1021",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "94:1022",
+      "text": "The website, release notes and checksums live in the public intercept-releases repository.",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "94:1023",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "code",
+      "node": "94:1024",
+      "name": "Code block",
+      "style": {
+        "gap": "2px",
+        "borderRadius": "10px",
+        "background": "#0a2540",
+        "paddingLeft": "20px",
+        "paddingRight": "20px",
+        "paddingTop": "16px",
+        "paddingBottom": "16px",
+        "width": "100%",
+        "alignItems": "flex-start"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "94:1025",
+          "name": "Row",
+          "style": {
+            "gap": "8px",
+            "width": "100%",
+            "alignItems": "center"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "94:1026",
+              "text": "Node 24",
+              "style": {
+                "letterSpacing": "0.66px",
+                "lineHeight": "normal",
+                "color": "#93c5fd",
+                "fontSize": "11px",
+                "fontWeight": 500,
+                "fontFamily": "'Geist Mono',monospace",
+                "textTransform": "uppercase",
+                "flex": "1 1 0"
+              }
+            },
+            {
+              "kind": "row",
+              "node": "94:1027",
+              "name": "Row",
+              "style": {
+                "gap": "6px",
+                "alignItems": "center"
+              },
+              "children": [
+                {
+                  "kind": "icon",
+                  "src": "./assets/subpages/2cc2c.svg",
+                  "size": 13,
+                  "node": "94:1028",
+                  "style": {}
+                },
+                {
+                  "kind": "text",
+                  "node": "94:1031",
+                  "text": "Copy",
+                  "style": {
+                    "lineHeight": "normal",
+                    "color": "#93c5fd",
+                    "fontSize": "11px",
+                    "fontWeight": 500,
+                    "fontFamily": "'Geist Mono',monospace",
+                    "whiteSpace": "nowrap"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "spacer",
+          "node": "94:1032",
+          "name": "Spacer",
+          "text": "",
+          "style": {
+            "width": "100%",
+            "minHeight": "6px",
+            "height": "6px"
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:1033",
+          "text": "git clone https://github.com/tanzir71/intercept-releases.git",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#dce7fd",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:1034",
+          "text": "cd intercept-releases",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#dce7fd",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:1035",
+          "text": "npm install",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#dce7fd",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:1036",
+          "text": "npm run build",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#dce7fd",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        }
+      ],
+      "codeLayout": {
+        "labelHeight": 14,
+        "labelGap": 10,
+        "lineGap": 2
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "94:1037",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "94:1038",
+      "text": "The build renders static HTML and CSS with self-hosted fonts and icons. Nothing in the delivered page calls an external service.",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "94:1039",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "14px",
+        "height": "14px"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "94:1040",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "56px",
+        "height": "56px"
+      }
+    },
+    {
+      "kind": "heading",
+      "node": "94:1041",
+      "text": "Check a published installer",
+      "style": {
+        "letterSpacing": "-0.42px",
+        "lineHeight": "34px",
+        "color": "#0b1220",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "width": "100%",
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "94:1042",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "text",
+      "node": "94:1043",
+      "text": "Compare a published installer’s SHA-256 with its release, then read binary-provenance.json to find the source commit it was built from.",
+      "style": {
+        "lineHeight": "28px",
+        "color": "#3d4757",
+        "fontSize": "17px",
+        "width": "100%",
+        "fontWeight": 400,
+        "fontFamily": "'Instrument Sans',sans-serif"
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "94:1044",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "16px",
+        "height": "16px"
+      }
+    },
+    {
+      "kind": "code",
+      "node": "94:1045",
+      "name": "Code block",
+      "style": {
+        "gap": "2px",
+        "borderRadius": "10px",
+        "background": "#0a2540",
+        "paddingLeft": "20px",
+        "paddingRight": "20px",
+        "paddingTop": "16px",
+        "paddingBottom": "16px",
+        "width": "100%",
+        "alignItems": "flex-start"
+      },
+      "children": [
+        {
+          "kind": "row",
+          "node": "94:1046",
+          "name": "Row",
+          "style": {
+            "gap": "8px",
+            "width": "100%",
+            "alignItems": "center"
+          },
+          "children": [
+            {
+              "kind": "text",
+              "node": "94:1047",
+              "text": "PowerShell",
+              "style": {
+                "letterSpacing": "0.66px",
+                "lineHeight": "normal",
+                "color": "#93c5fd",
+                "fontSize": "11px",
+                "fontWeight": 500,
+                "fontFamily": "'Geist Mono',monospace",
+                "textTransform": "uppercase",
+                "flex": "1 1 0"
+              }
+            },
+            {
+              "kind": "row",
+              "node": "94:1048",
+              "name": "Row",
+              "style": {
+                "gap": "6px",
+                "alignItems": "center"
+              },
+              "children": [
+                {
+                  "kind": "icon",
+                  "src": "./assets/subpages/2cc2c.svg",
+                  "size": 13,
+                  "node": "94:1049",
+                  "style": {}
+                },
+                {
+                  "kind": "text",
+                  "node": "94:1052",
+                  "text": "Copy",
+                  "style": {
+                    "lineHeight": "normal",
+                    "color": "#93c5fd",
+                    "fontSize": "11px",
+                    "fontWeight": 500,
+                    "fontFamily": "'Geist Mono',monospace",
+                    "whiteSpace": "nowrap"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "spacer",
+          "node": "94:1053",
+          "name": "Spacer",
+          "text": "",
+          "style": {
+            "width": "100%",
+            "minHeight": "6px",
+            "height": "6px"
+          }
+        },
+        {
+          "kind": "text",
+          "node": "94:1054",
+          "text": "Get-FileHash .\\{{installerName}} -Algorithm SHA256",
+          "style": {
+            "lineHeight": "21px",
+            "color": "#dce7fd",
+            "fontSize": "13px",
+            "fontFamily": "'Geist Mono',monospace",
+            "width": "100%",
+            "fontWeight": 400
+          }
+        }
+      ],
+      "codeLayout": {
+        "labelHeight": 14,
+        "labelGap": 10,
+        "lineGap": 2
+      }
+    },
+    {
+      "kind": "spacer",
+      "node": "94:1055",
+      "name": "Spacer",
+      "text": "",
+      "style": {
+        "width": "100%",
+        "minHeight": "20px",
+        "height": "20px"
+      }
+    },
+    {
+      "kind": "link",
+      "node": "94:1056",
+      "name": "Link/arrow",
+      "style": {
+        "gap": "8px",
+        "alignItems": "center"
+      },
+      "children": [
+        {
+          "kind": "text",
+          "node": "94:1057",
+          "text": "Read the security brief",
+          "style": {
+            "lineHeight": "normal",
+            "color": "#2563eb",
+            "fontSize": "15px",
+            "fontWeight": 600,
+            "fontFamily": "'Instrument Sans',sans-serif",
+            "whiteSpace": "nowrap"
+          }
+        },
+        {
+          "kind": "icon",
+          "src": "./assets/subpages/55209.svg",
+          "size": 16,
+          "node": "94:1058",
+          "style": {}
+        }
+      ]
+    }
+  ]
+}
