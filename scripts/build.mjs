@@ -60,8 +60,8 @@ const markup=require(path.join(root,'.build/page.cjs')).default;
 const dom=new JSDOM('<!doctype html><html lang="en"><head></head><body>'+markup+'</body></html>');
 const document=dom.window.document;
 for(const element of document.querySelectorAll('[class]'))element.className=element.className.split(/\s+/).map(c=>classes.get(c)||c).join(' ');
-const release='https://github.com/tanzir71/intercept-releases/releases/tag/v0.3.0-preview.10';
-const download='https://github.com/tanzir71/intercept-releases/releases/download/v0.3.0-preview.10/Intercept-0.3.0-preview.10-x64-setup.exe';
+const release='https://github.com/tanzir71/intercept-releases/releases/tag/v0.3.0-preview.11';
+const download='https://github.com/tanzir71/intercept-releases/releases/download/v0.3.0-preview.11/Intercept-0.3.0-preview.11-x64-setup.exe';
 const repo='https://github.com/tanzir71/intercept-releases';
 const links=new Map([
   ['Download for Windows',download],['Download for Windows 11',download],['Read the security brief','./security.html'],
@@ -113,7 +113,7 @@ if(faqList){
 }
 const pricing=document.createElement('span');pricing.id='pricing';document.querySelector('#requirements')?.prepend(pricing);
 const notice=document.createElement('aside');notice.className='preview-note';notice.setAttribute('aria-label','Preview status');
-notice.innerHTML='<strong>Preview 10 · November 18, 2026.</strong> This is a prerelease. Product screens show sample data; some designed features are still in development. <a href="./docs.html">Current availability and limitations</a>.';
+notice.innerHTML='<strong>Preview 11 · November 18, 2026.</strong> This is a prerelease. Product screens show sample data; some designed features are still in development. <a href="./docs.html">Current availability and limitations</a>.';
 document.querySelector('main').prepend(notice);
 // A visible headline is semantic, and every major region is navigable.
 const headline=document.querySelector('[data-node-id="52:31"]');if(headline){const h=document.createElement('h1');for(const a of headline.attributes)h.setAttribute(a.name,a.value);h.textContent=headline.textContent;headline.replaceWith(h);}

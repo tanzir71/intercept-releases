@@ -3,7 +3,7 @@
 Public landing page and Windows installer distribution for Intercept.
 
 - [Landing page](https://tanzir71.github.io/intercept-releases/)
-- [Download Preview 10](https://github.com/tanzir71/intercept-releases/releases/tag/v0.3.0-preview.10)
+- [Download Preview 11](https://github.com/tanzir71/intercept-releases/releases/tag/v0.3.0-preview.11)
 - [Security brief](https://tanzir71.github.io/intercept-releases/security.html)
 - [Preview availability and limitations](https://tanzir71.github.io/intercept-releases/docs.html)
 
