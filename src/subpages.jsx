@@ -116,4 +116,3 @@ const pages=routes.map((route,i)=>{
 });
 if(missing.size)throw new Error('Unmapped destinations: '+[...missing].join('; '));
 export default {pages,chrome,latest};
-

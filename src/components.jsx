@@ -36,5 +36,3 @@ export function DocLayout({route,sections,children}){
  const side=<nav aria-label="Documentation navigation"><a className="doc-home" href="./docs.html">Documentation home</a>{sidebar.map(([label,links])=><div className="sidebar-group" key={label}><p className="eyebrow">{label}</p>{links.map(([text,href])=><a key={text} href={href} aria-current={href==='./'+route+'.html'?'page':undefined}>{text}</a>)}</div>)}</nav>;
  return <div className="doc-layout site-container"><aside className="doc-sidebar">{side}</aside><details className="mobile-doc-sidebar"><summary>In this section</summary>{side}</details><article className="doc-article" id="content">{children}</article><nav className="doc-toc" aria-label="On this page" data-scrollspy><p className="eyebrow">On this page</p><ol>{sections.map(s=><li key={s.id}><a href={'#'+s.id}>{s.label}</a></li>)}</ol></nav></div>
 }
-
-
