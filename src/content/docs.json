@@ -697,6 +697,135 @@
                               }
                             }
                           ]
+                        },
+                        {
+                          "kind": "row",
+                          "node": "83:171",
+                          "name": "Row",
+                          "style": {
+                            "gap": "12px",
+                            "width": "100%",
+                            "alignItems": "flex-start"
+                          },
+                          "children": [
+                            {
+                              "kind": "row",
+                              "node": "83:172",
+                              "name": "Row",
+                              "style": {
+                                "paddingTop": "2px",
+                                "alignItems": "flex-start"
+                              },
+                              "children": [
+                                {
+                                  "kind": "icon",
+                                  "src": "./assets/subpages/b4c89.svg",
+                                  "size": 18,
+                                  "node": "83:173",
+                                  "style": {}
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "text",
+                              "node": "83:175",
+                              "text": "Undo for global and permanent agent-policy changes",
+                              "style": {
+                                "lineHeight": "23px",
+                                "color": "#3d4757",
+                                "fontSize": "15px",
+                                "flex": "1 1 0",
+                                "fontWeight": 400,
+                                "fontFamily": "'Instrument Sans',sans-serif"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "row",
+                          "node": "83:176",
+                          "name": "Row",
+                          "style": {
+                            "gap": "12px",
+                            "width": "100%",
+                            "alignItems": "flex-start"
+                          },
+                          "children": [
+                            {
+                              "kind": "row",
+                              "node": "83:177",
+                              "name": "Row",
+                              "style": {
+                                "paddingTop": "2px",
+                                "alignItems": "flex-start"
+                              },
+                              "children": [
+                                {
+                                  "kind": "icon",
+                                  "src": "./assets/subpages/b4c89.svg",
+                                  "size": 18,
+                                  "node": "83:178",
+                                  "style": {}
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "text",
+                              "node": "83:180",
+                              "text": "Reviewed backend switching and desktop quit",
+                              "style": {
+                                "lineHeight": "23px",
+                                "color": "#3d4757",
+                                "fontSize": "15px",
+                                "flex": "1 1 0",
+                                "fontWeight": 400,
+                                "fontFamily": "'Instrument Sans',sans-serif"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "row",
+                          "node": "preview16:83:134",
+                          "name": "Row",
+                          "style": {
+                            "gap": "12px",
+                            "width": "100%",
+                            "alignItems": "flex-start"
+                          },
+                          "children": [
+                            {
+                              "kind": "row",
+                              "node": "preview16:83:135",
+                              "name": "Row",
+                              "style": {
+                                "paddingTop": "2px",
+                                "alignItems": "flex-start"
+                              },
+                              "children": [
+                                {
+                                  "kind": "icon",
+                                  "src": "./assets/subpages/b4c89.svg",
+                                  "size": 18,
+                                  "node": "preview16:83:136",
+                                  "style": {}
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "text",
+                              "node": "preview16:83:138",
+                              "text": "Guard preference restoration and host selection",
+                              "style": {
+                                "lineHeight": "23px",
+                                "color": "#3d4757",
+                                "fontSize": "15px",
+                                "flex": "1 1 0",
+                                "fontWeight": 400,
+                                "fontFamily": "'Instrument Sans',sans-serif"
+                              }
+                            }
+                          ]
                         }
                       ]
                     }
@@ -786,92 +915,6 @@
                               "kind": "text",
                               "node": "83:170",
                               "text": "Verified flow for the legacy allowance command",
-                              "style": {
-                                "lineHeight": "23px",
-                                "color": "#3d4757",
-                                "fontSize": "15px",
-                                "flex": "1 1 0",
-                                "fontWeight": 400,
-                                "fontFamily": "'Instrument Sans',sans-serif"
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "kind": "row",
-                          "node": "83:171",
-                          "name": "Row",
-                          "style": {
-                            "gap": "12px",
-                            "width": "100%",
-                            "alignItems": "flex-start"
-                          },
-                          "children": [
-                            {
-                              "kind": "row",
-                              "node": "83:172",
-                              "name": "Row",
-                              "style": {
-                                "paddingTop": "2px",
-                                "alignItems": "flex-start"
-                              },
-                              "children": [
-                                {
-                                  "kind": "icon",
-                                  "src": "./assets/subpages/70408.svg",
-                                  "size": 18,
-                                  "node": "83:173",
-                                  "style": {}
-                                }
-                              ]
-                            },
-                            {
-                              "kind": "text",
-                              "node": "83:175",
-                              "text": "Undo for global and permanent agent-policy changes",
-                              "style": {
-                                "lineHeight": "23px",
-                                "color": "#3d4757",
-                                "fontSize": "15px",
-                                "flex": "1 1 0",
-                                "fontWeight": 400,
-                                "fontFamily": "'Instrument Sans',sans-serif"
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "kind": "row",
-                          "node": "83:176",
-                          "name": "Row",
-                          "style": {
-                            "gap": "12px",
-                            "width": "100%",
-                            "alignItems": "flex-start"
-                          },
-                          "children": [
-                            {
-                              "kind": "row",
-                              "node": "83:177",
-                              "name": "Row",
-                              "style": {
-                                "paddingTop": "2px",
-                                "alignItems": "flex-start"
-                              },
-                              "children": [
-                                {
-                                  "kind": "icon",
-                                  "src": "./assets/subpages/70408.svg",
-                                  "size": 18,
-                                  "node": "83:178",
-                                  "style": {}
-                                }
-                              ]
-                            },
-                            {
-                              "kind": "text",
-                              "node": "83:180",
-                              "text": "Reviewed backend switching, lifecycle and quit recovery",
                               "style": {
                                 "lineHeight": "23px",
                                 "color": "#3d4757",
