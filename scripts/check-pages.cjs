@@ -12,7 +12,9 @@ function checkPages(root){
  const download='https://github.com/tanzir71/intercept-releases/releases/download/v'+latest.version+'/'+latest.installer.name;
  const files=fs.readdirSync(root).filter(f=>f.endsWith('.html'));
  const docs=new Map(files.map(f=>[f,new JSDOM(fs.readFileSync(path.join(root,f),'utf8')).window.document]));
+ const cssVersion=require('node:crypto').createHash('sha256').update(fs.readFileSync(path.join(root,'site.css'))).digest('hex').slice(0,12);
  for(const [file,doc] of docs){
+  assert.equal(doc.querySelector('link[rel=stylesheet]').getAttribute('href'),'./site.css?v='+cssVersion,file+' stale stylesheet');
   assert.equal(doc.querySelectorAll('h1').length,1,file+' h1 count');
   assert(!doc.documentElement.outerHTML.includes('{{'),file+' unresolved release facts');
   const ids=[...doc.querySelectorAll('[id]')].map(e=>e.id);assert.equal(ids.length,new Set(ids).size,file+' duplicate ids');

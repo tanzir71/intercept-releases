@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import {createHash} from 'node:crypto';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createRequire} from 'node:module';
@@ -141,10 +142,12 @@ for(const img of document.querySelectorAll('img')){
   if(!fs.statSync(path.join(root,img.getAttribute('src'))).size)throw new Error('Empty visual asset');
   img.setAttribute('decoding','async');
 }
+const css=fs.readFileSync(path.join(root,'src/site.css'),'utf8')+'\n'+[...classes].map(([token,cls])=>`.${cls}{${declaration(token)}}`).join('\n')+'\n'+fs.readFileSync(path.join(root,'src/responsive.css'),'utf8');
+const cssVersion=createHash('sha256').update(css).digest('hex').slice(0,12);
 document.head.innerHTML=`<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Intercept — Your privacy, in view</title>
 <meta name="description" content="Local Windows activity monitoring and input protection. Download the Intercept preview, review its limitations, and keep your activity on your device.">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
-<link rel="stylesheet" href="./site.css"><link rel="icon" href="./assets/favicon.svg" type="image/svg+xml"><script src="./site.js" defer></script>`;
+<link rel="stylesheet" href="./site.css?v=${cssVersion}"><link rel="icon" href="./assets/favicon.svg" type="image/svg+xml"><script src="./site.js" defer></script>`;
 document.body.insertAdjacentHTML('afterbegin','<a href="#overview" class="skip-link">Skip to content</a>');
 fs.writeFileSync(path.join(root,'index.html'),dom.serialize());
 for(const page of pages){
@@ -160,6 +163,5 @@ for(const page of pages){
   }
   fs.writeFileSync(path.join(root,page.route+'.html'),subdom.serialize());
 }
-const css=fs.readFileSync(path.join(root,'src/site.css'),'utf8')+'\n'+[...classes].map(([token,cls])=>`.${cls}{${declaration(token)}}`).join('\n')+'\n'+fs.readFileSync(path.join(root,'src/responsive.css'),'utf8');
 fs.writeFileSync(path.join(root,'site.css'),css);
 console.log(JSON.stringify({sections:document.querySelectorAll('main>section').length,images:document.images.length,links:document.links.length,cssRules:classes.size,htmlBytes:fs.statSync(path.join(root,'index.html')).size}));
