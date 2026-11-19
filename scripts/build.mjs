@@ -142,7 +142,7 @@ for(const img of document.querySelectorAll('img')){
   if(!fs.statSync(path.join(root,img.getAttribute('src'))).size)throw new Error('Empty visual asset');
   img.setAttribute('decoding','async');
 }
-const css=fs.readFileSync(path.join(root,'src/site.css'),'utf8')+'\n'+[...classes].map(([token,cls])=>`.${cls}{${declaration(token)}}`).join('\n')+'\n'+fs.readFileSync(path.join(root,'src/responsive.css'),'utf8');
+const css=(fs.readFileSync(path.join(root,'src/site.css'),'utf8')+'\n'+[...classes].map(([token,cls])=>`.${cls}{${declaration(token)}}`).join('\n')+'\n'+fs.readFileSync(path.join(root,'src/responsive.css'),'utf8')).replace(/\r\n/g,'\n');
 const cssVersion=createHash('sha256').update(css).digest('hex').slice(0,12);
 document.head.innerHTML=`<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Intercept — Your privacy, in view</title>
 <meta name="description" content="Local Windows activity monitoring and input protection. Download the Intercept preview, review its limitations, and keep your activity on your device.">
