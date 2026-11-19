@@ -871,7 +871,7 @@
                             {
                               "kind": "text",
                               "node": "83:180",
-                              "text": "Service, lifecycle and quit recovery",
+                              "text": "Reviewed backend switching, lifecycle and quit recovery",
                               "style": {
                                 "lineHeight": "23px",
                                 "color": "#3d4757",
