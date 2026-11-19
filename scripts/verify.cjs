@@ -16,7 +16,7 @@ app.whenReady().then(async()=>{
  session.defaultSession.webRequest.onBeforeRequest((d,cb)=>{if(/^https?:/.test(d.url)){(d.url===download?attempts:external).push(d.url);cb({cancel:true})}else cb({})});
  win=new BrowserWindow({width:1440,height:1000,show:false,webPreferences:{offscreen:true,sandbox:true,contextIsolation:true,nodeIntegration:false}});
  win.webContents.setWindowOpenHandler(()=>({action:'deny'}));win.webContents.on('will-navigate',block);
- for(const width of [1440,390]){
+ for(const width of [1440,1024,390]){
   win.setContentSize(width,1000);
   for(const file of files){
    await win.loadFile(path.join(root,file));await evaluate(async()=>{await document.fonts.ready;return true});await pause(file==='download.html'?1300:100);
@@ -26,6 +26,8 @@ app.whenReady().then(async()=>{
    fs.writeFileSync(path.join(out,file.replace('.html','')+'-'+width+'.png'),(await win.webContents.capturePage()).toPNG());
   }
  }
+ const responsive={passed:metrics.every(m=>m.scrollWidth<=m.width),pages:14,viewports:metrics.length,metrics};fs.writeFileSync(path.join(out,'responsive-verification.json'),JSON.stringify(responsive,null,2));for(const m of metrics)assert(m.scrollWidth<=m.width,m.file+' overflow '+m.width+': '+JSON.stringify(m.overflow));
+ if(process.argv.includes('--responsive-only')){console.log(JSON.stringify({passed:true,pages:14,viewports:metrics.length}));win.destroy();app.quit();return;}
  await win.loadFile(path.join(root,'security.html'));
  const copy=await evaluate(async()=>{let copied;Object.defineProperty(navigator,'clipboard',{value:{writeText:async s=>{copied=s}},configurable:true});const b=document.querySelector('[data-copy]');b.click();await new Promise(r=>setTimeout(r,50));return {copied,status:b.closest('.code-block').querySelector('[data-copy-status]').textContent}});
  assert(copy.copied?.includes(latest.installer.sha256.toUpperCase())&&copy.status==='Copied');

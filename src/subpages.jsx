@@ -31,7 +31,8 @@ function cleanText(s){return releaseText(s)?.replaceAll('Free, open source and l
 // Content is the approved copy and layout, expressed as reusable semantic blocks.
 function Content({node:n,hero=false,insideLink=false,schematic=false,depth=0}){
  if(!n)return null;
- const cls='content-block '+(n.kind==='row'?'layout-row':n.kind==='stack'||n.kind==='frame'?'layout-stack':'')+(n.style?.['--basis']?' sized-block':'');
+ const split=n.kind==='row'&&n.children?.length===2&&n.children.every(c=>['stack','frame'].includes(c.kind))&&n.children.some(c=>c.style?.['--basis'])&&n.children.some(c=>c.style?.flex==='1 1 0');
+ const cls='content-block '+(n.kind==='row'?'layout-row':n.kind==='stack'||n.kind==='frame'?'layout-stack':'')+(n.style?.['--basis']?' sized-block':'')+(split?' responsive-split':'')+(n.name==='Attribution flow'?' attribution-flow':'');
  const props={style:n.style,'data-node-id':n.node,id:n.anchor};
  if(n.name?.startsWith('Marker '))return <span className="alert-marker" {...props} aria-hidden="true">{words(n)}</span>;
  if(n.node==='89:704')return <ol className="alert-legend" style={n.style}>{n.children.map((row,i)=><li key={row.node}><span className="alert-marker" aria-hidden="true">{i+1}</span><Content node={row.children.at(-1)}/></li>)}</ol>;
