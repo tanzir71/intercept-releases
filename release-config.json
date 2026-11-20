@@ -1,6 +1,15 @@
 {
-  "latest": "0.3.0-preview.17",
+  "latest": "0.3.0-preview.18",
   "releases": [
+    {
+      "version": "0.3.0-preview.18",
+      "date": "2026-11-20",
+      "installer": {
+        "name": "Intercept-0.3.0-preview.18-x64-setup.exe",
+        "bytes": 120014985,
+        "sha256": "2677be038623dcab9b5edd9ce7494ee32c0a8e8302dbb7f24f28767c601149cc"
+      }
+    },
     {
       "version": "0.3.0-preview.17",
       "date": "2026-11-19",
