@@ -11,7 +11,7 @@
   },
   "essential_checks": 63,
   "native_checks": 12,
-  "packaged_checks": 63,
+  "packaged_checks": 51,
   "native_and_ui_build_source_commit": "bff0681bfdc98ec76c7a6dd424e52c1df55fc823",
   "native_physical_calibration": "unproven; optional trials not run",
   "full_v5_complete": false
