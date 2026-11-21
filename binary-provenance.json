@@ -1,18 +1,18 @@
 {
-  "version": "0.3.0-preview.30",
+  "version": "0.3.0-preview.31",
   "platform": "Windows 11 x64",
   "channel": "prerelease",
-  "desktop_source_commit": "371fdc60997e84721c1d7e9b2a5e3e62557a7395",
+  "desktop_source_commit": "1b8d27449edff71da6e9b4610a3364bfad9fa50e",
   "desktop_source_repository_visibility": "private",
   "installer": {
-    "name": "Intercept-0.3.0-preview.30-x64-setup.exe",
-    "bytes": 120237596,
-    "sha256": "4e6243dc66ca94f2d6c7451026dbd499f586dfc2d1afc3a1445c7e404bcc7f28"
+    "name": "Intercept-0.3.0-preview.31-x64-setup.exe",
+    "bytes": 120231662,
+    "sha256": "6639d8388646a1a4aa44f87dbd14621426a65a6d753b68b87877dac58321f79e"
   },
-  "essential_checks": 42,
+  "essential_checks": 51,
   "native_checks": 12,
-  "packaged_checks": 30,
-  "native_and_ui_build_source_commit": "371fdc60997e84721c1d7e9b2a5e3e62557a7395",
+  "packaged_checks": 39,
+  "native_and_ui_build_source_commit": "1b8d27449edff71da6e9b4610a3364bfad9fa50e",
   "native_physical_calibration": "unproven; optional trials not run",
   "full_v5_complete": false
 }
