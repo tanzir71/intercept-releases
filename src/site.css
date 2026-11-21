@@ -164,26 +164,35 @@ img{display:block;vertical-align:middle}button,a,summary{-webkit-tap-highlight-c
 @media(max-width:767px){.subpage .callout{flex-wrap:nowrap!important}.subpage .callout>.layout-stack{flex-basis:0!important}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @font-face{font-family:Inter;font-weight:800;font-display:swap;src:url('./assets/fonts/inter-800.woff2') format('woff2')}
-/* Preserve useful column widths between the desktop and phone layouts. */
+/* Stack by default; container-query support only enables the wider diagram. */
 .doc-article{container-type:inline-size}
-.subpage .attribution-flow{flex-wrap:nowrap!important}
-.subpage .attribution-flow>.sized-block{flex:0 0 var(--basis)!important}
-.subpage .attribution-flow>.layout-stack:last-child{flex:1 1 144px!important;min-width:144px}
-.subpage .attribution-flow>.content-icon{flex:none}
+.subpage .attribution-flow{flex-direction:column;flex-wrap:nowrap!important;align-items:stretch!important;gap:16px!important}
+.subpage .attribution-flow>.layout-stack,.subpage .attribution-flow>.layout-stack:last-child{flex:none!important;width:100%!important;min-width:0}
+.subpage .attribution-flow>.content-icon{flex:none;align-self:center;transform:rotate(90deg)}
 .subpage .attribution-flow>.layout-stack>.layout-row{flex-wrap:nowrap!important}
 @media(max-width:1279px){
  .subpage .responsive-split{flex-direction:column;gap:32px!important;align-items:stretch!important}
  .subpage .responsive-split>.content-block{flex:none!important;width:100%!important}
 }
-@container(max-width:671px){
- .subpage .attribution-flow{flex-direction:column;align-items:stretch!important;gap:16px!important}
- .subpage .attribution-flow>.layout-stack,.subpage .attribution-flow>.layout-stack:last-child{flex:none!important;width:100%!important;min-width:0}
- .subpage .attribution-flow>.content-icon{align-self:center;transform:rotate(90deg)}
+@container(min-width:672px){
+ .subpage .attribution-flow{flex-direction:row;align-items:center!important;gap:14px!important}
+ .subpage .attribution-flow>.sized-block{flex:0 0 var(--basis)!important;width:var(--basis)!important}
+ .subpage .attribution-flow>.layout-stack:last-child{flex:1 1 144px!important;width:auto!important;min-width:144px}
+ .subpage .attribution-flow>.content-icon{transform:none}
 }
 
 /* Nested tables follow their actual panel width, including tablet layouts. */
 .table-wrap{container-type:inline-size}
 @container(max-width:420px){
+ .table-wrap table,.table-wrap tbody,.table-wrap tr,.table-wrap td,.table-wrap tbody th{display:block;width:100%}
+ .table-wrap colgroup,.table-wrap thead{display:none}
+ .table-wrap tr{border-top:1px solid #e4e7ec;padding:8px 0}
+ .table-wrap tr:first-child{border-top:0}
+ .table-wrap tbody td,.table-wrap tbody th{border:0;padding:8px 16px}
+ .table-wrap [data-label]:before{content:attr(data-label);display:block;font:500 10.5px/16px 'Geist Mono',monospace;letter-spacing:.04em;text-transform:uppercase;color:#667085;margin-bottom:4px}
+}
+/* Keep phone tables readable when the browser does not support container queries. */
+@media(max-width:479px){
  .table-wrap table,.table-wrap tbody,.table-wrap tr,.table-wrap td,.table-wrap tbody th{display:block;width:100%}
  .table-wrap colgroup,.table-wrap thead{display:none}
  .table-wrap tr{border-top:1px solid #e4e7ec;padding:8px 0}
